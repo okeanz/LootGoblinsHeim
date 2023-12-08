@@ -1,0 +1,13 @@
+name: IceGolemEye
+clonePrefabName: IceGolemEye
+craftingStation: $piece_ymirforge_TW
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: $piece_ymirforge_TW
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- FrozenOrb_TW:10:0:True
+- GlacierCrystal_TW:20:0:True
+- TrophyArcticGolem_TW:1:0:True

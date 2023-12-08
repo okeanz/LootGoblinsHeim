@@ -1,0 +1,13 @@
+name: DarkCrystal_TW
+clonePrefabName: DarkCrystal_TW
+craftingStation: $custom_sky_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $custom_sky_forge
+amount: 2
+disabled: false
+requireOnlyOneIngredient: true
+reqs:
+- TrophyGjall:1:1:True
+- TrophySeekerBrute:1:1:True
+- TrophyDvergr:1:1:True

@@ -1,0 +1,53 @@
+ArmorBarbarianBronzeHelmetJD:
+  Color 1: '#f0e68c'
+  Color 2: '#000000'
+ArmorBarbarianBronzeChestJD:
+  Color 1: '#f0e68c'
+  Color 2: '#000000'
+ArmorBarbarianBronzeLegsJD:
+  Color 1: '#f0e68c'
+  Color 2: '#000000'
+ArmorWarriorHelmet:
+  Color 1: '#b01313'
+ArmorWarriorChest:
+  Color 1: '#b01313'
+ArmorPlateIronHelmetJD:
+  Color 1: '#33cd99'
+ArmorPlateIronChestJD:
+  Color 1: '#33cd99'
+ArmorPlateIronLegsJD:
+  Color 1: '#33cd99'
+ArmorDragonslayerHelmet:
+  Color 1: '#b01313'
+ArmorDragonslayerChest:
+  Color 1: '#b01313'
+ArmorDragonslayerLegs:
+  Color 1: '#b01313'
+ArmorWandererChest:
+  Color 1: '#3fa1eb'
+ArmorWandererLegs:
+  Color 1: '#3fa1eb'
+ArmorBlackmetalgarbHelmet:
+  Color 1: '#b01313'
+ArmorBlackmetalgarbChest:
+  Color 1: '#b01313'
+ArmorBlackmetalgarbLegs:
+  Color 1: '#b01313'
+ArmorSerpentHelmet:
+  Color 1: '#3e4acd'
+  Color 2: '#333980'
+ArmorSerpentChest:
+  Color 1: '#3e4acd'
+  Color 2: '#333980'
+ArmorSerpentLegs:
+  Color 1: '#3e4acd'
+  Color 2: '#333980'
+ArmorMistlandsHelmet:
+  Color 1: '#919191'
+  Emission color: '#401f03'
+ArmorMistlandsChest:
+  Color 1: '#919191'
+  Emission color: '#401f03'
+ArmorMistlandsLegs:
+  Color 1: '#919191'
+  Emission color: '#401f03'

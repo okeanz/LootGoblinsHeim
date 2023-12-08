@@ -1,0 +1,11 @@
+name: Out_Hagalaz
+clonePrefabName: 
+craftingStation: ''
+minStationLevel: 0
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- SwordCheat:30:0:True

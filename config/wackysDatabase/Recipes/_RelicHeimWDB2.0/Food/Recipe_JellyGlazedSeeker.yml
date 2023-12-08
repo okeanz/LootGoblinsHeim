@@ -1,0 +1,12 @@
+name: JellyGlazedSeeker
+clonePrefabName: JellyGlazedSeeker
+craftingStation: $piece_cauldron
+minStationLevel: 5
+maxStationLevelCap: 
+repairStation: $piece_workbench
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- CookedBugMeat:1:1:True
+- RoyalJelly:2:1:True

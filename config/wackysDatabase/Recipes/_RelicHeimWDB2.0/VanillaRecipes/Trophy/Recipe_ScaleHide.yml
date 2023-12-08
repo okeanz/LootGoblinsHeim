@@ -1,0 +1,11 @@
+name: ScaleHide
+clonePrefabName: ScaleHide
+craftingStation: $custom_sky_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $custom_sky_forge
+amount: 2
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- TrophyHare:1:1:True

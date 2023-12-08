@@ -1,0 +1,14 @@
+name: MeadBasePoisonResist
+clonePrefabName: 
+craftingStation: $piece_cauldron
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Honey:10:1:True
+- Thistle:5:1:True
+- Ooze:5:1:True
+- Coal:10:1:True

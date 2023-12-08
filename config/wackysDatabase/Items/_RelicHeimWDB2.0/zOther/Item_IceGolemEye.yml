@@ -1,0 +1,42 @@
+name: IceGolemEye
+m_weight: 50
+m_name: Ice Golems Eye
+m_description: an eye from the Boss of the DeepNorth the Ice Golem, im pretty sure they want it back, bring it with you and find the Thor Statue located in the DeepNorth, If Thor thinks your worthy he will spawn the Ice Golem to take revenge.
+clonePrefabName: DragonTear
+mockName: 
+customIcon: 
+material: crystal
+customVisual: 
+sizeMultiplier: 1
+scale_weight_by_quality: 0
+m_maxStackSize: 1
+m_canBeReparied: true
+m_destroyBroken: true
+m_dodgeable: false
+Attack_status_effect: 
+spawn_on_hit: 
+spawn_on_terrain_hit: 
+m_questItem: false
+m_teleportable: true
+m_backstabbonus: 4
+m_knockback: 50
+m_useDurability: false
+m_useDurabilityDrain: 1
+m_durabilityDrain: 0
+m_maxDurability: 100
+m_durabilityPerLevel: 50
+m_equipDuration: 1
+m_skillType: Swords
+m_animationState: OneHanded
+m_itemType: Material
+m_toolTier: 0
+m_maxQuality: 1
+m_value: 0
+damageModifiers: []
+GEffects:
+  Hit_Effects: 
+  Hit_Terrain_Effects: 
+  Start_Effect: 
+  Hold_Start_Effects: 
+  Trigger_Effect: 
+  Trail_Effect: 

@@ -1,0 +1,59 @@
+Name: Potion_poisonresist
+Status_m_name: $item_mead_poisonres
+Category: ''
+IconName: potion_poisonresist
+CustomIcon: 
+FlashIcon: false
+CooldownIcon: false
+Tooltip: $se_potion_poisonresist_tooltip
+Attributes: None
+StartMessageLoc: TopLeft
+StartMessage: $se_potion_start
+StopMessageLoc: TopLeft
+StopMessage: ''
+RepeatMessageLoc: TopLeft
+RepeatMessage: ''
+RepeatInterval: 0
+TimeToLive: 600
+StartEffect: []
+StopEffect: []
+Cooldown: 0
+ActivationAnimation: gpower
+SeData:
+  m_tickInterval: 0
+  m_healthPerTickMinHealthPercentage: 0
+  m_healthPerTick: 0
+  m_healthOverTime: 0
+  m_healthOverTimeDuration: 0
+  m_healthOverTimeInterval: 0
+  m_staminaOverTime: 0
+  m_staminaOverTimeDuration: 0
+  m_staminaDrainPerSec: 0
+  m_runStaminaDrainModifier: 0
+  m_jumpStaminaUseModifier: 0
+  m_eitrOverTime: 0
+  m_eitrOverTimeDuration: 0
+  m_healthRegenMultiplier: 1
+  m_staminaRegenMultiplier: 1
+  m_eitrRegenMultiplier: 1
+  m_raiseSkill: None
+  m_raiseSkillModifier: 0
+  m_skillLevel: None
+  m_skillLevelModifier: 0
+  m_skillLevel2: None
+  m_skillLevelModifier2: 0
+  m_mods:
+  - m_type: Poison
+    m_modifier: Resistant
+  m_modifyAttackSkill: None
+  m_damageModifier: 1
+  m_noiseModifier: 0
+  m_stealthModifier: 0
+  m_addMaxCarryWeight: 0
+  m_speedModifier: 0
+  m_maxMaxFallSpeed: 0
+  m_fallDamageModifier: 0
+  m_tickTimer: 
+  m_healthOverTimeTimer: 
+  m_healthOverTimeTicks: 
+  m_healthOverTimeTickHP: 

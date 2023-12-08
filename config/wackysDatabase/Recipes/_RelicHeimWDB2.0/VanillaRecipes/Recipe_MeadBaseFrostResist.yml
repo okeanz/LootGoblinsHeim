@@ -1,0 +1,14 @@
+name: MeadBaseFrostResist
+clonePrefabName: 
+craftingStation: $piece_cauldron
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Honey:10:1:True
+- Thistle:5:1:True
+- Bloodbag:2:1:True
+- GreydwarfEye:1:1:True

@@ -1,0 +1,13 @@
+name: InfusedCrystal_JH
+clonePrefabName: InfusedCrystal_JH
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Flint:3:0:True
+- GreydwarfEye:2:0:True
+- BoneFragments:1:0:True

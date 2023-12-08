@@ -1,0 +1,41 @@
+name: piece_augmenter
+piecehammer: Hammer
+m_name: $mod_epicloot_assets_augmenter
+sizeMultiplier: 1
+m_description: >
+  $mod_epicloot_assets_augmenter_introduce
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: EpicLoot
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort:
+  comfort: 1
+  comfortGroup: none
+  comfortObject: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData: 
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+build:
+- Obsidian:10:1:True
+- Crystal:3:1:True
+- Bronze:3:1:True

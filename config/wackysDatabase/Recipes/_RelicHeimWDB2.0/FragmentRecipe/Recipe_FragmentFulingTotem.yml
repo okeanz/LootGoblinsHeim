@@ -1,0 +1,11 @@
+name: FragmentFulingTotem
+clonePrefabName: GoblinTotem
+craftingStation: $piece_forge
+minStationLevel: 7
+maxStationLevelCap: 
+repairStation: $piece_forge
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- ReducedFulingTotem:10:0:True

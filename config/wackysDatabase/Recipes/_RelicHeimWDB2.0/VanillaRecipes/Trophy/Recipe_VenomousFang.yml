@@ -1,0 +1,12 @@
+name: VenomousFang_TW
+clonePrefabName: VenomousFang_TW
+craftingStation: $custom_sky_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $custom_sky_forge
+amount: 2
+disabled: false
+requireOnlyOneIngredient: true
+reqs:
+- TrophyTick:1:1:True
+- TrophySeeker:1:1:True

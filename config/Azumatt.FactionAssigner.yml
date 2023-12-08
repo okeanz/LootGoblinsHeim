@@ -1,0 +1,45 @@
+Abomination: Boss
+Troll: Boss
+StoneGolem: Boss
+Lox: Boss
+Skeleton_Poison: Boss
+BlobTar: Boss
+Hatchling: Boss
+GoblinBrute: Boss
+Serpent: Boss
+# Monstrum:
+ObsidianGolem_TW: Boss
+# Outsiders
+Out_Wendigo: ForestMonsters
+Out_BirchElder: Boss
+Out_Apparition: Boss
+Out_Yeti: Boss
+Out_Voidling: Boss
+Out_VoidCultist: Boss
+Out_Unmaker: Boss
+Out_VoidTent: Boss
+Out_Opulence: Boss
+# MonsterLabz
+PoisonSkeletonWarrior: Undead
+ML_GoblinLox: Boss
+ML_Surtling: Boss
+NormalSkeletonWarrior: Undead
+NormalGhostWarrior: Boss
+IceSkeletonWarrior: MountainMonsters
+MolluscanLand: ForestMonsters
+DeepSea_Serpent: Boss
+DeepSea_Serpent_Flying: Boss
+Molluscan: Boss
+
+#Factions:
+#Players
+#AnimalsVeg
+#ForestMonsters
+#Undead
+#Demon
+#MountainMonsters
+#SeaMonsters
+#PlainsMonsters
+#Boss
+#MistlandsMonsters
+#Dverger

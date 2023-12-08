@@ -1,0 +1,11 @@
+name: ProwlerFang_TW
+clonePrefabName: ProwlerFang_TW
+craftingStation: $custom_sky_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $custom_sky_forge
+amount: 2
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- TrophyProwler_TW:1:1:True

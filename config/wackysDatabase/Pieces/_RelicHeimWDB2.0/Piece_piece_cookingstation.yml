@@ -1,0 +1,91 @@
+name: piece_cookingstation
+piecehammer: Hammer
+m_name: $piece_cookingstation
+sizeMultiplier: 1
+m_description: ''
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: ''
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: true
+canBeRemoved: true
+wearNTearData:
+  health: 20
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Resistant
+    m_chop: Normal
+    m_pickaxe: Normal
+    m_fire: Resistant
+    m_frost: Normal
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData: 
+cookingStationData:
+  addItemTooltip: $piece_cstand_cook
+  overcookedItem: Coal
+  fuelItem: 
+  requireFire: true
+  maxFuel: 
+  secPerFuel: 
+  cookConversion:
+  - FromName: RawMeat
+    ToName: CookedMeat
+    CookTime: 25
+  - FromName: NeckTail
+    ToName: NeckTailGrilled
+    CookTime: 25
+  - FromName: FishRaw
+    ToName: FishCooked
+    CookTime: 25
+  - FromName: DeerMeat
+    ToName: CookedDeerMeat
+    CookTime: 25
+  - FromName: WolfMeat
+    ToName: CookedWolfMeat
+    CookTime: 25
+  - FromName: ChickenMeat
+    ToName: CookedChickenMeat
+    CookTime: 25
+  - FromName: FoxMeat_TW
+    ToName: CookedFoxMeat_TW
+    CookTime: 30
+  - FromName: BearSteak_TW
+    ToName: CookedBearSteak_TW
+    CookTime: 30
+  - FromName: SpiderMeat
+    ToName: CookedSpiderMeat
+    CookTime: 25
+  - FromName: Entrails
+    ToName: CookedEntrails
+    CookTime: 25
+  - FromName: mc_rawchickenmeat
+    ToName: mc_grilledchicken
+    CookTime: 25
+  - FromName: YetiMeat_JH
+    ToName: CookedYetiMeat_JH
+    CookTime: 25
+build:
+- Wood:2:1:True

@@ -1,0 +1,45 @@
+# Plains
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_A
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_A
+    amount: 1
+  Items:
+  - CrossbowBlackmetal
+# Mountain
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_B
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_B
+    amount: 1
+  Items:
+  - CrossbowSilver
+# Swamps
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_C
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_C
+    amount: 1
+  Items:
+  - CrossbowIron
+# BlackForest
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_D
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_D
+    amount: 1
+  Items:
+  - CrossbowBronze
+# Meadows
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_F
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_F
+    amount: 1
+  Items:
+  - CrossbowWood

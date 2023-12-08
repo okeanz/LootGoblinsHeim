@@ -1,0 +1,12 @@
+name: HoneyGlazedMeat
+clonePrefabName: HoneyGlazedMeat
+craftingStation: $piece_workbench
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: $piece_workbench
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- CookedMeat:1:1:True
+- Honey:2:1:True

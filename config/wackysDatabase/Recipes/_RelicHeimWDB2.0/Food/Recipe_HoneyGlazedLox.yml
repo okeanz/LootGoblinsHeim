@@ -1,0 +1,12 @@
+name: HoneyGlazedLox
+clonePrefabName: HoneyGlazedLox
+craftingStation: $piece_cauldron
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: $piece_workbench
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- CookedLoxMeat:1:1:True
+- Honey:2:1:True

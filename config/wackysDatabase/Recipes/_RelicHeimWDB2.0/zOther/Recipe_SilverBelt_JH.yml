@@ -1,0 +1,13 @@
+name: SilverBelt_JH
+clonePrefabName: SilverBelt_JH
+craftingStation: $piece_forge
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- BeltStrength:1:0:True
+- Silver:10:0:True
+- YmirRemains:3:0:True

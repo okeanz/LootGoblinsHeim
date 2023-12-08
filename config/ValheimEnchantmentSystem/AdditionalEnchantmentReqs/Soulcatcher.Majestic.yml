@@ -1,0 +1,17 @@
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_C
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_C
+    amount: 1
+  Items:
+  - LanternSoulcatcher
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_C
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_C
+    amount: 1
+  Items:
+  - JC_SoulNecklace_Necklace
+  - JC_SoulRing_Ring

@@ -1,0 +1,13 @@
+name: WolfHairBundle
+clonePrefabName: WolfHairBundle
+craftingStation: $custom_sky_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $custom_sky_forge
+amount: 2
+disabled: false
+requireOnlyOneIngredient: true
+reqs:
+- TrophyFenring:1:1:True
+- TrophyUlv:1:1:True
+- TrophyCultist:1:1:True

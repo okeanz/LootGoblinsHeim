@@ -1,0 +1,42 @@
+name: TrophyGoldenNightmare
+m_weight: 2
+m_name: Golden Trophy Nightmare
+m_description: a rare drop, Haldor would buy this for a hefty price
+clonePrefabName: TrophyNightmareDragon
+mockName: 
+customIcon: 
+material: coin 
+customVisual: 
+sizeMultiplier: 1
+scale_weight_by_quality: 0
+m_maxStackSize: 100
+m_canBeReparied: true
+m_destroyBroken: true
+m_dodgeable: true
+Attack_status_effect: 
+spawn_on_hit: 
+spawn_on_terrain_hit: 
+m_questItem: false
+m_teleportable: true
+m_backstabbonus: 4
+m_knockback: 30
+m_useDurability: false
+m_useDurabilityDrain: 1
+m_durabilityDrain: 0
+m_maxDurability: 100
+m_durabilityPerLevel: 50
+m_equipDuration: 1
+m_skillType: Swords
+m_animationState: OneHanded
+m_itemType: Trophy
+m_toolTier: 0
+m_maxQuality: 1
+m_value: 250
+damageModifiers: []
+GEffects:
+  Hit_Effects: 
+  Hit_Terrain_Effects: 
+  Start_Effect: 
+  Hold_Start_Effects: 
+  Trigger_Effect: 
+  Trail_Effect: 

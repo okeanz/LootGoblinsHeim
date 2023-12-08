@@ -1,0 +1,13 @@
+name: DvergrBelt_JH
+clonePrefabName: DvergrBelt_JH
+craftingStation: $piece_blackforge
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- BeltStrength:1:0:True
+- JuteBlue:10:0:True
+- YmirRemains:5:0:True

@@ -1,0 +1,76 @@
+AshenScorpid_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+AshenWarg_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+AshenDimetrodon_TW:
+  damage per star: 0.1
+  health: 1
+AshenDrake_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+AshenImp_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+AshenDemon_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+AshenMinotaur_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+AshenCrab_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+AshenGolem_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+AshenShark_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+#DeepNorth
+ArcticBear_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+ArcticWolf_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+ArcticMammoth_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+ArcticDrake_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+ArcticSerpent_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+ArcticCultist_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+ArcticFenring_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+JotunnBrute_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6
+ArcticGolem_TW:
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.6

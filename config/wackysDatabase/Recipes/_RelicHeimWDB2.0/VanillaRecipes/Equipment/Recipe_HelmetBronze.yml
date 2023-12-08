@@ -1,0 +1,13 @@
+name: HelmetBronze
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Bronze:5:3:True
+- BlackBearPelt_TW:2:2:True
+- BronzeNails:5:5:True

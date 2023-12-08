@@ -1,0 +1,14 @@
+name: SerpentStew
+clonePrefabName: 
+craftingStation: $piece_cauldron
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Mushroom:10:1:True
+- SerpentMeatCooked:1:1:True
+- Onion:6:1:True
+- Honey:10:1:True

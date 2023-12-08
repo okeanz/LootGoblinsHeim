@@ -1,0 +1,12 @@
+name: LeatherScraps
+clonePrefabName: LeatherScraps
+craftingStation: $custom_sky_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $custom_sky_forge
+amount: 2
+disabled: false
+requireOnlyOneIngredient: true
+reqs:
+- TrophyBoar:1:1:True
+- TrophyRazorback_TW:1:1:True

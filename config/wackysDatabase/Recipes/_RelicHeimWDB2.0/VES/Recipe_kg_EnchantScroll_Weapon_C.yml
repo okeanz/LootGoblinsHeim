@@ -1,0 +1,14 @@
+name: kg_EnchantScroll_Weapon_C
+clonePrefabName: 
+craftingStation: Scroll Station
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- RottenPelt_TW:5:0:True
+- Guck:5:0:True
+- InfusedCrystal_JH:2:0:True
+- TrophyRottingElk_TW:1:0:True

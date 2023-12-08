@@ -1,0 +1,13 @@
+name: HelmetPadded
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- BlackMetal:20:5:True
+- GoblinScraps_TW:10:5:True
+- LinenThread:15:10:True

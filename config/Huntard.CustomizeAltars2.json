@@ -1,0 +1,107 @@
+
+[
+    {
+        "AltarPrefabName" : "Eikthyrnir",
+        "Name"            : "Mystical altar",
+        "BossPrefab"      : "Eikthyr",
+        "SacrificeItem"   : "TrophyDeer",
+        "SacrificeAmount" : 5,
+        "ItemStandName"   : null
+    },
+    {
+        "AltarPrefabName" : "GDKing",
+        "Name"            : "Ancient bowl",
+        "BossPrefab"      : "gd_king",
+        "SacrificeItem"   : "AncientSeed",
+        "SacrificeAmount" : 5,
+        "ItemStandName"   : null
+    },
+    {
+        "AltarPrefabName" : "Bonemass",
+        "Name"            : "Boiling death",
+        "BossPrefab"      : "Bonemass",
+        "SacrificeItem"   : "WitheredBone",
+        "SacrificeAmount" : 10,
+        "ItemStandName"   : null
+    },
+    {
+        "AltarPrefabName" : "Dragonqueen",
+        "Name"            : "Sacrificial altar",
+        "BossPrefab"      : "Dragon",
+        "SacrificeItem"   : "DragonEgg",
+        "SacrificeAmount" : 3,
+        "ItemStandName"   : "dragoneggcup"
+    },
+    {
+        "AltarPrefabName" : "GoblinKing",
+        "Name"            : "Mystical altar",
+        "BossPrefab"      : "GoblinKing",
+        "SacrificeItem"   : "GoblinTotem",
+        "SacrificeAmount" : 5,
+        "ItemStandName"   : "goblinking_totemholder"
+    },
+    {
+        "AltarPrefabName" : "SvartalfrQueenAltar_New",
+        "Name"            : "Cursed Altar",
+        "BossPrefab"      : "SvartalfarQueen",
+        "SacrificeItem"   : "CursedEffigy",
+        "SacrificeAmount" : 5,
+        "ItemStandName"   : null
+    },
+    {
+        "AltarPrefabName" : "JotunnAltar",
+        "Name"            : "Frozen Altar",
+        "BossPrefab"      : "IceGolem",
+        "SacrificeItem"   : "TrophyJotunnBrute_TW",
+        "SacrificeAmount" : 3,
+        "ItemStandName"   : null
+    },
+    {
+        "AltarPrefabName" : "AshHuldraQueen_Altar",
+        "Name"            : "Mystical altar",
+        "BossPrefab"      : "ML_AshHuldraQueen3",
+        "SacrificeItem"   : "ML_HuldraTail",
+        "SacrificeAmount" : 5,
+        "ItemStandName"   : null
+    },
+	{
+        "AltarPrefabName" : "AltarRambone_DoD",
+        "Name"            : "Mystical altar",
+        "BossPrefab"      : "Rambore_DoD",
+        "SacrificeItem"   : "BoarTusk_DoD",
+        "SacrificeAmount" : 5,
+        "ItemStandName"   : null
+    },
+	{
+        "AltarPrefabName" : "AltarBitterstump_DoD",
+        "Name"            : "Mystical altar",
+        "BossPrefab"      : "Bitterstump_DoD",
+        "SacrificeItem"   : "GreydwarfHeart_DoD",
+        "SacrificeAmount" : 5,
+        "ItemStandName"   : null
+    },
+	{
+        "AltarPrefabName" : "AltarBhygshan_DoD",
+        "Name"            : "Mystical altar",
+        "BossPrefab"      : "BhygshanAlt_DoD",
+        "SacrificeItem"   : "SkeletonBones_DoD",
+        "SacrificeAmount" : 5,
+        "ItemStandName"   : null
+    },
+	{
+        "AltarPrefabName" : "AltarFarkas_DoD",
+        "Name"            : "Mystical altar",
+        "BossPrefab"      : "Farkas_Alt_DoD",
+        "SacrificeItem"   : "LargeFang_DoD",
+        "SacrificeAmount" : 5,
+        "ItemStandName"   : null
+    },
+	{
+        "AltarPrefabName" : "AltarSkirSandburst_DoD",
+        "Name"            : "Mystical altar",
+        "BossPrefab"      : "SkirSandburst_DoD",
+        "SacrificeItem"   : "ShamansVessel_DoD",
+        "SacrificeAmount" : 5,
+        "ItemStandName"   : null
+    }
+]

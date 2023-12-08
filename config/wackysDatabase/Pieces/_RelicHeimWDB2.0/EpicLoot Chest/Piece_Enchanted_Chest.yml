@@ -1,0 +1,52 @@
+name: Enchanted_Chest
+piecehammer: Hammer
+m_name: Enchanted Chest
+sizeMultiplier: 1
+m_description: an enchanted chest that contains a random assortment of magical items for enchanting
+customIcon: 
+clonePrefabName: piece_chest_wood
+material: CrystalAxe_mat
+damagedMaterial: 
+craftingStation: ''
+piecehammerCategory: EpicLoot
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 100
+  damageModifiers:
+    m_blunt: Resistant
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Resistant
+    m_pickaxe: Resistant
+    m_fire: Resistant
+    m_frost: Resistant
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData:
+  Width: 5
+  Height: 2
+  CheckWard: true
+  AutoDestoryIfEmpty: false
+smelterData: 
+cookingStationData: 
+build:
+- EnchantedKey:1:0:False

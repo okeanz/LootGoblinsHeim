@@ -1,0 +1,14 @@
+name: BoneFragments
+clonePrefabName: BoneFragments
+craftingStation: $custom_sky_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $custom_sky_forge
+amount: 2
+disabled: false
+requireOnlyOneIngredient: true
+reqs:
+- TrophySkeleton:1:1:True
+- TrophySkeletonPoison:1:1:True
+- TrophySkeletonIce:1:1:True
+- TrophySkeletonFire:1:1:True

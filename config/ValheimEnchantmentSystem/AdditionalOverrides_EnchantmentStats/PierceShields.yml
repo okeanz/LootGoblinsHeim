@@ -1,0 +1,57 @@
+- Items:
+  - ShieldSilverBuckler_TW
+  - ShieldSilver
+  - ShieldBlackmetal
+  - ShieldBlackmetalBuckler_TW
+  Stats:
+    1:
+      damage_percentage: 2
+    2:
+      damage_percentage: 4
+    3:
+      damage_percentage: 6
+    4:
+      damage_percentage: 8
+    5:
+      damage_percentage: 10
+    6:
+      damage_percentage: 12
+    7:
+      damage_percentage: 16
+    8:
+      damage_percentage: 20
+    9:
+      damage_percentage: 24
+    10:
+      damage_percentage: 28
+      resistance_pierce: Resistant
+    11:
+      damage_percentage: 32
+      resistance_pierce: Resistant
+    12:
+      damage_percentage: 36
+      resistance_pierce: Resistant
+    13:
+      damage_percentage: 40
+      resistance_pierce: Resistant
+    14:
+      damage_percentage: 45
+      resistance_pierce: Resistant
+    15:
+      damage_percentage: 50
+      resistance_pierce: Resistant
+    16:
+      damage_percentage: 55
+      resistance_pierce: Resistant
+    17:
+      damage_percentage: 60
+      resistance_pierce: Resistant
+    18:
+      damage_percentage: 70
+      resistance_pierce: Resistant
+    19:
+      damage_percentage: 85
+      resistance_pierce: Resistant
+    20:
+      damage_percentage: 100
+      resistance_pierce: VeryResistant

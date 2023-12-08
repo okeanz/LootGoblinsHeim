@@ -1,0 +1,14 @@
+name: kg_EnchantScroll_Armor_Blessed_D
+clonePrefabName: 
+craftingStation: Scroll Station
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Coins:200:0:True
+- TrollBone_TW:5:0:True
+- Chitin:10:0:True
+- kg_EnchantScroll_Armor_D:1:0:True

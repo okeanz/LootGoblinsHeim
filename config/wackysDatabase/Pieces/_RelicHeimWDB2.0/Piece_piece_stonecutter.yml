@@ -1,0 +1,59 @@
+name: piece_stonecutter
+piecehammer: Hammer
+m_name: $piece_stonecutter
+sizeMultiplier: 1
+m_description: $piece_craftingstation
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 200
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Resistant
+    m_chop: Weak
+    m_pickaxe: Normal
+    m_fire: Normal
+    m_frost: Normal
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: true
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
+craftingStationData:
+  cStationCustomIcon: 
+  discoveryRange: 4
+  buildRange: 20
+  craftRequiresRoof: true
+  craftRequiresFire: false
+  showBasicRecipes: false
+  useDistance: 2
+  useAnimation: 1
+cSExtensionData: 
+contData: 
+smelterData: 
+cookingStationData: 
+build:
+- RoundLog:10:1:True
+- Bronze:5:1:True
+- TrollHide:10:1:True
+- Stone:4:1:True

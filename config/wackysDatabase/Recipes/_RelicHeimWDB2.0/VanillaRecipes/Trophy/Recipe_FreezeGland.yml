@@ -1,0 +1,11 @@
+name: FreezeGland
+clonePrefabName: FreezeGland
+craftingStation: $custom_sky_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $custom_sky_forge
+amount: 2
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- TrophyHatchling:1:1:True

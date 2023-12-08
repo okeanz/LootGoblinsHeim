@@ -1,0 +1,50 @@
+name: RDSittingSkeleton
+piecehammer: Hammer
+m_name: Raid Ward Skeleton
+sizeMultiplier: 1
+m_description: This skeleton will help prevent raids from happening within 100 distance.
+customIcon: 
+clonePrefabName: GB_Sitting_Skeleton
+material: surtlingcore
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: RaidDefender
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 200
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Weak
+    m_pierce: Resistant
+    m_chop: Weak
+    m_pickaxe: Normal
+    m_fire: Normal
+    m_frost: Normal
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData: 
+cookingStationData: 
+build:
+- TrophySkeleton:1:1:True
+- BoneFragments:10:1:True
+- SurtlingCore:1:1:True

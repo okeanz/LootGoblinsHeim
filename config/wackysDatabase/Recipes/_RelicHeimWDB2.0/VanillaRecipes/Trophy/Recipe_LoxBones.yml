@@ -1,0 +1,11 @@
+name: LoxBone_TW
+clonePrefabName: LoxBone_TW
+craftingStation: $custom_sky_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $custom_sky_forge
+amount: 2
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- TrophyLox:1:1:True

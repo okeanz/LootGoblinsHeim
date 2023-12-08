@@ -1,0 +1,14 @@
+name: kg_EnchantScroll_Weapon_A
+clonePrefabName: 
+craftingStation: Scroll Station
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- GoblinScraps_TW:5:0:True
+- ProwlerFang_TW:5:0:True
+- InfusedCrystal_JH:2:0:True
+- TrophyGrowth:1:0:True

@@ -1,0 +1,14 @@
+name: kg_EnchantScroll_Weapon_Blessed_F
+clonePrefabName: 
+craftingStation: Scroll Station
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Coins:100:0:True
+- SpiderFang:5:0:True
+- LeatherScraps:10:0:True
+- kg_EnchantScroll_Weapon_F:1:0:True

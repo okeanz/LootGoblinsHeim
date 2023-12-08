@@ -1,0 +1,176 @@
+name: KnifeChitin
+m_weight: 0.3
+m_name: $item_knife_chitin
+m_description: $item_knife_chitin_description
+clonePrefabName: 
+mockName: 
+customIcon: 
+material: 
+customVisual: 
+sizeMultiplier: 1
+scale_weight_by_quality: 0
+Primary_Attack:
+  AttackType: Horizontal
+  Attack_Animation: knife_stab
+  Attack_Random_Animation: 0
+  Chain_Attacks: 3
+  Hit_Terrain: true
+  Custom_AttackSpeed: 1
+  m_attackStamina: 8
+  m_eitrCost: 0
+  AttackHealthCost: 0
+  m_attackHealthPercentage: 0
+  SpeedFactor: 0.3
+  DmgMultiplier: 1
+  ForceMultiplier: 1
+  StaggerMultiplier: 1
+  RecoilMultiplier: 0
+  AttackRange: 1.8
+  AttackHeight: 0.8
+  Spawn_On_Trigger: 
+  Requires_Reload: false
+  Reload_Animation: ''
+  ReloadTime: 2
+  Reload_Stamina_Drain: 0
+  Bow_Draw: false
+  Bow_Duration_Min: 0
+  Bow_Stamina_Drain: 0
+  Bow_Animation_State: ''
+  Attack_Angle: 60
+  Attack_Ray_Width: 0.2
+  Lower_Dmg_Per_Hit: true
+  Hit_Through_Walls: false
+  Multi_Hit: true
+  Pickaxe_Special: false
+  Last_Chain_Dmg_Multiplier: 1
+  Attack_Projectile: 
+  Projectile_Vel: 10
+  Projectile_Accuraccy: 10
+  Projectiles: 1
+  AEffects:
+    Hit_Effects: 
+    Hit_Terrain_Effects: 
+    Start_Effect: 
+    Trigger_Effect: 
+    Trail_Effect: 
+    Burst_Effect: 
+Secondary_Attack:
+  AttackType: Horizontal
+  Attack_Animation: knife_secondary
+  Attack_Random_Animation: 0
+  Chain_Attacks: 0
+  Hit_Terrain: true
+  Custom_AttackSpeed: 1
+  m_attackStamina: 24
+  m_eitrCost: 0
+  AttackHealthCost: 0
+  m_attackHealthPercentage: 0
+  SpeedFactor: 0
+  DmgMultiplier: 3
+  ForceMultiplier: 4
+  StaggerMultiplier: 1
+  RecoilMultiplier: 0
+  AttackRange: 1.8
+  AttackHeight: 0.5
+  Spawn_On_Trigger: 
+  Requires_Reload: false
+  Reload_Animation: ''
+  ReloadTime: 2
+  Reload_Stamina_Drain: 0
+  Bow_Draw: false
+  Bow_Duration_Min: 0
+  Bow_Stamina_Drain: 0
+  Bow_Animation_State: ''
+  Attack_Angle: 45
+  Attack_Ray_Width: 0.3
+  Lower_Dmg_Per_Hit: true
+  Hit_Through_Walls: false
+  Multi_Hit: true
+  Pickaxe_Special: false
+  Last_Chain_Dmg_Multiplier: 2
+  Attack_Projectile: 
+  Projectile_Vel: 10
+  Projectile_Accuraccy: 10
+  Projectiles: 1
+  AEffects:
+    Hit_Effects: 
+    Hit_Terrain_Effects: 
+    Start_Effect: 
+    Trigger_Effect: 
+    Trail_Effect: 
+    Burst_Effect: 
+Damage:
+  Blunt: 0
+  Chop: 0
+  Damage: 0
+  Fire: 0
+  Frost: 0
+  Lightning: 0
+  Pickaxe: 0
+  Pierce: 18
+  Poison: 0
+  Slash: 18
+  Spirit: 0
+Damage_Per_Level:
+  Blunt: 0
+  Chop: 0
+  Damage: 0
+  Fire: 0
+  Frost: 0
+  Lightning: 0
+  Pickaxe: 0
+  Pierce: 1
+  Poison: 0
+  Slash: 1
+  Spirit: 0
+Armor:
+  armor: 20
+  armorPerLevel: 1
+FoodStats: 
+Moddifiers:
+  m_movementModifier: 0
+  m_EitrRegen: 0
+SE_Equip: 
+SE_SET_Equip: 
+ShieldStats:
+  m_blockPower: 2
+  m_blockPowerPerLevel: 0
+  m_timedBlockBonus: 4
+  m_deflectionForce: 10
+  m_deflectionForcePerLevel: 5
+m_maxStackSize: 1
+m_canBeReparied: true
+m_destroyBroken: false
+m_dodgeable: true
+Attack_status_effect: 
+spawn_on_hit: 
+spawn_on_terrain_hit: 
+m_questItem: false
+m_teleportable: true
+m_backstabbonus: 6
+m_knockback: 10
+m_useDurability: true
+m_useDurabilityDrain: 1
+m_durabilityDrain: 0
+m_maxDurability: 200
+m_durabilityPerLevel: 50
+m_equipDuration: 0.2
+m_skillType: Knives
+m_animationState: Unarmed
+m_itemType: OneHandedWeapon
+m_toolTier: 0
+m_maxQuality: 4
+m_value: 0
+damageModifiers: []
+GEffects:
+  Hit_Effects:
+  - vfx_HitSparks
+  - sfx_arrow_hit
+  - fx_hit_camshake_knife
+  Hit_Terrain_Effects: 
+  Start_Effect: 
+  Hold_Start_Effects: 
+  Trigger_Effect:
+  - fx_swing_camshake
+  Trail_Effect:
+  - sfx_knife_swing

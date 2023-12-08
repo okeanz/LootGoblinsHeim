@@ -1,0 +1,14 @@
+name: MeadBaseTasty
+clonePrefabName: 
+craftingStation: $piece_cauldron
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Honey:10:1:True
+- Dandelion:5:1:True
+- Raspberry:5:1:True
+- Blueberries:5:1:True

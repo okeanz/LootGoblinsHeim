@@ -1,0 +1,109 @@
+IceGolem:
+  damage: 1.5
+  damage per star: 0.15
+  health: 10
+  health per star: 1
+  size: 0.02
+Surtr:
+  damage: 1.5
+  damage per star: 0.10
+  health: 2 
+  health per star: 0.15
+ML_AshHuldraQueen3:
+  damage: 2
+  damage per star: 0.15
+  health: 3.5
+  health per star: 0.15
+#Meadows_MonsterLabz
+GreenSpider:
+  damage: 1
+  damage per star: 0.2
+  health: 1
+  health per star: 0.6
+  attack speed: 0.8
+TreeSpider:
+  damage: 2.5
+  damage per star: 0.6
+  health: 1
+  health per star: 0.6
+#BlackForest_MonsterLabz
+MolluscanLand:
+  damage: 0.9
+  damage per star: 0.1
+  health: 1
+  health per star: 0.8
+NormalGhostWarrior:
+  damage: 0.8
+  damage per star: 0.2
+  health: 2
+  health per star: 1.5
+  attack speed: 0.8
+NormalSkeletonWarrior:
+  damage: 1.4
+  health: 1.4
+  attack speed: 0.8
+#Swamp_MonsterLabz
+ML_Sword_Frigga_Spider_1:
+  damage: 0.5
+  health: 1.5
+ML_Surtling:
+  health: 6
+  health per star: 4
+Spider_Hatchling:
+  damage: 1
+  health: 0.4
+  health per star: 0.4
+Spiderboss_Egg:
+  damage: 1
+  health: 0.8
+  health per star: 0.8
+#Ships_MonsterLabz
+ML_GoblinShip:
+  health per star: 0.6
+  effect:
+    Splitting: 0
+ML_DraugrShip:
+  health per star: 0.6
+  effect:
+    Splitting: 0
+#Mountains_MonsterLabz
+ML_FrostHatchling:
+  damage: 2.2
+  health: 2.2
+#Plains_MonsterLabz
+DwarfGoblin:
+  health: 2.6
+  health per star: 2.6
+DwarfGoblinShaman:
+  health: 2
+  health per star: 2
+DwarfGoblinLoot:
+  health per star: 2
+  movement speed per star: 0.2
+  effect:
+    Other: 0
+    Quick: 100
+#Mistlands_Monsterlabz
+Molluscan:
+  damage: 1.6
+  health: 1.3
+#Ocean_Monsterlabz
+DeepSea_Serpent:
+  health: 0.75
+  health per star: 0.4
+DeepSea_Serpent_Flying:
+  damage: 0.3
+  damage per star: 0.2
+  health: 0.75
+  health per star: 0.4
+#Ashlands_MonsterLabz
+ML_AshHuldra:
+   damage: 1.6
+   health: 3.6
+#Adjusted Elite Mobs
+ML_GoblinLox:
+  health per star: 0.6
+  effect:
+    Splitting: 0
+  effect power:
+    Regenerating: 0.5

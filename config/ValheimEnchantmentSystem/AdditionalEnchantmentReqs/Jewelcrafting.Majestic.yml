@@ -1,0 +1,39 @@
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_A
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_A
+    amount: 1
+  Items:
+  - JC_Reaper_Axe
+  - JC_Reaper_Bow
+  - JC_Reaper_Pickaxe
+  - JC_Reaper_Sword
+  - JC_Reaper_Battleaxe
+  - JC_Reaper_TH_Mace
+  - JC_Reaper_TH_Sword
+  - JC_Reaper_Spear
+  - JC_Reaper_Shield
+  - JC_Reaper_Knife
+  - JC_Lightning_Staff
+  - JC_Poison_Staff
+  - JC_Shield_Tower
+  - JC_Shield_Buckler
+  - JC_Reaper_Crossbow
+  - JC_Reaper_Mace
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_B
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_B
+    amount: 1
+  Items:
+  - JC_Necklace_Red
+  - JC_Necklace_Green
+  - JC_Necklace_Blue
+  - JC_Necklace_Yellow
+  - JC_Necklace_Purple
+  - JC_Ring_Purple
+  - JC_Ring_Green
+  - JC_Ring_Red
+  - JC_Ring_Blue

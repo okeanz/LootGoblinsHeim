@@ -1,0 +1,13 @@
+name: RottenPelt_TW
+clonePrefabName: RottenPelt_TW
+craftingStation: $custom_sky_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $custom_sky_forge
+amount: 2
+disabled: false
+requireOnlyOneIngredient: true
+reqs:
+- TrophyDraugr:1:1:True
+- TrophyDraugrElite:1:1:True
+- TrophyRottingElk_TW:1:1:True

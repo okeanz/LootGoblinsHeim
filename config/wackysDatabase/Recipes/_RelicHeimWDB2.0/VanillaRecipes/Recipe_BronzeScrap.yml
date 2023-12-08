@@ -1,0 +1,12 @@
+name: BronzeScrap
+clonePrefabName: BronzeScrap
+craftingStation: $piece_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_forge
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- CopperOre:1:1:True
+- TinOre:1:1:True

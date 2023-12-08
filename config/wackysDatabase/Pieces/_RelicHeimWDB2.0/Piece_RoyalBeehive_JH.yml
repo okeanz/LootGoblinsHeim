@@ -1,0 +1,69 @@
+name: RoyalBeehive_JH
+piecehammer: Hammer
+m_name: Royal Beehive
+sizeMultiplier: 1
+m_description: Queen Bee eating succulant royal jelly now produces jelly instead of honey.
+customIcon: 
+clonePrefabName: piece_beehive
+material: honey
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 100
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Resistant
+    m_chop: Weak
+    m_pickaxe: Normal
+    m_fire: Normal
+    m_frost: Normal
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: true
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData:
+  effectOnlyInDaylight: true
+  maxCover: 0.6
+  biomes: Meadows, BlackForest, Plains, Mistlands
+  secPerUnit: 1200
+  maxAmount: 4
+  dropItem: RoyalJelly
+  effects:
+  - sfx_pickable_pick
+  - vfx_pickable_pick
+  extractText: $piece_beehive_extract
+  checkText: Check royal bees
+  areaText: $piece_beehive_area
+  freespaceText: $piece_beehive_freespace
+  sleepText: The royal bees are sleeping
+  happyText: The royal bees are happy
+fermStationData: 
+sapData: 
+build:
+- YggdrasilWood:10:1:True
+- QueenBee:1:1:True
+- RoyalJelly:5:1:True
+- TrophySeeker:1:1:True

@@ -1,0 +1,12 @@
+name: ResetTrophy
+clonePrefabName: ResetTrophy
+craftingStation: $piece_cauldron
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_cauldron
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Mob_chunks:25:0:True
+- EssenceLegendary:1:0:True

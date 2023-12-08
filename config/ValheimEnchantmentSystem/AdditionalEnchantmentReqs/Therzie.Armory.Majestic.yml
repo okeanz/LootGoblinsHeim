@@ -1,0 +1,162 @@
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_S
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_S
+    amount: 1
+  Items:
+  - HelmetRogueCarapace_TW
+  - ArmorRogueCarapaceChest_TW
+  - ArmorRogueCarapaceLegs_TW
+  - HelmetVigorousCarapace_TW
+  - ArmorVigorousCarapaceChest_TW
+  - ArmorVigorousCarapaceLegs_TW
+  - HelmetWarriorCarapace_TW
+  - ArmorWarriorCarapaceChest_TW
+  - ArmorWarriorCarapaceLegs_TW
+  - HelmetFenrirCarapace_TW
+  - ArmorFenrirCarapaceChest_TW
+  - ArmorFenrirCarapaceLegs_TW
+  - HelmetVidarCarapace_TW
+  - ArmorVidarCarapaceChest_TW
+  - ArmorVidarCarapaceLegs_TW
+  - HelmetBoldCarapace_TW
+  - ArmorBoldCarapaceChest_TW
+  - ArmorBoldCarapaceLegs_TW
+  - HelmetLegion_TW
+  - ArmorLegionChest_TW
+  - ArmorLegionLegs_TW
+  - HelmetDestruction_TW
+  - ArmorDestructionChest_TW
+  - ArmorDestructionLegs_TW
+  - HelmetSacrifice_TW
+  - ArmorSacrificeChest_TW
+  - ArmorSacrificeLegs_TW
+  - HelmetRogueTyranium_TW
+  - ArmorRogueTyraniumChest_TW
+  - ArmorRogueTyraniumLegs_TW
+  - HelmetVigorousTyranium_TW
+  - ArmorVigorousTyraniumChest_TW
+  - ArmorVigorousTyraniumLegs_TW
+  - HelmetWarriorFlametal_TW
+  - ArmorWarriorFlametalChest_TW
+  - ArmorWarriorFlametalLegs_TW
+  - HelmetFenrirTyranium_TW
+  - ArmorFenrirTyraniumChest_TW
+  - ArmorFenrirTyraniumLegs_TW
+  - HelmetVidarFlametal_TW
+  - ArmorVidarFlametalChest_TW
+  - ArmorVidarFlametalLegs_TW
+  - HelmetBoldFlametal_TW
+  - ArmorBoldFlametalChest_TW
+  - ArmorBoldFlametalLegs_TW
+  - HelmetLegionFlametal_TW
+  - ArmorLegionFlametalChest_TW
+  - ArmorLegionFlametalLegs_TW
+  - HelmetDestructionTyranium_TW
+  - ArmorDestructionTyraniumChest_TW
+  - ArmorDestructionTyraniumLegs_TW
+  - HelmetSacrificeFlametal_TW
+  - ArmorSacrificeFlametalChest_TW
+  - ArmorSacrificeFlametalLegs_TW
+  - HelmetArcticBear_TW
+  - HelmetUllr_TW
+  - ArmorUllrChest_TW
+  - ArmorUllrLegs_TW
+# Plains
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_A
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_A
+    amount: 1
+  Items:
+  - HelmetRogueBM_TW
+  - ArmorRogueBMChest_TW
+  - ArmorRogueBMLegs_TW
+  - HelmetVigorousBM_TW
+  - ArmorVigorousBMChest_TW
+  - ArmorVigorousBMLegs_TW
+  - HelmetWarriorBM_TW
+  - ArmorWarriorBMChest_TW
+  - ArmorWarriorBMLegs_TW
+  - HelmetFenrirBM_TW
+  - ArmorFenrirBMChest_TW
+  - ArmorFenrirBMLegs_TW
+  - HelmetVidarBM_TW
+  - ArmorVidarBMChest_TW
+  - ArmorVidarBMLegs_TW
+# Mountain
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_B
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_B
+    amount: 1
+  Items:
+  - HelmetRogueSilver_TW
+  - ArmorRogueSilverChest_TW
+  - ArmorRogueSilverLegs_TW
+  - HelmetVigorousSilver_TW
+  - ArmorVigorousSilverChest_TW
+  - ArmorVigorousSilverLegs_TW
+  - HelmetWarriorSilver_TW
+  - ArmorWarriorSilverChest_TW
+  - ArmorWarriorSilverLegs_TW
+  - HelmetFenrir_TW
+  - ArmorFenrirChest_TW
+  - ArmorFenrirLegs_TW
+  - HelmetVidar_TW
+  - ArmorVidarChest_TW
+  - ArmorVidarLegs_TW
+  - HelmetBold_TW
+  - ArmorBoldChest_TW
+  - ArmorBoldLegs_TW
+  - HelmetGrizzlyBear_TW
+# Swamp
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_C
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_C
+    amount: 1
+  Items:
+  - HelmetRogueIron_TW
+  - ArmorRogueIronChest_TW
+  - ArmorRogueIronLegs_TW
+  - HelmetVigorousIron_TW
+  - ArmorVigorousIronChest_TW
+  - ArmorVigorousIronLegs_TW
+  - HelmetWarrior_TW
+  - ArmorWarriorChest_TW
+  - ArmorWarriorLegs_TW
+# blackForest
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_D
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_D
+    amount: 1
+  Items:
+  - CapeTrollBlack_TW
+  - HelmetRogue_TW
+  - ArmorRogueChest_TW
+  - ArmorRogueLegs_TW
+  - HelmetVigorous_TW
+  - ArmorVigorousChest_TW
+  - ArmorVigorousLegs_TW
+  - HelmetRazorback_TW
+  - ArmorRazorbackChest_TW
+  - ArmorRazorbackLegs_TW
+  - HelmetBlackBear_TW
+# Meadows
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_F
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_F
+    amount: 1
+  Items:
+  - HelmetLeather_TW
+  - ArmorLeatherChest_TW
+  - ArmorLeatherLegs_TW

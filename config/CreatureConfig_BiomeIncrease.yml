@@ -1,0 +1,36 @@
+Meadows:
+  key_defeated_eikthyr:
+    attack speed: 1.1
+    movement speed: 1.1
+  effect:
+    Aggressive: 25
+BlackForest:
+  key_defeated_gdking:
+    attack speed: 1.1
+    movement speed: 1.1
+  effect:
+    Aggressive: 25
+Swamp:
+  key_defeated_Bonemass:
+    attack speed: 1.1
+    movement speed: 1.1
+  effect:
+    Aggressive: 25
+Mountain:
+  key_defeated_Dragon:
+    attack speed: 1.1
+    movement speed: 1.1
+  effect:
+    Aggressive: 25
+Plains:
+  key_defeated_goblinking:
+    attack speed: 1.1
+    movement speed: 1.1
+  effect:
+    Aggressive: 25
+Mistlands:
+  key_defeated_queen:
+    attack speed: 1.1
+    movement speed: 1.1
+  effect:
+    Aggressive: 25

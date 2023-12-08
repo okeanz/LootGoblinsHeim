@@ -1,0 +1,14 @@
+name: sm_base_teleport
+clonePrefabName: 
+craftingStation: $piece_cauldron
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- MeadTasty:6:0:False
+- AncientSeed:10:0:False
+- InfusedCrystal_JH:10:0:False
+- Coins:500:0:False

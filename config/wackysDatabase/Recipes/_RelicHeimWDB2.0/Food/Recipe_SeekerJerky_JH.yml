@@ -1,0 +1,13 @@
+name: SeekerJerky_JH
+clonePrefabName: SeekerJerky_JH
+craftingStation: $piece_cauldron
+minStationLevel: 5
+maxStationLevelCap: 
+repairStation: 
+amount: 2
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- BugMeat:1:1:True
+- Honey:2:1:True
+- MushroomMagecap:1:1:True

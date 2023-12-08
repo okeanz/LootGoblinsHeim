@@ -1,0 +1,186 @@
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_S
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_S
+    amount: 1
+  Items:
+  - AtgeirHimminAfl
+  - AxeJotunBane
+  - BowSpineSnap
+  - PickaxeBlackMetal
+  - ShieldCarapace
+  - ShieldCarapaceBuckler
+  - SledgeDemolisher
+  - SpearCarapace
+  - StaffFireball
+  - StaffIceShards
+  - SwordMistwalker
+  - THSwordKrom
+  - CrossbowArbalest
+  - KnifeSkollAndHati
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_S
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_S
+    amount: 1
+  Items:
+  - HelmetCarapace
+  - ArmorCarapaceChest
+  - ArmorCarapaceLegs
+  - HelmetMage
+  - ArmorMageChest
+  - ArmorMageLegs
+  - CapeFeather
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_A
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_A
+    amount: 1
+  Items:
+  - AtgeirBlackmetal
+  - AxeBlackMetal
+  - KnifeBlackMetal
+  - ShieldBlackmetal
+  - ShieldBlackmetalTower
+  - SwordBlackmetal
+  - MaceNeedle
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_A
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_A
+    amount: 1
+  Items:
+  - HelmetPadded
+  - ArmorPaddedGreaves
+  - ArmorPaddedCuirass
+  - CapeLinen
+  - CapeLox
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_B
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_B
+    amount: 1
+  Items:
+  - BattleaxeCrystal
+  - BowDraugrFang
+  - FistFenrirClaw
+  - KnifeSilver
+  - MaceSilver
+  - ShieldSilver
+  - SpearWolfFang
+  - SwordSilver
+  - ShieldSerpentscale
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_B
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_B
+    amount: 1
+  Items:
+  - ArmorWolfChest
+  - ArmorWolfLegs
+  - CapeWolf
+  - HelmetDrake
+  - ArmorFenringChest
+  - ArmorFenringLegs
+  - HelmetFenring
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_C
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_C
+    amount: 1
+  Items:
+  - AtgeirIron
+  - AxeIron
+  - Battleaxe
+  - BowHuntsman
+  - MaceIron
+  - PickaxeIron
+  - ShieldBanded
+  - ShieldIronBuckler
+  - ShieldIronTower
+  - SledgeIron
+  - SpearElderbark
+  - SwordIron
+  - KnifeChitin
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_C
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_C
+    amount: 1
+  Items:
+  - HelmetIron
+  - ArmorIronChest
+  - ArmorIronLegs
+  - HelmetRoot
+  - ArmorRootChest
+  - ArmorRootLegs
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_D
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_D
+    amount: 1
+  Items:
+  - AtgeirBronze
+  - AxeBronze
+  - MaceBronze
+  - KnifeCopper
+  - PickaxeBronze
+  - ShieldBronzeBuckler
+  - SpearBronze
+  - SwordBronze
+  - BowFineWood
+  - ShieldBoneTower
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_D
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_D
+    amount: 1
+  Items:
+  - HelmetBronze
+  - ArmorBronzeChest
+  - ArmorBronzeLegs
+  - HelmetTrollLeather
+  - ArmorTrollLeatherChest
+  - ArmorTrollLeatherLegs
+  - CapeTrollHide
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_F
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_F
+    amount: 1
+  Items:
+  - Club
+  - AxeStone
+  - AxeFlint
+  - Bow
+  - KnifeFlint
+  - PickaxeAntler
+  - PickaxeStone
+  - ShieldWood
+  - ShieldWoodTower
+  - SpearFlint
+  - SledgeStagbreaker
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_F
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_F
+    amount: 1
+  Items:
+  - HelmetLeather
+  - ArmorLeatherChest
+  - ArmorLeatherLegs
+  - CapeDeerHide
+  - ArmorRagsChest
+  - ArmorRagsLegs

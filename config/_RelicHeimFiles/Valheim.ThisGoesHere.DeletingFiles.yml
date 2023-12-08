@@ -1,0 +1,4 @@
+﻿PrintComment: ThisGoesHere is deleting unwanted files
+DeleteFile:
+- config\CreatureConfig.yml
+- config\ItemConfig.yml

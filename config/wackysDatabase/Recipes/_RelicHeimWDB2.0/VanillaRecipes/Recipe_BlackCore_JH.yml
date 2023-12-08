@@ -1,0 +1,12 @@
+name: BlackCore_JH
+clonePrefabName: BlackCore
+craftingStation: $piece_magetable
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- DarkCrystal_TW:20:0:True
+- BlackMarble:10:0:True

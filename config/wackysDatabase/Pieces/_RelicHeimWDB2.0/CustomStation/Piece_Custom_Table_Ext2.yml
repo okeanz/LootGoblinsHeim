@@ -1,0 +1,54 @@
+name: Custom_Table_Ext2
+piecehammer: Hammer
+m_name: $custom_table_ext2
+sizeMultiplier: 1
+m_description: $custom_table_ext2_description
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $custom_sky_forge
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 100
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Resistant
+    m_chop: Weak
+    m_pickaxe: Normal
+    m_fire: Normal
+    m_frost: Resistant
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: true
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData:
+  MainCraftingStationName: Custom_Sky_Forge
+  maxStationDistance: 5
+  continousConnection: false
+  stack: false
+contData: 
+smelterData: 
+cookingStationData: 
+build:
+- Coal:10:1:True
+- Iron:5:1:True
+- SurtlingCore:2:1:True

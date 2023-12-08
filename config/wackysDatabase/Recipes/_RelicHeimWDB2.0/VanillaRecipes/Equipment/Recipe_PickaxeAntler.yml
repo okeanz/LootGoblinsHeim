@@ -1,0 +1,12 @@
+name: PickaxeAntler
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Wood:10:4:True
+- HardAntler:1:2:True

@@ -1,0 +1,13 @@
+name: BlackMetalBelt_JH
+clonePrefabName: BlackMetalBelt_JH
+craftingStation: $piece_forge
+minStationLevel: 5
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- BeltStrength:1:0:True
+- BlackMetal:10:0:True
+- YmirRemains:5:0:True

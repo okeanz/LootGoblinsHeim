@@ -1,0 +1,129 @@
+groups:
+  MeadBase:
+  - BarleyWineBase
+  - MeadBaseEitrMinor
+  - MeadBaseFrostResist
+  - MeadBaseHealthMajor
+  - MeadBaseHealthMedium
+  - MeadBaseHealthMinor
+  - MeadBasePoisonResist
+  - MeadBaseStaminaLingering
+  - MeadBaseStaminaMedium
+  - MeadBaseStaminaMinor
+  - MeadBaseTasty
+  - MeadBaseLightningResist_TW
+  - MeadBaseLingeringStaminaMinor_TW
+  - MeadBaseLingeringStaminaMedium_TW
+  - sm_base_greaterhealth
+  - sm_base_greaterstamina
+  - sm_base_exp
+  - sm_base_speed
+  - sm_base_skilldrain
+  - sm_base_rested
+  - sm_base_teleport
+  - sm_base_warm
+  - sm_base_fast_attack
+  - sm_base_silent
+  - sm_base_eitr
+  CustomFood:
+  - HoneyGlazedDeer
+  - HoneyGlazedMeat
+  - HoneyGlazedNeck
+  - HoneyGlazedSpiderMeat
+  - CookedSpiderMeat
+  - CookedKrakenMeat
+  - CookedEntrails
+  - ElkJerky
+  - LoxJerky_JH
+  - SeekerJerky_JH
+  - SpiderMeatSkewer_JH
+  - HoneyGlazedLox
+  - HoneyGlazedWolf
+  - JellyGlazedHare
+  - JellyGlazedSeeker
+  - CookedYetiMeat_JH
+#
+all:
+    floating: yes
+    pickup: yes
+# stuff floats in water; everything is pickable
+Stackable:
+    stack: 200
+# all stackable items
+DragonEgg:
+    stack: 3
+    weight: 100
+AshenEgg_TW:
+    stack: 3
+    weight: 150
+ArcticEgg_TW:
+    stack: 3
+    weight: 150
+# eggs stack up to 3, and weigh considerably less
+MeadBase:
+    stack: 100
+mmo_mead_minor:
+    stack: 100
+mmo_mead_med:
+    stack: 100
+mmo_mead_greater:
+    stack: 100
+Food:
+    stack: 200
+    loss: no
+# food stacks to 200 and doesn't be removed from inventory on death
+CustomFood:
+    stack: 200
+    loss: no
+# food stacks to 200 and doesn't be removed from inventory on death
+metal:
+    teleportable: no
+    stack: 100
+    Weight: 10
+ore:
+    teleportable: no
+    stack: 100
+# ores and metals are not teleportable, stack to 100 and metals weight only 10
+Stone:
+    stack: 200
+    Weight: 1
+BlackMarble:
+    stack: 200
+    Weight: 1
+# stones stack to 100 and metals weight only 1
+trophy:
+    stack: 100
+    Weight: 2
+boss trophy:
+    stack: 100
+    Weight: 2
+# trophys stack up to 100 and weight only 2
+Coins:
+    stack: 5000
+    weight: 0.05
+valuable:
+    stack: 100
+    weight: 0.05
+# make coins, valuables lighter
+Wood:
+    stack: 200
+    weight: 1
+FineWood:
+    stack: 200
+    weight: 1
+RoundLog:
+    stack: 200
+    weight: 1
+ElderBark:
+    stack: 200
+    weight: 1
+YggdrasilWood:
+    stack: 200
+    weight: 1
+BorealWood_TW:
+    stack: 200
+    weight: 1
+ScorchedWood_TW:
+    stack: 200
+    weight: 1
+# All Wood types stack to 100 and weight half

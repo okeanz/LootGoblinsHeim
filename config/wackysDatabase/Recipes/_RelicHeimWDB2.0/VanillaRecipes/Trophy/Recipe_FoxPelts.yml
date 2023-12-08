@@ -1,0 +1,11 @@
+name: FoxPelt_TW
+clonePrefabName: FoxPelt_TW
+craftingStation: $custom_sky_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $custom_sky_forge
+amount: 2
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- TrophyFox_TW:1:1:True

@@ -1,0 +1,14 @@
+name: sm_base_fast_attack
+clonePrefabName: 
+craftingStation: $piece_cauldron
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- MeadTasty:3:0:False
+- GreydwarfEye:10:0:False
+- Thistle:5:0:False
+- Honey:10:0:False

@@ -1,0 +1,150 @@
+#Bosses
+Eikthyr:
+  damage: 1.6
+  damage taken:
+    Fire: 0.5
+#Meadows
+Fox_TW:
+  health per star: 0.8
+Greyling:
+  damage: 3
+  health: 1.5
+Neck:
+  damage: 2
+  damage per star: 0.5
+  health: 3
+  health per star: 2
+Boar:
+  damage per star: 0.5
+  health: 1.5
+  health per star: 1.5
+#BlackForest
+Greydwarf:
+  damage: 1.42
+  health: 1.42
+  health per star: 1.42
+Greydwarf_Shaman:
+  damage: 1.62
+  health: 1.62
+  health per star: 1.62
+#Swamp
+Surtling:
+  health: 6
+  health per star: 4
+#Mountains
+Ulv:
+  health: 2.2
+  health per star: 2.2
+Bat:
+  damage: 2.2
+  health: 5.2
+Wolf:
+  tamed:
+   damage: 0.01
+   damage per star: 0
+   health: 0.25
+   health per star: 0
+  key_defeated_Bonemass:
+   tamed:
+    damage: 0.6
+    damage per star: 0.1
+    health: 1.2
+    health per star: 0.6
+    infusion:
+     Spirit: 0
+     Chaos: 0
+#Plains
+Deathsquito:
+  movement speed: 0.9
+  health: 5.2
+  damage taken:
+    Bows: 0.75
+##Adjusted Elite Mobs 
+Troll:
+  health per star: 0.6
+  effect power:
+    Regenerating: 0.5
+Abomination:
+  health per star: 0.6
+  effect power:
+    Regenerating: 0.5
+StoneGolem:
+  health per star: 0.6
+  effect power:
+    Regenerating: 0.5
+ObsidianGolem_TW:
+  health per star: 0.6
+  effect power:
+    Regenerating: 0.5
+GoblinBrute:
+  health per star: 0.6
+  effect power:
+    Regenerating: 0.5
+##Lox Adjustments and Tamed
+Lox:
+ health per star: 0.6
+ effect power:
+  Regenerating: 0.5
+ tamed:
+  damage: 0.6
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.3
+  infusion:
+   Spirit: 0
+   Chaos: 0
+Gjall:
+  health per star: 0.4
+  effect power:
+    Regenerating: 0.5
+SeekerBrute:
+  health per star: 0.4
+  effect power:
+    Regenerating: 0.5
+##Prowler Adjustments and Tamed
+Prowler_TW:
+ effect power:
+  Regenerating: 0.5
+ tamed:
+  damage: 0.6
+  damage per star: 0.1
+  health: 1.2
+  health per star: 0.5
+  infusion:
+   Spirit: 0
+   Chaos: 0
+#Majestic_Chickens
+mc_chicken_yellow:
+  health: 0.5
+  health per star: 0.5
+  infusion:
+    Poison: 0
+    Chaos: 0
+mc_chicken_white:
+  health: 0.5
+  health per star: 0.5
+  infusion:
+    Poison: 0
+    Chaos: 0
+mc_chicken_black:
+  health: 0.5
+  health per star: 0.5
+  infusion:
+    Poison: 0
+    Chaos: 0
+mc_chick_yellow:
+  infusion:
+    Poison: 0
+    Chaos: 0
+mc_chick_white:
+  infusion:
+    Poison: 0
+    Chaos: 0
+mc_chick_black:
+  infusion:
+    Poison: 0
+    Chaos: 0
+mc_chicken_cosmic:
+  infusion:
+    Poison: 0
+    Chaos: 0

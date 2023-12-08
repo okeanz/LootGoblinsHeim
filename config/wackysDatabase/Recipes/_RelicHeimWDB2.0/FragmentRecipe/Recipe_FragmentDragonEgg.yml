@@ -1,0 +1,11 @@
+name: FragmentDragonEgg
+clonePrefabName: DragonEgg
+craftingStation: $piece_forge
+minStationLevel: 6
+maxStationLevelCap: 
+repairStation: $piece_forge
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- ReducedDragonEgg:10:0:True

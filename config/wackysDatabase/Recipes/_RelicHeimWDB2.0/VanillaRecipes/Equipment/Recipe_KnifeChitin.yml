@@ -1,0 +1,13 @@
+name: KnifeChitin
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- ElderBark:8:4:True
+- Chitin:20:10:True
+- LeatherScraps:4:2:True

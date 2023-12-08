@@ -1,0 +1,5 @@
+﻿PrintComment: ThisGoesHere is deleting cache folder for WackysDatabase2.0
+DeleteFile:
+- config\_RelicHeimFiles\Valheim.ThisGoesHere.DeleteWDBCache.yml
+DeleteFolder:
+- config\wackysDatabase\Cache

@@ -1,0 +1,12 @@
+name: PickaxeBlackMetal
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- YggdrasilWood:3:1:True
+- BlackMetal:25:15:True

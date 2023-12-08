@@ -1,0 +1,14 @@
+name: kg_EnchantScroll_Armor_D
+clonePrefabName: 
+craftingStation: Scroll Station
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- BlackBearPelt_TW:5:0:True
+- BoneFragments:5:0:True
+- InfusedCrystal_JH:2:0:True
+- TrophySkeleton:1:0:True

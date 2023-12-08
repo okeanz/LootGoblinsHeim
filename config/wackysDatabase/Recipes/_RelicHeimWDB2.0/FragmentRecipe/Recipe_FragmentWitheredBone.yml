@@ -1,0 +1,11 @@
+name: FragmentWitheredBone
+clonePrefabName: WitheredBone
+craftingStation: $piece_forge
+minStationLevel: 5
+maxStationLevelCap: 
+repairStation: $piece_forge
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- ReducedWitheredBone:10:0:True

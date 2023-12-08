@@ -1,0 +1,176 @@
+name: PickaxeAntler
+m_weight: 2
+m_name: $item_pickaxe_antler
+m_description: $item_pickaxe_antler_description
+clonePrefabName: 
+mockName: 
+customIcon: 
+material: 
+customVisual: 
+sizeMultiplier: 1
+scale_weight_by_quality: 0
+Primary_Attack:
+  AttackType: Vertical
+  Attack_Animation: swing_pickaxe
+  Attack_Random_Animation: 0
+  Chain_Attacks: 0
+  Hit_Terrain: true
+  Custom_AttackSpeed: 1
+  m_attackStamina: 6
+  m_eitrCost: 0
+  AttackHealthCost: 0
+  m_attackHealthPercentage: 0
+  SpeedFactor: 0.1
+  DmgMultiplier: 1
+  ForceMultiplier: 1
+  StaggerMultiplier: 1
+  RecoilMultiplier: 0
+  AttackRange: 1.8
+  AttackHeight: 1
+  Spawn_On_Trigger: 
+  Requires_Reload: false
+  Reload_Animation: ''
+  ReloadTime: 2
+  Reload_Stamina_Drain: 0
+  Bow_Draw: false
+  Bow_Duration_Min: 0
+  Bow_Stamina_Drain: 0
+  Bow_Animation_State: ''
+  Attack_Angle: 120
+  Attack_Ray_Width: 0.2
+  Lower_Dmg_Per_Hit: true
+  Hit_Through_Walls: false
+  Multi_Hit: true
+  Pickaxe_Special: true
+  Last_Chain_Dmg_Multiplier: 2
+  Attack_Projectile: 
+  Projectile_Vel: 10
+  Projectile_Accuraccy: 10
+  Projectiles: 1
+  AEffects:
+    Hit_Effects: 
+    Hit_Terrain_Effects: 
+    Start_Effect: 
+    Trigger_Effect: 
+    Trail_Effect: 
+    Burst_Effect: 
+Secondary_Attack:
+  AttackType: Horizontal
+  Attack_Animation: ''
+  Attack_Random_Animation: 0
+  Chain_Attacks: 0
+  Hit_Terrain: true
+  Custom_AttackSpeed: 1
+  m_attackStamina: 0
+  m_eitrCost: 0
+  AttackHealthCost: 0
+  m_attackHealthPercentage: 0
+  SpeedFactor: 0.2
+  DmgMultiplier: 1
+  ForceMultiplier: 1
+  StaggerMultiplier: 1
+  RecoilMultiplier: 0
+  AttackRange: 1.5
+  AttackHeight: 0.6
+  Spawn_On_Trigger: 
+  Requires_Reload: false
+  Reload_Animation: ''
+  ReloadTime: 2
+  Reload_Stamina_Drain: 0
+  Bow_Draw: false
+  Bow_Duration_Min: 0
+  Bow_Stamina_Drain: 0
+  Bow_Animation_State: ''
+  Attack_Angle: 90
+  Attack_Ray_Width: 0
+  Lower_Dmg_Per_Hit: true
+  Hit_Through_Walls: false
+  Multi_Hit: true
+  Pickaxe_Special: false
+  Last_Chain_Dmg_Multiplier: 2
+  Attack_Projectile: 
+  Projectile_Vel: 10
+  Projectile_Accuraccy: 10
+  Projectiles: 1
+  AEffects:
+    Hit_Effects: 
+    Hit_Terrain_Effects: 
+    Start_Effect: 
+    Trigger_Effect: 
+    Trail_Effect: 
+    Burst_Effect: 
+Damage:
+  Blunt: 0
+  Chop: 0
+  Damage: 0
+  Fire: 0
+  Frost: 0
+  Lightning: 0
+  Pickaxe: 18
+  Pierce: 18
+  Poison: 0
+  Slash: 0
+  Spirit: 0
+Damage_Per_Level:
+  Blunt: 0
+  Chop: 0
+  Damage: 0
+  Fire: 0
+  Frost: 0
+  Lightning: 0
+  Pickaxe: 5
+  Pierce: 5
+  Poison: 0
+  Slash: 0
+  Spirit: 0
+Armor:
+  armor: 20
+  armorPerLevel: 1
+FoodStats: 
+Moddifiers:
+  m_movementModifier: -0.05
+  m_EitrRegen: 0
+SE_Equip: 
+SE_SET_Equip: 
+ShieldStats:
+  m_blockPower: 2
+  m_blockPowerPerLevel: 0
+  m_timedBlockBonus: 2
+  m_deflectionForce: 20
+  m_deflectionForcePerLevel: 5
+m_maxStackSize: 1
+m_canBeReparied: true
+m_destroyBroken: false
+m_dodgeable: true
+Attack_status_effect: 
+spawn_on_hit: 
+spawn_on_terrain_hit: digg_v3
+m_questItem: false
+m_teleportable: true
+m_backstabbonus: 3
+m_knockback: 50
+m_useDurability: true
+m_useDurabilityDrain: 1
+m_durabilityDrain: 0
+m_maxDurability: 100
+m_durabilityPerLevel: 50
+m_equipDuration: 0.2
+m_skillType: Pickaxes
+m_animationState: TwoHandedClub
+m_itemType: TwoHandedWeapon
+m_toolTier: 0
+m_maxQuality: 4
+m_value: 0
+damageModifiers: []
+GEffects:
+  Hit_Effects:
+  - vfx_HitSparks
+  - sfx_pickaxe_hit
+  - fx_hit_camshake
+  Hit_Terrain_Effects: 
+  Start_Effect:
+  - sfx_pickaxe_swing
+  Hold_Start_Effects: 
+  Trigger_Effect:
+  - fx_swing_camshake
+  Trail_Effect: 

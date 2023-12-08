@@ -1,0 +1,14 @@
+name: kg_EnchantScroll_Weapon_F
+clonePrefabName: 
+craftingStation: Scroll Station
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- FoxPelt_TW:5:0:True
+- NeckTail:5:0:True
+- InfusedCrystal_JH:2:0:True
+- TrophyNeck:1:0:True

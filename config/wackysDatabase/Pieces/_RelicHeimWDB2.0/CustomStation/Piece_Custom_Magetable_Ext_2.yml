@@ -1,0 +1,54 @@
+name: Custom_Magetable_Ext_2
+piecehammer: Hammer
+m_name: $custom_magetable_ext_2
+sizeMultiplier: 1
+m_description: $custom_magetable_ext_2_description
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_magetable
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 200
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Resistant
+    m_chop: Weak
+    m_pickaxe: Normal
+    m_fire: Normal
+    m_frost: Normal
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: true
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData:
+  MainCraftingStationName: piece_magetable
+  maxStationDistance: 5
+  continousConnection: false
+  stack: false
+contData: 
+smelterData: 
+cookingStationData: 
+build:
+- BlackMarble:10:1:True
+- Eitr:5:1:True
+- Guck:5:1:True

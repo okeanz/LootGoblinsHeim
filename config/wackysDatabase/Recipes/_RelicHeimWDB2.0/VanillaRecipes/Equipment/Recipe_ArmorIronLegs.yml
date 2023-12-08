@@ -1,0 +1,14 @@
+name: ArmorIronLegs
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Iron:20:5:True
+- RottenPelt_TW:8:4:True
+- IronNails:10:5:True
+- Root:5:2:True

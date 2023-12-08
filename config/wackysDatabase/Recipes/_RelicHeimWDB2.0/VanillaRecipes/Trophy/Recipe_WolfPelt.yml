@@ -1,0 +1,11 @@
+name: WolfPelt
+clonePrefabName: WolfPelt
+craftingStation: $custom_sky_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $custom_sky_forge
+amount: 2
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- TrophyWolf:1:1:True

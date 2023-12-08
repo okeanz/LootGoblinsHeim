@@ -1,0 +1,13 @@
+name: MeadBaseHealthMajor
+clonePrefabName: 
+craftingStation: $piece_cauldron
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Honey:10:1:True
+- GiantBloodSack:4:1:True
+- RoyalJelly:5:1:True

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Golden_Greydwarf_Miniboss",
+    "minExp": 600,
+    "maxExp": 800,
+    "level": 15
+  },
+  {
+    "name": "Golden_Troll_Miniboss",
+    "minExp": 800,
+    "maxExp": 1000,
+    "level": 25
+  },
+  {
+    "name": "Golden_Wraith_Miniboss",
+    "minExp": 1000,
+    "maxExp": 1200,
+    "level": 35
+  },
+  {
+    "name": "SvartalfarQueen",
+    "minExp": 3200,
+    "maxExp": 4500,
+    "level": 65
+  },
+  {
+    "name": "Jotunn",
+    "minExp": 3600,
+    "maxExp": 4800,
+    "level": 75
+  },
+  {
+    "name": "HelDemon",
+    "minExp": 3600,
+    "maxExp": 4800,
+    "level": 75
+  },
+  {
+    "name": "SvarTentaRoot",
+    "minExp": 50,
+    "maxExp": 100,
+    "level": 60
+  }
+]

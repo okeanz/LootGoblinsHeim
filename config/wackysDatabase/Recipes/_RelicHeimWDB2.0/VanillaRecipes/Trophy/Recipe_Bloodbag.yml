@@ -1,0 +1,11 @@
+name: Bloodbag
+clonePrefabName: Bloodbag
+craftingStation: $custom_sky_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $custom_sky_forge
+amount: 2
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- TrophyLeech:1:1:True

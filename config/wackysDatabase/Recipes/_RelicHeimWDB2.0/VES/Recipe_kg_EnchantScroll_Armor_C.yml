@@ -1,0 +1,14 @@
+name: kg_EnchantScroll_Armor_C
+clonePrefabName: 
+craftingStation: Scroll Station
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- RottenPelt_TW:5:0:True
+- Bloodbag:5:0:True
+- InfusedCrystal_JH:2:0:True
+- TrophyLeech:1:0:True

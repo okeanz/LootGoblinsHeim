@@ -1,0 +1,76 @@
+- Items:
+  - ShieldSilverBuckler_TW
+  Colors:
+    1:
+      color: '#1E151C01'
+    2:
+      color: '#1E181F02'
+    3:
+      color: '#1E1A2A03'
+    4:
+      color: '#1E1E3AA6'
+    5:
+      color: '#1E1E4AB0'
+    6:
+      color: '#23415A9B'
+    7:
+      color: '#28577EA2'
+    8:
+      color: '#1E508EA9'
+    9:
+      color: '#14469EB0'
+    10:
+      color: '#0A3CAFB7'
+      additionaleffects:
+       auramodel: 1
+       auracolor: "#0A3CAF"
+    11:
+      color: '#0038BFC0'
+      additionaleffects:
+       auramodel: 1
+       auracolor: "#0038BF"
+    12:
+      color: '#0038BFC0'
+      additionaleffects:
+       auramodel: 1
+       auracolor: "#0038BF"
+    13:
+      color: '#001CDBC4'
+      additionaleffects:
+       auramodel: 1
+       auracolor: "#001CDB"
+    14:
+      color: '#001CDBDB'
+      additionaleffects:
+       auramodel: 1
+       auracolor: "#001CDB"
+    15:
+      color: '#001CDFE2'
+      additionaleffects:
+       auramodel: 1
+       auracolor: "#001CDF"
+    16:
+      color: '#A0140EE9'
+      additionaleffects:
+       auramodel: 1
+       auracolor: "#A0140E"
+    17:
+      color: '#B40A0EF0'
+      additionaleffects:
+       auramodel: 1
+       auracolor: "#B40A0E"
+    18:
+      color: '#C8000EF7'
+      additionaleffects:
+       auramodel: 1
+       auracolor: "#C8000E"
+    19:
+      color: '#D2000EFE'
+      additionaleffects:
+       auramodel: 1
+       auracolor: "#D2000E"
+    20:
+      color: '#FF000EFF'
+      additionaleffects:
+       auramodel: 1
+       auracolor: "#FF000E"

@@ -1,0 +1,12 @@
+name: Chitin
+clonePrefabName: Chitin
+craftingStation: $custom_sky_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $custom_sky_forge
+amount: 2
+disabled: false
+requireOnlyOneIngredient: true
+reqs:
+- TrophyMolluscan:1:1:True
+- TrophyDeepSeaMolluscan:1:1:True

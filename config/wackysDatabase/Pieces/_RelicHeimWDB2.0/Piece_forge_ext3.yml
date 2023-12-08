@@ -1,0 +1,54 @@
+name: forge_ext3
+piecehammer: Hammer
+m_name: $piece_forge_ext3
+sizeMultiplier: 1
+m_description: $piece_forge $piece_upgrade
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 100
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Resistant
+    m_chop: Weak
+    m_pickaxe: Normal
+    m_fire: Normal
+    m_frost: Resistant
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: true
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData:
+  MainCraftingStationName: forge
+  maxStationDistance: 5
+  continousConnection: false
+  stack: false
+contData: 
+smelterData: 
+cookingStationData: 
+build:
+- Wood:25:1:True
+- Iron:5:1:True
+- SharpeningStone:1:1:True

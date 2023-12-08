@@ -1,0 +1,165 @@
+name: blob_attack_aoe
+m_weight: 1
+m_name: fart
+m_description: ''
+clonePrefabName: 
+mockName: 
+customIcon: 
+material: 
+customVisual: 
+sizeMultiplier: 1
+scale_weight_by_quality: 0
+Primary_Attack:
+  AttackType: Area
+  Attack_Animation: attack
+  Attack_Random_Animation: 0
+  Chain_Attacks: 0
+  Hit_Terrain: true
+  Custom_AttackSpeed: 1
+  m_attackStamina: 20
+  m_eitrCost: 0
+  AttackHealthCost: 0
+  m_attackHealthPercentage: 0
+  SpeedFactor: 0
+  DmgMultiplier: 1
+  ForceMultiplier: 1
+  StaggerMultiplier: 1
+  RecoilMultiplier: 0
+  AttackRange: 0
+  AttackHeight: 0.5
+  Spawn_On_Trigger: 
+  Requires_Reload: false
+  Reload_Animation: ''
+  ReloadTime: 2
+  Reload_Stamina_Drain: 0
+  Bow_Draw: false
+  Bow_Duration_Min: 0
+  Bow_Stamina_Drain: 0
+  Bow_Animation_State: ''
+  Attack_Angle: 90
+  Attack_Ray_Width: 4
+  Lower_Dmg_Per_Hit: true
+  Hit_Through_Walls: false
+  Multi_Hit: true
+  Pickaxe_Special: false
+  Last_Chain_Dmg_Multiplier: 2
+  Attack_Projectile: 
+  Projectile_Vel: 10
+  Projectile_Accuraccy: 10
+  Projectiles: 1
+  AEffects:
+    Hit_Effects: 
+    Hit_Terrain_Effects: 
+    Start_Effect: 
+    Trigger_Effect: 
+    Trail_Effect: 
+    Burst_Effect: 
+Secondary_Attack:
+  AttackType: Horizontal
+  Attack_Animation: ''
+  Attack_Random_Animation: 0
+  Chain_Attacks: 0
+  Hit_Terrain: true
+  Custom_AttackSpeed: 1
+  m_attackStamina: 20
+  m_eitrCost: 0
+  AttackHealthCost: 0
+  m_attackHealthPercentage: 0
+  SpeedFactor: 0.2
+  DmgMultiplier: 1
+  ForceMultiplier: 1
+  StaggerMultiplier: 1
+  RecoilMultiplier: 0
+  AttackRange: 1.5
+  AttackHeight: 0.6
+  Spawn_On_Trigger: 
+  Requires_Reload: false
+  Reload_Animation: ''
+  ReloadTime: 2
+  Reload_Stamina_Drain: 0
+  Bow_Draw: false
+  Bow_Duration_Min: 0
+  Bow_Stamina_Drain: 0
+  Bow_Animation_State: ''
+  Attack_Angle: 90
+  Attack_Ray_Width: 0
+  Lower_Dmg_Per_Hit: true
+  Hit_Through_Walls: false
+  Multi_Hit: true
+  Pickaxe_Special: false
+  Last_Chain_Dmg_Multiplier: 2
+  Attack_Projectile: 
+  Projectile_Vel: 10
+  Projectile_Accuraccy: 10
+  Projectiles: 1
+  AEffects:
+    Hit_Effects: 
+    Hit_Terrain_Effects: 
+    Start_Effect: 
+    Trigger_Effect: 
+    Trail_Effect: 
+    Burst_Effect: 
+Damage:
+  Blunt: 0
+  Chop: 0
+  Damage: 0
+  Fire: 0
+  Frost: 0
+  Lightning: 0
+  Pickaxe: 0
+  Pierce: 0
+  Poison: 90
+  Slash: 0
+  Spirit: 0
+Damage_Per_Level: 
+Armor:
+  armor: 10
+  armorPerLevel: 1
+FoodStats: 
+Moddifiers:
+  m_movementModifier: 0
+  m_EitrRegen: 0
+SE_Equip: 
+SE_SET_Equip: 
+ShieldStats:
+  m_blockPower: 10
+  m_blockPowerPerLevel: 0
+  m_timedBlockBonus: 1.5
+  m_deflectionForce: 0
+  m_deflectionForcePerLevel: 0
+m_maxStackSize: 1
+m_canBeReparied: true
+m_destroyBroken: true
+m_dodgeable: true
+Attack_status_effect: Slimed
+spawn_on_hit: 
+spawn_on_terrain_hit: 
+m_questItem: false
+m_teleportable: true
+m_backstabbonus: 4
+m_knockback: 0
+m_useDurability: false
+m_useDurabilityDrain: 1
+m_durabilityDrain: 0
+m_maxDurability: 100
+m_durabilityPerLevel: 50
+m_equipDuration: 1
+m_skillType: Swords
+m_animationState: OneHanded
+m_itemType: OneHandedWeapon
+m_toolTier: 0
+m_maxQuality: 1
+m_value: 0
+ConsumableStatusEffect: 
+damageModifiers: []
+GEffects:
+  Hit_Effects:
+  - vfx_HitSparks
+  - sfx_greydwarf_attack_hit
+  Hit_Terrain_Effects: 
+  Start_Effect: 
+  Hold_Start_Effects: 
+  Trigger_Effect:
+  - vfx_blob_attack
+  - sfx_blob_attack
+  Trail_Effect: 

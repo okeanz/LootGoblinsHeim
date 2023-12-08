@@ -1,0 +1,12 @@
+name: Recipe_Bronze
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Copper:1:1:True
+- Tin:1:1:True

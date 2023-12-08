@@ -1,0 +1,136 @@
+##DoorDie Bosses##
+Rambore_DoD:
+  damage: 1.2
+  health: 0.63
+  health per star: 0.08
+Bitterstump_DoD:
+  damage per star: 0.15
+  health: 1.4
+  health per star: 0.22
+  damage:
+   Frost: 0.4
+BhygshanAlt_DoD:
+  damage: 1
+  damage per star: 0.15
+  health: 1.65
+  health per star: 0.24
+Farkas_Alt_DoD:
+  damage: 1
+  damage per star: 0.15
+  health: 1
+  health per star: 0.25
+Farkas_Clone_DoD:
+  damage: 0.2
+  health: 0.5
+SkirSandburst_DoD:
+  damage: 1
+  damage per star: 0.15
+  health: 1
+  health per star: 0.25
+#Meadows_DoD
+Stormling_DoD:
+  damage: 0.5
+  health: 0.5
+  health per star: 0.5
+  movement speed: 0.8
+WendigoSwamp_LM:
+  damage: 0.9
+  damage per star: 0.05
+  health: 0.10
+  health per star: 0.05
+  size: 0.05
+WerewolfRed_LM:
+  damage: 0.5
+  health: 0.3
+  health per star: 0.3
+WerewolfRedArmoured_LM:
+  damage: 0.85
+  health: 0.4
+  health per star: 0.4
+#BlackForest_DoD
+LivingWater_DoD:
+ Override:
+   damage: 0.4
+   damage per star: 0.1
+   health: 1
+   health per star: 1
+#Swamp_DoD
+GreaterSurtling_DoD:
+  damage: 0.4
+  damage per star: 0.1
+  health: 0.6
+  health per star: 0.3
+Wendigo_LM:
+  damage: 1.2
+  health: 0.6
+  health per star: 0.6
+  attack speed: 0.8
+  effect:
+    Splitting: 0
+#Mountains_DoD
+Ghost_White_DoD:
+  damage: 3
+  health: 2
+ForestWolf_DoD:
+  damage: 0.5
+  health: 0.3
+  health per star: 0.3
+  tamed:
+    damage: 0.25
+    health: 0.3
+    health per star: 0.1
+Frostling_DoD:
+  health: 0.65
+  health per star: 0.65
+  movement speed: 0.8
+WerewolfWhite_LM:
+  damage: 0.6
+  damage per star: 0.2
+  health: 0.3
+  health per star: 0.3
+WerewolfWhiteArmoured_LM:
+  damage: 0.7
+  damage per star: 0.2
+  health: 0.5
+  health per star: 0.5
+Yeti_LM:
+  damage: 1
+  health: 1.5
+  health per star: 0.75
+#Plains_DoD
+Voidling_DoD:
+  damage: 0.5
+  damage per star: 0.5
+  health: 0.6
+  health per star: 0.6
+  movement speed: 0.8
+DireWolf_DoD:
+  damage: 0.5
+  damage per star: 0.1
+  health: 0.5
+  health per star: 0.5
+  tamed:
+    damage: 0.25
+    health: 0.35
+    health per star: 0.35
+Werebear_LM:
+  damage: 0.8
+  damage per star: 0.2
+  health: 0.5
+  health per star: 0.2
+#Mistlands_DoD
+DarkDrake_DoD:
+  damage: 1
+  damage per star: 0.2
+  health: 0.5
+  health per star: 0.3
+ArcaneDrake_DoD:
+  damage: 1.2
+  damage per star: 0.2
+  health: 0.2
+  health per star: 0.1
+Vilefang_DoD:
+  damage: 0.8
+  damage per star: 0.1
+  health: 0.6
+  health per star: 0.4

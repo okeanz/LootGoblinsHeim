@@ -1,0 +1,160 @@
+- Items:
+  - ArmorIronChest
+  - ArmorBronzeChest
+  - ArmorLeatherChest
+  - ArmorRagsChest
+  - ArmorTrollLeatherChest
+  - ArmorWolfChest
+  - ArmorRootChest
+  - ArmorMageChest
+  - ArmorCarapaceChest
+  - ArmorFenringChest
+  - ArmorRogueCarapaceChest_TW
+  - ArmorVigorousCarapaceChest_TW
+  - ArmorWarriorCarapaceChest_TW
+  - ArmorFenrirCarapaceChest_TW
+  - ArmorVidarCarapaceChest_TW
+  - ArmorBoldCarapaceChest_TW
+  - ArmorLegionChest_TW
+  - ArmorDestructionChest_TW
+  - ArmorSacrificeChest_TW
+  - ArmorRogueTyraniumChest_TW
+  - ArmorVigorousTyraniumChest_TW
+  - ArmorWarriorFlametalChest_TW
+  - ArmorFenrirTyraniumChest_TW
+  - ArmorVidarFlametalChest_TW
+  - ArmorBoldFlametalChest_TW
+  - ArmorLegionFlametalChest_TW
+  - ArmorDestructionTyraniumChest_TW
+  - ArmorSacrificeFlametalChest_TW
+  - ArmorUllrChest_TW
+  - ArmorRogueSilverChest_TW
+  - ArmorVigorousSilverChest_TW
+  - ArmorWarriorSilverChest_TW
+  - ArmorFenrirChest_TW
+  - ArmorVidarChest_TW
+  - ArmorRogueBMChest_TW
+  - ArmorVigorousBMChest_TW
+  - ArmorWarriorBMChest_TW
+  - ArmorFenrirBMChest_TW
+  - ArmorVidarBMChest_TW
+  - ArmorBoldChest_TW
+  - ArmorRogueIronChest_TW
+  - ArmorVigorousIronChest_TW
+  - ArmorWarriorChest_TW
+  - ArmorRogueChest_TW
+  - ArmorVigorousChest_TW
+  - ArmorLeatherChest_TW
+  - ArmorDragonslayerChest
+  - ArmorWandererChest
+  - ArmorBlackmetalgarbChest
+  - ArmorSerpentChest
+  - ArmorPlateIronChestJD
+  - ArmorBarbarianBronzeChestJD
+  - ArmorWarriorChest
+  - ArmorNobleChest
+  Colors:
+    1:
+      color: '#1E151C01'
+    2:
+      color: '#1E181F02'
+    3:
+      color: '#1E1A2A03'
+    4:
+      color: '#1E1E3AA6'
+    5:
+      color: '#1E1E4AB0'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 0.2
+    6:
+      color: '#23415A9B'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 0.2
+    7:
+      color: '#28577EA2'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 0.2
+    8:
+      color: '#1E508EA9'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 0.2
+    9:
+      color: '#14469EB0'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 0.2
+    10:
+      color: '#0A3CAFB7'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 0.4
+    11:
+      color: '#0038BFC0'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 0.4
+    12:
+      color: '#0038BFC0'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 0.4
+    13:
+      color: '#001CDBC4'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 0.4
+    14:
+      color: '#001CDBDB'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 0.4
+    15:
+      color: '#001CDFE2'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 0.6
+    16:
+      color: '#A0140EE9'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 0.6
+    17:
+      color: '#B40A0EF0'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 0.6
+    18:
+      color: '#C8000EF7'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 0.6
+    19:
+      color: '#D2000EFE'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 0.6
+    20:
+      color: '#FF000EFF'
+      additionaleffects:
+       wingsmodel: 4
+       wingsmaterial: "Organic"
+       wingsscale: 1

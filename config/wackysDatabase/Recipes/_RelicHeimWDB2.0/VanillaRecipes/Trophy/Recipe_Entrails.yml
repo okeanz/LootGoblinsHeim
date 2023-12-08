@@ -1,0 +1,12 @@
+name: Entrails
+clonePrefabName: Entrails
+craftingStation: $custom_sky_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $custom_sky_forge
+amount: 2
+disabled: false
+requireOnlyOneIngredient: true
+reqs:
+- TrophyDraugr:1:1:True
+- TrophyDraugrElite:1:1:True

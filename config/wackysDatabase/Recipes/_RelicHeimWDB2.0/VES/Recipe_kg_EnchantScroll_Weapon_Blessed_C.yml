@@ -1,0 +1,14 @@
+name: kg_EnchantScroll_Weapon_Blessed_C
+clonePrefabName: 
+craftingStation: Scroll Station
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Coins:300:0:True
+- Root:5:0:True
+- WitheredBone:10:0:True
+- kg_EnchantScroll_Weapon_C:1:0:True

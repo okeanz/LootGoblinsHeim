@@ -1,0 +1,214 @@
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_S
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_S
+    amount: 1
+  Items:
+  - ShieldCarapaceTower_TW
+  - SledgeDemolisher_TW
+  - AxeDvergr_TW
+  - MaceDvergr_TW
+  - LanceDvergr_TW
+  - WarpikeDvergr_TW
+  - BattleaxeDvergr_TW
+  - BattlehammerDvergr_TW
+  - FistDvergr_TW
+  - GreatbowDvergr_TW
+  - ClaymoreDvergr_TW
+  - BattleaxeCrystalAmethyst_TW
+  - BastardDvergr_TW
+  - PickaxeDvergr_TW
+  - FistQueen_TW
+  - SwordNjord_TW
+  - AtgeirNjord_TW
+  - BattleaxeNjord_TW
+  - BattlehammerNjord_TW
+  - BowNjord_TW
+  - CrossbowNjord_TW
+  - ClaymoreNjord_TW
+  - FistNjord_TW
+  - GreatbowNjord_TW
+  - KnifeNjord_TW
+  - MaceNjord_TW
+  - LanceNjord_TW
+  - WarpikeNjord_TW
+  - SledgeNjord_TW
+  - BastardNjord_TW
+  - SpearNjord_TW
+  - ShieldArcticSerpentscale_TW
+  - PickaxeNjord_TW
+  - BattleaxeCrystalSapphire_TW
+  - ShieldNjordTower_TW
+  - ShieldNjord_TW
+  - ShieldTyraniumBuckler_TW
+  - StaffSkrymir_TW
+  - DualSwordSkadi_TW
+  - AxeNjord_TW
+  - AtgeirSurtr_TW
+  - BattleaxeSurtr_TW
+  - BattlehammerSurtr_TW
+  - BowSurtr_TW
+  - GreatbowSurtr_TW
+  - CrossbowSurtr_TW
+  - ClaymoreSurtr_TW
+  - FistSurtr_TW
+  - KnifeSurtr_TW
+  - MaceSurtr_TW
+  - SledgeSurtr_TW
+  - SpearSurtr_TW
+  - LanceSurtr_TW
+  - WarpikeSurtr_TW
+  - BastardSurtr_TW
+  - FistSurtr_TW
+  - SwordSurtr_TW
+  - ShieldFlametalBuckler_TW
+  - ShieldSurtrTower_TW
+  - ShieldSurtr_TW
+  - DualAxeKrom_TW
+  - BattleaxeCrystalTopaz_TW
+  - DualSpearSvigaFrekk_TW
+  - AxeSurtr_TW
+  - DualHammerRageHatred_TW
+  - PickaxeSurtr_TW
+  - ClaymoreJotunn_TW
+  - GlacierBlade_TW
+  - VolcanicBlade_TW
+  - DualHammerStormstrike_TW
+  - StaffStorm_TW
+  - BattleaxeDragon_TW
+  - BowUllr_TW
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_S
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_S
+    amount: 1
+  Items:
+  - CapeArcticWolf_TW
+  - CapeAshenScale_TW
+  - CapeMammoth_TW
+# Plains
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_A
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_A
+    amount: 1
+  Items:
+  - TridentBlackmetal_TW
+  - BattleaxeBlackmetal_TW
+  - BattlehammerBlackmetal_TW
+  - ClaymoreBlackmetal_TW
+  - SledgeBlackmetal_TW
+  - FistBlackmetal_TW
+  - WarpikeBlackmetal_TW
+  - BattleaxeCrystalEmerald_TW
+  - BowBlackmetal_TW
+  - GreatbowBlackmetal_TW
+  - CrossbowBlackmetal_TW
+  - BastardBlackmetal_TW
+  - SpearBlackmetal_TW
+  - ShieldBlackmetalBuckler_TW
+  - LanceBlackmetal_TW
+  - SwordScimitar_TW
+  - DualSwordScimitar_TW
+# Mountain
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_B
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_B
+    amount: 1
+  Items:
+  - ShieldSilverBuckler_TW
+  - BattleaxeCrystal_TW
+  - GreatbowModer_TW
+  - PickaxeSilver_TW
+  - AxeSilver_TW
+  - AtgeirSilver_TW
+  - BattleaxeSilver_TW
+  - BattlehammerSilver_TW
+  - ClaymoreSilver_TW
+  - FistSilver_TW
+  - CrossbowSilver_TW
+  - BastardSilver_TW
+  - WarpikeObsidian_TW
+  - SledgeSilver_TW
+# Swamp
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_C
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_C
+    amount: 1
+  Items:
+  - SledgeIron_TW
+  - BattleaxeIron_TW
+  - BattlehammerIron_TW
+  - ClaymoreIron_TW
+  - SwordChitin_TW
+  - CrossbowIron_TW
+  - KnifeIron_TW
+  - BastardChitin_TW
+  - MaceChitin_TW
+  - WarpikeChitin_TW
+  - FistChitin_TW
+  - FistIron_TW
+  - ClaymoreChitin_TW
+  - ShieldChitinTower_TW
+  - ShieldChitin_TW
+  - ShieldChitinBuckler_TW
+  - ScytheVampiric_TW
+  - KnifeWrench_TW
+  - SledgeBonemass_TW
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_C
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_C
+    amount: 1
+  Items:
+  - CapeRotten_TW
+# BlackForest
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_D
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_D
+    amount: 1
+  Items:
+  - BattleaxeBronze_TW
+  - ClaymoreBronze_TW
+  - CrossbowBronze_TW
+  - KnifeBronze_TW
+  - BattlehammerTrollbone_TW
+  - BowTrollBone_TW
+  - SwordBone_TW
+  - ClaymoreBone_TW
+  - WarpikeBone_TW
+  - FistBronze_TW
+  - BastardBone_TW
+  - SledgeBronze_TW
+  - ShieldBronzeBanded_TW
+  - ShieldBronzeTower_TW
+  - DualAxeDemonic_TW
+  - WarpikeElder_TW
+  - KnifeViper_TW
+# Meadows
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_F
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_F
+    amount: 1
+  Items:
+  - MaceFlint_TW
+  - GreatClub_TW
+  - AtgeirFlint_TW
+  - SwordFlint_TW
+  - BattleaxeFlint_TW
+  - SledgeStagbreaker_TW
+  - SledgeStagbreaker
+  - BastardFlint_TW
+  - FistFlint_TW

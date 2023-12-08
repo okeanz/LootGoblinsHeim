@@ -1,0 +1,320 @@
+[
+  {
+    "name": "BlackDeer_DoD",
+    "minExp": 10,
+    "maxExp": 20,
+    "level": 4
+  },
+  {
+    "name": "BlackStag_DoD",
+    "minExp": 10,
+    "maxExp": 20,
+    "level": 4
+  },
+  {
+    "name": "WerewolfRed_LM",
+	"minExp": 50,
+	"maxExp": 70,
+	"level": 11
+  },
+  {
+    "name": "WerewolfRedArmoured_LM",
+	"minExp": 70,
+	"maxExp": 90,
+	"level": 13
+  },
+  {
+    "name": "Wendigo_LM",
+    "minExp": 300,
+    "maxExp": 450,
+    "level": 32
+  },
+  {
+    "name": "WendigoSwamp_LM",
+    "minExp": 100,
+    "maxExp": 150,
+    "level": 12
+  },
+  {
+    "name": "LivingWater_DoD",
+    "minExp": 70,
+    "maxExp": 100,
+    "level": 15
+  },
+  {
+    "name": "Stormling_DoD",
+    "minExp": 80,
+    "maxExp": 120,
+    "level": 15
+  },
+  {
+    "name": "Wizard",
+    "minExp": 200,
+    "maxExp": 300,
+    "level": 15
+  },
+  {
+    "name": "CrazyTroll",
+    "minExp": 200,
+    "maxExp": 300,
+    "level": 21
+  },
+  {
+    "name": "SkeletonG_DoD",
+    "minExp": 120,
+    "maxExp": 180,
+    "level": 28
+  },
+  {
+    "name": "GreaterSurtling_DoD",
+    "minExp": 200,
+    "maxExp": 250,
+    "level": 30
+  },
+  {
+    "name": "SkeletonR_DoD",
+    "minExp": 120,
+    "maxExp": 180,
+    "level": 28
+  },
+  {
+    "name": "PoisonDrake_DoD",
+    "minExp": 100,
+    "maxExp": 130,
+    "level": 28
+  },
+  {
+    "name": "TheNasty",
+    "minExp": 180,
+    "maxExp": 220,
+    "level": 29
+  },
+  {
+    "name": "ForestWolf_Cub_DoD",
+    "minExp": 100,
+    "maxExp": 200,
+    "level": 39
+  },
+  {
+    "name": "ForestWolf_DoD",
+    "minExp": 250,
+    "maxExp": 350,
+    "level": 39
+  },
+  {
+    "name": "Ghost_White_DoD",
+    "minExp": 250,
+    "maxExp": 350,
+    "level": 39
+  },
+  {
+    "name": "Frostling_DoD",
+    "minExp": 250,
+    "maxExp": 350,
+    "level": 39
+  },
+  {
+    "name": "Voidling_DoD",
+    "minExp": 350,
+    "maxExp": 450,
+    "level": 49
+  },
+  {
+    "name": "Werebear_LM",
+    "minExp": 350,
+    "maxExp": 450,
+    "level": 52
+  },
+  {
+    "name": "WerebearGray_LM",
+    "minExp": 350,
+    "maxExp": 500,
+    "level": 53
+  },
+  {
+    "name": "WerebearRed_LM",
+    "minExp": 350,
+    "maxExp": 500,
+    "level": 53
+  },
+  {
+    "name": "WerewolfGray_LM",
+    "minExp": 350,
+    "maxExp": 450,
+    "level": 52
+  },
+  {
+    "name": "WerewolfGrayArmoured_LM",
+    "minExp": 350,
+    "maxExp": 450,
+    "level": 53
+  },
+  {
+    "name": "Werewolf_LM",
+    "minExp": 350,
+    "maxExp": 450,
+    "level": 52
+  },
+  {
+    "name": "WerewolfArmoured_LM",
+    "minExp": 350,
+    "maxExp": 450,
+    "level": 53
+  },
+  {
+    "name": "DarknessDrake_DoD",
+    "minExp": 700,
+    "maxExp": 900,
+    "level": 60
+  },
+  {
+    "name": "DarkDrake_DoD",
+    "minExp": 700,
+    "maxExp": 900,
+    "level": 60
+  },
+  {
+    "name": "ArcaneDrake_DoD",
+    "minExp": 700,
+    "maxExp": 900,
+    "level": 60
+  },
+  {
+    "name": "Vilefang_Cub_DoD",
+    "minExp": 100,
+    "maxExp": 200,
+    "level": 60
+  },
+  {
+    "name": "Vilefang_DoD",
+    "minExp": 700,
+    "maxExp": 900,
+    "level": 60
+  },
+  {
+    "name": "IceDrake_DoD",
+    "minExp": 900,
+    "maxExp": 1100,
+    "level": 70
+  },
+  {
+    "name": "DireWolf_Cub_DoD",
+    "minExp": 100,
+    "maxExp": 200,
+    "level": 51
+  },
+  {
+    "name": "DireWolf_DoD",
+    "minExp": 400,
+    "maxExp": 600,
+    "level": 51
+  },
+  {
+    "name": "FrozenBones_DoD",
+    "minExp": 900,
+    "maxExp": 1100,
+    "level": 70
+  },
+  {
+    "name": "IceGolem_DoD",
+    "minExp": 1100,
+    "maxExp": 1500,
+    "level": 72
+  },
+  {
+    "name": "Ghost_Ice_DoD",
+    "minExp": 900,
+    "maxExp": 1100,
+    "level": 70
+  },
+  {
+    "name": "Yeti_LM",
+    "minExp": 500,
+    "maxExp": 600,
+    "level": 41
+  },
+  {
+    "name": "WerewolfWhite_LM",
+    "minExp": 300,
+    "maxExp": 500,
+    "level": 41
+  },
+  {
+    "name": "WerewolfWhiteArmoured_LM",
+    "minExp": 500,
+    "maxExp": 700,
+    "level": 42
+  },
+  {
+    "name": "FlameDrake_DoD",
+    "minExp": 900,
+    "maxExp": 1100,
+    "level": 70
+  },
+  {
+    "name": "ObsidianGolem_DoD",
+    "minExp": 500,
+    "maxExp": 600,
+    "level": 41
+  },
+  {
+    "name": "LivingLava_DoD",
+    "minExp": 900,
+    "maxExp": 1100,
+    "level": 70
+  },
+  {
+    "name": "CharredRemains_DoD",
+    "minExp": 900,
+    "maxExp": 1100,
+    "level": 70
+  },
+  {
+    "name": "LavaGolem_DoD",
+    "minExp": 1100,
+    "maxExp": 1500,
+    "level": 72
+  },
+  {
+    "name": "Rambore_DoD",
+    "minExp": 700,
+    "maxExp": 900,
+    "level": 16
+  },
+  {
+    "name": "Bitterstump_DoD",
+    "minExp": 900,
+    "maxExp": 1100,
+    "level": 26
+  },
+  {
+    "name": "Bhygshan_DoD",
+    "minExp": 1100,
+    "maxExp": 1300,
+    "level": 36
+  },
+  {
+    "name": "BhygshanAlt_DoD",
+    "minExp": 1100,
+    "maxExp": 1300,
+    "level": 36
+  },
+  {
+    "name": "Farkas_Alt_DoD",
+    "minExp": 1000,
+    "maxExp": 1400,
+    "level": 46
+  },
+  {
+    "name": "Farkas_Clone_DoD",
+    "minExp": 700,
+    "maxExp": 900,
+    "level": 39
+  },
+  {
+    "name": "SkirSandburst_DoD",
+    "minExp": 1700,
+    "maxExp": 3200,
+    "level": 56
+  }
+]

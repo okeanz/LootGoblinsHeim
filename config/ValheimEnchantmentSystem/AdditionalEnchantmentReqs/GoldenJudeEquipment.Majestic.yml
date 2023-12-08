@@ -1,0 +1,79 @@
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_S
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_S
+    amount: 1
+  Items:
+  - ArmorMistlandsHelmet
+  - ArmorMistlandsChest
+  - ArmorMistlandsLegs
+# Mountain+Plains
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_A
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_A
+    amount: 1
+  Items:
+  - ArmorBlackmetalgarbHelmet
+  - ArmorSerpentHelmet
+  - ArmorBlackmetalgarbChest
+  - ArmorSerpentChest
+  - ArmorBlackmetalgarbLegs
+  - ArmorSerpentLegs
+  - ArmorSerpentCape
+# Swamps
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_B
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_B
+    amount: 1
+  Items:
+  - ArmorDragonslayerHelmet
+  - ArmorWandererHelmet
+  - ArmorDragonslayerLegs
+  - ArmorWandererLegs
+  - ArmorDragonslayerChest
+  - ArmorWandererChest
+  - ArmorWandererCape
+# BlackForest
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_C
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_C
+    amount: 1
+  Items:
+  - ArmorPlateIronHelmetJD
+  - ArmorPlateIronChestJD
+  - ArmorPlateIronLegsJD
+  - ArmorPlateCape
+# Meadows
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_D
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_D
+    amount: 1
+  Items:
+  - ArmorBarbarianBronzeHelmetJD
+  - ArmorBarbarianBronzeChestJD
+  - ArmorBarbarianBronzeLegsJD
+  - ArmorWarriorChest
+  - ArmorWarriorHelmet
+  - ArmorWarriorLegs
+  - ArmorBarbarianCapeJD
+# Meadows
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_F
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_F
+    amount: 1
+  Items:
+  - ArmorNobleHelmet
+  - ArmorNobleChest
+  - ArmorNobleLegs
+  - ArmorNobleCape
