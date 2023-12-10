@@ -1,6 +1,6 @@
 {
     "name": "LootGoblinsHeim",
-    "version_number": "1.0.2",
+    "version_number": "1.0.4",
     "website_url": "",
     "description": "Private server modpack based on RelicHeim",
     "dependencies": [
@@ -85,6 +85,7 @@
 		"Smoothbrain-Cooking-1.1.15",
 		"Azumatt-MaxPlayerCount-1.2.1",
 		"Tristan-ServerRestart-1.1.2",
+		"Smoothbrain-StartupAccelerator-1.0.2",
 		"LootGoblinsInc-z0rderEpicMMOSystem-1.0.1"
 	]
 }
