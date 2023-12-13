@@ -6,7 +6,6 @@
   "scripts": {
     "zip": "node ./index.js",
     "update": "npm version patch --force && npm run zip",
-    "prepare": "husky install",
     "preversion": "",
     "version": "",
     "postversion": "git push && git push --tags"
