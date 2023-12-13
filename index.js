@@ -1,4 +1,5 @@
 ﻿const fs = require('fs');
+const rimraf = require("rimraf");
 const archiver = require('archiver');
 
 const pjson = require('./package.json');
@@ -9,24 +10,23 @@ updateManifestVersion();
 archivePackage();
 
 
-
 function archivePackage() {
-    if(fs.existsSync(RELEASES_DIR)){
-        fs.rmSync(RELEASES_DIR, {force: true});
+    if (fs.existsSync(RELEASES_DIR)) {
+        rimraf.sync(RELEASES_DIR);
     }
-    
+
     fs.mkdirSync(RELEASES_DIR);
-    
+
     const output = fs.createWriteStream(__dirname + `/releases/LootGoblinsHeim-${CURRENT_PACKAGE_VERSION}.zip`);
     const archive = archiver('zip', {
-        zlib: { level: 5 } // Sets the compression level.
+        zlib: {level: 5} // Sets the compression level.
     });
 
-    output.on('end', function() {
+    output.on('end', function () {
         console.log('Data has been drained');
     });
 
-    output.on('close', function() {
+    output.on('close', function () {
         console.log(archive.pointer() + ' total bytes');
         console.log('archiver has been finalized and the output file descriptor has closed.');
     });
@@ -44,8 +44,8 @@ function archivePackage() {
 function updateManifestVersion() {
     const fileName = './package/manifest.json';
     const file = require(fileName);
-    
-    if(file.version_number === CURRENT_PACKAGE_VERSION) {
+
+    if (file.version_number === CURRENT_PACKAGE_VERSION) {
         console.log(`No need to update manifest version_number`);
         return;
     }
@@ -53,8 +53,5 @@ function updateManifestVersion() {
 
     file.version_number = CURRENT_PACKAGE_VERSION;
 
-    fs.writeFile(fileName, JSON.stringify(file, null, 2), function writeJSON(err) {
-        if (err) return console.log(err);
-        console.log('writing to ' + fileName);
-    });
+    fs.writeFileSync(fileName, JSON.stringify(file, null, 2));
 }
