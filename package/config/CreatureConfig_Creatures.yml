@@ -1,6 +1,7 @@
 #Bosses
 Eikthyr:
   damage: 1.6
+  health: 2
   damage taken:
     Fire: 0.5
 #Meadows
