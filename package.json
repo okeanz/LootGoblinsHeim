@@ -1,11 +1,11 @@
 {
   "name": "lootgoblinsheim",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "This is fork of RelicHeim modpack for my private server [LootGoblinsInc]",
   "main": "index.js",
   "scripts": {
     "zip": "node ./index.js",
-    "push": "npm version patch --force && npm run push",
+    "update": "npm version patch --force && npm run zip",
     "prepare": "husky install",
     "preversion": "",
     "version": "",
