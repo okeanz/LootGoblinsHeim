@@ -3,6 +3,7 @@ const archiver = require('archiver');
 
 const pjson = require('./package.json');
 const CURRENT_PACKAGE_VERSION = pjson.version;
+const RELEASES_DIR = './releases';
 
 updateManifestVersion();
 archivePackage();
@@ -10,6 +11,9 @@ archivePackage();
 
 
 function archivePackage() {
+    if(!fs.existsSync(RELEASES_DIR))
+        fs.mkdirSync(RELEASES_DIR);
+    
     const output = fs.createWriteStream(__dirname + `/releases/LootGoblinsHeim-${CURRENT_PACKAGE_VERSION}.zip`);
     const archive = archiver('zip', {
         zlib: { level: 5 } // Sets the compression level.
@@ -38,6 +42,10 @@ function updateManifestVersion() {
     const fileName = './package/manifest.json';
     const file = require(fileName);
     
+    if(file.version_number === CURRENT_PACKAGE_VERSION) {
+        console.log(`No need to update manifest version_number`);
+        return;
+    }
     console.log(`Updating manifest.verion_number from [${file.version_number}] to [${CURRENT_PACKAGE_VERSION}]`);
 
     file.version_number = CURRENT_PACKAGE_VERSION;
