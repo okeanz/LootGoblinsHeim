@@ -7,5 +7,9 @@ CopyFile:
   To: plugins\Smoothbrain-CreatureLevelAndLootControl\English.yml
 - From: config\_RelicHeimFiles\ThisGoesHereMovedFile\Russian.yml
   To: plugins\Smoothbrain-CreatureLevelAndLootControl\Russian.yml
+- From: config\_RelicHeimFiles\ThisGoesHereMovedFile\OdinHorse.Russian.yml
+  To: plugins\OdinPlus-OdinHorse\OdinHorse.Russian.yml
+- From: config\_RelicHeimFiles\ThisGoesHereMovedFile\OdinCampsite.Russian.yml
+  To: plugins\OdinPlus-OdinCampsite\OdinCampsite.Russian.yml
 - From: config\_RelicHeimFiles\ThisGoesHereMovedFile\MonsterLabZ.cfg
   To: config\MonsterLabZ.cfg
