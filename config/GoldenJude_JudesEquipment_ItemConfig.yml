@@ -1433,8 +1433,8 @@ simple backpack:
       armor: 0
       armor per level: 2
       enable durability: true
-      baseDurability: 10
-      durability per level: 10
+      baseDurability: 100
+      durability per level: 20
       repairable: true
       destroy when broken: false
       weight: 15
@@ -1452,7 +1452,7 @@ simple backpack:
         Poison: none
         Spirit: none
       recipe:
-        enabled: false
+        enabled: true
         station: piece_workbench
         minimum station level: 1
         requirements:
@@ -1492,7 +1492,7 @@ heavy backpack:
       armor: 0
       armor per level: 2
       enable durability: true
-      baseDurability: 100
+      baseDurability: 200
       durability per level: 100
       repairable: true
       destroy when broken: false
@@ -1511,7 +1511,7 @@ heavy backpack:
         Poison: none
         Spirit: none
       recipe:
-        enabled: false
+        enabled: true
         station: piece_workbench
         minimum station level: 1
         requirements:
