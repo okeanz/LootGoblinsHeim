@@ -2,8 +2,8 @@
 ## Item names and descriptions
 # dir \profiles\..\BepInEx\plugins\OdinPlus-OdinCampsite
 
-item_campsite: "Ресурсы для кэпминга"
-item_campsite_desc: "Базовый набор предметов для кэмпинга, которые нужны для строительства лагеря."
+item_campsite: "Ресурсы для кемпинга"
+item_campsite_desc: "Базовый набор предметов для кемпинга, которые нужны для строительства лагеря."
 
 # Pieces
 ## Buildable components
