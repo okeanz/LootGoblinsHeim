@@ -11,8 +11,11 @@ archivePackage();
 
 
 function archivePackage() {
-    if(!fs.existsSync(RELEASES_DIR))
-        fs.mkdirSync(RELEASES_DIR);
+    if(fs.existsSync(RELEASES_DIR)){
+        fs.rmSync(RELEASES_DIR, {force: true});
+    }
+    
+    fs.mkdirSync(RELEASES_DIR);
     
     const output = fs.createWriteStream(__dirname + `/releases/LootGoblinsHeim-${CURRENT_PACKAGE_VERSION}.zip`);
     const archive = archiver('zip', {

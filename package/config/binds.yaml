@@ -1,0 +1,6 @@
+- key: ''
+  command: ''
+- key: equals
+  command: fly
+- key: minus
+  command: god
