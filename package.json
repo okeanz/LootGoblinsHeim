@@ -1,10 +1,11 @@
 {
   "name": "lootgoblinsheim",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "This is fork of RelicHeim modpack for my private server [LootGoblinsInc]",
   "main": "index.js",
   "scripts": {
-    "makePackage": "npm version patch --force && node ./index.js",
+    "zip": "node ./index.js",
+    "push": "npm version patch --force && npm run push",
     "prepare": "husky install",
     "preversion": "",
     "version": "",
@@ -20,9 +21,6 @@
     "url": "https://github.com/okeanz/LootGoblinsHeim/issues"
   },
   "homepage": "https://github.com/okeanz/LootGoblinsHeim#readme",
-  "devDependencies": {
-    "husky": "^8.0.3"
-  },
   "dependencies": {
     "archiver": "^6.0.1"
   }
