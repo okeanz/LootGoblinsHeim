@@ -67,4 +67,79 @@ English:
   BackpackSimple_description: Leather container attached to a wooden frame.
   BackpackHeavy: Heavy Backpack
   BackpackHeavy_description: Large chest hauled on ones shoulders with a canvas bag for additional storage.
+Russian:
+  ArmorNobleHelmet: Шляпа Кильфинга
+  ArmorNobleHelmet_description: Модная шляпа с меховой подкладкой, вы выглядите как дурак, который не представляет угрозы!
+  ArmorNobleChest: Облачение Кильфинга
+  ArmorNobleChest_description: Одежда, сшитая из знамен, сорванных с вашей усыпальницы, отличная альтернатива беготне по Ванахейму голым.
+  ArmorNobleLegs: Штаны Кильфинга
+  ArmorNobleLegs_description: Износившиеся, свободные штаны, идеальные для бегства от опасности!
+  ArmorNobleCape: Плащ Вегвизира
+  ArmorNobleCape_description: Волшебство вегвизира увеличивает вашу скорость.
+  ArmorBarbarianBronzeHelmetJD: Шлем варвара
+  ArmorBarbarianBronzeHelmetJD_description: Варварский шлем из металлического сплава.
+  ArmorBarbarianBronzeChestJD: Доспехи варвара
+  ArmorBarbarianBronzeChestJD_description: Металлический диск, прикрепленный к мехам, настоящий огненный топор бросается в бой несмотря на отсутствие защиты.
+  ArmorBarbarianBronzeLegsJD: Штаны варвара
+  ArmorBarbarianBronzeLegsJD_description: Плотные меха, обернутые вокруг талии, застегиваются стильным поясом.
+  ArmorBarbarianCapeJD: Плащ берсерка
+  ArmorBarbarianCapeJD_description: Плотный, короткий плащ из меха. Защищает спину тех, кто напился.
+  ArmorWarriorHelmet: Кольчуга Броккра
+  ArmorWarriorHelmet_description: Толстая металлическая кольчуга, защищающая от ударов, но не обеспечивающая защиту от ударов ножом.
+  ArmorWarriorChest: Броккр хауберк
+  ArmorWarriorChest_description: Жилет из кольчуги, украшенный рунами мужества, чтобы поднять дух.
+  ArmorWarriorLegs: Броккр ботинки
+  ArmorWarriorLegs_description: Кожаные меха и цепи, пришитые, чтобы поддерживать тепло и защищать своего носителя.
+  ArmorPlateIronHelmetJD: Шлем стража
+  ArmorPlateIronHelmetJD_description: Прочный металлический шлем с кожаным защитным воротником.
+  ArmorPlateIronChestJD: Доспехи стража
+  ArmorPlateIronChestJD_description: Толстые металлические пластины, заклепанные к кожаному каркасу, чтобы защитить вас от вреда, но если они покрыты ядом, вы пожалеете.
+  ArmorPlateIronLegsJD: Гривны стража
+  ArmorPlateIronLegsJD_description: Надежные гривны и наколенники из металла и кожи.
+  ArmorPlateCape: Плащ Саламандры
+  ArmorPlateCape_description: Плащ, созданный для защиты от опасных ситуаций.
+  ArmorDragonslayerHelmet: Рога Ниддхога
+  ArmorDragonslayerHelmet_description: Драконы дрожат от страха, когда видят почерневший шлем, украшенный рогами своих сородичей.
+  ArmorDragonslayerChest: Драконий доспех
+  ArmorDragonslayerChest_description: Пластины из серебра, пришитые к волчьим шкурам.
+  ArmorDragonslayerLegs: Драконьи гривны
+  ArmorDragonslayerLegs_description: Неудачник тот, кто оказывается на пути этих гривен.
+  ArmorWandererHelmet: Шляпа Ульфберхта
+  ArmorWandererHelmet_description: Традиционная монашеская металлическая шляпа.
+  ArmorWandererChest: Доспехи Ульфберхта
+  ArmorWandererChest_description: Маленькие металлические пластины, прикрепленные к кожаному жилету, легко обслуживать в путешествиях, но легко пораниться.
+  ArmorWandererLegs: Штаны Ульфберхта
+  ArmorWandererLegs_description: Прочные брюки с самодельной металлической защитой вокруг голенищ.
+  ArmorWandererCape: Плащ странника
+  ArmorWandererCape_description: Защищает от токсичных особ.
+  ArmorBlackmetalgarbHelmet: Шлем Рованиона
+  ArmorBlackmetalgarbHelmet_description: Металлический шлем с разноцветной подкладкой, достойный настоящего Рованиона.
+  ArmorBlackmetalgarbChest: Облачение Рованиона
+  ArmorBlackmetalgarbChest_description: Кочевое облачение, украшенное защитными элементами из кожи и металла.
+  ArmorBlackmetalgarbLegs: Ботинки Рованиона
+  ArmorBlackmetalgarbLegs_description: Толстые кожаные ботинки с металлическим носком.
+  ArmorSerpentHelmet: Шлем Йормунгандра
+  ArmorSerpentHelmet_description: Толстая металлическая каска, украшенная плавниками могучего змея. Стиль популярен среди рыцарей Севера.
+  ArmorSerpentChest: Доспехи Йормунгандра
+  ArmorSerpentChest_description: Пластины металла поверх плаща из чешуи морского змея. Идеальная одежда для распространения добрых слов Одина, но не обеспечивающая защиту от жары.
+  ArmorSerpentLegs: Кьюиссы Йормунгандра
+  ArmorSerpentLegs_description: Металлические кьюиссы, гривны и наголенники, отличная защита с немного рыбным запахом.
+  ArmorSerpentCape: Плащ рыцаря Йормунгандра
+  ArmorSerpentCape_description: Тяжелый темный плащ ордена Змея.
+  ArmorMistlandsHelmet: Рагнарок-саллет
+  ArmorMistlandsHelmet_description: Защитный шлем, защищающий лицо.
+  ArmorMistlandsChest: Доспехи Рагнарока
+  ArmorMistlandsChest_description: Толстый, многослойный гамбезон обеспечивает защиту от смертельных ударов... почти.
+  ArmorMistlandsLegs: Гривны Рагнарока
+  ArmorMistlandsLegs_description: С этими ногами вы знаете, как танцевать танец смерти.
+  BackpackSimple: Простой рюкзак
+  BackpackSimple_description: Кожаный контейнер, прикрепленный к деревянной раме.
+  BackpackHeavy: Тяжелый рюкзак
+  BackpackHeavy_description: Большой сундук, перевозимый на плечах с холстовой сумкой для дополнительного хранения.
+
+
+
+
+
+
 

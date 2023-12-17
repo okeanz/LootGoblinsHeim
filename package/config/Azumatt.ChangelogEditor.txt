@@ -1,11 +1,13 @@
-<color=#d666ff>RelicHeim Version: 4.2.5</color>
+<color=#d666ff>LootGoblinsHeim Version: 1.0.23</color>
 
-<color=#66f0ff>VES:</color>
-- Added new razorback set to enchant with scrolls
-<color=#66f0ff>Other:</color>
-- Updated mods for RelicHeim
+<color=#66f0ff>Обновления</color>
+- Ребалансировка сетов брони
+<color=#66f0ff>Поднятие версий модов под новый патч</color>
+- Jotunn -> 2.15.2
+- Smoothbrain-Groups -> 1.2.6
+<color=#66f0ff>Локализация:</color>
+- Сеты брони
+- Мод на замки (@Andres)
+- Цветовая схема аффиксов (@Andres)
 
-<color=red>EpicMMO Info</color>
-- The UI, by default will be at 0.7 scale, this will always load with each new update so users will need to adjust their UI again after every modpack update due to my adjustments for other stuff in the file being shared with UI. (sorry)
-
-<color=red>Vanilla Changelog Below:</color>
+<color=red>Vanilla Changelog:</color>

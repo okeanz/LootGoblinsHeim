@@ -15,12 +15,12 @@ translations:
   Regenerating: Регенерирующий
   Splitting: Почкующийся
   # infusion
-  Fire: Огненный
-  Frost: Ледяной
-  Lightning: Электрический
-  Chaos: Хаотический
-  Spirit: Вампирический
-  Poison: Ядовитый
+  Fire: "<color=orange>Огненный</color>"
+  Frost: "<color=#7CB9E8>Ледяной</color>"
+  Lightning: "<color=#BF00FF>Электрический</color>"
+  Chaos: '<color=brown>Хаотический</color>'
+  Spirit: "<color=red>Вампирический</color>"
+  Poison: "<color=#54FB0D>Ядовитый</color>"
   # affix
   Reflective: Спектральный Отражатель
   Shielded: Скользящий на Грани
@@ -30,19 +30,19 @@ translations:
   Enraged: Яростный
   Twin: Парный Титан
   
-  CreatureSectorLevelIncrease: Существа рядом с {player} усиливаются, чтобы отомстить за гибель своих сородичей.
+  CreatureSectorLevelIncrease: "Существа рядом с {player} усиливаются, чтобы отомстить за гибель своих сородичей."
   MinimapSectorLevel: 'Уровень сектора: {level}'
-  ConfigEditorSave: Save and Apply
-  ConfigEditorApplyNoSave: Apply without Saving
-  ConfigEditorDiscard: Discard and Close
-  Edit Creature YAML config: Edit Creature YAML config
-  Edit Item YAML config: Edit Item YAML config
-  SummonerEikthyr: '{boss} the Summoner summons {number} Greydwarves to their aid'
-  SummonerElder: '{boss} the Summoner summons a Greydwarf Brute to their aid'
-  SummonerBonemass: '{boss} the Summoner summons {number} Draugr Elite to their aid'
-  SummonerModer: '{boss} the Summoner summons {number} Drakes to their aid'
-  SummonerYagluth: '{boss} the Summoner summons a Fuling Berserker to their aid'
-  SummonerQueen: '{boss} the Summoner summons {number} Seeker to their aid'
+  ConfigEditorSave: "Сохранить и применить"
+  ConfigEditorApplyNoSave: "Применить без сохранения"
+  ConfigEditorDiscard: "Отменить и закрыть"
+  Edit Creature YAML config: 'Редактировать YAML конфиг существ'
+  Edit Item YAML config: 'Редактировать YAML конфиг предметов'
+  SummonerEikthyr: '{boss} призвал {number} грейдворфа себе на помощь'
+  SummonerElder: '{boss} призвал грейдворфа-дикоря себе на помощь'
+  SummonerBonemass: '{boss} призвала {number} элитных Драугов  себе на помощь'
+  SummonerModer: '{boss} призвала себе на помощь {number} Дрейков'
+  SummonerYagluth: '{boss} призвал Фулинг Берсерка себе на помощь'
+  SummonerQueen: '{boss} призвала {number} Искателья себе на помощь'
 
 enumTranslations:
   Toggle:

@@ -1,10 +1,10 @@
 noble's armor:
   set effect:
-    health regen modifier: 1
-    stamina regen modifier: 1
-    run stamina drain modifier: 0
-    jump stamina drain modifier: 0
-    carry weight modifier: 5
+    health regen modifier: 3
+    stamina regen modifier: 3
+    run stamina drain modifier: -3
+    jump stamina drain modifier: -3
+    carry weight modifier: 15
     skill modifier:
       skill: Run
       modifier: 10
@@ -170,16 +170,16 @@ noble's armor:
           amount per level: 0
 barbarian's armor:
   set effect:
-    health regen modifier: 0
-    stamina regen modifier: 4
-    run stamina drain modifier: -2
-    jump stamina drain modifier: 0
-    carry weight modifier: 5
+    health regen modifier: 12
+    stamina regen modifier: 6
+    run stamina drain modifier: -4
+    jump stamina drain modifier: -4
+    carry weight modifier: 25
     skill modifier:
       skill: Clubs
-      modifier: 2
+      modifier: 15
     damage modifiers:
-      Blunt: none
+      Blunt: Resistant
       Slash: none
       Pierce: none
       Chop: none
@@ -344,16 +344,16 @@ barbarian's armor:
 warrior's armor:
   set effect:
     health regen modifier: 4
-    stamina regen modifier: 0
-    run stamina drain modifier: 0
-    jump stamina drain modifier: -2
-    carry weight modifier: 5
+    stamina regen modifier: 12
+    run stamina drain modifier: -10
+    jump stamina drain modifier: -10
+    carry weight modifier: 25
     skill modifier:
       skill: Swords
-      modifier: 2
+      modifier: 15
     damage modifiers:
       Blunt: none
-      Slash: none
+      Slash: Resistant
       Pierce: none
       Chop: none
       Fire: none
@@ -478,18 +478,18 @@ warrior's armor:
           amount per level: 5
 plate armor:
   set effect:
-    health regen modifier: 2
-    stamina regen modifier: 6
-    run stamina drain modifier: -2
-    jump stamina drain modifier: -2
-    carry weight modifier: 5
+    health regen modifier: 18
+    stamina regen modifier: 9
+    run stamina drain modifier: -5
+    jump stamina drain modifier: -5
+    carry weight modifier: 40
     skill modifier:
       skill: Spears
-      modifier: 4
+      modifier: 25
     damage modifiers:
       Blunt: none
       Slash: none
-      Pierce: none
+      Pierce: Resistant
       Chop: none
       Fire: none
       Frost: none
@@ -654,14 +654,14 @@ plate armor:
           amount per level: 0
 dragonslayer's armor:
   set effect:
-    health regen modifier: 3
-    stamina regen modifier: 8
-    run stamina drain modifier: -2
-    jump stamina drain modifier: -2
-    carry weight modifier: 10
+    health regen modifier: 9
+    stamina regen modifier: 20
+    run stamina drain modifier: -10
+    jump stamina drain modifier: -10
+    carry weight modifier: 30
     skill modifier:
       skill: Bows
-      modifier: 6
+      modifier: 30
     damage modifiers:
       Blunt: none
       Slash: none
@@ -789,14 +789,14 @@ dragonslayer's armor:
           amount per level: 5
 wanderer's armor:
   set effect:
-    health regen modifier: 8
-    stamina regen modifier: 3
-    run stamina drain modifier: -4
-    jump stamina drain modifier: -2
-    carry weight modifier: 15
+    health regen modifier: 9
+    stamina regen modifier: 18
+    run stamina drain modifier: -12
+    jump stamina drain modifier: -12
+    carry weight modifier: 35
     skill modifier:
       skill: Unarmed
-      modifier: 6
+      modifier: 30
     damage modifiers:
       Blunt: none
       Slash: none
@@ -962,17 +962,17 @@ wanderer's armor:
           amount per level: 0
 nomad's armor:
   set effect:
-    health regen modifier: 10
-    stamina regen modifier: 5
+    health regen modifier: 25
+    stamina regen modifier: 10
     run stamina drain modifier: -5
-    jump stamina drain modifier: -3
-    carry weight modifier: 15
+    jump stamina drain modifier: -5
+    carry weight modifier: 60
     skill modifier:
       skill: Axes
-      modifier: 8
+      modifier: 45
     damage modifiers:
       Blunt: none
-      Slash: none
+      Slash: Resistant
       Pierce: none
       Chop: none
       Fire: none
@@ -1097,14 +1097,14 @@ nomad's armor:
           amount per level: 4
 serpent armor:
   set effect:
-    health regen modifier: 8
-    stamina regen modifier: 3
-    run stamina drain modifier: -3
+    health regen modifier: 25
+    stamina regen modifier: 10
+    run stamina drain modifier: -5
     jump stamina drain modifier: -5
-    carry weight modifier: 15
+    carry weight modifier: 60
     skill modifier:
       skill: Spears
-      modifier: 8
+      modifier: 45
     damage modifiers:
       Blunt: none
       Slash: none
@@ -1113,7 +1113,7 @@ serpent armor:
       Fire: none
       Frost: none
       Lightning: none
-      Poison: none
+      Poison: Resistant
       Spirit: none
   items:
     helmet:
@@ -1273,14 +1273,14 @@ serpent armor:
           amount per level: 0
 scorched armor:
   set effect:
-    health regen modifier: 9
-    stamina regen modifier: 9
-    run stamina drain modifier: -3
-    jump stamina drain modifier: -3
-    carry weight modifier: 10
+    health regen modifier: 34
+    stamina regen modifier: 15
+    run stamina drain modifier: -9
+    jump stamina drain modifier: -9
+    carry weight modifier: 80
     skill modifier:
       skill: Polearms
-      modifier: 10
+      modifier: 50
     damage modifiers:
       Blunt: none
       Slash: none
@@ -1289,7 +1289,7 @@ scorched armor:
       Fire: none
       Frost: none
       Lightning: none
-      Poison: none
+      Poison: Resistant
       Spirit: none
   items:
     helmet:

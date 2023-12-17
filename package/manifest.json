@@ -1,6 +1,6 @@
 {
   "name": "LootGoblinsHeim",
-  "version_number": "1.0.20",
+  "version_number": "1.0.23",
   "website_url": "",
   "description": "Private server modpack based on RelicHeim",
   "dependencies": [
@@ -9,7 +9,7 @@
     "OdinPlus-OdinsKingdom-1.2.5",
     "KGvalheim-Valheim_Enchantment_System-1.6.3",
     "Therzie-Monstrum-1.2.9",
-    "Smoothbrain-Groups-1.2.5",
+    "Smoothbrain-Groups-1.2.6",
     "Therzie-Warfare-1.5.8",
     "Therzie-WarfareFireAndIce-1.0.7",
     "Therzie-MonstrumAshlands-1.1.2",
@@ -17,7 +17,7 @@
     "ASharpPen-Less_Zdo_Corruption-1.0.1",
     "Advize-PlantEverything-1.16.1",
     "Smoothbrain-CreatureLevelAndLootControl-4.5.18",
-    "ValheimModding-Jotunn-2.15.0",
+    "ValheimModding-Jotunn-2.15.2",
     "Allegiant_Games-Simple_Meads-1.4.1",
     "Therzie-Armory-1.1.2",
     "RandyKnapp-EpicLoot-0.9.37",
