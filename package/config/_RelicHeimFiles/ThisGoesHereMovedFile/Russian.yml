@@ -17,9 +17,9 @@ translations:
   # infusion
   Fire: "<color=orange>Огненный</color>"
   Frost: "<color=#7CB9E8>Ледяной</color>"
-  Lightning: "<color=#BF00FF>Электрический</color>"
-  Chaos: '<color=brown>Хаотический</color>'
-  Spirit: "<color=red>Вампирический</color>"
+  Lightning: "<color=#00FFFF>Электрический</color>"
+  Chaos: "<color=#BF00FF>Хаотический</color>"
+  Spirit: "<color=#FF00FF>Вампирический</color>"
   Poison: "<color=#54FB0D>Ядовитый</color>"
   # affix
   Reflective: Спектральный Отражатель
