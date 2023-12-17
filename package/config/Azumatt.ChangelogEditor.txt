@@ -1,4 +1,4 @@
-<color=#d666ff>LootGoblinsHeim Version: 1.0.23</color>
+<color=#d666ff>LootGoblinsHeim Version: 1.0.24</color>
 
 <color=#66f0ff>Обновления</color>
 - Ребалансировка сетов брони
@@ -9,5 +9,6 @@
 - Сеты брони
 - Мод на замки (@Andres)
 - Цветовая схема аффиксов (@Andres)
+- Зачарования (EpicLoot)
 
 <color=red>Vanilla Changelog:</color>
