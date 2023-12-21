@@ -4,3 +4,9 @@
   command: fly
 - key: minus
   command: god
+- key: keypaddivide
+  command: heal
+- key: keypadminus
+  command: nocost
+- key: keypadplus
+  command: killenemies

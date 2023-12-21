@@ -312,12 +312,12 @@ GP Bar Position = {"x":830.0,"y":82.80000305175781}
 ## Current position of the Inventory
 # Setting type: Vector2
 # Default value: {"x":0.029999999329447748,"y":0.8349999785423279}
-Inventory Position = {"x":0.02593749761581421,"y":0.8816672563552856}
+Inventory Position = {"x":0.03335937485098839,"y":0.8566668033599854}
 
 ## Current position of the Chest Inventory
 # Setting type: Vector2
 # Default value: {"x":-0.01940000057220459,"y":1.065000057220459}
-Chest Inventory Position = {"x":0.029609376564621927,"y":0.8006945848464966}
+Chest Inventory Position = {"x":0.023359376937150956,"y":0.7875000238418579}
 
 ## Current position of the Crafting Panel
 # Setting type: Vector2

@@ -11,7 +11,7 @@ craftingStation: $piece_workbench
 piecehammerCategory: RaidDefender
 minStationLevel: 1
 amount: 1
-disabled: false
+disabled: true
 adminonly: false
 comfort: 
 groundPiece: false

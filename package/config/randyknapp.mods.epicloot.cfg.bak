@@ -1,4 +1,4 @@
-## Settings file was created by plugin Epic Loot v0.9.37
+## Settings file was created by plugin Epic Loot v0.9.36
 ## Plugin GUID: randyknapp.mods.epicloot
 
 [Abilities]
@@ -110,12 +110,12 @@ Global Drop Rate Modifier = 1
 ## Sets the chance that item drops are instead dropped as magic crafting materials. 0 = all items, no materials. 1 = all materials, no items. Values between 0 and 1 change the ratio of items to materials that drop. At 0.5, half of everything that drops would be items and the other half would be materials. Min = 0, Max = 1
 # Setting type: Single
 # Default value: 0
-Items To Materials Drop Ratio = 0.5
+Items To Materials Drop Ratio = 0
 
 ## When enchanted items are used as ingredients in recipes, transfer the highest enchant to the newly crafted item. Default: False.
 # Setting type: Boolean
 # Default value: false
-Transfer Enchants to Crafted Items = true
+Transfer Enchants to Crafted Items = false
 
 [Bounty Management]
 
@@ -134,7 +134,7 @@ Max Bounties Per Player = 6
 ## [Server Only] The configuration is locked and may not be changed by clients once it has been synced from the server. Only valid for server config, will have no effect on clients.
 # Setting type: Boolean
 # Default value: false
-Lock Config = true
+Lock Config = false
 
 [Crafting UI]
 

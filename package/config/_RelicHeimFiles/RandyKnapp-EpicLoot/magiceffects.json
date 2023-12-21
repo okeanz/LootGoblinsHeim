@@ -2286,12 +2286,6 @@
       "Description" : "$mod_epicloot_me_modifydiscoveryradius_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-		  "Shield",
-          "Legs",
-          "Shoulder",
-          "Utility"
         ]
       },
       "ValuesPerRarity" : {

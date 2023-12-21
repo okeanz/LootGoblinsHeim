@@ -1,4 +1,4 @@
-## Settings file was created by plugin MajesticChickens v1.4.4
+## Settings file was created by plugin MajesticChickens v1.4.1
 ## Plugin GUID: CookieMilk.MajesticChickens
 
 [Black Chick]
@@ -271,38 +271,6 @@ Drops = Default
 # Default value: Feathers:2-2:100:unrestricted:multiplyByLevel,mc_rawchickenmeat:1-1:100:unrestricted:multiplyByLevel
 Drop config = Feathers:2-2:100:unrestricted:multiplyByLevel,mc_rawchickenmeat:1-1:100:unrestricted:multiplyByLevel
 
-[Chicken Coop]
-
-## Build Category where Coop is available.
-# Setting type: BuildPieceCategory
-# Default value: Misc
-# Acceptable values: Misc, Crafting, Building, Furniture, Custom, All
-Build Table Category = Misc
-
-# Setting type: String
-# Default value: 
-Custom Build Category = 
-
-## Comma separated list of tools where Coop is available.
-# Setting type: String
-# Default value: Hammer
-Tools = Hammer
-
-## Crafting station where Coop is available.
-# Setting type: CraftingTable
-# Default value: Workbench
-# Acceptable values: None, Workbench, Cauldron, Forge, ArtisanTable, StoneCutter, MageTable, BlackForge, Custom
-Crafting Station = Workbench
-
-# Setting type: String
-# Default value: 
-Custom Crafting Station = 
-
-## Item costs to craft Coop
-# Setting type: String
-# Default value: FineWood:10:True,Feathers:10:True,BronzeNails:10:True
-Crafting Costs = FineWood:10:True,Feathers:10:True,BronzeNails:10:True
-
 [Cosmic Chicken]
 
 ## Health [Synced with Server]
@@ -350,7 +318,7 @@ Spawn = Default
 
 ## Configures the time of day for the creature to spawn.
 # Setting type: SpawnTime
-# Default value: Always
+# Default value: Night
 # Acceptable values: Day, Night, Always
 Spawn time = Night
 
@@ -390,7 +358,7 @@ Spawn area = Everywhere
 
 ## Configures the weather required for the creature to spawn.
 # Setting type: Weather
-# Default value: Fog
+# Default value: Rain, Fog
 # Acceptable values: None, ClearSkies, MeadowsClearSkies, LightRain, Rain, ThunderStorm, ClearThunderStorm, SwampRain, MistlandsDark, AshlandsAshrain, MountainSnow, MountainBlizzard, BlackForestFog, Fog, DeepNorthSnow, DeepNorthSnowStorm, DeepNorthClear, EikthyrsThunderstorm, EldersHaze, BonemassDownpour, ModersVortex, YagluthsMagicBlizzard, Crypt, SunkenCrypt
 # Multiple values can be set at the same time by separating them with , (e.g. Debug, Warning)
 Required weather = Rain, Fog
@@ -419,7 +387,7 @@ Maximum spawn interval = 1200
 
 ## Sets the chance for the creature to be spawned, every time Valheim checks the spawn.
 # Setting type: Single
-# Default value: 1
+# Default value: 5
 Spawn chance = 5
 
 ## If the creature can spawn in forests or cannot spawn in forests. Or both.
@@ -430,7 +398,7 @@ Forest condition = Both
 
 ## The maximum number of this creature near the player, before Valheim stops spawning it in. Setting this lower than the upper limit of the group size does not make sense.
 # Setting type: Int32
-# Default value: 1
+# Default value: 2
 Maximum creature count = 2
 
 ## Configures the drops for the creature.
@@ -589,38 +557,6 @@ Drop config = :2-2:100:unrestricted:multiplyByLevel
 # Setting type: Boolean
 # Default value: true
 Force Server Config = true
-
-[Hen Hut]
-
-## Build Category where Hen is available.
-# Setting type: BuildPieceCategory
-# Default value: Misc
-# Acceptable values: Misc, Crafting, Building, Furniture, Custom, All
-Build Table Category = Misc
-
-# Setting type: String
-# Default value: 
-Custom Build Category = 
-
-## Comma separated list of tools where Hen is available.
-# Setting type: String
-# Default value: Hammer
-Tools = Hammer
-
-## Crafting station where Hen is available.
-# Setting type: CraftingTable
-# Default value: Workbench
-# Acceptable values: None, Workbench, Cauldron, Forge, ArtisanTable, StoneCutter, MageTable, BlackForge, Custom
-Crafting Station = Workbench
-
-# Setting type: String
-# Default value: 
-Custom Crafting Station = 
-
-## Item costs to craft Hen
-# Setting type: String
-# Default value: Wood:10:True,Feathers:10:True,mc_rawchickenmeat:1:True
-Crafting Costs = Wood:10:True,Feathers:10:True,mc_rawchickenmeat:1:True
 
 [item_mc_boiledegg]
 
@@ -1941,7 +1877,7 @@ Quality Multiplier = 1
 
 ## Item costs to craft item_mc_cosmicseed
 # Setting type: String
-# Default value: mc_seed:10,Raspberry:25,Blueberries:25
+# Default value: mc_seed:10,Raspberry:50,Blueberries:50
 Crafting Costs = mc_seed:10,Raspberry:50,Blueberries:50
 
 ## item_mc_cosmicseed drops from this creature.
@@ -3101,7 +3037,7 @@ Health = 37
 
 ## Stamina value of item_mc_grilledchicken.
 # Setting type: Single
-# Default value: 10
+# Default value: 9
 Stamina = 9
 
 ## Eitr value of item_mc_grilledchicken.
@@ -3116,7 +3052,7 @@ Duration = 1200
 
 ## Health regen value of item_mc_grilledchicken.
 # Setting type: Single
-# Default value: 2
+# Default value: 3
 Health Regen = 3
 
 ## Which traders sell item_mc_grilledchicken.
@@ -3250,7 +3186,7 @@ Custom Crafting Station =
 
 ## Required crafting station level to craft item_mc_grilledchickendrums.
 # Setting type: Int32
-# Default value: 2
+# Default value: 3
 Crafting Station Level = 3
 
 ## Whether only one of the ingredients is needed to craft item_mc_grilledchickendrums
@@ -3286,12 +3222,12 @@ Trader Value = 0
 
 ## Health value of item_mc_grilledchickendrums.
 # Setting type: Single
-# Default value: 25
+# Default value: 28
 Health = 28
 
 ## Stamina value of item_mc_grilledchickendrums.
 # Setting type: Single
-# Default value: 15
+# Default value: 28
 Stamina = 28
 
 ## Eitr value of item_mc_grilledchickendrums.
@@ -3301,7 +3237,7 @@ Eitr = 0
 
 ## Duration of item_mc_grilledchickendrums.
 # Setting type: Single
-# Default value: 1500
+# Default value: 900
 Duration = 900
 
 ## Health regen value of item_mc_grilledchickendrums.
@@ -3365,12 +3301,12 @@ Eitr = 0
 
 ## Duration of item_mc_grilledchickennugget.
 # Setting type: Single
-# Default value: 1800
+# Default value: 1200
 Duration = 1200
 
 ## Health regen value of item_mc_grilledchickennugget.
 # Setting type: Single
-# Default value: 3
+# Default value: 2
 Health Regen = 2
 
 ## Which traders sell item_mc_grilledchickennugget.
@@ -3445,12 +3381,12 @@ Trader Value = 0
 
 ## Health value of item_mc_grilledchickenwings.
 # Setting type: Single
-# Default value: 15
+# Default value: 18
 Health = 18
 
 ## Stamina value of item_mc_grilledchickenwings.
 # Setting type: Single
-# Default value: 25
+# Default value: 18
 Stamina = 18
 
 ## Eitr value of item_mc_grilledchickenwings.
@@ -3460,7 +3396,7 @@ Eitr = 0
 
 ## Duration of item_mc_grilledchickenwings.
 # Setting type: Single
-# Default value: 1500
+# Default value: 900
 Duration = 900
 
 ## Health regen value of item_mc_grilledchickenwings.
@@ -3780,47 +3716,69 @@ Trader Required Global Key =
 
 [piece_mc_coop]
 
+## Build Category where Coop is available.
+# Setting type: BuildPieceCategory
+# Default value: Misc
+# Acceptable values: Misc, Crafting, Building, Furniture, Custom, All
 Build Table Category = Misc
 
+# Setting type: String
+# Default value: 
 Custom Build Category = 
 
+## Comma separated list of tools where Coop is available.
+# Setting type: String
+# Default value: Hammer
 Tools = Hammer
 
+## Crafting station where Coop is available.
+# Setting type: CraftingTable
+# Default value: Workbench
+# Acceptable values: None, Workbench, Cauldron, Forge, ArtisanTable, StoneCutter, MageTable, BlackForge, Custom
 Crafting Station = Workbench
 
+# Setting type: String
+# Default value: 
 Custom Crafting Station = 
 
+## Item costs to craft Coop
+# Setting type: String
+# Default value: FineWood:10:True,Feathers:10:True,BronzeNails:10:True
 Crafting Costs = FineWood:10:True,Feathers:10:True,BronzeNails:10:True
 
 [piece_mc_hen]
 
+## Build Category where Hen is available.
+# Setting type: BuildPieceCategory
+# Default value: Misc
+# Acceptable values: Misc, Crafting, Building, Furniture, Custom, All
 Build Table Category = Misc
 
+# Setting type: String
+# Default value: 
 Custom Build Category = 
 
+## Comma separated list of tools where Hen is available.
+# Setting type: String
+# Default value: Hammer
 Tools = Hammer
 
+## Crafting station where Hen is available.
+# Setting type: CraftingTable
+# Default value: Workbench
+# Acceptable values: None, Workbench, Cauldron, Forge, ArtisanTable, StoneCutter, MageTable, BlackForge, Custom
 Crafting Station = Workbench
 
+# Setting type: String
+# Default value: 
 Custom Crafting Station = 
 
+## Item costs to craft Hen
+# Setting type: String
+# Default value: Wood:10:True,Feathers:10:True,mc_seed:10:True,mc_rawchickenmeat:1:True
 Crafting Costs = Wood:10:True,Feathers:10:True,mc_seed:10:True,mc_rawchickenmeat:1:True
 
 [piece_mc_trough]
-
-Build Table Category = Misc
-
-Custom Build Category = 
-
-Tools = Hammer
-
-Crafting Station = Workbench
-
-Custom Crafting Station = 
-
-Crafting Costs = FineWood:10:True,Feathers:10:True,BronzeNails:10:True
-
-[Trough]
 
 ## Build Category where Trough is available.
 # Setting type: BuildPieceCategory
