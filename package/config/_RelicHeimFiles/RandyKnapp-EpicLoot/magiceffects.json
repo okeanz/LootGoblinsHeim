@@ -2294,7 +2294,7 @@
         "Epic" : 		{ "MinValue" : 1, "MaxValue" : 15, "Increment" : 0.1 },
         "Legendary" : 	{ "MinValue" : 1, "MaxValue" : 20, "Increment" : 0.1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 0,
       "Prefixes": [ "$mod_epicloot_me_modifydiscoveryradius_prefix1" ],
       "Suffixes": [ "$mod_epicloot_me_modifydiscoveryradius_suffix1" ]
     },

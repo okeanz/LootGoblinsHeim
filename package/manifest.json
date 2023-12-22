@@ -1,6 +1,6 @@
 {
   "name": "LootGoblinsHeim",
-  "version_number": "1.0.26",
+  "version_number": "1.0.27",
   "website_url": "",
   "description": "Private server modpack based on RelicHeim",
   "dependencies": [
@@ -16,7 +16,7 @@
     "Therzie-MonstrumDeepNorth-1.0.8",
     "ASharpPen-Less_Zdo_Corruption-1.0.1",
     "Advize-PlantEverything-1.16.1",
-    "Smoothbrain-CreatureLevelAndLootControl-4.5.18",
+    "Smoothbrain-CreatureLevelAndLootControl-4.5.19",
     "ValheimModding-Jotunn-2.15.2",
     "Allegiant_Games-Simple_Meads-1.4.1",
     "Therzie-Armory-1.1.2",

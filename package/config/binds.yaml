@@ -8,5 +8,5 @@
   command: heal
 - key: keypadminus
   command: nocost
-- key: keypadplus
+- key: keypadmultiply
   command: killenemies
