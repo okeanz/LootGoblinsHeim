@@ -1,0 +1,14 @@
+name: Recipe_Defender_Helmet_Iron_LG
+clonePrefabName: Defender_Helmet_Iron_LG
+craftingStation: $piece_armory_TW
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- HelmetIron:1:0:True
+- Iron:12:12:True
+- Bronze:10:6:True
+- RottenPelt_TW:4:3:True
