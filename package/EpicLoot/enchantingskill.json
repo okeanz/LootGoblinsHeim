@@ -1,0 +1,7 @@
+{
+  "EnchantLevels": [0, 25, 50, 80],
+  "successEnchantSkillMultiplier": 1.5,
+  "successDisenchantSkillMultiplier": 1.0,
+  "successAugmentationSkillMultiplier": 1.2,
+  "successConvertSkillMultiplier": 1.0
+}

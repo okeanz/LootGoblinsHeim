@@ -1452,7 +1452,7 @@ simple backpack:
         Poison: none
         Spirit: none
       recipe:
-        enabled: true
+        enabled: false
         station: piece_workbench
         minimum station level: 1
         requirements:
@@ -1511,7 +1511,7 @@ heavy backpack:
         Poison: none
         Spirit: none
       recipe:
-        enabled: true
+        enabled: false
         station: piece_workbench
         minimum station level: 1
         requirements:
