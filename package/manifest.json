@@ -1,7 +1,7 @@
 {
   "name": "LootGoblinsHeim",
-  "version_number": "1.0.33",
-  "website_url": "",
+  "version_number": "1.0.34",
+  "website_url": "https://github.com/okeanz/LootGoblinsHeim",
   "description": "Private server modpack based on RelicHeim",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2202",
