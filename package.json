@@ -1,6 +1,6 @@
 {
   "name": "lootgoblinsheim",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "description": "This is fork of RelicHeim modpack for my private server [LootGoblinsInc]",
   "main": "index.js",
   "scripts": {
