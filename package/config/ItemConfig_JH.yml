@@ -48,82 +48,27 @@ all:
     pickup: yes
 # stuff floats in water; everything is pickable
 Stackable:
-    stack: 200
+    stack: 20
 # all stackable items
 DragonEgg:
-    stack: 3
-    weight: 100
+    stack: 1
+    weight: 200
 AshenEgg_TW:
-    stack: 3
-    weight: 150
+    stack: 1
+    weight: 250
 ArcticEgg_TW:
-    stack: 3
-    weight: 150
+    stack: 1
+    weight: 250
 # eggs stack up to 3, and weigh considerably less
 MeadBase:
-    stack: 100
+    stack: 10
 mmo_mead_minor:
-    stack: 100
+    stack: 10
 mmo_mead_med:
-    stack: 100
+    stack: 10
 mmo_mead_greater:
-    stack: 100
+    stack: 10
 Food:
-    stack: 200
-    loss: no
-# food stacks to 200 and doesn't be removed from inventory on death
+    stack: 10
 CustomFood:
-    stack: 200
-    loss: no
-# food stacks to 200 and doesn't be removed from inventory on death
-metal:
-    teleportable: no
-    stack: 100
-    Weight: 10
-ore:
-    teleportable: no
-    stack: 100
-# ores and metals are not teleportable, stack to 100 and metals weight only 10
-Stone:
-    stack: 200
-    Weight: 1
-BlackMarble:
-    stack: 200
-    Weight: 1
-# stones stack to 100 and metals weight only 1
-trophy:
-    stack: 100
-    Weight: 2
-boss trophy:
-    stack: 100
-    Weight: 2
-# trophys stack up to 100 and weight only 2
-Coins:
-    stack: 5000
-    weight: 0.05
-valuable:
-    stack: 100
-    weight: 0.05
-# make coins, valuables lighter
-Wood:
-    stack: 200
-    weight: 1
-FineWood:
-    stack: 200
-    weight: 1
-RoundLog:
-    stack: 200
-    weight: 1
-ElderBark:
-    stack: 200
-    weight: 1
-YggdrasilWood:
-    stack: 200
-    weight: 1
-BorealWood_TW:
-    stack: 200
-    weight: 1
-ScorchedWood_TW:
-    stack: 200
-    weight: 1
-# All Wood types stack to 100 and weight half
+    stack: 10

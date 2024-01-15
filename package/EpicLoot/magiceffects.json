@@ -3,8 +3,8 @@
     {
       "Type" : "DvergerCirclet",
       "DisplayText" : "$mod_epicloot_me_dvergercirclet_display",
-      "CanBeAugmented": false, 
-      "CanBeDisenchanted": false, 
+      "CanBeAugmented": false,
+      "CanBeDisenchanted": false,
       "Requirements" : {
         "NoRoll": true
       },
@@ -13,8 +13,8 @@
     {
       "Type" : "Megingjord",
       "DisplayText" : "$mod_epicloot_me_megingjord_display",
-      "CanBeAugmented": false, 
-      "CanBeDisenchanted": false, 
+      "CanBeAugmented": false,
+      "CanBeDisenchanted": false,
       "Requirements" : {
         "NoRoll": true
       },
@@ -23,8 +23,8 @@
     {
       "Type" : "Wishbone",
       "DisplayText" : "$mod_epicloot_me_wishbone_display",
-      "CanBeAugmented": false, 
-      "CanBeDisenchanted": false, 
+      "CanBeAugmented": false,
+      "CanBeDisenchanted": false,
       "Requirements" : {
         "NoRoll": true
       },
@@ -33,8 +33,8 @@
     {
       "Type": "Andvaranaut",
       "DisplayText" : "$mod_epicloot_me_andvaranaut_display",
-      "CanBeAugmented": false, 
-      "CanBeDisenchanted": false, 
+      "CanBeAugmented": false,
+      "CanBeDisenchanted": false,
       "Requirements" : {
         "NoRoll": true
       },
@@ -49,15 +49,15 @@
           "AddBluntDamage",
           "AddSlashingDamage",
           "AddPiercingDamage",
-		  "ModifyPhysicalDamage",
-		  "DoubleMagicShot"
+          "ModifyPhysicalDamage",
+          "DoubleMagicShot"
         ],
         "AllowedItemTypes" : [
           "OneHandedWeapon",
           "TwoHandedWeapon",
-		  "TwoHandedWeaponLeft",
+          "TwoHandedWeaponLeft",
           "Bow",
-		  "Staff"
+          "Staff"
         ]
       },
       "ValuesPerRarity" : {
@@ -77,13 +77,13 @@
           "AddBluntDamage",
           "AddSlashingDamage",
           "AddPiercingDamage",
-		  "ModifyDamage",
-		  "DoubleMagicShot"
+          "ModifyDamage",
+          "DoubleMagicShot"
         ],
         "AllowedItemTypes" : [
           "OneHandedWeapon",
           "TwoHandedWeapon",
-		  "TwoHandedWeaponLeft",
+          "TwoHandedWeaponLeft",
           "Bow"
         ],
         "ItemHasPhysicalDamage" : true
@@ -118,7 +118,7 @@
       "DisplayText" : "$mod_epicloot_me_modifyelementaldamage_display",
       "Description" : "$mod_epicloot_me_modifyelementaldamage_desc",
       "Requirements" : {
-		  "NoRoll": true,
+        "NoRoll": true,
         "ExclusiveEffectTypes" : [
           "AddFireDamage",
           "AddFrostDamage",
@@ -368,7 +368,7 @@
         "AllowedSkillTypes" : [
           "Knives",
           "Bows",
-		  "Unarmed"
+          "Unarmed"
         ],
         "ItemHasBackstabBonus" : true
       },
@@ -396,7 +396,7 @@
         "AllowedItemTypes" : [
           "Chest",
           "Utility",
-		  "Shoulder"
+          "Shoulder"
         ]
       },
       "ValuesPerRarity" : {
@@ -555,7 +555,7 @@
         "AllowedRarities" : [
           "Epic",
           "Legendary"
-        ] 
+        ]
       },
       "ValuesPerRarity" : {
         "Epic" : 	  { "MinValue" : 5, "MaxValue" : 15, "Increment" : 0.5 },
@@ -1170,9 +1170,9 @@
       "Requirements" : {
         "ExclusiveEffectTypes" : [
           "AddFireResistancePercentage",
-		  "AddFrostResistancePercentage",
-		  "AddLightningResistancePercentage",
-		  "AddPoisonResistancePercentage"
+          "AddFrostResistancePercentage",
+          "AddLightningResistancePercentage",
+          "AddPoisonResistancePercentage"
         ],
         "AllowedItemTypes" : [
           "Helmet",
@@ -1202,15 +1202,15 @@
       "Requirements" : {
         "ExclusiveEffectTypes" : [
           "AddSlashingResistancePercentage",
-		  "AddPiercingResistancePercentage"
-		],
+          "AddPiercingResistancePercentage"
+        ],
         "AllowedItemTypes" : [
           "Chest"
         ],
         "AllowedRarities" : [
           "Magic",
-		  "Rare",
-		  "Epic",
+          "Rare",
+          "Epic",
           "Legendary"
         ]
       },
@@ -1235,15 +1235,15 @@
       "Requirements" : {
         "ExclusiveEffectTypes" : [
           "AddBluntResistancePercentage",
-		  "AddPiercingResistancePercentage"
-		],
+          "AddPiercingResistancePercentage"
+        ],
         "AllowedItemTypes" : [
           "Chest"
         ],
         "AllowedRarities" : [
           "Magic",
-		  "Rare",
-		  "Epic",
+          "Rare",
+          "Epic",
           "Legendary"
         ]
       },
@@ -1268,15 +1268,15 @@
       "Requirements" : {
         "ExclusiveEffectTypes" : [
           "AddSlashingResistancePercentage",
-		  "AddPiercingResistancePercentage"
-		],
+          "AddPiercingResistancePercentage"
+        ],
         "AllowedItemTypes" : [
           "Chest",
         ],
         "AllowedRarities" : [
           "Magic",
-		  "Rare",
-		  "Epic",
+          "Rare",
+          "Epic",
           "Legendary"
         ]
       },
@@ -1299,7 +1299,7 @@
       "DisplayText" : "$mod_epicloot_me_addchoppingresistancepercentage_display",
       "Description" : "$mod_epicloot_me_addchoppingresistancepercentage_desc",
       "Requirements" : {
-        "NoRoll": true, 
+        "NoRoll": true,
         "AllowedItemTypes" : [
           "Helmet",
           "Chest",
@@ -1328,7 +1328,7 @@
       "DisplayText" : "$mod_epicloot_me_addphysicalresistancepercentage_display",
       "Description" : "$mod_epicloot_me_addphysicalresistancepercentage_desc",
       "Requirements" : {
-		  "NoRoll": true,
+        "NoRoll": true,
         "AllowedItemTypes" : [
           "Helmet",
           "Chest",
@@ -1519,7 +1519,7 @@
       "DisplayText" : "$mod_epicloot_me_weightless_display",
       "Description" : "$mod_epicloot_me_weightless_desc",
       "Requirements" : {
-		  "NoRoll": true,
+        "NoRoll": true,
         "ExclusiveEffectTypes" : [
           "ReduceWeight"
         ],
@@ -1641,9 +1641,9 @@
         ],
         "ExcludedItemTypes": [
           "Staff",
-		  "Helmet",
+          "Helmet",
           "Chest",
-		  "Shield",
+          "Shield",
           "Legs",
           "Shoulder",
           "Utility"
@@ -1666,7 +1666,7 @@
       "DisplayText" : "$mod_epicloot_me_waterproof_display",
       "Description" : "$mod_epicloot_me_waterproof_desc",
       "Requirements" : {
-		  "NoRoll": true,
+        "NoRoll": true,
         "AllowedItemTypes" : [
           "Shoulder"
         ]
@@ -1715,7 +1715,7 @@
       "Requirements" : {
         "AllowedItemTypes" : [
           "Utility",
-		  "Legs"
+          "Legs"
         ],
         "AllowedRarities" : [
           "Epic",
@@ -1812,7 +1812,7 @@
       "Requirements" : {
         "AllowedItemTypes" : [
           "OneHandedWeapon",
-		  "TwoHandedWeaponLeft"
+          "TwoHandedWeaponLeft"
         ],
         "AllowedSkillTypes" : [
           "Swords"
@@ -1974,7 +1974,7 @@
       "Type" : "AddBowsSkill",
       "DisplayText" : "$mod_epicloot_me_addbowsskill_display",
       "Description" : "$mod_epicloot_me_addbowsskill_desc",
-      "CanBeAugmented": false, 
+      "CanBeAugmented": false,
       "Requirements" : {
         "AllowedSkillTypes" : [
           "Bows"
@@ -2000,7 +2000,7 @@
       "Description" : "$mod_epicloot_me_addbloodmagicskill_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-		  "Staffs"
+          "Staffs"
         ],
         "AllowedSkillTypes" : [
           "BloodMagic"
@@ -2026,7 +2026,7 @@
       "Description" : "$mod_epicloot_me_addelementalmagicskill_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-		  "Staffs"
+          "Staffs"
         ],
         "AllowedSkillTypes" : [
           "ElementalMagic"
@@ -2174,7 +2174,7 @@
       "DisplayText" : "$mod_epicloot_me_freebuild_display",
       "Description" : "$mod_epicloot_me_freebuild_desc",
       "Requirements" : {
-		  "NoRoll": true,
+        "NoRoll": true,
         "AllowedItemNames" : [
           "$item_hammer",
           "$item_hoe"
@@ -2303,7 +2303,7 @@
       "DisplayText" : "$mod_epicloot_me_comfortable_display",
       "Description" : "$mod_epicloot_me_comfortable_desc",
       "Requirements" : {
-		  "NoRoll": true,
+        "NoRoll": true,
         "AllowedItemTypes" : [
           "Chest",
           "Legs",
@@ -2421,7 +2421,7 @@
         "AllowedRarities" : [
           "Epic",
           "Legendary"
-        ] 
+        ]
       },
       "ValuesPerRarity" : {
         "Epic" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
@@ -2589,17 +2589,17 @@
         "AllowedItemTypes" : [
           "Helmet",
           "Chest",
-		  "Shield",
+          "Shield",
           "Legs",
           "Shoulder",
           "Utility"
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : 		{ "MinValue" : 2, "MaxValue" : 10, "Increment" : 1 },
-        "Rare" : 		{ "MinValue" : 3, "MaxValue" : 10, "Increment" : 1 },
-        "Epic" : 		{ "MinValue" : 4, "MaxValue" : 10, "Increment" : 1 },
-        "Legendary" : 	{ "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 }
+        "Magic" : 		{ "MinValue" : 4, "MaxValue" : 8, "Increment" : 1 },
+        "Rare" : 		{ "MinValue" : 6, "MaxValue" : 12, "Increment" : 1 },
+        "Epic" : 		{ "MinValue" : 8, "MaxValue" : 16, "Increment" : 1 },
+        "Legendary" : 	{ "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 }
       },
       "SelectionWeight" : 1,
       "Prefixes": [ "$mod_epicloot_me_avoiddamagetakenlowhealth_prefix1" ],
@@ -2642,7 +2642,7 @@
       "Type" : "Glowing",
       "DisplayText" : "$mod_epicloot_me_glowing_display",
       "Description" : "$mod_epicloot_me_glowing_desc",
-      "EquipFx" : "GlowingAura", 
+      "EquipFx" : "GlowingAura",
       "Requirements" : {
         "AllowedItemTypes" : [
           "Helmet",
@@ -2755,9 +2755,9 @@
         ],
         "AllowedSkillTypes" : [
           "Swords",
-		  "Spears",
-		  "Knives",
-		  "Unarmed"
+          "Spears",
+          "Knives",
+          "Unarmed"
         ]
       },
       "ValuesPerRarity" : {
@@ -2827,7 +2827,7 @@
       "Requirements" : {
         "AllowedItemTypes" : [
           "Helmet",
-		  "Utility"
+          "Utility"
         ],
         "AllowedRarities" : [
           "Legendary"
@@ -2917,7 +2917,7 @@
           "ElementalMagic"
         ],
         "AllowedRarities" : [
-		  "Legendary"
+          "Legendary"
         ]
       },
       "SelectionWeight" : 0.2,
@@ -2933,18 +2933,18 @@
       "DisplayText" : "$mod_epicloot_me_triplebowshot",
       "Description" : "$mod_epicloot_me_triplebowshot_desc",
       "Requirements" : {
-		  "NoRoll": true,
+        "NoRoll": true,
         "ExclusiveEffectTypes" : [
           "QuickDraw",
-		  "ModifyDamage",
-		  "ModifyPhysicalDamage",
+          "ModifyDamage",
+          "ModifyPhysicalDamage",
           "ExplosiveArrows"
         ],
         "AllowedItemTypes" : [
           "Bow"
         ],
         "AllowedRarities" : [
-		  "Legendary"
+          "Legendary"
         ]
       },
       "SelectionWeight" : 0.2,
@@ -2962,7 +2962,7 @@
       "Type" : "Bulwark",
       "DisplayText" : "$mod_epicloot_set_me_bulwark",
       "Requirements" : {
-        "NoRoll" :  true 
+        "NoRoll" :  true
       },
       "ValuesPerRarity" : {
         "Legendary" : { "MinValue" : 5, "MaxValue" : 5, "Increment" : 1 }
@@ -2973,7 +2973,7 @@
       "Type" : "Undying",
       "DisplayText" : "$mod_epicloot_set_me_undying",
       "Requirements" : {
-        "NoRoll" :  true 
+        "NoRoll" :  true
       },
       "Ability" : "Undying"
     },
@@ -2991,7 +2991,7 @@
       "Type" : "Berserker",
       "DisplayText" : "$mod_epicloot_set_me_berserker",
       "Requirements" : {
-        "NoRoll" :  true 
+        "NoRoll" :  true
       },
       "Ability" : "Berserker"
     }

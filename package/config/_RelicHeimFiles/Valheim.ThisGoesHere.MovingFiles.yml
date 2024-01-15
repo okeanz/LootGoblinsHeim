@@ -1,7 +1,4 @@
 ﻿PrintComment: ThisGoesHere is moving edited files
-CopyFolder:
-- From: config\_RelicHeimFiles\RandyKnapp-EpicLoot\
-  To: plugins\
 CopyFile:
 - From: config\_RelicHeimFiles\ThisGoesHereMovedFile\English.yml
   To: plugins\Smoothbrain-CreatureLevelAndLootControl\English.yml
