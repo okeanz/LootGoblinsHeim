@@ -47,15 +47,15 @@
       { "Item": "RunestoneLegendary", "GoldBountyTokenCost": 7, "GlobalKeyRequire": "defeated_queen" },
       { "Item": "EssenceLegendary",   "GoldBountyTokenCost": 10, "GlobalKeyRequire": "defeated_queen" },
 
-	    { "Item": "EnchantedKey",       "ForestTokenCost": 20, "GlobalKeyRequire": "defeated_eikthyr" },
-	    { "Item": "Andvaranaut",        "ForestTokenCost": 10, "GlobalKeyRequire": "defeated_eikthyr" }
+      { "Item": "EnchantedKey",       "ForestTokenCost": 20, "GlobalKeyRequire": "defeated_eikthyr" },
+      { "Item": "Andvaranaut",        "ForestTokenCost": 10, "GlobalKeyRequire": "defeated_eikthyr" }
     ],
     "Materials": []
   },
   "Gamble": { 
     "RefreshInterval": 1,
     "Gambles": [
-	    "Swords",
+      "Swords",
       "Axes",
       "TwoHandAxes",
       "Knives",
@@ -237,7 +237,7 @@
     "SaleItems": [] 
   },
   "Bounties": { 
-    "RefreshInterval": 0.1,
+    "RefreshInterval": 1,
     "IronMinLevel": 3,
     "IronMaxLevel": 4,
     "IronHealthMultiplier": 2.5,
@@ -306,7 +306,6 @@
       { "Biome": "Plains", "TargetID": "ML_GoblinLox",      "RewardGold": 2, "RewardIron": 4, "RewardCoins": 1000 },
       { "Biome": "Plains", "TargetID": "GoblinBrute",       "RewardGold": 2, "RewardIron": 4, "RewardCoins": 1300 },
 
-
       { "Biome": "Mistlands", "TargetID": "Seeker",       "RewardGold": 0, "RewardIron": 0, "RewardCoins": 10 },
       { "Biome": "Mistlands", "TargetID": "SeekerBrute",  "RewardGold": 0, "RewardIron": 0, "RewardCoins": 10 },
       { "Biome": "Mistlands", "TargetID": "Gjall",        "RewardGold": 0, "RewardIron": 0, "RewardCoins": 10 },
@@ -334,7 +333,7 @@
       { "Biome": "DeepNorth", "TargetID": "ArcticWolf_TW",      "RewardGold": 0, "RewardIron": 0, "RewardCoins": 10 },
       { "Biome": "DeepNorth", "TargetID": "ArcticMammoth_TW",   "RewardGold": 0, "RewardIron": 0, "RewardCoins": 10 }
     ],
-	"Bosses": [
+  "Bosses": [
       { "Biome": "Meadows",     "BossPrefab": "Eikthyr",      "BossDefeatedKey": "defeated_eikthyr" },
       { "Biome": "BlackForest", "BossPrefab": "gd_king",      "BossDefeatedKey": "defeated_gdking" },
       { "Biome": "Ocean",       "BossPrefab": "Bonemass",     "BossDefeatedKey": "defeated_bonemass" },
