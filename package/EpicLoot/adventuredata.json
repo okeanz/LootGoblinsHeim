@@ -125,6 +125,7 @@
       { "Item": "AxeIron",                        "IronBountyTokenCost": 3 },                           // [5   | 7   | 9    | 11   ]
       { "Item": "AxeSilver_TW",                   "IronBountyTokenCost": 1, "GoldBountyTokenCost": 2 }, // [3,4 | 5,6 | 7,8  | 9,10 ]
       { "Item": "AxeBlackMetal",                  "IronBountyTokenCost": 2, "GoldBountyTokenCost": 2 }, // [4,4 | 6,6 | 8,8  | 8,10 ]
+      { "Item": "AxeJotunBane",                   "IronBountyTokenCost": 4, "GoldBountyTokenCost": 2 }, // [6,4 | 8,6 | 10,8 | 12,10]
       { "Item": "AxeDvergr_TW",                   "IronBountyTokenCost": 2, "GoldBountyTokenCost": 3 }, // [4,5 | 6,7 | 8,9  | 10,11]
       { "Item": "AxeNjord_TW",                    "IronBountyTokenCost": 4, "GoldBountyTokenCost": 4 }, // [6,6 | 8,8 | 10,10| 12,12]
       { "Item": "AxeSurtr_TW",                    "IronBountyTokenCost": 4, "GoldBountyTokenCost": 4 }, // [6,6 | 8,8 | 10,10| 12,12]
@@ -150,6 +151,8 @@
       { "Item": "KnifeWrench_TW",                 "IronBountyTokenCost": 3 },                           // [5   | 7   | 9    | 11   ]
       { "Item": "KnifeIron_TW",                   "IronBountyTokenCost": 3 },                           // [5   | 7   | 9    | 11   ]
       { "Item": "KnifeSilver",                    "IronBountyTokenCost": 1, "GoldBountyTokenCost": 2 }, // [3,4 | 5,6 | 7,8  | 9,10 ]
+      { "Item": "KnifeBlackMetal",                "IronBountyTokenCost": 2, "GoldBountyTokenCost": 3 }, // [4,5 | 6,7 | 8,9  | 10,11]
+      { "Item": "KnifeSkollAndHati",              "IronBountyTokenCost": 3, "GoldBountyTokenCost": 3 }, // [5,5 | 7,7 | 9,9  | 11,11]
       { "Item": "KnifeNjord_TW",                  "IronBountyTokenCost": 4, "GoldBountyTokenCost": 4 }, // [6,6 | 8,8 | 10,10| 12,12]
       { "Item": "KnifeSurtr_TW",                  "IronBountyTokenCost": 4, "GoldBountyTokenCost": 4 }, // [6,6 | 8,8 | 10,10| 12,12]
       // ------------------------------------------------------------------------------------------------------------------------------
@@ -158,6 +161,7 @@
       { "Item": "FistBronze_TW",                  "ForestTokenCost": 2 },                               // [4   | 6   | 8    | 10   ]
       { "Item": "FistChitin_TW",                  "ForestTokenCost": 2, "IronBountyTokenCost": 1 },     // [4,3 | 6,5 | 8,7  | 10,9 ]
       { "Item": "FistIron_TW",                    "IronBountyTokenCost": 3 },                           // [5   | 7   | 9    | 11   ]
+      { "Item": "FistFenrirClaw",                 "IronBountyTokenCost": 2, "GoldBountyTokenCost": 1 }, // [4,3 | 6,5 | 8,7  | 10,9 ]
       { "Item": "FistSilver_TW",                  "IronBountyTokenCost": 1, "GoldBountyTokenCost": 2 }, // [3,4 | 5,6 | 7,8  | 9,10 ]
       { "Item": "FistBlackmetal_TW",              "IronBountyTokenCost": 2, "GoldBountyTokenCost": 2 }, // [4,4 | 6,6 | 8,8  | 10,10]
       { "Item": "FistDvergr_TW",                  "IronBountyTokenCost": 2, "GoldBountyTokenCost": 3 }, // [4,5 | 6,7 | 8,9  | 10,11]
@@ -203,6 +207,7 @@
       { "Item": "SledgeBlackmetal_TW",            "IronBountyTokenCost": 3, "GoldBountyTokenCost": 3 }, // [5,5 | 7,7 | 9,9  | 11,11]
       { "Item": "BattlehammerBlackmetal_TW",      "IronBountyTokenCost": 3, "GoldBountyTokenCost": 3 }, // [5,5 | 7,7 | 9,9  | 11,11]
       { "Item": "SledgeDemolisher",               "IronBountyTokenCost": 5, "GoldBountyTokenCost": 3 }, // [7,5 | 9,7 | 11,9 | 13,11]
+      { "Item": "SledgeDemolisher_TW",            "IronBountyTokenCost": 5, "GoldBountyTokenCost": 3 }, // [7,5 | 9,7 | 11,9 | 13,11]
       { "Item": "BattlehammerDvergr_TW",          "IronBountyTokenCost": 4, "GoldBountyTokenCost": 3 }, // [6,5 | 8,7 | 10,9 | 12,11]
       { "Item": "SledgeNjord_TW",                 "IronBountyTokenCost": 5, "GoldBountyTokenCost": 5 }, // [7,7 | 9,9 | 11,11| 13,13]
       { "Item": "BattlehammerNjord_TW",           "IronBountyTokenCost": 5, "GoldBountyTokenCost": 5 }, // [7,7 | 9,9 | 11,11| 13,13]
@@ -248,7 +253,7 @@
       { "Item": "SpearSurtr_TW",                  "IronBountyTokenCost": 4, "GoldBountyTokenCost": 4 }, // [6,6 | 8,8 | 10,10| 12,12]
       { "Item": "LanceSurtr_TW",                  "IronBountyTokenCost": 4, "GoldBountyTokenCost": 4 }, // [6,6 | 8,8 | 10,10| 12,12]
       // ------------------------------------------------------------------------------------------------------------------------------
-      // WEAPONS - Atgeirs
+      // WEAPONS - POLEARMS
       { "Item": "AtgeirFlint_TW",                 "ForestTokenCost": 2 },                               // [4   | 6   | 8    | 10   ]
       { "Item": "WarpikeBone_TW",                 "ForestTokenCost": 3 },                               // [5   | 7   | 9    | 11   ]
       { "Item": "AtgeirBronze",                   "ForestTokenCost": 4 },                               // [6   | 8   | 10   | 12   ]
@@ -257,7 +262,9 @@
       { "Item": "WarpikeObsidian_TW",             "IronBountyTokenCost": 3, "GoldBountyTokenCost": 2 }, // [5,4 | 7,6 | 9,8  | 11,10]
       { "Item": "AtgeirSilver_TW",                "IronBountyTokenCost": 3, "GoldBountyTokenCost": 2 }, // [5,4 | 7,6 | 9,8  | 11,10]
       { "Item": "WarpikeBlackmetal_TW",           "IronBountyTokenCost": 3, "GoldBountyTokenCost": 3 }, // [5,5 | 7,7 | 9,9  | 11,11]
+      { "Item": "AtgeirBlackmetal",               "IronBountyTokenCost": 3, "GoldBountyTokenCost": 3 }, // [5,5 | 7,7 | 9,9  | 11,11]
       { "Item": "WarpikeDvergr_TW",               "IronBountyTokenCost": 4, "GoldBountyTokenCost": 3 }, // [6,5 | 8,7 | 10,9 | 12,11]
+      { "Item": "AtgeirHimminAfl",                "IronBountyTokenCost": 4, "GoldBountyTokenCost": 3 }, // [6,5 | 8,7 | 10,9 | 12,11]
       { "Item": "AtgeirNjord_TW",                 "IronBountyTokenCost": 5, "GoldBountyTokenCost": 5 }, // [7,7 | 9,9 | 11,11| 13,13]
       { "Item": "WarpikeNjord_TW",                "IronBountyTokenCost": 5, "GoldBountyTokenCost": 5 }, // [7,7 | 9,9 | 11,11| 13,13]
       { "Item": "AtgeirSurtr_TW",                 "IronBountyTokenCost": 5, "GoldBountyTokenCost": 5 }, // [7,7 | 9,9 | 11,11| 13,13]
@@ -505,6 +512,14 @@
       { "Item": "HelmetBold_TW",                  "IronBountyTokenCost": 3, "GoldBountyTokenCost": 4 }, // [5,6 | 7,8 | 9,10 | 11,12]
       { "Item": "ArmorBoldChest_TW",              "IronBountyTokenCost": 3, "GoldBountyTokenCost": 4 }, // [5,6 | 7,8 | 9,10 | 11,12]
       { "Item": "ArmorBoldLegs_TW",               "IronBountyTokenCost": 3, "GoldBountyTokenCost": 4 }, // [5,6 | 7,8 | 9,10 | 11,12]
+      // Serpent
+      { "Item": "ArmorSerpentHelmet",             "IronBountyTokenCost": 3, "GoldBountyTokenCost": 4 }, // [5,6 | 7,8 | 9,10 | 11,12]
+      { "Item": "ArmorSerpentChest",              "IronBountyTokenCost": 3, "GoldBountyTokenCost": 4 }, // [5,6 | 7,8 | 9,10 | 11,12]
+      { "Item": "ArmorSerpentLegs",               "IronBountyTokenCost": 3, "GoldBountyTokenCost": 4 }, // [5,6 | 7,8 | 9,10 | 11,12]
+      // Blackmetalgarb
+      { "Item": "ArmorBlackmetalgarbHelmet",      "IronBountyTokenCost": 3, "GoldBountyTokenCost": 4 }, // [5,6 | 7,8 | 9,10 | 11,12]
+      { "Item": "ArmorBlackmetalgarbChest",       "IronBountyTokenCost": 3, "GoldBountyTokenCost": 4 }, // [5,6 | 7,8 | 9,10 | 11,12]
+      { "Item": "ArmorBlackmetalgarbLegs",        "IronBountyTokenCost": 3, "GoldBountyTokenCost": 4 }, // [5,6 | 7,8 | 9,10 | 11,12]
       // ------------------------------------------------------------------------------------------------------------------------------
       // ARMOR - TIER 6
       { "Item": "CapeFeather",                    "IronBountyTokenCost": 2, "GoldBountyTokenCost": 3 }, // [6,5 | 8,7 | 10,9 | 12,11]
