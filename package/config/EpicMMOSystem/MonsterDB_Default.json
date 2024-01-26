@@ -6,6 +6,12 @@
     "level": 6
   },
   {
+    "name": "LG_StormBoar",
+    "minExp": 40,
+    "maxExp": 60,
+    "level": 10
+  },
+  {
     "name": "Deer",
     "minExp": 10,
     "maxExp": 20,
@@ -333,7 +339,7 @@
     "name": "Eikthyr",
     "minExp": 500,
     "maxExp": 800,
-    "level": 13
+    "level": 15
   },
   {
     "name": "gd_king",
