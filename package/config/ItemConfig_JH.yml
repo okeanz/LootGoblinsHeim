@@ -47,9 +47,11 @@ all:
     floating: yes
     pickup: yes
 # stuff floats in water; everything is pickable
-Stackable:
-    stack: 20
 # all stackable items
+SpiderMeat:
+    stack: 20
+InfusedCrystal_JH:
+    stack: 20
 DragonEgg:
     stack: 1
     weight: 200

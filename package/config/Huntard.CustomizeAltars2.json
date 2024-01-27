@@ -5,7 +5,7 @@
         "Name"            : "Mystical altar",
         "BossPrefab"      : "Eikthyr",
         "SacrificeItem"   : "TrophyDeer",
-        "SacrificeAmount" : 5,
+        "SacrificeAmount" : 30,
         "ItemStandName"   : null
     },
     {
@@ -13,7 +13,7 @@
         "Name"            : "Ancient bowl",
         "BossPrefab"      : "gd_king",
         "SacrificeItem"   : "AncientSeed",
-        "SacrificeAmount" : 5,
+        "SacrificeAmount" : 30,
         "ItemStandName"   : null
     },
     {
@@ -21,7 +21,7 @@
         "Name"            : "Boiling death",
         "BossPrefab"      : "Bonemass",
         "SacrificeItem"   : "WitheredBone",
-        "SacrificeAmount" : 10,
+        "SacrificeAmount" : 30,
         "ItemStandName"   : null
     },
     {
@@ -29,7 +29,7 @@
         "Name"            : "Sacrificial altar",
         "BossPrefab"      : "Dragon",
         "SacrificeItem"   : "DragonEgg",
-        "SacrificeAmount" : 3,
+        "SacrificeAmount" : 10,
         "ItemStandName"   : "dragoneggcup"
     },
     {
@@ -37,7 +37,7 @@
         "Name"            : "Mystical altar",
         "BossPrefab"      : "GoblinKing",
         "SacrificeItem"   : "GoblinTotem",
-        "SacrificeAmount" : 5,
+        "SacrificeAmount" : 20,
         "ItemStandName"   : "goblinking_totemholder"
     },
     {
@@ -45,7 +45,7 @@
         "Name"            : "Cursed Altar",
         "BossPrefab"      : "SvartalfarQueen",
         "SacrificeItem"   : "CursedEffigy",
-        "SacrificeAmount" : 5,
+        "SacrificeAmount" : 15,
         "ItemStandName"   : null
     },
     {
@@ -53,7 +53,7 @@
         "Name"            : "Frozen Altar",
         "BossPrefab"      : "IceGolem",
         "SacrificeItem"   : "TrophyJotunnBrute_TW",
-        "SacrificeAmount" : 3,
+        "SacrificeAmount" : 7,
         "ItemStandName"   : null
     },
     {
@@ -61,7 +61,7 @@
         "Name"            : "Mystical altar",
         "BossPrefab"      : "ML_AshHuldraQueen3",
         "SacrificeItem"   : "ML_HuldraTail",
-        "SacrificeAmount" : 5,
+        "SacrificeAmount" : 7,
         "ItemStandName"   : null
     },
 	{
@@ -102,6 +102,14 @@
         "BossPrefab"      : "SkirSandburst_DoD",
         "SacrificeItem"   : "ShamansVessel_DoD",
         "SacrificeAmount" : 5,
+        "ItemStandName"   : null
+    },
+    {
+        "AltarPrefabName" : "AltarAsmodeus_TW",
+        "Name"            : "Mystical altar",
+        "BossPrefab"      : "BossAsmodeus_TW",
+        "SacrificeItem"   : "TrophyNeck",
+        "SacrificeAmount" : 20,
         "ItemStandName"   : null
     }
 ]
