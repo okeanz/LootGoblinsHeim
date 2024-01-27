@@ -1,31 +1,31 @@
 Meadows:
-  damage: 1.2
-  health: 2
+  damage: 1.4
+  health: 2.5
   key_defeated_eikthyr:
     attack speed: 1.1
     movement speed: 1.1
     damage: 1.4
-    health: 2
+    health: 2.5
   effect:
     Aggressive: 25
 BlackForest:
-  damage: 1.2
-  health: 2
+  damage: 1.4
+  health: 2.5
   key_defeated_gdking:
     attack speed: 1.1
     movement speed: 1.1
     damage: 1.4
-    health: 2
+    health: 2.5
   effect:
     Aggressive: 25
 Swamp:
-  damage: 1.2
-  health: 2
+  damage: 1.4
+  health: 2.5
   key_defeated_Bonemass:
     attack speed: 1.1
     movement speed: 1.1
     damage: 1.4
-    health: 2
+    health: 2.5
   effect:
     Aggressive: 25
 Mountain:
@@ -35,26 +35,26 @@ Mountain:
     attack speed: 1.1
     movement speed: 1.1
     damage: 1.4
-    health: 2
+    health: 2.5
   effect:
     Aggressive: 25
 Plains:
-  damage: 1.2
-  health: 2
+  damage: 1.4
+  health: 2.5
   key_defeated_goblinking:
     attack speed: 1.1
     movement speed: 1.1
     damage: 1.4
-    health: 2
+    health: 2.5
   effect:
     Aggressive: 25
 Mistlands:
-  damage: 1.2
-  health: 2
+  damage: 1.4
+  health: 2.5
   key_defeated_queen:
     attack speed: 1.1
     movement speed: 1.1
     damage: 1.4
-    health: 2
+    health: 2.5
   effect:
     Aggressive: 25

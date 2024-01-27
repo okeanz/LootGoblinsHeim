@@ -9,7 +9,7 @@ material: arcticbearsteak_mat_TW
 customVisual: 
 sizeMultiplier: 1
 scale_weight_by_quality: 0
-m_maxStackSize: 200
+m_maxStackSize: 20
 m_canBeReparied: true
 m_destroyBroken: true
 m_dodgeable: false

@@ -1,6 +1,6 @@
 {
   "name": "LootGoblinsHeimv2",
-  "version_number": "1.1.2",
+  "version_number": "1.1.3",
   "website_url": "",
   "description": "Private server modpack based on RelicHeim",
   "dependencies": [
@@ -89,6 +89,6 @@
     "ComfyMods-SearsCatalog-1.4.0",
     "LootGoblinsInc-LootGoblinsHeimUtils-2.0.0",
     "LootGoblinsInc-z0rderEpicMMOSystem-1.1.2",
-    "LootGoblinsInc-LGHEpicLootv2-0.0.2"
+    "LootGoblinsInc-LGHEpicLootv2-0.0.3"
   ]
 }
