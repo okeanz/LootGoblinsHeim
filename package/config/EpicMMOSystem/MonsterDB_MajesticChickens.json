@@ -2,20 +2,20 @@
   {
     "name": "mc_chicken_yellow",
     "minExp": 5,
-    "maxExp": 15,
-    "level": 5
+    "maxExp": 10,
+    "level": 1
   },
   {
     "name": "mc_chicken_white",
     "minExp": 5,
-    "maxExp": 15,
-    "level": 5
+    "maxExp": 10,
+    "level": 1
   },
   {
     "name": "mc_chicken_black",
     "minExp": 5,
-    "maxExp": 15,
-    "level": 5
+    "maxExp": 10,
+    "level": 1
   },
   {
     "name": "mc_chicken_cosmic",

@@ -10,5 +10,5 @@ requireOnlyOneIngredient: false
 reqs:
 - Coins:500:0:True
 - LoxBone_TW:5:0:True
-- LoxPelt:10:0:True
+- InfusedCrystal_JH:20:0:True
 - kg_EnchantScroll_Armor_A:1:0:True

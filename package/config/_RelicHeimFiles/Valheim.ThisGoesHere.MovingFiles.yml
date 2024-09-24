@@ -1,8 +1,4 @@
 ﻿PrintComment: ThisGoesHere is moving edited files
 CopyFile:
-- From: config\_RelicHeimFiles\ThisGoesHereMovedFile\English.yml
-  To: plugins\Smoothbrain-CreatureLevelAndLootControl\English.yml
-- From: config\_RelicHeimFiles\ThisGoesHereMovedFile\Russian.yml
-  To: plugins\Smoothbrain-CreatureLevelAndLootControl\Russian.yml
 - From: config\_RelicHeimFiles\ThisGoesHereMovedFile\MonsterLabZ.cfg
   To: config\MonsterLabZ.cfg

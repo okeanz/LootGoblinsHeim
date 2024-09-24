@@ -7,6 +7,8 @@ mockName:
 customIcon: 
 material: JellyItem
 customVisual: 
+snapshotRotation: 0,300,0
+snapshotOnMaterialChange: true
 sizeMultiplier: 1
 scale_weight_by_quality: 0
 FoodStats:
@@ -15,7 +17,7 @@ FoodStats:
   m_foodRegen: 4
   m_foodBurnTime: 1200
   m_FoodEitr: 0
-m_maxStackSize: 20
+m_maxStackSize: 200
 m_canBeReparied: true
 m_destroyBroken: true
 m_dodgeable: false

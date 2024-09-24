@@ -54,75 +54,63 @@ cookingStationData:
   - FromName: SerpentMeat
     ToName: SerpentMeatCooked
     CookTime: 60
+    Remove: false
   - FromName: LoxMeat
     ToName: CookedLoxMeat
     CookTime: 60
+    Remove: false
   - FromName: FishRaw
     ToName: FishCooked
     CookTime: 25
+    Remove: false
   - FromName: RawMeat
     ToName: CookedMeat
     CookTime: 25
+    Remove: false
   - FromName: NeckTail
     ToName: NeckTailGrilled
     CookTime: 25
+    Remove: false
   - FromName: DeerMeat
     ToName: CookedDeerMeat
     CookTime: 25
+    Remove: false
   - FromName: WolfMeat
     ToName: CookedWolfMeat
     CookTime: 25
+    Remove: false
   - FromName: BugMeat
     ToName: CookedBugMeat
     CookTime: 60
+    Remove: false
   - FromName: ChickenMeat
     ToName: CookedChickenMeat
     CookTime: 25
+    Remove: false
   - FromName: HareMeat
     ToName: CookedHareMeat
     CookTime: 25
-  - FromName: ArcticBearSteak_TW
-    ToName: CookedArcticBearSteak_TW
-    CookTime: 60
-  - FromName: ArcticSerpentMeat_TW
-    ToName: CookedArcticSerpentMeat_TW
-    CookTime: 60
-  - FromName: ArcticWolfMeat_TW
-    ToName: CookedArcticWolfMeat_TW
-    CookTime: 60
-  - FromName: MammothMeat_TW
-    ToName: CookedMammothMeat_TW
-    CookTime: 60
-  - FromName: DimetrodonMeat_TW
-    ToName: CookedDimetrodonMeat_TW
-    CookTime: 60
-  - FromName: CrabMeat_TW
-    ToName: CookedCrabMeat_TW
-    CookTime: 60
-  - FromName: ScorpidMeat_TW
-    ToName: CookedScorpidMeat_TW
-    CookTime: 60
+    Remove: false
   - FromName: FoxMeat_TW
     ToName: CookedFoxMeat_TW
     CookTime: 30
+    Remove: false
   - FromName: BearSteak_TW
     ToName: CookedBearSteak_TW
     CookTime: 30
-  - FromName: SpiderMeat
-    ToName: CookedSpiderMeat
-    CookTime: 25
+    Remove: false
   - FromName: Entrails
     ToName: CookedEntrails
     CookTime: 25
+    Remove: false
   - FromName: KrakenMeat
     ToName: CookedKrakenMeat
     CookTime: 60
-  - FromName: mc_rawchickenmeat
-    ToName: mc_grilledchicken
-    CookTime: 25
-  - FromName: YetiMeat_JH
-    ToName: CookedYetiMeat_JH
-    CookTime: 25
+    Remove: false
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData: 
 build:
 - Iron:3:1:True
 - Chain:3:1:True

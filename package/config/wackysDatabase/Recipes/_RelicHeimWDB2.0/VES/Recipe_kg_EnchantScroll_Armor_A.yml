@@ -8,7 +8,6 @@ amount: 1
 disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- GoblinScraps_TW:5:0:True
-- SerpentScale:5:0:True
+- GoblinScraps_TW:2:0:True
+- Needle:5:0:True
 - InfusedCrystal_JH:2:0:True
-- TrophyGoblin:1:0:True

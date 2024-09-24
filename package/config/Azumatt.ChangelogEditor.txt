@@ -1,7 +1,7 @@
-<color=#d666ff>LootGoblinsHeim Version: 1.1.0</color>
+<color=#d666ff>LootGoblinsHeim Version: 2.0 </color>
 
-<color=#66f0ff>РћР±РЅРѕРІР»РµРЅРёСЏ</color>
-    - Р”РѕР±Р°РІР»РµРЅС‹ РЅРµРїРёСЃРё
-    - 
+<color=#66f0ff>Обновления</color>
+    - Ништяки
+    - Всякое
 
 <color=red>Vanilla Changelog:</color>

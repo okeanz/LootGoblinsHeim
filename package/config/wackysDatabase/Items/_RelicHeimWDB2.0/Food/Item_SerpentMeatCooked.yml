@@ -1,5 +1,5 @@
 name: SerpentMeatCooked
-m_weight: 10
+m_weight: 1
 m_name: $item_serpentmeatcooked
 m_description: $item_serpentmeatcooked_description
 clonePrefabName: 
@@ -10,12 +10,12 @@ customVisual:
 sizeMultiplier: 1
 scale_weight_by_quality: 0
 FoodStats:
-  m_foodHealth: 60
-  m_foodStamina: 20
+  m_foodHealth: 50
+  m_foodStamina: 16
   m_foodRegen: 3
-  m_foodBurnTime: 1500
+  m_foodBurnTime: 1200
   m_FoodEitr: 0
-m_maxStackSize: 20
+m_maxStackSize: 200
 m_canBeReparied: true
 m_destroyBroken: true
 m_dodgeable: false

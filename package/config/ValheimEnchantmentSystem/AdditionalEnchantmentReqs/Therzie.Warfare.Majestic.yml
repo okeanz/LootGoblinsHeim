@@ -78,6 +78,7 @@
   - StaffStorm_TW
   - BattleaxeDragon_TW
   - BowUllr_TW
+  - PickaxeFader_TW
 - enchant_prefab:
     prefab: kg_EnchantScroll_Armor_S
     amount: 1
@@ -113,6 +114,8 @@
   - LanceBlackmetal_TW
   - SwordScimitar_TW
   - DualSwordScimitar_TW
+  - BladeYagluth_TW
+  - DualKnifeBM_TW
 # Mountain
 - enchant_prefab:
     prefab: kg_EnchantScroll_Weapon_B
@@ -135,6 +138,7 @@
   - BastardSilver_TW
   - WarpikeObsidian_TW
   - SledgeSilver_TW
+  - DualKnifeSilver_TW
 # Swamp
 - enchant_prefab:
     prefab: kg_EnchantScroll_Weapon_C
@@ -162,6 +166,10 @@
   - ScytheVampiric_TW
   - KnifeWrench_TW
   - SledgeBonemass_TW
+  - CudgelIron_TW
+  - CrossbowChitin_TW
+  - DualKnifeChitin_TW
+  - DualKnifeIron_TW
 - enchant_prefab:
     prefab: kg_EnchantScroll_Armor_C
     amount: 1
@@ -195,6 +203,10 @@
   - DualAxeDemonic_TW
   - WarpikeElder_TW
   - KnifeViper_TW
+  - CrossbowEikthyr_TW
+  - BattlehammerElder_TW
+  - CudgelBronze_TW
+  - DualKnifeBone_TW
 # Meadows
 - enchant_prefab:
     prefab: kg_EnchantScroll_Weapon_F

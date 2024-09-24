@@ -19,6 +19,40 @@
   - THSwordKrom
   - CrossbowArbalest
   - KnifeSkollAndHati
+  - AxeBerzerkr
+  - AxeBerzerkrBlood
+  - AxeBerzerkrLightning
+  - AxeBerzerkrNature
+  - THSwordSlayer
+  - THSwordSlayerBlood
+  - THSwordSlayerLightning
+  - THSwordSlayerNature
+  - StaffClusterbomb
+  - StaffGreenRoots
+  - StaffLightning
+  - MaceEldner
+  - MaceEldnerBlood
+  - MaceEldnerLightning
+  - MaceEldnerNature
+  - SpearSplitner
+  - SpearSplitner_Blood
+  - SpearSplitner_Lightning
+  - SpearSplitner_Nature
+  - SwordNiedhogg
+  - SwordNiedhoggBlood
+  - SwordNiedhoggLightning
+  - SwordNiedhoggNature
+  - CrossbowRipper
+  - CrossbowRipperBlood
+  - CrossbowRipperLightning
+  - CrossbowRipperNature
+  - BowAshlands
+  - BowAshlandsBlood
+  - BowAshlandsRoot
+  - BowAshlandsStorm
+  - ShieldFlametal
+  - ShieldFlametalTower
+  - SwordDyrnwyn
 - enchant_prefab:
     prefab: kg_EnchantScroll_Armor_S
     amount: 1
@@ -33,6 +67,17 @@
   - ArmorMageChest
   - ArmorMageLegs
   - CapeFeather
+  - HelmetAshlandsMediumHood
+  - HelmetFlametal
+  - HelmetMage_Ashlands
+  - ArmorAshlandsMediumChest
+  - ArmorFlametalChest
+  - ArmorMageChest_Ashlands
+  - ArmorAshlandsMediumlegs
+  - ArmorFlametalLegs
+  - ArmorMageLegs_Ashlands
+  - CapeAsh
+  - CapeAsksvin
 - enchant_prefab:
     prefab: kg_EnchantScroll_Weapon_A
     amount: 1

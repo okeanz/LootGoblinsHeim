@@ -1,17 +1,34 @@
 name: DvergrBelt_JH
 m_weight: 2
 m_name: Dvergr Belt
-m_description: Dvergr would wear this belt to help carry their meads +250 Weight
+m_description: Dvergr would wear this belt to help carry their meads
 clonePrefabName: BeltYmir_TW
 mockName: 
-customIcon: 
+customIcon: BeltYmir_TW3.png
 material: juteblue_mat
 customVisual: 
 sizeMultiplier: 1
 scale_weight_by_quality: 0
+Primary_Attack: 
+Secondary_Attack: 
+Damage: 
+Damage_Per_Level: 
+Armor:
+  armor: 10
+  armorPerLevel: 1
+FoodStats: 
+Moddifiers:
+  m_movementModifier: 0
+  m_EitrRegen: 0
 SE_Equip:
   EffectName: SetEffect_DvergrBelt
-SE_SET_Equip:
+SE_SET_Equip: 
+ShieldStats:
+  m_blockPower: 10
+  m_blockPowerPerLevel: 0
+  m_timedBlockBonus: 1.5
+  m_deflectionForce: 0
+  m_deflectionForcePerLevel: 0
 m_maxStackSize: 1
 m_canBeReparied: true
 m_destroyBroken: true

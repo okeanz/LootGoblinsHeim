@@ -2,3 +2,5 @@
 DeleteFile:
 - config\CreatureConfig.yml
 - config\ItemConfig.yml
+DeleteFolder:
+- config\wackysDatabase\Items\_RelicHeimWDB2.0\Wizardry

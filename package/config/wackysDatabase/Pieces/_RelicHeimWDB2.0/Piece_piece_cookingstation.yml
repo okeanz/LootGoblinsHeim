@@ -54,38 +54,42 @@ cookingStationData:
   - FromName: RawMeat
     ToName: CookedMeat
     CookTime: 25
+    Remove: false
   - FromName: NeckTail
     ToName: NeckTailGrilled
     CookTime: 25
+    Remove: false
   - FromName: FishRaw
     ToName: FishCooked
     CookTime: 25
+    Remove: false
   - FromName: DeerMeat
     ToName: CookedDeerMeat
     CookTime: 25
+    Remove: false
   - FromName: WolfMeat
     ToName: CookedWolfMeat
     CookTime: 25
+    Remove: false
   - FromName: ChickenMeat
     ToName: CookedChickenMeat
     CookTime: 25
+    Remove: false
   - FromName: FoxMeat_TW
     ToName: CookedFoxMeat_TW
     CookTime: 30
+    Remove: false
   - FromName: BearSteak_TW
     ToName: CookedBearSteak_TW
     CookTime: 30
-  - FromName: SpiderMeat
-    ToName: CookedSpiderMeat
-    CookTime: 25
+    Remove: false
   - FromName: Entrails
     ToName: CookedEntrails
     CookTime: 25
-  - FromName: mc_rawchickenmeat
-    ToName: mc_grilledchicken
-    CookTime: 25
-  - FromName: YetiMeat_JH
-    ToName: CookedYetiMeat_JH
-    CookTime: 25
+    Remove: false
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData: 
 build:
 - Wood:2:1:True

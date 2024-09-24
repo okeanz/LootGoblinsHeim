@@ -8,6 +8,6 @@ amount: 2
 disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- LoxMeat:1:1:True
+- LoxMeat:2:1:True
 - Honey:2:1:True
 - Cloudberry:1:1:True

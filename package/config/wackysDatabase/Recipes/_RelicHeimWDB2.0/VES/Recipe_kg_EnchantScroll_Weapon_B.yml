@@ -8,7 +8,6 @@ amount: 1
 disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- GrizzlyBearPelt_TW:5:0:True
+- WolfPelt:2:0:True
 - WolfFang:5:0:True
 - InfusedCrystal_JH:2:0:True
-- TrophyWolf:1:0:True

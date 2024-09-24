@@ -4,7 +4,7 @@ m_name: Silver Belt
 m_description: Gives the wearer some more superhuman strength +175 Weight
 clonePrefabName: BeltYmir_TW
 mockName: 
-customIcon: 
+customIcon: BeltYmir_TW2.png
 material: silverbar
 customVisual: 
 sizeMultiplier: 1

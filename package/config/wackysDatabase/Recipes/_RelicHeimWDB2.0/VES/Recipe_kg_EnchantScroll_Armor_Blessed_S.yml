@@ -9,6 +9,6 @@ disabled: false
 requireOnlyOneIngredient: false
 reqs:
 - Coins:600:0:True
-- BlackCore:5:0:True
-- JuteBlack_TW:10:0:True
+- JuteBlack_TW:5:0:True
+- InfusedCrystal_JH:20:0:True
 - kg_EnchantScroll_Armor_S:1:0:True

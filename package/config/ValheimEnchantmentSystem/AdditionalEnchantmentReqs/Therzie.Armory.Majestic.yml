@@ -63,6 +63,9 @@
   - HelmetUllr_TW
   - ArmorUllrChest_TW
   - ArmorUllrLegs_TW
+  - HelmetHunterCarapace_TW
+  - ArmorHunterChestCarapace_TW
+  - ArmorHunterLegsCarapace_TW
 # Plains
 - enchant_prefab:
     prefab: kg_EnchantScroll_Armor_A
@@ -86,6 +89,9 @@
   - HelmetVidarBM_TW
   - ArmorVidarBMChest_TW
   - ArmorVidarBMLegs_TW
+  - HelmetHunterBM_TW
+  - ArmorHunterChestBM_TW
+  - ArmorHunterLegsBM_TW
 # Mountain
 - enchant_prefab:
     prefab: kg_EnchantScroll_Armor_B
@@ -113,6 +119,9 @@
   - ArmorBoldChest_TW
   - ArmorBoldLegs_TW
   - HelmetGrizzlyBear_TW
+  - HelmetHunterSilver_TW
+  - ArmorHunterChestSilver_TW
+  - ArmorHunterLegsSilver_TW
 # Swamp
 - enchant_prefab:
     prefab: kg_EnchantScroll_Armor_C
@@ -130,6 +139,9 @@
   - HelmetWarrior_TW
   - ArmorWarriorChest_TW
   - ArmorWarriorLegs_TW
+  - HelmetHunterIron_TW
+  - ArmorHunterChestIron_TW
+  - ArmorHunterLegsIron_TW
 # blackForest
 - enchant_prefab:
     prefab: kg_EnchantScroll_Armor_D
@@ -149,6 +161,9 @@
   - ArmorRazorbackChest_TW
   - ArmorRazorbackLegs_TW
   - HelmetBlackBear_TW
+  - HelmetHunter_TW
+  - ArmorHunterChest_TW
+  - ArmorHunterLegs_TW
 # Meadows
 - enchant_prefab:
     prefab: kg_EnchantScroll_Armor_F

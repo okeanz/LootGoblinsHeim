@@ -9,6 +9,6 @@ disabled: false
 requireOnlyOneIngredient: false
 reqs:
 - Coins:100:0:True
-- SpiderFang:5:0:True
-- LeatherScraps:10:0:True
+- GreydwarfEye:5:0:True
+- InfusedCrystal_JH:20:0:True
 - kg_EnchantScroll_Armor_F:1:0:True

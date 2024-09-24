@@ -52,8 +52,29 @@ beehiveData:
   maxAmount: 4
   dropItem: RoyalJelly
   effects:
-  - sfx_pickable_pick
-  - vfx_pickable_pick
+  effectsPLUS:
+  - name: sfx_pickable_pick
+    m_enabled: true
+    m_variant: -1
+    m_attach: false
+    m_follow: false
+    m_inheritParentRotation: false
+    m_inheritParentScale: false
+    m_multiplyParentVisualScale: false
+    m_randomRotation: false
+    m_scale: false
+    m_childTransform: ''
+  - name: vfx_pickable_pick
+    m_enabled: true
+    m_variant: -1
+    m_attach: false
+    m_follow: false
+    m_inheritParentRotation: false
+    m_inheritParentScale: false
+    m_multiplyParentVisualScale: false
+    m_randomRotation: false
+    m_scale: false
+    m_childTransform: ''
   extractText: $piece_beehive_extract
   checkText: Check royal bees
   areaText: $piece_beehive_area

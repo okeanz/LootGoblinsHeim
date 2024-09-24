@@ -10,5 +10,5 @@ requireOnlyOneIngredient: false
 reqs:
 - Coins:400:0:True
 - WolfHairBundle:5:0:True
-- WolfClaw:10:0:True
+- InfusedCrystal_JH:20:0:True
 - kg_EnchantScroll_Weapon_B:1:0:True

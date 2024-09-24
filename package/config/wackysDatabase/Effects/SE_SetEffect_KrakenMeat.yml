@@ -14,7 +14,7 @@ StopMessage: ''
 RepeatMessageLoc: TopLeft
 RepeatMessage: ''
 RepeatInterval: 0
-TimeToLive: 900
+TimeToLive: 600
 StartEffect_: 
 StopEffect_: 
 Cooldown: 0
@@ -39,7 +39,7 @@ SeData:
   m_raiseSkill: None
   m_raiseSkillModifier: 0
   m_skillLevel: Swim
-  m_skillLevelModifier: 5
+  m_skillLevelModifier: 8
   m_skillLevel2: None
   m_skillLevelModifier2: 0
   m_mods: []

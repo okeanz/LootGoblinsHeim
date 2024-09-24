@@ -8,7 +8,6 @@ amount: 1
 disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- BlackBearPelt_TW:5:0:True
-- GreydwarfEye:5:0:True
+- RazorbackLeather_TW:2:0:True
+- BoneFragments:5:0:True
 - InfusedCrystal_JH:2:0:True
-- TrophyGreydwarf:1:0:True
