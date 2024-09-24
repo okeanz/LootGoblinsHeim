@@ -1,0 +1,543 @@
+{
+  "TargetFile": "materialconversions.json", 
+  "Author": "Majestic",
+  "RequireAll": true, 
+  "Patches": [ 
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ShardRareUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "item": "ShardMagic",			"amount": 2  },
+		{ "item": "EssenceRare", 		"amount": 1  }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ShardRareUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 1
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ShardEpicUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+		{ "item": "ShardMagic",			"amount": 3  },
+        { "item": "EssenceEpic",		"amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ShardEpicUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 1
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ShardLegendaryUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+		{ "item": "ShardMagic",			 "amount": 4  },
+        { "item": "EssenceLegendary",    "amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ShardLegendaryUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 1
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ShardMythicUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "Item": "ShardMagic",			"Amount": 5 },
+        { "Item": "EssenceMythic",		"Amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ShardMythicUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 1
+	},
+	
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_DustRareUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "item": "DustMagic",			"amount": 6  },
+		{ "item": "EssenceRare",		"amount": 1  }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_DustRareUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 1
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_DustEpicUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+		{ "item": "DustMagic",			"amount": 9  },
+        { "item": "EssenceEpic",		"amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_DustEpicUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 1
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_DustLegendaryUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+		{ "item": "DustMagic",			"amount": 12  },
+        { "item": "EssenceLegendary",	"amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_DustLegendaryUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 1
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_DustMythicUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "Item": "DustMagic",			"Amount": 15  },
+        { "Item": "EssenceMythic",		"Amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_DustMythicUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 1
+	},
+	
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ReagentRareUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "item": "ReagentMagic",		"amount": 5 },
+        { "item": "EssenceRare",		"amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ReagentRareUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 5
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ReagentEpicUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "item": "ReagentMagic",		"amount": 4 },
+        { "item": "EssenceEpic",		"amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ReagentEpicUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 4
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ReagentLegendaryUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "item": "ReagentMagic",		"amount": 3 },
+        { "item": "EssenceLegendary",	"amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ReagentLegendaryUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 3
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ReagentMythicUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "Item": "ReagentMagic",		"Amount": 2  },
+        { "Item": "EssenceMythic",		"Amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_ReagentMythicUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 2
+	},
+	
+	
+	
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_RunestoneRareUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "item": "RunestoneMagic",		"amount": 2 },
+        { "item": "EssenceRare",		"amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_RunestoneRareUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 1
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_RunestoneEpicUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "Item": "RunestoneMagic",		"Amount": 3 },
+        { "Item": "EssenceEpic",		"Amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_RunestoneEpicUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 1
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_RunestoneLegendaryUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "Item": "RunestoneMagic",		"Amount": 4 },
+        { "Item": "EssenceLegendary",	"Amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_RunestoneLegendaryUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 1
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_RunestoneMythicUpgrade')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "Item": "RunestoneMagic",		"Amount": 5 },
+        { "Item": "EssenceMythic",		"Amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_RunestoneMythicUpgrade')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 1
+	},
+	
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_MagicShardToDust_Conversion')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "Item": "ShardMagic",		"Amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_MagicShardToDust_Conversion')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 2
+	},
+	
+	
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_RareShardToDust_Conversion')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "Item": "ShardRare",		"Amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_RareShardToDust_Conversion')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 2
+	},
+	
+	
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_EpicShardToDust_Conversion')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "Item": "ShardEpic",		"Amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_EpicShardToDust_Conversion')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 2
+	},
+	
+	
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_LegendaryShardToDust_Conversion')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "Item": "ShardLegendary", "Amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_LegendaryShardToDust_Conversion')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 2
+	},
+	
+	
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_MythicShardToDust_Conversion')].Resources",
+	  "Action": "Overwrite",
+	  "Value":[
+        { "Item": "ShardMythic",	"Amount": 1 }
+      ]
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_MythicShardToDust_Conversion')].Amount",
+	  "Action": "Overwrite",
+	  "Value": 2
+	},
+	
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_EssenceRareUpgrade')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_LegendaryShardToEssence_Conversion')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_LegendaryShardToReagent_Conversion')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_EpicShardToEssence_Conversion')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_EpicShardToReagent_Conversion')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_RareShardToEssence_Conversion')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_RareShardToReagent_Conversion')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_MagicShardToEssence_Conversion')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_MagicShardToReagent_Conversion')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_EssenceEpicUpgrade')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_EssenceLegendaryUpgrade')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_EssenceMythicUpgrade')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_MythicShardToEssence_Conversion')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_MythicShardToReagent_Conversion')]",
+	  "Action": "RemoveAll"
+	},
+	
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_BoneSkeletonTrophy')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_EyeGreydwarfTrophy')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_AntlerDeerTrophy')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_HideTrollTrophy')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_CoreSurtlingTrophy')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_FreezeGlandDrakeTrophy')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_DragonTearRunestone')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_YagluthThingRunestone')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_SeekerQueenRunestone')]",
+	  "Action": "RemoveAll"
+	},
+	{
+	  "Path": "$.MaterialConversions[?(@.Name == 'Recipe_FaderRunestone')]",
+	  "Action": "RemoveAll"
+	},
+	
+	{
+	  "Path": "$.MaterialConversions",
+	  "Action": "AppendAll",
+	  "Value": [
+	{
+      "Name": "Recipe_Amber",
+      "Product": "Coins",
+      "Amount": 5, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "Amber", "amount": 1 }
+      ]
+	},
+	{
+      "Name": "Recipe_AmberPearl",
+      "Product": "Coins",
+      "Amount": 10, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "AmberPearl", "amount": 1 }
+      ]
+    },
+	{
+      "Name": "Recipe_Ruby",
+      "Product": "Coins",
+      "Amount": 20, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "Ruby", "amount": 1 }
+      ]
+    },
+	{
+      "Name": "Recipe_SilverNecklace",
+      "Product": "Coins",
+      "Amount": 30, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "SilverNecklace", "amount": 1 }
+      ]
+    },
+	{
+      "Name": "Recipe_Onyx_TW",
+      "Product": "Coins",
+      "Amount": 30, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "Onyx_TW", "amount": 1 }
+      ]
+    },
+	{
+      "Name": "Recipe_Diamond_TW",
+      "Product": "Coins",
+      "Amount": 45, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "Diamond_TW", "amount": 1 }
+      ]
+    },
+	{
+      "Name": "Recipe_FenrirArtifact_TW",
+      "Product": "Coins",
+      "Amount": 30, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "FenrirArtifact_TW", "amount": 1 }
+      ]
+    },
+	{
+      "Name": "Recipe_Emerald_TW",
+      "Product": "Coins",
+      "Amount": 60, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "Emerald_TW", "amount": 1 }
+      ]
+    },
+	{
+      "Name": "Recipe_Amethyst_TW",
+      "Product": "Coins",
+      "Amount": 80, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "Amethyst_TW", "amount": 1 }
+      ]
+    },
+	{
+      "Name": "Recipe_Topaz_TW",
+      "Product": "Coins",
+      "Amount": 100, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "Topaz_TW", "amount": 1 }
+      ]
+    },
+	{
+      "Name": "Recipe_Sapphire_TW",
+      "Product": "Coins",
+      "Amount": 100, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "Sapphire_TW", "amount": 1 }
+      ]
+    },
+	{
+      "Name": "Recipe_ForestToken",
+      "Product": "ForestToken",
+      "Amount": 1, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "DustMagic", "amount": 20 },
+		{ "item": "Bronze", "amount": 3 },
+		{ "item": "Chitin", "amount": 5 }
+      ]
+    },
+	{
+      "Name": "Recipe_IronBountyToken",
+      "Product": "IronBountyToken",
+      "Amount": 1, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "DustMagic", "amount": 40 },
+		{ "item": "Iron", "amount": 3 },
+		{ "item": "Chitin", "amount": 5 }
+      ]
+    },
+	{
+      "Name": "Recipe_ForestToken1",
+      "Product": "Coins",
+      "Amount": 50, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "ForestToken", "amount": 1 }
+      ]
+    },
+	{
+      "Name": "Recipe_IronBountyToken1",
+      "Product": "Coins",
+      "Amount": 100, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "IronBountyToken", "amount": 1 }
+      ]
+    },
+	{
+      "Name": "Recipe_GoldBountyToken1",
+      "Product": "Coins",
+      "Amount": 200, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "GoldBountyToken", "amount": 1 }
+      ]
+    }
+   ]
+  }
+ ]
+}
+

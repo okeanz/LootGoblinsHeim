@@ -1,0 +1,14 @@
+name: ShardElder_TW
+clonePrefabName: ShardElder_TW
+craftingStation: $piece_arcaneanvil_TW
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 2
+disabled: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- Bronze:5:0:True
+- AncientSeed:2:0:True
+- TrophyGreydwarfShaman:1:0:True

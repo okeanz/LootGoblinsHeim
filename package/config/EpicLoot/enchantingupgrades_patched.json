@@ -1,0 +1,618 @@
+{
+  "DefaultFeatureLevels": {
+    "Sacrifice": 0,
+    "ConvertMaterials": -1,
+    "Enchant": -1,
+    "Augment": -1,
+    "Disenchant": -1
+  },
+  "MaximumFeatureLevels": {
+    "Sacrifice": 6,
+    "ConvertMaterials": 0,
+    "Enchant": 6,
+    "Augment": 6,
+    "Disenchant": 6
+  },
+  "UpgradeCosts": {
+    "Sacrifice": [
+      null,
+      [
+        {
+          "Item": "SurtlingCore",
+          "Amount": 5
+        },
+        {
+          "Item": "mmo_orb2",
+          "Amount": 2
+        },
+        {
+          "Item": "TrophyFrostTroll",
+          "Amount": 2
+        }
+      ],
+      [
+        {
+          "Item": "SurtlingCore",
+          "Amount": 10
+        },
+        {
+          "Item": "mmo_orb3",
+          "Amount": 2
+        },
+        {
+          "Item": "TrophyAbomination",
+          "Amount": 2
+        }
+      ],
+      [
+        {
+          "Item": "SurtlingCore",
+          "Amount": 15
+        },
+        {
+          "Item": "mmo_orb4",
+          "Amount": 2
+        },
+        {
+          "Item": "TrophySGolem",
+          "Amount": 2
+        }
+      ],
+      [
+        {
+          "Item": "SurtlingCore",
+          "Amount": 20
+        },
+        {
+          "Item": "mmo_orb5",
+          "Amount": 2
+        },
+        {
+          "Item": "TrophyGoblinBrute",
+          "Amount": 2
+        }
+      ],
+      [
+        {
+          "Item": "SurtlingCore",
+          "Amount": 25
+        },
+        {
+          "Item": "mmo_orb6",
+          "Amount": 2
+        },
+        {
+          "Item": "TrophySeekerBrute",
+          "Amount": 2
+        }
+      ],
+      [
+        {
+          "Item": "MoltenCore",
+          "Amount": 10
+        },
+        {
+          "Item": "mmo_orb6",
+          "Amount": 2
+        },
+        {
+          "Item": "TrophyFallenValkyrie",
+          "Amount": 2
+        }
+      ]
+    ],
+    "ConvertMaterials": [
+      [
+        {
+          "Item": "Wood",
+          "Amount": 20
+        },
+        {
+          "Item": "BoneFragments",
+          "Amount": 5
+        },
+        {
+          "Item": "Resin",
+          "Amount": 10
+        }
+      ],
+      [
+        {
+          "Item": "FineWood",
+          "Amount": 20
+        },
+        {
+          "Item": "Chitin",
+          "Amount": 4
+        },
+        {
+          "Item": "Resin",
+          "Amount": 20
+        }
+      ],
+      [
+        {
+          "Item": "ElderBark",
+          "Amount": 20
+        },
+        {
+          "Item": "Root",
+          "Amount": 5
+        },
+        {
+          "Item": "Guck",
+          "Amount": 20
+        }
+      ],
+      [
+        {
+          "Item": "Obsidian",
+          "Amount": 10
+        },
+        {
+          "Item": "SerpentScale",
+          "Amount": 5
+        },
+        {
+          "Item": "FreezeGland",
+          "Amount": 5
+        }
+      ],
+      [
+        {
+          "Item": "LinenThread",
+          "Amount": 30
+        },
+        {
+          "Item": "Needle",
+          "Amount": 8
+        },
+        {
+          "Item": "Tar",
+          "Amount": 20
+        }
+      ],
+      [
+        {
+          "Item": "YggdrasilWood",
+          "Amount": 10
+        },
+        {
+          "Item": "Mandible",
+          "Amount": 8
+        },
+        {
+          "Item": "GiantBloodSack",
+          "Amount": 10
+        }
+      ],
+      [
+        {
+          "Item": "YggdrasilWood",
+          "Amount": 10
+        },
+        {
+          "Item": "Mandible",
+          "Amount": 8
+        },
+        {
+          "Item": "GiantBloodSack",
+          "Amount": 10
+        }
+      ]
+    ],
+    "Enchant": [
+      [
+        {
+          "Item": "DustMagic",
+          "Amount": 5
+        },
+        {
+          "Item": "Coins",
+          "Amount": 100
+        }
+      ],
+      [
+        {
+          "Item": "DustMagic",
+          "Amount": 10
+        },
+        {
+          "Item": "ForestToken",
+          "Amount": 10
+        },
+        {
+          "Item": "Bronze",
+          "Amount": 20
+        }
+      ],
+      [
+        {
+          "Item": "DustRare",
+          "Amount": 5
+        },
+        {
+          "Item": "IronBountyToken",
+          "Amount": 20
+        },
+        {
+          "Item": "Iron",
+          "Amount": 20
+        }
+      ],
+      [
+        {
+          "Item": "DustRare",
+          "Amount": 10
+        },
+        {
+          "Item": "IronBountyToken",
+          "Amount": 30
+        },
+        {
+          "Item": "Silver",
+          "Amount": 20
+        }
+      ],
+      [
+        {
+          "Item": "DustEpic",
+          "Amount": 10
+        },
+        {
+          "Item": "GoldBountyToken",
+          "Amount": 20
+        },
+        {
+          "Item": "BlackMetal",
+          "Amount": 20
+        }
+      ],
+      [
+        {
+          "Item": "DustLegendary",
+          "Amount": 10
+        },
+        {
+          "Item": "GoldBountyToken",
+          "Amount": 30
+        },
+        {
+          "Item": "BlackCore",
+          "Amount": 10
+        }
+      ],
+      [
+        {
+          "Item": "DustMythic",
+          "Amount": 10
+        },
+        {
+          "Item": "GoldBountyToken",
+          "Amount": 30
+        },
+        {
+          "Item": "FlametalNew",
+          "Amount": 20
+        }
+      ]
+    ],
+    "Augment": [
+      [
+        {
+          "Item": "ReagentMagic",
+          "Amount": 5
+        },
+        {
+          "Item": "Coal",
+          "Amount": 10
+        },
+        {
+          "Item": "Coins",
+          "Amount": 100
+        }
+      ],
+      [
+        {
+          "Item": "ForestToken",
+          "Amount": 10
+        },
+        {
+          "Item": "SurtlingCore",
+          "Amount": 10
+        },
+        {
+          "Item": "Coins",
+          "Amount": 200
+        }
+      ],
+      [
+        {
+          "Item": "ForestToken",
+          "Amount": 20
+        },
+        {
+          "Item": "WitheredBone",
+          "Amount": 20
+        },
+        {
+          "Item": "Coins",
+          "Amount": 300
+        }
+      ],
+      [
+        {
+          "Item": "ForestToken",
+          "Amount": 30
+        },
+        {
+          "Item": "DragonTear",
+          "Amount": 20
+        },
+        {
+          "Item": "Coins",
+          "Amount": 400
+        }
+      ],
+      [
+        {
+          "Item": "ForestToken",
+          "Amount": 40
+        },
+        {
+          "Item": "GoblinTotem",
+          "Amount": 20
+        },
+        {
+          "Item": "Coins",
+          "Amount": 500
+        }
+      ],
+      [
+        {
+          "Item": "ForestToken",
+          "Amount": 50
+        },
+        {
+          "Item": "BlackCore",
+          "Amount": 20
+        },
+        {
+          "Item": "Coins",
+          "Amount": 600
+        }
+      ],
+      [
+        {
+          "Item": "ForestToken",
+          "Amount": 60
+        },
+        {
+          "Item": "ShieldCore",
+          "Amount": 10
+        },
+        {
+          "Item": "Coins",
+          "Amount": 700
+        }
+      ]
+    ],
+    "Disenchant": [
+      [
+        {
+          "Item": "InfusedCrystal_JH",
+          "Amount": 5
+        },
+        {
+          "Item": "Coins",
+          "Amount": 500
+        }
+      ],
+      [
+        {
+          "Item": "InfusedCrystal_JH",
+          "Amount": 10
+        },
+        {
+          "Item": "Coins",
+          "Amount": 2000
+        }
+      ],
+      [
+        {
+          "Item": "InfusedCrystal_JH",
+          "Amount": 15
+        },
+        {
+          "Item": "Coins",
+          "Amount": 4000
+        }
+      ],
+      [
+        {
+          "Item": "InfusedCrystal_JH",
+          "Amount": 20
+        },
+        {
+          "Item": "Coins",
+          "Amount": 6000
+        }
+      ],
+      [
+        {
+          "Item": "InfusedCrystal_JH",
+          "Amount": 25
+        },
+        {
+          "Item": "Coins",
+          "Amount": 8000
+        }
+      ],
+      [
+        {
+          "Item": "InfusedCrystal_JH",
+          "Amount": 30
+        },
+        {
+          "Item": "Coins",
+          "Amount": 10000
+        }
+      ],
+      [
+        {
+          "Item": "InfusedCrystal_JH",
+          "Amount": 35
+        },
+        {
+          "Item": "Coins",
+          "Amount": 12000
+        }
+      ]
+    ]
+  },
+  "UpgradeValues": {
+    "Sacrifice": [
+      [
+        0
+      ],
+      [
+        5
+      ],
+      [
+        10
+      ],
+      [
+        15
+      ],
+      [
+        20
+      ],
+      [
+        25
+      ],
+      [
+        30
+      ]
+    ],
+    "ConvertMaterials": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "Enchant": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        10,
+        14
+      ],
+      [
+        12,
+        16
+      ]
+    ],
+    "Augment": [
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "Disenchant": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        15,
+        1
+      ],
+      [
+        20,
+        2
+      ],
+      [
+        25,
+        3
+      ],
+      [
+        30,
+        4
+      ]
+    ]
+  }
+}

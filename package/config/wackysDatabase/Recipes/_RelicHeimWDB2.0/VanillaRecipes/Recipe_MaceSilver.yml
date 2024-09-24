@@ -1,0 +1,14 @@
+name: MaceSilver
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- ElderBark:10:5:True
+- Silver:30:15:True
+- YmirRemains:5:3:True
+- FreezeGland:5:5:True

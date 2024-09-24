@@ -1,0 +1,290 @@
+{
+  "TargetFile": "loottables.json",
+  "Author": "Majestic",
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.LootTables",
+      "Action": "AppendAll",
+      "Value": [
+	{
+      "Object": "BossAsmodeus_TW",
+      "LeveledLoot": [
+		{
+          "Level": 1,
+          "Drops": [ [1, 85], [2, 14], [3, 1], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 83, 10, 5, 2 ] },
+            { "Item": "KnifeViper_TW", "Weight": 0.1, "Rarity": [ 83, 10, 5, 2 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 80], [2, 18], [3, 2], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 75, 15, 5, 5 ] },
+            { "Item": "KnifeViper_TW", "Weight": 0.1, "Rarity": [ 75, 15, 5, 5 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 75], [2, 15], [3, 5], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 60, 20, 10, 10 ] },
+            { "Item": "KnifeViper_TW", "Weight": 0.1, "Rarity": [ 60, 20, 10, 10 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 40], [2, 55], [3, 5], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 40, 40, 10, 10 ] },
+            { "Item": "KnifeViper_TW", "Weight": 0.1, "Rarity": [ 40, 40, 10, 10 ] }
+          ]
+        },
+		{
+          "Level": 5,
+          "Drops": [ [1, 20], [2, 60], [3, 15], [4, 5] ],
+          "Loot": [
+            { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 20, 50, 20, 10 ] },
+            { "Item": "KnifeViper_TW", "Weight": 0.1, "Rarity": [ 20, 50, 20, 10 ] }
+          ]
+        },
+		{
+          "Level": 6,
+          "Drops": [ [1, 10], [2, 60], [3, 15], [4, 15] ],
+          "Loot": [
+            { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 15, 30, 40, 15 ] },
+            { "Item": "KnifeViper_TW", "Weight": 0.1, "Rarity": [ 15, 30, 40, 15 ] }
+		 ]
+	    }
+	   ]
+	  }
+	 ]
+	},
+	{
+      "Path": "$.LootTables",
+      "Action": "AppendAll",
+      "Value": [
+	{
+      "Object": "BossSvalt_TW",
+      "LeveledLoot": [
+		{
+          "Level": 1,
+          "Drops": [ [1, 85], [2, 14], [3, 1], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 83, 10, 5, 2 ] },
+            { "Item": "DualAxeDemonic_TW", "Weight": 0.1, "Rarity": [ 83, 10, 5, 2 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 80], [2, 18], [3, 2], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 75, 15, 5, 5 ] },
+            { "Item": "DualAxeDemonic_TW", "Weight": 0.1, "Rarity": [ 75, 15, 5, 5 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 75], [2, 15], [3, 5], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 60, 20, 10, 10 ] },
+            { "Item": "DualAxeDemonic_TW", "Weight": 0.1, "Rarity": [ 60, 20, 10, 10 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 40], [2, 55], [3, 5], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 40, 40, 10, 10 ] },
+            { "Item": "DualAxeDemonic_TW", "Weight": 0.1, "Rarity": [ 40, 40, 10, 10 ] }
+          ]
+        },
+		{
+          "Level": 5,
+          "Drops": [ [1, 20], [2, 60], [3, 15], [4, 5] ],
+          "Loot": [
+            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 20, 50, 20, 10 ] },
+            { "Item": "DualAxeDemonic_TW", "Weight": 0.1, "Rarity": [ 20, 50, 20, 10 ] }
+          ]
+        },
+		{
+          "Level": 6,
+          "Drops": [ [1, 10], [2, 60], [3, 15], [4, 15] ],
+          "Loot": [
+            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 15, 30, 40, 15 ] },
+            { "Item": "DualAxeDemonic_TW", "Weight": 0.1, "Rarity": [ 15, 30, 40, 15 ] }
+         ]
+	    }
+	   ]
+	  }
+	 ]
+	},
+	{
+      "Path": "$.LootTables",
+      "Action": "AppendAll",
+      "Value": [
+	{
+      "Object": "BossVrykolathas_TW",
+		"LeveledLoot": [
+		{
+          "Level": 1,
+          "Drops": [ [1, 85], [2, 14], [3, 1], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 83, 10, 5, 2 ] },
+            { "Item": "ScytheVampiric_TW", "Weight": 0.1, "Rarity": [ 83, 10, 5, 2 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 80], [2, 18], [3, 2], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 75, 15, 5, 5 ] },
+            { "Item": "ScytheVampiric_TW", "Weight": 0.1, "Rarity": [ 75, 15, 5, 5 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 75], [2, 15], [3, 5], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 60, 20, 10, 10 ] },
+            { "Item": "ScytheVampiric_TW", "Weight": 0.1, "Rarity": [ 60, 20, 10, 10 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 40], [2, 55], [3, 5], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 40, 40, 10, 10 ] },
+            { "Item": "ScytheVampiric_TW", "Weight": 0.1, "Rarity": [ 40, 40, 10, 10 ] }
+          ]
+        },
+		{
+          "Level": 5,
+          "Drops": [ [1, 20], [2, 60], [3, 15], [4, 5] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 20, 50, 20, 10 ] },
+            { "Item": "ScytheVampiric_TW", "Weight": 0.1, "Rarity": [ 20, 50, 20, 10 ] }
+          ]
+        },
+		{
+          "Level": 6,
+          "Drops": [ [1, 10], [2, 60], [3, 15], [4, 15] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 5, 20, 45, 30 ] },
+            { "Item": "ScytheVampiric_TW", "Weight": 0.1, "Rarity": [ 5, 20, 45, 30 ] }
+		 ]
+	    }
+	   ]
+	  }
+	 ]
+	},
+	{
+      "Path": "$.LootTables",
+      "Action": "AppendAll",
+      "Value": [
+	{
+      "Object": "BossStormHerald_TW",
+      "LeveledLoot": [
+		{
+          "Level": 1,
+          "Drops": [ [1, 85], [2, 14], [3, 1], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier8Everything", "Weight": 1, "Rarity": [ 83, 10, 5, 2 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 80], [2, 18], [3, 2], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier8Everything", "Weight": 1, "Rarity": [ 75, 15, 5, 5 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 75], [2, 15], [3, 5], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier8Everything", "Weight": 1, "Rarity": [ 60, 20, 10, 10 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 40], [2, 55], [3, 5], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier8Everything", "Weight": 1, "Rarity": [ 40, 40, 10, 10 ] }
+          ]
+        },
+		{
+          "Level": 5,
+          "Drops": [ [1, 20], [2, 60], [3, 15], [4, 5] ],
+          "Loot": [
+            { "Item": "Tier8Everything", "Weight": 1, "Rarity": [ 20, 50, 20, 10 ] }
+          ]
+        },
+		{
+          "Level": 6,
+          "Drops": [ [1, 10], [2, 60], [3, 15], [4, 15] ],
+          "Loot": [
+            { "Item": "Tier8Everything", "Weight": 1, "Rarity": [ 5, 20, 45, 30 ] }
+         ]
+	    }
+	   ]
+	  }
+	 ]
+	},
+	{
+      "Path": "$.LootTables",
+      "Action": "AppendAll",
+      "Value": [
+	{
+      "Object": "SurtrOverseer_TW",
+      "LeveledLoot": [
+		{
+          "Level": 1,
+          "Drops": [ [1, 85], [2, 14], [3, 1], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 83, 10, 5, 2 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 80], [2, 18], [3, 2], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 75, 15, 5, 5 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 75], [2, 15], [3, 5], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 60, 20, 10, 10 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 40], [2, 55], [3, 5], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 40, 40, 10, 10 ] }
+          ]
+        },
+		{
+          "Level": 5,
+          "Drops": [ [1, 20], [2, 60], [3, 15], [4, 5] ],
+          "Loot": [
+            { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 20, 50, 20, 10 ] }
+          ]
+        },
+		{
+          "Level": 6,
+          "Drops": [ [1, 10], [2, 60], [3, 15], [4, 15] ],
+          "Loot": [
+            { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 5, 20, 45, 30 ] }
+         ]
+	    }
+	   ]
+	  }
+	 ]
+	}
+  ]
+}

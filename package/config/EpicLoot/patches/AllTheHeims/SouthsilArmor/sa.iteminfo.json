@@ -1,0 +1,66 @@
+{	
+	"TargetFile": "iteminfo.json",
+	"Author": "AllTheHeims",
+	"RequireAll": true,
+	"Patches":
+		[
+			{
+		      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].Items",
+		      "Action": "AppendAll",
+		      "Value": ["neckhelm", "chiefhelmboar", "chiefhelmdeer", "bronzetrollhelm", "trollhelm", "heavybronzehelm", "ancienthelm", "knighthelm", "swamphelm", "norahhelmalt", "norahhelm", "bearhelm", "loxhunthelm", "obswolfhelm", "druidhelm", "bearhelm2", "samuraihelm", "heavybearhelm", "bphelm", "heavycarhelm", "runeknighthelm", "valkhelm", "stjudehelm", "ss_korokhelm", "warlordhelm", "ss_wraithhelm", "lagihelmalt", "sven2", "sven3", "skoghelm", "frostmagehelm", "trueskoghelm", "wshelm", "ancientironhelm", "heavywolfhelm", "sven"]
+    		},
+		    {
+		      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].Items",
+		      "Action": "AppendAll",
+		      "Value": ["neckchest", "chiefchest", "trollchest", "heavybronzechest", "ancientchest", "knightchest", "skogchest", "svenchest", "swampchest", "ancientironchest", "heavywolfchest", "norahchest", "bpchest", "valkchest", "bearchest", "loxhuntchest", "heavycarchest", "frostmagechest", "druidchest", "bearchest2", "samuraichest", "lagichest", "ss_korokchest", "runeknightchest", "warlordchest", "ss_wraithchest", "stjudechest", "heavybearchest", "trueskogchest", "sven2chest", "wschest", "obswolfchest"]
+		    },
+		    {
+		      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].Items",
+		      "Action": "AppendAll",
+		      "Value": ["necklegs", "chieflegs", "trolllegs", "heavybronzelegs", "ancientlegs", "knightlegs", "skoglegs", "svenlegs", "swamplegs", "ancientironlegs", "heavywolflegs", "norahlegs", "bplegs", "valklegs", "bearlegs", "loxhuntlegs", "heavycarlegs", "frostmagelegs", "druidlegs", "bearlegs2", "samurailegs", "lagipants", "ss_koroklegs", "runeknightlegs", "warlordlegs", "ss_wraithlegs", "stjudelegs", "heavybearlegs", "trueskoglegs", "sven2legs", "wslegs", "obswolflegs"]
+		    },
+		    {
+		      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss",
+		      "Action": "Merge",
+		      "Value": {
+	  						"defeated_eikthyr"    : ["neckhelm", "chiefhelmboar", "chiefhelmdeer"],
+							"defeated_gdking"     : ["bronzetrollhelm", "trollhelm"],
+							"defeated_bonemass"   : ["heavybronzehelm", "ancienthelm", "knighthelm", "swamphelm", "norahhelmalt"],
+							"defeated_dragon"     : ["ancientironhelm", "heavywolfhelm", "sven"],
+							"defeated_goblinking" : ["bearhelm", "loxhunthelm", "obswolfhelm", "druidhelm", "bearhelm2", "samuraihelm", "heavybearhelm"],
+							"defeated_queen"      : ["bphelm", "heavycarhelm", "runeknighthelm", "valkhelm", "stjudehelm", "ss_korokhelm"],
+							"defeated_fader"	  : ["warlordhelm", "ss_wraithhelm", "lagihelmalt", "sven2", "sven3", "skoghelm", "frostmagehelm", "trueskoghelm", "wshelm"]
+		      			}
+		    },
+		    {
+		      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss",
+		      "Action": "Merge",
+		      "Value":	{
+							"defeated_eikthyr"    : ["neckchest", "chiefchest"],
+							"defeated_gdking"     : ["trollchest"],
+							"defeated_bonemass"   : ["heavybronzechest", "ancientchest", "swampchest"],
+							"defeated_dragon"     : ["heavywolfchest", "obswolfchest"],
+							"defeated_goblinking" : ["knightchest", "skogchest", "svenchest", "ancientironchest", "norahchest", "bpchest"],
+							"defeated_queen"      : ["valkchest", "bearchest", "loxhuntchest", "heavycarchest", "frostmagechest", "druidchest", "bearchest2", "samuraichest", "lagichest", "ss_korokchest", "runeknightchest"],
+							"defeated_fader"	  : ["warlordchest", "ss_wraithchest", "stjudechest", "heavybearchest", "trueskogchest", "sven2chest", "wschest"]
+						}
+		    },
+		    {
+		      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss",
+		      "Action": "Merge",
+		      "Value": {
+							"defeated_eikthyr"    : ["necklegs", "chieflegs"],
+							"defeated_gdking"     : ["trolllegs"],
+							"defeated_bonemass"   : ["heavybronzelegs", "ancientlegs", "knightlegs", "skoglegs", "svenlegs", "swamplegs"],
+							"defeated_dragon"     : ["ancientironlegs", "heavywolflegs", "norahlegs", "obswolflegs"],
+							"defeated_goblinking" : ["bplegs", "valklegs", "bearlegs", "loxhuntlegs", "heavycarlegs", "frostmagelegs"],
+							"defeated_queen"      : ["druidlegs", "bearlegs2", "samurailegs", "lagipants", "ss_koroklegs", "runeknightlegs"],
+							"defeated_fader"	  : ["warlordlegs", "ss_wraithlegs", "stjudelegs", "heavybearlegs", "trueskoglegs", "sven2legs", "wslegs"]
+						}
+		    }
+		]
+}
+
+
+
+

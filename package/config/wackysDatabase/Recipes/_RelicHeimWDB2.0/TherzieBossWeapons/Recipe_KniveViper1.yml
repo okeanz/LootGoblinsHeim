@@ -1,0 +1,16 @@
+name: KniveViper1
+clonePrefabName: KnifeViper_TW
+craftingStation: $piece_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_forge
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Ooze:20:0:True
+- Bronze:0:15:True
+- BoneFragments:10:0:True
+- AncientSeed:0:3:True
+- TrophyAsmodeus_TW:1:1:True
+- InfusedCrystal_JH:20:0:True

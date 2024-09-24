@@ -1,0 +1,3857 @@
+{
+  "FulingCoinDropScale": 1.0,
+  "SecretStash": {
+    "RefreshInterval": 1,
+    "Materials": [],
+    "RollsPerRarity": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "RandomItems": [
+      {
+        "Item": "DustMagic",
+        "CoinsCost": 400,
+        "GlobalKeyRequire": "defeated_eikthyr"
+      },
+      {
+        "Item": "RunestoneMagic",
+        "CoinsCost": 400,
+        "GlobalKeyRequire": "defeated_eikthyr"
+      },
+      {
+        "Item": "RunestoneRare",
+        "CoinsCost": 800,
+        "GlobalKeyRequire": "defeated_bonemass"
+      },
+      {
+        "Item": "RunestoneEpic",
+        "CoinsCost": 1600,
+        "GlobalKeyRequire": "defeated_goblinking"
+      },
+      {
+        "Item": "RunestoneLegendary",
+        "CoinsCost": 3200,
+        "GlobalKeyRequire": "defeated_queen"
+      },
+      {
+        "Item": "RunestoneMythic",
+        "CoinsCost": 4200,
+        "GlobalKeyRequire": "defeated_fader"
+      },
+      {
+        "Item": "EssenceRare",
+        "CoinsCost": 1000,
+        "GlobalKeyRequire": "defeated_bonemass"
+      },
+      {
+        "Item": "EssenceEpic",
+        "CoinsCost": 2000,
+        "GlobalKeyRequire": "defeated_goblinking"
+      },
+      {
+        "Item": "EssenceLegendary",
+        "CoinsCost": 4000,
+        "GlobalKeyRequire": "defeated_queen"
+      },
+      {
+        "Item": "EssenceMythic",
+        "CoinsCost": 6000,
+        "GlobalKeyRequire": "defeated_fader"
+      }
+    ],
+    "RandomItemsCount": 2,
+    "OtherItems": [
+      {
+        "Item": "ShardMagic",
+        "CoinsCost": 500,
+        "GlobalKeyRequire": "defeated_eikthyr"
+      },
+      {
+        "Item": "RunestoneMagic",
+        "CoinsCost": 600,
+        "GlobalKeyRequire": "defeated_eikthyr"
+      },
+      {
+        "Item": "RunestoneRare",
+        "CoinsCost": 1000,
+        "GlobalKeyRequire": "defeated_bonemass"
+      },
+      {
+        "Item": "RunestoneEpic",
+        "CoinsCost": 1950,
+        "GlobalKeyRequire": "defeated_goblinking"
+      },
+      {
+        "Item": "RunestoneLegendary",
+        "CoinsCost": 3500,
+        "GlobalKeyRequire": "defeated_queen"
+      },
+      {
+        "Item": "EssenceRare",
+        "CoinsCost": 1200,
+        "GlobalKeyRequire": "defeated_bonemass"
+      },
+      {
+        "Item": "EssenceEpic",
+        "CoinsCost": 2350,
+        "GlobalKeyRequire": "defeated_goblinking"
+      },
+      {
+        "Item": "EssenceLegendary",
+        "CoinsCost": 4500,
+        "GlobalKeyRequire": "defeated_queen"
+      },
+      {
+        "Item": "RunestoneMagic",
+        "ForestTokenCost": 3,
+        "GlobalKeyRequire": "defeated_eikthyr"
+      },
+      {
+        "Item": "RunestoneRare",
+        "IronBountyTokenCost": 5,
+        "GlobalKeyRequire": "defeated_bonemass"
+      },
+      {
+        "Item": "RunestoneEpic",
+        "IronBountyTokenCost": 10,
+        "GlobalKeyRequire": "defeated_goblinking"
+      },
+      {
+        "Item": "RunestoneLegendary",
+        "GoldBountyTokenCost": 5,
+        "GlobalKeyRequire": "defeated_queen"
+      },
+      {
+        "Item": "EssenceRare",
+        "IronBountyTokenCost": 5,
+        "GlobalKeyRequire": "defeated_bonemass"
+      },
+      {
+        "Item": "EssenceEpic",
+        "IronBountyTokenCost": 10,
+        "GlobalKeyRequire": "defeated_goblinking"
+      },
+      {
+        "Item": "EssenceLegendary",
+        "GoldBountyTokenCost": 5,
+        "GlobalKeyRequire": "defeated_queen"
+      },
+      {
+        "Item": "EnchantedKey",
+        "ForestTokenCost": 20,
+        "GlobalKeyRequire": "defeated_eikthyr"
+      },
+      {
+        "Item": "Andvaranaut",
+        "ForestTokenCost": 10,
+        "GlobalKeyRequire": "defeated_eikthyr"
+      }
+    ]
+  },
+  "Gamble": {
+    "RefreshInterval": 1,
+    "Gambles": [
+      "Swords",
+      "Axes",
+      "TwoHandAxes",
+      "Knives",
+      "Fists",
+      "Staffs",
+      "Clubs",
+      "Sledges",
+      "Polearms",
+      "Spears",
+      "Bows",
+      "Bucklers",
+      "RoundShields",
+      "TowerShields",
+      "ChestArmor",
+      "LegsArmor",
+      "HeadArmor",
+      "ShouldersArmor"
+    ],
+    "GamblesCount": 4,
+    "GambleRarityChance": [
+      96,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "GambleRarityGlobalKeys": [
+      "",
+      "defeated_eikthyr",
+      "defeated_bonemass",
+      "defeated_goblinking",
+      "defeated_queen"
+    ],
+    "GambleRarityChanceByRarity": [
+      [
+        15,
+        83,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        18,
+        10,
+        70,
+        2,
+        0,
+        0
+      ],
+      [
+        28,
+        5,
+        5,
+        60,
+        2,
+        0
+      ],
+      [
+        40,
+        2,
+        3,
+        5,
+        40,
+        10
+      ],
+      [
+        30,
+        2,
+        3,
+        5,
+        30,
+        30
+      ]
+    ],
+    "ForestTokenGambleCoinsCost": 1.5,
+    "ForestTokenGambleCostMin": 2,
+    "ForestTokenGambleCostMax": 5,
+    "IronBountyGambleCoinsCost": 1.75,
+    "IronBountyGambleCost": 5,
+    "GoldBountyGambleCoinsCost": 2,
+    "GoldBountyGambleCost": 5,
+    "GambleCosts": [
+      {
+        "Item": "AxeStone",
+        "CoinsCost": 100
+      },
+      {
+        "Item": "ShieldWood",
+        "CoinsCost": 100
+      },
+      {
+        "Item": "ShieldWoodTower",
+        "CoinsCost": 100
+      },
+      {
+        "Item": "Bow",
+        "CoinsCost": 100
+      },
+      {
+        "Item": "CapeDeerHide",
+        "CoinsCost": 100
+      },
+      {
+        "Item": "ArmorRagsChest",
+        "CoinsCost": 100
+      },
+      {
+        "Item": "ArmorRagsLegs",
+        "CoinsCost": 100
+      },
+      {
+        "Item": "Club",
+        "CoinsCost": 100
+      },
+      {
+        "Item": "AxeFlint",
+        "CoinsCost": 200
+      },
+      {
+        "Item": "KnifeFlint",
+        "CoinsCost": 200
+      },
+      {
+        "Item": "PickaxeAntler",
+        "CoinsCost": 290
+      },
+      {
+        "Item": "SpearFlint",
+        "CoinsCost": 200
+      },
+      {
+        "Item": "HelmetLeather",
+        "CoinsCost": 200
+      },
+      {
+        "Item": "ArmorLeatherLegs",
+        "CoinsCost": 200
+      },
+      {
+        "Item": "ArmorLeatherChest",
+        "CoinsCost": 200
+      },
+      {
+        "Item": "ArmorTrollLeatherChest",
+        "CoinsCost": 300
+      },
+      {
+        "Item": "ArmorTrollLeatherLegs",
+        "CoinsCost": 300
+      },
+      {
+        "Item": "HelmetTrollLeather",
+        "CoinsCost": 300
+      },
+      {
+        "Item": "CapeTrollHide",
+        "CoinsCost": 300
+      },
+      {
+        "Item": "SpearBronze",
+        "CoinsCost": 500
+      },
+      {
+        "Item": "KnifeCopper",
+        "CoinsCost": 500
+      },
+      {
+        "Item": "ShieldBoneTower",
+        "CoinsCost": 500
+      },
+      {
+        "Item": "SwordBronze",
+        "CoinsCost": 500
+      },
+      {
+        "Item": "SledgeStagbreaker",
+        "CoinsCost": 500
+      },
+      {
+        "Item": "LeatherBelt",
+        "CoinsCost": 500
+      },
+      {
+        "Item": "GoldRubyRing",
+        "CoinsCost": 500
+      },
+      {
+        "Item": "MaceBronze",
+        "CoinsCost": 500
+      },
+      {
+        "Item": "AtgeirBronze",
+        "CoinsCost": 500
+      },
+      {
+        "Item": "AxeBronze",
+        "CoinsCost": 500
+      },
+      {
+        "Item": "ShieldBronzeBuckler",
+        "CoinsCost": 500
+      },
+      {
+        "Item": "BowFineWood",
+        "CoinsCost": 500
+      },
+      {
+        "Item": "ArmorBronzeChest",
+        "CoinsCost": 500
+      },
+      {
+        "Item": "ArmorBronzeLegs",
+        "CoinsCost": 500
+      },
+      {
+        "Item": "HelmetBronze",
+        "CoinsCost": 500
+      },
+      {
+        "Item": "Battleaxe",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "SpearChitin",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "KnifeChitin",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "SledgeIron",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "SpearElderbark",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "BowHuntsman",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "MaceIron",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "AtgeirIron",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "ShieldBanded",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "ShieldIronTower",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "ShieldIronBuckler",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "SwordIron",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "ArmorIronChest",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "ArmorIronLegs",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "HelmetIron",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "HelmetRoot",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "ArmorRootLegs",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "ArmorRootChest",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "ArmorPlateCape",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "AxeIron",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "BattleaxeCrystal",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "FistFenrirClaw",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "SilverRing",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "SpearWolfFang",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "ShieldSerpentscale",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "BowDraugrFang",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "MaceSilver",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "ShieldSilver",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "KnifeSilver",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "SwordSilver",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "CapeWolf",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "ArmorWolfChest",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "ArmorWolfLegs",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "HelmetDrake",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "ArmorFenringLegs",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "ArmorFenringChest",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "HelmetFenring",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "CapeLox",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "ArmorPaddedCuirass",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "ArmorPaddedGreaves",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "HelmetPadded",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "MaceNeedle",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "AtgeirBlackmetal",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "KnifeBlackMetal",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "ShieldBlackmetal",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "ShieldBlackmetalTower",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "SwordBlackmetal",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "AxeBlackMetal",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "AtgeirHimminAfl",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "AxeJotunBane",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "KnifeSkollAndHati",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "StaffFireball",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "StaffIceShards",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "StaffShield",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "StaffSkeleton",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "SledgeDemolisher",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "SpearCarapace",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "THSwordKrom",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "CrossbowArbalest",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "BowSpineSnap",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ShieldCarapace",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ShieldCarapaceBuckler",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorMageChest",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorCarapaceChest",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorCarapaceLegs",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorMageLegs",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetCarapace",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetMage",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "CapeFeather",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "CapeFeather",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "AxeBerzerkr",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "MaceEldner",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "StaffClusterbomb",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "StaffLightning",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "StaffRedTroll",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "StaffGreenRoots",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "SpearSplitner",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "SwordNiedhogg",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "SwordDyrnwyn",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "THSwordSlayer",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "BowAshlands",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "ShieldFlametal",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "ShieldFlametalTower",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "ArmorFlametalChest",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "ArmorAshlandsMediumChest",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "ArmorMageChest_Ashlands",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "ArmorFlametalLegs",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "ArmorAshlandsMediumlegs",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "ArmorMageLegs_Ashlands",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "HelmetFlametal",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "HelmetAshlandsMediumHood",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "HelmetMage_Ashlands",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "CapeAsh",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "CapeAsksvin",
+        "CoinsCost": 2500
+      },
+      {
+        "Item": "neckhelm",
+        "CoinsCost": 256
+      },
+      {
+        "Item": "chiefhelmboar",
+        "CoinsCost": 384
+      },
+      {
+        "Item": "chiefhelmdeer",
+        "CoinsCost": 649
+      },
+      {
+        "Item": "neckchest",
+        "CoinsCost": 4500
+      },
+      {
+        "Item": "chiefchest",
+        "CoinsCost": 4500
+      },
+      {
+        "Item": "necklegs",
+        "CoinsCost": 649
+      },
+      {
+        "Item": "chieflegs",
+        "CoinsCost": 649
+      },
+      {
+        "Item": "bronzetrollhelm",
+        "CoinsCost": 1236
+      },
+      {
+        "Item": "trollhelm",
+        "CoinsCost": 1853
+      },
+      {
+        "Item": "trollchest",
+        "CoinsCost": 1853
+      },
+      {
+        "Item": "trolllegs",
+        "CoinsCost": 1236
+      },
+      {
+        "Item": "heavybronzehelm",
+        "CoinsCost": 3132
+      },
+      {
+        "Item": "ancienthelm",
+        "CoinsCost": 3132
+      },
+      {
+        "Item": "knighthelm",
+        "CoinsCost": 3132
+      },
+      {
+        "Item": "heavybronzechest",
+        "CoinsCost": 3132
+      },
+      {
+        "Item": "ancientchest",
+        "CoinsCost": 3132
+      },
+      {
+        "Item": "heavybronzelegs",
+        "CoinsCost": 2088
+      },
+      {
+        "Item": "ancientlegs",
+        "CoinsCost": 2088
+      },
+      {
+        "Item": "swamphelm",
+        "CoinsCost": 5294
+      },
+      {
+        "Item": "norahhelmalt",
+        "CoinsCost": 5294
+      },
+      {
+        "Item": "knightchest",
+        "CoinsCost": 5294
+      },
+      {
+        "Item": "skogchest",
+        "CoinsCost": 5294
+      },
+      {
+        "Item": "svenchest",
+        "CoinsCost": 5294
+      },
+      {
+        "Item": "knightlegs",
+        "CoinsCost": 3529
+      },
+      {
+        "Item": "skoglegs",
+        "CoinsCost": 3529
+      },
+      {
+        "Item": "svenlegs",
+        "CoinsCost": 3529
+      },
+      {
+        "Item": "norahhelm",
+        "CoinsCost": 6617
+      },
+      {
+        "Item": "bearhelm",
+        "CoinsCost": 6617
+      },
+      {
+        "Item": "loxhunthelm",
+        "CoinsCost": 6617
+      },
+      {
+        "Item": "obswolfhelm",
+        "CoinsCost": 6617
+      },
+      {
+        "Item": "druidhelm",
+        "CoinsCost": 6617
+      },
+      {
+        "Item": "bearhelm2",
+        "CoinsCost": 6617
+      },
+      {
+        "Item": "samuraihelm",
+        "CoinsCost": 6617
+      },
+      {
+        "Item": "heavybearhelm",
+        "CoinsCost": 6617
+      },
+      {
+        "Item": "swampchest",
+        "CoinsCost": 6617
+      },
+      {
+        "Item": "ancientironchest",
+        "CoinsCost": 6617
+      },
+      {
+        "Item": "heavywolfchest",
+        "CoinsCost": 6617
+      },
+      {
+        "Item": "norahchest",
+        "CoinsCost": 6617
+      },
+      {
+        "Item": "bpchest",
+        "CoinsCost": 6617
+      },
+      {
+        "Item": "svevalkchestnlegs",
+        "CoinsCost": 5964
+      },
+      {
+        "Item": "swamplegs",
+        "CoinsCost": 5964
+      },
+      {
+        "Item": "ancientironlegs",
+        "CoinsCost": 5964
+      },
+      {
+        "Item": "heavywolflegs",
+        "CoinsCost": 5964
+      },
+      {
+        "Item": "norahlegs",
+        "CoinsCost": 5964
+      },
+      {
+        "Item": "bplegs",
+        "CoinsCost": 5964
+      },
+      {
+        "Item": "valklegs",
+        "CoinsCost": 5964
+      },
+      {
+        "Item": "bphelm",
+        "CoinsCost": 9860
+      },
+      {
+        "Item": "heavycarhelm",
+        "CoinsCost": 9860
+      },
+      {
+        "Item": "runeknighthelm",
+        "CoinsCost": 9860
+      },
+      {
+        "Item": "valkhelm",
+        "CoinsCost": 9860
+      },
+      {
+        "Item": "stjudehelm",
+        "CoinsCost": 9860
+      },
+      {
+        "Item": "ss_korokhelm",
+        "CoinsCost": 9860
+      },
+      {
+        "Item": "bearchest",
+        "CoinsCost": 9860
+      },
+      {
+        "Item": "loxhuntchest",
+        "CoinsCost": 9860
+      },
+      {
+        "Item": "heavycarchest",
+        "CoinsCost": 9860
+      },
+      {
+        "Item": "frostmagechest",
+        "CoinsCost": 9860
+      },
+      {
+        "Item": "druidchest",
+        "CoinsCost": 9860
+      },
+      {
+        "Item": "bearchest2",
+        "CoinsCost": 9860
+      },
+      {
+        "Item": "samuraichest",
+        "CoinsCost": 9860
+      },
+      {
+        "Item": "lagichest",
+        "CoinsCost": 9860
+      },
+      {
+        "Item": "ss_korokchest",
+        "CoinsCost": 9860
+      },
+      {
+        "Item": "bearlegs",
+        "CoinsCost": 8290
+      },
+      {
+        "Item": "loxhuntlegs",
+        "CoinsCost": 8290
+      },
+      {
+        "Item": "heavycarlegs",
+        "CoinsCost": 8290
+      },
+      {
+        "Item": "frostmagelegs",
+        "CoinsCost": 8290
+      },
+      {
+        "Item": "druidlegs",
+        "CoinsCost": 8290
+      },
+      {
+        "Item": "bearlegs2",
+        "CoinsCost": 8290
+      },
+      {
+        "Item": "samurailegs",
+        "CoinsCost": 8290
+      },
+      {
+        "Item": "lagipants",
+        "CoinsCost": 8290
+      },
+      {
+        "Item": "ss_koroklegs",
+        "CoinsCost": 8290
+      },
+      {
+        "Item": "warlordhelm",
+        "CoinsCost": 13113
+      },
+      {
+        "Item": "ss_wraithhelm",
+        "CoinsCost": 13113
+      },
+      {
+        "Item": "lagihelmalt",
+        "CoinsCost": 13113
+      },
+      {
+        "Item": "sven2",
+        "CoinsCost": 13113
+      },
+      {
+        "Item": "sven3",
+        "CoinsCost": 13113
+      },
+      {
+        "Item": "runeknightchest",
+        "CoinsCost": 13113
+      },
+      {
+        "Item": "warlordchest",
+        "CoinsCost": 13113
+      },
+      {
+        "Item": "ss_wraithchest",
+        "CoinsCost": 13113
+      },
+      {
+        "Item": "stjudechest",
+        "CoinsCost": 13113
+      },
+      {
+        "Item": "heavybearchest",
+        "CoinsCost": 13113
+      },
+      {
+        "Item": "runeknightlegs",
+        "CoinsCost": 11524
+      },
+      {
+        "Item": "warlordlegs",
+        "CoinsCost": 11524
+      },
+      {
+        "Item": "ss_wraithlegs",
+        "CoinsCost": 11524
+      },
+      {
+        "Item": "stjudelegs",
+        "CoinsCost": 11524
+      },
+      {
+        "Item": "heavybearlegs",
+        "CoinsCost": 11524
+      },
+      {
+        "Item": "skoghelm",
+        "CoinsCost": 15998
+      },
+      {
+        "Item": "frostmagehelm",
+        "CoinsCost": 15998
+      },
+      {
+        "Item": "trueskoghelm",
+        "CoinsCost": 15998
+      },
+      {
+        "Item": "wshelm",
+        "CoinsCost": 15998
+      },
+      {
+        "Item": "trueskogchest",
+        "CoinsCost": 15998
+      },
+      {
+        "Item": "sven2chest",
+        "CoinsCost": 15998
+      },
+      {
+        "Item": "wschest",
+        "CoinsCost": 15998
+      },
+      {
+        "Item": "trueskoglegs",
+        "CoinsCost": 16018
+      },
+      {
+        "Item": "sven2legs",
+        "CoinsCost": 16018
+      },
+      {
+        "Item": "wslegs",
+        "CoinsCost": 16018
+      },
+      {
+        "Item": "ancientironhelm",
+        "CoinsCost": 5450
+      },
+      {
+        "Item": "heavywolfhelm",
+        "CoinsCost": 3362
+      },
+      {
+        "Item": "sven",
+        "CoinsCost": 5450
+      },
+      {
+        "Item": "obswolfchest",
+        "CoinsCost": 5450
+      },
+      {
+        "Item": "obswolflegs",
+        "CoinsCost": 3362
+      },
+      {
+        "Item": "HelmetLeather_TW",
+        "CoinsCost": 250
+      },
+      {
+        "Item": "ArmorLeatherChest_TW",
+        "CoinsCost": 250
+      },
+      {
+        "Item": "ArmorLeatherLegs_TW",
+        "CoinsCost": 250
+      },
+      {
+        "Item": "HelmetRogue_TW",
+        "CoinsCost": 400
+      },
+      {
+        "Item": "ArmorRogueChest_TW",
+        "CoinsCost": 400
+      },
+      {
+        "Item": "ArmorRogueLegs_TW",
+        "CoinsCost": 400
+      },
+      {
+        "Item": "CapeTrollBlack_TW",
+        "CoinsCost": 400
+      },
+      {
+        "Item": "HelmetRazorback_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "ArmorRazorbackChest_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "ArmorRazorbackLegs_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "HelmetVigorous_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "ArmorVigorousChest_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "ArmorVigorousLegs_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "HelmetHunter_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "ArmorHunterChest_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "ArmorHunterLegs_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "HelmetRogueIron_TW",
+        "CoinsCost": 1000
+      },
+      {
+        "Item": "ArmorRogueIronChest_TW",
+        "CoinsCost": 1000
+      },
+      {
+        "Item": "ArmorRogueIronLegs_TW",
+        "CoinsCost": 1000
+      },
+      {
+        "Item": "HelmetVigorousIron_TW",
+        "CoinsCost": 1000
+      },
+      {
+        "Item": "ArmorVigorousIronChest_TW",
+        "CoinsCost": 1000
+      },
+      {
+        "Item": "ArmorVigorousIronLegs_TW",
+        "CoinsCost": 1000
+      },
+      {
+        "Item": "HelmetWarrior_TW",
+        "CoinsCost": 1000
+      },
+      {
+        "Item": "ArmorWarriorChest_TW",
+        "CoinsCost": 1000
+      },
+      {
+        "Item": "ArmorWarriorLegs_TW",
+        "CoinsCost": 1000
+      },
+      {
+        "Item": "HelmetHunterIron_TW",
+        "CoinsCost": 1000
+      },
+      {
+        "Item": "ArmorHunterChestIron_TW",
+        "CoinsCost": 1000
+      },
+      {
+        "Item": "ArmorHunterLegsIron_TW",
+        "CoinsCost": 1000
+      },
+      {
+        "Item": "HelmetRogueSilver_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "ArmorRogueSilverChest_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "ArmorRogueSilverLegs_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "HelmetVigorousSilver_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "ArmorVigorousSilverChest_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "ArmorVigorousSilverLegs_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "HelmetWarriorSilver_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "ArmorWarriorSilverChest_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "ArmorWarriorSilverLegs_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "HelmetFenrir_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "ArmorFenrirChest_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "ArmorFenrirLegs_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "HelmetVidar_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "ArmorVidarChest_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "ArmorVidarLegs_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "HelmetHunterSilver_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "ArmorHunterChestSilver_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "ArmorHunterLegsSilver_TW",
+        "CoinsCost": 1400
+      },
+      {
+        "Item": "HelmetRogueBM_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ArmorRogueBMChest_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ArmorRogueBMLegs_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "HelmetVigorousBM_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ArmorVigorousBMChest_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ArmorVigorousBMLegs_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "HelmetWarriorBM_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ArmorWarriorBMChest_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ArmorWarriorBMLegs_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "HelmetFenrirBM_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ArmorFenrirBMChest_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ArmorFenrirBMLegs_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "HelmetVidarBM_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ArmorVidarBMChest_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ArmorVidarBMLegs_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "HelmetBold_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ArmorBoldChest_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ArmorBoldLegs_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "HelmetHunterBM_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ArmorHunterChestBM_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ArmorHunterLegsBM_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "BeltYmir_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetRogueCarapace_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorRogueCarapaceChest_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorRogueCarapaceLegs_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetVigorousCarapace_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorVigorousCarapaceChest_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorVigorousCarapaceLegs_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetWarriorCarapace_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorWarriorCarapaceChest_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorWarriorCarapaceLegs_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetFenrirCarapace_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorFenrirCarapaceChest_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorFenrirCarapaceLegs_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetVidarCarapace_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorVidarCarapaceChest_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorVidarCarapaceLegs_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetBoldCarapace_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorBoldCarapaceChest_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorBoldCarapaceLegs_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetLegion_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorLegionChest_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorLegionLegs_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetDestruction_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorDestructionChest_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorDestructionLegs_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetSacrifice_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorSacrificeChest_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorSacrificeLegs_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetHunterCarapace_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorHunterChestCarapace_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorHunterLegsCarapace_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetVidarFlametal_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorVidarFlametalChest_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorVidarFlametalLegs_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "HelmetBoldFlametal_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorBoldFlametalChest_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorBoldFlametalLegs_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "HelmetLegionFlametal_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorLegionFlametalChest_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorLegionFlametalLegs_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "HelmetSacrificeFlametal_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorSacrificeFlametalChest_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorSacrificeFlametalLegs_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "HelmetWarriorFlametal_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorWarriorFlametalChest_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorWarriorFlametalLegs_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "HelmetDestructionTyranium_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorDestructionTyraniumChest_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorDestructionTyraniumLegs_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "HelmetRogueTyranium_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorRogueTyraniumChest_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorRogueTyraniumLegs_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "HelmetVigorousTyranium_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorVigorousTyraniumChest_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorVigorousTyraniumLegs_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "HelmetFenrirTyranium_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorFenrirTyraniumChest_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "ArmorFenrirTyraniumLegs_TW",
+        "CoinsCost": 2600
+      },
+      {
+        "Item": "HelmetUllr_TW",
+        "CoinsCost": 10000
+      },
+      {
+        "Item": "ArmorUllrChest_TW",
+        "CoinsCost": 10000
+      },
+      {
+        "Item": "ArmorUllrLegs_TW",
+        "CoinsCost": 10000
+      },
+      {
+        "Item": "AtgeirFlint_TW",
+        "CoinsCost": 300
+      },
+      {
+        "Item": "BattleaxeFlint_TW",
+        "CoinsCost": 150
+      },
+      {
+        "Item": "FistFlint_TW",
+        "CoinsCost": 150
+      },
+      {
+        "Item": "MaceFlint_TW",
+        "CoinsCost": 150
+      },
+      {
+        "Item": "SwordFlint_TW",
+        "CoinsCost": 150
+      },
+      {
+        "Item": "BastardFlint_TW",
+        "CoinsCost": 150
+      },
+      {
+        "Item": "GreatClub_TW",
+        "CoinsCost": 150
+      },
+      {
+        "Item": "BowTrollBone_TW",
+        "CoinsCost": 300
+      },
+      {
+        "Item": "BastardBone_TW",
+        "CoinsCost": 300
+      },
+      {
+        "Item": "ClaymoreBone_TW",
+        "CoinsCost": 300
+      },
+      {
+        "Item": "SwordBone_TW",
+        "CoinsCost": 300
+      },
+      {
+        "Item": "DualKnifeBone_TW",
+        "CoinsCost": 300
+      },
+      {
+        "Item": "WarpikeBone_TW",
+        "CoinsCost": 300
+      },
+      {
+        "Item": "BattlehammerTrollbone_TW",
+        "CoinsCost": 300
+      },
+      {
+        "Item": "BattleaxeBronze_TW",
+        "CoinsCost": 525
+      },
+      {
+        "Item": "FistBronze_TW",
+        "CoinsCost": 525
+      },
+      {
+        "Item": "ClaymoreBronze_TW",
+        "CoinsCost": 525
+      },
+      {
+        "Item": "CrossbowBronze_TW",
+        "CoinsCost": 525
+      },
+      {
+        "Item": "CudgelBronze_TW",
+        "CoinsCost": 525
+      },
+      {
+        "Item": "KnifeBronze_TW",
+        "CoinsCost": 525
+      },
+      {
+        "Item": "SledgeBronze_TW",
+        "CoinsCost": 525
+      },
+      {
+        "Item": "ShieldBronzeBanded_TW",
+        "CoinsCost": 525
+      },
+      {
+        "Item": "ShieldBronzeTower_TW",
+        "CoinsCost": 525
+      },
+      {
+        "Item": "HelmetBlackBear_TW",
+        "CoinsCost": 525
+      },
+      {
+        "Item": "HelmetRazorback_TW",
+        "CoinsCost": 525
+      },
+      {
+        "Item": "CudgelIron_TW",
+        "CoinsCost": 525
+      },
+      {
+        "Item": "BastardChitin_TW",
+        "CoinsCost": 650
+      },
+      {
+        "Item": "CrossbowChitin_TW",
+        "CoinsCost": 650
+      },
+      {
+        "Item": "ClaymoreChitin_TW",
+        "CoinsCost": 650
+      },
+      {
+        "Item": "MaceChitin_TW",
+        "CoinsCost": 650
+      },
+      {
+        "Item": "FistChitin_TW",
+        "CoinsCost": 650
+      },
+      {
+        "Item": "SwordChitin_TW",
+        "CoinsCost": 650
+      },
+      {
+        "Item": "WarpikeChitin_TW",
+        "CoinsCost": 650
+      },
+      {
+        "Item": "ShieldChitin_TW",
+        "CoinsCost": 650
+      },
+      {
+        "Item": "ShieldChitinTower_TW",
+        "CoinsCost": 650
+      },
+      {
+        "Item": "ShieldChitinBuckler_TW",
+        "CoinsCost": 650
+      },
+      {
+        "Item": "DualKnifeChitin_TW",
+        "CoinsCost": 650
+      },
+      {
+        "Item": "BattleaxeIron_TW",
+        "CoinsCost": 825
+      },
+      {
+        "Item": "BattlehammerIron_TW",
+        "CoinsCost": 825
+      },
+      {
+        "Item": "ClaymoreIron_TW",
+        "CoinsCost": 825
+      },
+      {
+        "Item": "FistIron_TW",
+        "CoinsCost": 825
+      },
+      {
+        "Item": "CrossbowIron_TW",
+        "CoinsCost": 825
+      },
+      {
+        "Item": "KnifeIron_TW",
+        "CoinsCost": 825
+      },
+      {
+        "Item": "SledgeIron_TW",
+        "CoinsCost": 825
+      },
+      {
+        "Item": "KnifeWrench_TW",
+        "CoinsCost": 825
+      },
+      {
+        "Item": "DualKnifeIron_TW",
+        "CoinsCost": 825
+      },
+      {
+        "Item": "CapeRotten_TW",
+        "CoinsCost": 825
+      },
+      {
+        "Item": "AxeSilver_TW",
+        "CoinsCost": 1300
+      },
+      {
+        "Item": "AtgeirSilver_TW",
+        "CoinsCost": 1300
+      },
+      {
+        "Item": "BastardSilver_TW",
+        "CoinsCost": 1300
+      },
+      {
+        "Item": "BattleaxeSilver_TW",
+        "CoinsCost": 1300
+      },
+      {
+        "Item": "BattlehammerSilver_TW",
+        "CoinsCost": 1300
+      },
+      {
+        "Item": "ClaymoreSilver_TW",
+        "CoinsCost": 1300
+      },
+      {
+        "Item": "CrossbowSilver_TW",
+        "CoinsCost": 1300
+      },
+      {
+        "Item": "FistSilver_TW",
+        "CoinsCost": 1300
+      },
+      {
+        "Item": "SledgeSilver_TW",
+        "CoinsCost": 1300
+      },
+      {
+        "Item": "ShieldSilverBuckler_TW",
+        "CoinsCost": 1300
+      },
+      {
+        "Item": "BattleaxeCrystal_TW",
+        "CoinsCost": 1300
+      },
+      {
+        "Item": "HelmetGrizzlyBear_TW",
+        "CoinsCost": 1300
+      },
+      {
+        "Item": "WarpikeObsidian_TW",
+        "CoinsCost": 1300
+      },
+      {
+        "Item": "DualKnifeSilver_TW",
+        "CoinsCost": 1300
+      },
+      {
+        "Item": "BastardBlackmetal_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "BattleaxeBlackmetal_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "BattlehammerBlackmetal_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "BowBlackmetal_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "GreatbowBlackmetal_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "DualSwordScimitar_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "SwordScimitar_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ClaymoreBlackmetal_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "CrossbowBlackmetal_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "FistBlackmetal_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "LanceBlackmetal_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "SpearBlackmetal_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "SledgeBlackmetal_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "TridentBlackmetal_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "WarpikeBlackmetal_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "ShieldBlackmetalBuckler_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "BattleaxeCrystalEmerald_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "DualKnifeBM_TW",
+        "CoinsCost": 1800
+      },
+      {
+        "Item": "AxeDvergr_TW",
+        "CoinsCost": 2200
+      },
+      {
+        "Item": "BastardDvergr_TW",
+        "CoinsCost": 2200
+      },
+      {
+        "Item": "BattleaxeDvergr_TW",
+        "CoinsCost": 2200
+      },
+      {
+        "Item": "BattlehammerDvergr_TW",
+        "CoinsCost": 2200
+      },
+      {
+        "Item": "GreatbowDvergr_TW",
+        "CoinsCost": 2200
+      },
+      {
+        "Item": "ClaymoreDvergr_TW",
+        "CoinsCost": 2200
+      },
+      {
+        "Item": "FistDvergr_TW",
+        "CoinsCost": 2200
+      },
+      {
+        "Item": "LanceDvergr_TW",
+        "CoinsCost": 2200
+      },
+      {
+        "Item": "MaceDvergr_TW",
+        "CoinsCost": 2200
+      },
+      {
+        "Item": "WarpikeDvergr_TW",
+        "CoinsCost": 2200
+      },
+      {
+        "Item": "BattleaxeCrystalAmethyst_TW",
+        "CoinsCost": 2200
+      },
+      {
+        "Item": "SledgeDemolisher_TW",
+        "CoinsCost": 2200
+      },
+      {
+        "Item": "ShieldCarapaceTower_TW",
+        "CoinsCost": 2200
+      },
+      {
+        "Item": "AxeSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "AtgeirSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "BastardSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "BattleaxeSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "BattlehammerSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "BowSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "CrossbowSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "GreatbowSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "ClaymoreSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "FistSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "KnifeSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "LanceSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "MaceSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "SpearSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "SledgeSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "SwordSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "WarpikeSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "ShieldSurtr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "ShieldSurtrTower_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "ShieldFlametalBuckler_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "StaffImpDemon_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "BattleaxeCrystalTopaz_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "NecklaceTyr_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "RingLoki_TW",
+        "CoinsCost": 2700
+      },
+      {
+        "Item": "StaffSkrymir_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "ShieldTyraniumBuckler_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "AxeNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "AtgeirNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "BastardNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "BattleaxeNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "BattlehammerNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "BowNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "CrossbowNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "GreatbowNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "ClaymoreNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "FistNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "KnifeNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "LanceNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "MaceNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "SpearNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "SledgeNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "SwordNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "WarpikeNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "ShieldNjord_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "ShieldNjordTower_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "BattleaxeCrystalSapphire_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "CapeMammoth_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "CapeArcticWolf_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "HelmetArcticBear_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "ShieldArcticSerpentscale_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "BowUllr_TW",
+        "CoinsCost": 2800
+      },
+      {
+        "Item": "VolcanicBlade_TW",
+        "CoinsCost": 10000
+      },
+      {
+        "Item": "GlacierBlade_TW",
+        "CoinsCost": 10000
+      },
+      {
+        "Item": "ClaymoreJotunn_TW",
+        "CoinsCost": 10000
+      },
+      {
+        "Item": "StaffBlackforest_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "StaffSwamp_TW",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "StaffSurtling_TW",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "StaffMountain_TW",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "StaffPlains_TW",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "StaffGolem_TW",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "StaffMistlands_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "RingBlackForest_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "HelmetCircletBronze_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "HelmetCircletBronze_Stamina_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "HelmetCircletBronze_Elemental_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "HelmetCircletBronze_Hunter_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "HelmetCircletBronze_Sneak_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "HelmetSpellslinger_BlackForest_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "ArmorSpellSlingerChest_BlackForest_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "ArmorSpellslingerLegs_BlackForest_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "CapeSpellslinger_Blackforest_TW",
+        "CoinsCost": 600
+      },
+      {
+        "Item": "RingSwamp_TW",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "HelmetCircletIron_TW",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "HelmetCircletIron_Stamina_TW",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "HelmetCircletIron_Elemental_TW",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "HelmetCircletIron_Hunter_TW",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "HelmetCircletIron_Sneak_TW",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "HelmetSpellslinger_Swamp_TW",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "ArmorSpellSlingerChest_Swamp_TW",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "ArmorSpellslingerLegs_Swamp_TW",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "CapeSpellslinger_Swamp_TW",
+        "CoinsCost": 800
+      },
+      {
+        "Item": "RingMountain_TW",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "HelmetCircletSilver_TW",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "HelmetCircletSilver_Stamina_TW",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "HelmetCircletSilver_Elemental_TW",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "HelmetCircletSilver_Hunter_TW",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "HelmetCircletSilver_Sneak_TW",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "HelmetSpellslinger_Mountain_TW",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "ArmorSpellSlingerChest_Mountain_TW",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "ArmorSpellslingerLegs_Mountain_TW",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "CapeSpellslinger_Mountain_TW",
+        "CoinsCost": 1200
+      },
+      {
+        "Item": "RingPlains_TW",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "HelmetCircletBM_TW",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "HelmetCircletBM_Stamina_TW",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "HelmetCircletBM_Elemental_TW",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "HelmetCircletBM_Hunter_TW",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "HelmetCircletBM_Sneak_TW",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "HelmetSpellslinger_Plains_TW",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "ArmorSpellSlingerChest_Plains_TW",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "ArmorSpellslingerLegs_Plains_TW",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "CapeSpellslinger_Plains_TW",
+        "CoinsCost": 1600
+      },
+      {
+        "Item": "RingMistlands_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetCircletCarapace_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetCircletCarapace_Stamina_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetCircletCarapace_Elemental_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetCircletCarapace_Hunter_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetCircletCarapace_Sneak_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "HelmetSpellslinger_Mistlands_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorSpellSlingerChest_Mistlands_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "ArmorSpellslingerLegs_Mistlands_TW",
+        "CoinsCost": 2000
+      },
+      {
+        "Item": "CapeSpellslinger_Mistlands_TW",
+        "CoinsCost": 2000
+      }
+    ]
+  },
+  "TreasureMap": {
+    "RefreshInterval": 1,
+    "BiomeInfo": [
+      {
+        "Biome": "Meadows",
+        "Cost": 50,
+        "ForestTokens": 2,
+        "MinRadius": 0,
+        "MaxRadius": 1000
+      },
+      {
+        "Biome": "BlackForest",
+        "Cost": 150,
+        "ForestTokens": 2,
+        "MinRadius": 300,
+        "MaxRadius": 2000
+      },
+      {
+        "Biome": "Ocean",
+        "Cost": -1,
+        "ForestTokens": 0,
+        "MinRadius": 500,
+        "MaxRadius": 3000
+      },
+      {
+        "Biome": "Swamp",
+        "Cost": 250,
+        "ForestTokens": 3,
+        "MinRadius": 500,
+        "MaxRadius": 5000
+      },
+      {
+        "Biome": "Mountain",
+        "Cost": 350,
+        "ForestTokens": 4,
+        "MinRadius": 500,
+        "MaxRadius": 6000
+      },
+      {
+        "Biome": "Plains",
+        "Cost": 450,
+        "ForestTokens": 5,
+        "MinRadius": 2000,
+        "MaxRadius": 6000
+      },
+      {
+        "Biome": "Mistlands",
+        "Cost": 600,
+        "ForestTokens": 5,
+        "MinRadius": 4000,
+        "MaxRadius": 9000
+      },
+      {
+        "Biome": "AshLands",
+        "Cost": 750,
+        "ForestTokens": 5,
+        "MinRadius": 8000,
+        "MaxRadius": 15000
+      },
+      {
+        "Biome": "DeepNorth",
+        "Cost": 800,
+        "ForestTokens": 6,
+        "MinRadius": 8000,
+        "MaxRadius": 15000
+      }
+    ],
+    "StartRadiusMin": 0,
+    "StartRadiusMax": 250,
+    "IncreaseRadiusCount": 5,
+    "RadiusInterval": 50,
+    "MinimapAreaRadius": 45,
+    "SaleItems": []
+  },
+  "Bounties": {
+    "RefreshInterval": 1,
+    "IronMinLevel": 3,
+    "IronMaxLevel": 4,
+    "IronHealthMultiplier": 2.5,
+    "GoldMinLevel": 5,
+    "GoldMaxLevel": 6,
+    "GoldHealthMultiplier": 3.0,
+    "AddsMinLevel": 3,
+    "AddsMaxLevel": 3,
+    "AddsHealthMultiplier": 2.0,
+    "Targets": [
+      {
+        "Biome": "Meadows",
+        "TargetID": "Greyling",
+        "RewardGold": 0,
+        "RewardIron": 0,
+        "RewardCoins": 50
+      },
+      {
+        "Biome": "Meadows",
+        "TargetID": "Greyling",
+        "RewardGold": 0,
+        "RewardIron": 0,
+        "RewardCoins": 70
+      },
+      {
+        "Biome": "Meadows",
+        "TargetID": "Boar",
+        "RewardGold": 0,
+        "RewardIron": 0,
+        "RewardCoins": 60
+      },
+      {
+        "Biome": "Meadows",
+        "TargetID": "Neck",
+        "RewardGold": 0,
+        "RewardIron": 0,
+        "RewardCoins": 50
+      },
+      {
+        "Biome": "Meadows",
+        "TargetID": "Fox_TW",
+        "RewardGold": 0,
+        "RewardIron": 0,
+        "RewardCoins": 60
+      },
+      {
+        "Biome": "Meadows",
+        "TargetID": "TreeSpider",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 90
+      },
+      {
+        "Biome": "Meadows",
+        "TargetID": "GreenSpider",
+        "RewardGold": 0,
+        "RewardIron": 0,
+        "RewardCoins": 90
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "Greydwarf",
+        "RewardGold": 0,
+        "RewardIron": 0,
+        "RewardCoins": 90
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "Greydwarf",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 125
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "Razorback_TW",
+        "RewardGold": 0,
+        "RewardIron": 0,
+        "RewardCoins": 90
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "Razorback_TW",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 125
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "NormalGhostWarrior",
+        "RewardGold": 0,
+        "RewardIron": 0,
+        "RewardCoins": 150
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "NormalGhostWarrior",
+        "RewardGold": 1,
+        "RewardIron": 1,
+        "RewardCoins": 200
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "NormalSkeletonWarrior",
+        "RewardGold": 0,
+        "RewardIron": 0,
+        "RewardCoins": 125
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "NormalSkeletonWarrior",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 150
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "Greydwarf_Elite",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 240
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "Greydwarf_Elite",
+        "RewardGold": 1,
+        "RewardIron": 0,
+        "RewardCoins": 300
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "Greydwarf_Shaman",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 230
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "Greydwarf_Shaman",
+        "RewardGold": 1,
+        "RewardIron": 0,
+        "RewardCoins": 250
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "Troll",
+        "RewardGold": 1,
+        "RewardIron": 2,
+        "RewardCoins": 500
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "Troll",
+        "RewardGold": 2,
+        "RewardIron": 3,
+        "RewardCoins": 750
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "MolluscanLand",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 260
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "MolluscanLand",
+        "RewardGold": 1,
+        "RewardIron": 0,
+        "RewardCoins": 300
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "BlackBear_TW",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 200
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "BlackBear_TW",
+        "RewardGold": 1,
+        "RewardIron": 0,
+        "RewardCoins": 225
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "GDAncientShaman_TW",
+        "RewardGold": 1,
+        "RewardIron": 0,
+        "RewardCoins": 300
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "GDAncientShaman_TW",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 250
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "ML_Surtling",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 230
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "ML_Surtling",
+        "RewardGold": 1,
+        "RewardIron": 0,
+        "RewardCoins": 250
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "Blob",
+        "RewardGold": 0,
+        "RewardIron": 0,
+        "RewardCoins": 300
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "BlobElite",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 350
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "BlobElite",
+        "RewardGold": 1,
+        "RewardIron": 1,
+        "RewardCoins": 375
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "Leech",
+        "RewardGold": 0,
+        "RewardIron": 0,
+        "RewardCoins": 300
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "Leech",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 320
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "RottingElk_TW",
+        "RewardGold": 0,
+        "RewardIron": 0,
+        "RewardCoins": 300
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "RottingElk_TW",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 320
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "Draugr",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 320
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "Draugr",
+        "RewardGold": 1,
+        "RewardIron": 1,
+        "RewardCoins": 350
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "Draugr_Elite",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 400
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "Draugr_Elite",
+        "RewardGold": 1,
+        "RewardIron": 1,
+        "RewardCoins": 150
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "ML_Surtling",
+        "RewardGold": 0,
+        "RewardIron": 0,
+        "RewardCoins": 290
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "ML_Surtling",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 320
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "Wraith",
+        "RewardGold": 0,
+        "RewardIron": 2,
+        "RewardCoins": 400
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "Wraith",
+        "RewardGold": 1,
+        "RewardIron": 1,
+        "RewardCoins": 600
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "WraithWarrior",
+        "RewardGold": 0,
+        "RewardIron": 2,
+        "RewardCoins": 410
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "WraithWarrior",
+        "RewardGold": 1,
+        "RewardIron": 2,
+        "RewardCoins": 450
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "HelWraith_TW",
+        "RewardGold": 1,
+        "RewardIron": 2,
+        "RewardCoins": 650
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "HelWraith_TW",
+        "RewardGold": 1,
+        "RewardIron": 2,
+        "RewardCoins": 700
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "Abomination",
+        "RewardGold": 2,
+        "RewardIron": 1,
+        "RewardCoins": 700
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "Abomination",
+        "RewardGold": 3,
+        "RewardIron": 2,
+        "RewardCoins": 1100
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "Crawler_TW",
+        "RewardGold": 0,
+        "RewardIron": 2,
+        "RewardCoins": 330
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "PoisonSkeletonWarrior",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 325
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "PoisonSkeletonWarrior",
+        "RewardGold": 1,
+        "RewardIron": 1,
+        "RewardCoins": 350
+      },
+      {
+        "Biome": "Ocean",
+        "TargetID": "Serpent",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 300
+      },
+      {
+        "Biome": "Ocean",
+        "TargetID": "Serpent",
+        "RewardGold": 1,
+        "RewardIron": 3,
+        "RewardCoins": 500
+      },
+      {
+        "Biome": "Ocean",
+        "TargetID": "Shark_TW",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 300
+      },
+      {
+        "Biome": "Ocean",
+        "TargetID": "Shark_TW",
+        "RewardGold": 1,
+        "RewardIron": 2,
+        "RewardCoins": 500
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "Wolf",
+        "RewardGold": 0,
+        "RewardIron": 2,
+        "RewardCoins": 500
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "Wolf",
+        "RewardGold": 1,
+        "RewardIron": 1,
+        "RewardCoins": 550
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "Hatchling",
+        "RewardGold": 0,
+        "RewardIron": 2,
+        "RewardCoins": 500
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "Hatchling",
+        "RewardGold": 1,
+        "RewardIron": 1,
+        "RewardCoins": 550
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "GrizzlyBear_TW",
+        "RewardGold": 0,
+        "RewardIron": 2,
+        "RewardCoins": 500
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "GrizzlyBear_TW",
+        "RewardGold": 1,
+        "RewardIron": 1,
+        "RewardCoins": 550
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "Fenring",
+        "RewardGold": 0,
+        "RewardIron": 2,
+        "RewardCoins": 550
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "Fenring",
+        "RewardGold": 1,
+        "RewardIron": 2,
+        "RewardCoins": 600
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "IceSkeletonWarrior",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 520
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "IceSkeletonWarrior",
+        "RewardGold": 1,
+        "RewardIron": 1,
+        "RewardCoins": 550
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "StoneGolem",
+        "RewardGold": 0,
+        "RewardIron": 3,
+        "RewardCoins": 750
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "StoneGolem",
+        "RewardGold": 1,
+        "RewardIron": 2,
+        "RewardCoins": 1000
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "ObsidianGolem_TW",
+        "RewardGold": 0,
+        "RewardIron": 3,
+        "RewardCoins": 725
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "ObsidianGolem_TW",
+        "RewardGold": 1,
+        "RewardIron": 2,
+        "RewardCoins": 950
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "StoneGolem",
+        "RewardGold": 4,
+        "RewardIron": 3,
+        "RewardCoins": 1200
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "Fenring_Cultist",
+        "RewardGold": 0,
+        "RewardIron": 3,
+        "RewardCoins": 800
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "Fenring_Cultist",
+        "RewardGold": 2,
+        "RewardIron": 1,
+        "RewardCoins": 1000
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "Goblin",
+        "RewardGold": 0,
+        "RewardIron": 3,
+        "RewardCoins": 600
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "Goblin",
+        "RewardGold": 1,
+        "RewardIron": 1,
+        "RewardCoins": 700
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "Lox",
+        "RewardGold": 2,
+        "RewardIron": 0,
+        "RewardCoins": 900
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "Lox",
+        "RewardGold": 3,
+        "RewardIron": 1,
+        "RewardCoins": 1000
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "Prowler_TW",
+        "RewardGold": 0,
+        "RewardIron": 2,
+        "RewardCoins": 800
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "Prowler_TW",
+        "RewardGold": 1,
+        "RewardIron": 2,
+        "RewardCoins": 900
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "BlobTar",
+        "RewardGold": 0,
+        "RewardIron": 3,
+        "RewardCoins": 610
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "BlobTar",
+        "RewardGold": 1,
+        "RewardIron": 3,
+        "RewardCoins": 650
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "Deathsquito",
+        "RewardGold": 0,
+        "RewardIron": 3,
+        "RewardCoins": 600
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "Deathsquito",
+        "RewardGold": 1,
+        "RewardIron": 3,
+        "RewardCoins": 800
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "GoblinBrute",
+        "RewardGold": 3,
+        "RewardIron": 0,
+        "RewardCoins": 900
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "GoblinBrute",
+        "RewardGold": 4,
+        "RewardIron": 2,
+        "RewardCoins": 1300
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "GoblinShaman",
+        "RewardGold": 0,
+        "RewardIron": 3,
+        "RewardCoins": 650
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "GoblinShaman",
+        "RewardGold": 1,
+        "RewardIron": 1,
+        "RewardCoins": 700
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "DwarfGoblinShaman",
+        "RewardGold": 0,
+        "RewardIron": 3,
+        "RewardCoins": 650
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "DwarfGoblinShaman",
+        "RewardGold": 1,
+        "RewardIron": 1,
+        "RewardCoins": 700
+      },
+      {
+        "Biome": "Mistlands",
+        "TargetID": "Seeker",
+        "RewardGold": 0,
+        "RewardIron": 5,
+        "RewardCoins": 800
+      },
+      {
+        "Biome": "Mistlands",
+        "TargetID": "SeekerBrute",
+        "RewardGold": 4,
+        "RewardIron": 0,
+        "RewardCoins": 1200
+      },
+      {
+        "Biome": "Mistlands",
+        "TargetID": "SeekerBrute",
+        "RewardGold": 5,
+        "RewardIron": 0,
+        "RewardCoins": 1300
+      },
+      {
+        "Biome": "Mistlands",
+        "TargetID": "Seeker",
+        "RewardGold": 0,
+        "RewardIron": 5,
+        "RewardCoins": 800
+      },
+      {
+        "Biome": "Mistlands",
+        "TargetID": "Gjall",
+        "RewardGold": 0,
+        "RewardIron": 5,
+        "RewardCoins": 1000
+      },
+      {
+        "Biome": "Mistlands",
+        "TargetID": "Gjall",
+        "RewardGold": 4,
+        "RewardIron": 2,
+        "RewardCoins": 1400
+      },
+      {
+        "Biome": "Mistlands",
+        "TargetID": "Dverger",
+        "RewardGold": 0,
+        "RewardIron": 5,
+        "RewardCoins": 1200
+      },
+      {
+        "Biome": "Mistlands",
+        "TargetID": "DvergerMage",
+        "RewardGold": 0,
+        "RewardIron": 5,
+        "RewardCoins": 1300
+      },
+      {
+        "Biome": "Mistlands",
+        "TargetID": "Molluscan",
+        "RewardGold": 0,
+        "RewardIron": 4,
+        "RewardCoins": 1000
+      },
+      {
+        "Biome": "Mistlands",
+        "TargetID": "Molluscan",
+        "RewardGold": 2,
+        "RewardIron": 2,
+        "RewardCoins": 1200
+      },
+      {
+        "Biome": "AshLands",
+        "TargetID": "Charred_Melee",
+        "RewardGold": 4,
+        "RewardIron": 5,
+        "RewardCoins": 2000
+      },
+      {
+        "Biome": "AshLands",
+        "TargetID": "Charred_Melee",
+        "RewardGold": 0,
+        "RewardIron": 5,
+        "RewardCoins": 1500
+      },
+      {
+        "Biome": "AshLands",
+        "TargetID": "Morgen_NonSleeping",
+        "RewardGold": 5,
+        "RewardIron": 5,
+        "RewardCoins": 2000
+      },
+      {
+        "Biome": "AshLands",
+        "TargetID": "Morgen_NonSleeping",
+        "RewardGold": 0,
+        "RewardIron": 5,
+        "RewardCoins": 1500
+      },
+      {
+        "Biome": "AshLands",
+        "TargetID": "FallenValkyrie",
+        "RewardGold": 5,
+        "RewardIron": 5,
+        "RewardCoins": 2000
+      },
+      {
+        "Biome": "AshLands",
+        "TargetID": "FallenValkyrie",
+        "RewardGold": 0,
+        "RewardIron": 5,
+        "RewardCoins": 1500
+      },
+      {
+        "Biome": "AshLands",
+        "TargetID": "ML_AshHuldra",
+        "RewardGold": 3,
+        "RewardIron": 5,
+        "RewardCoins": 1500
+      },
+      {
+        "Biome": "AshLands",
+        "TargetID": "Asksvin",
+        "RewardGold": 5,
+        "RewardIron": 5,
+        "RewardCoins": 2000
+      },
+      {
+        "Biome": "AshLands",
+        "TargetID": "Asksvin",
+        "RewardGold": 0,
+        "RewardIron": 5,
+        "RewardCoins": 1500
+      },
+      {
+        "Biome": "AshLands",
+        "TargetID": "Charred_Archer",
+        "RewardGold": 5,
+        "RewardIron": 5,
+        "RewardCoins": 2000
+      },
+      {
+        "Biome": "AshLands",
+        "TargetID": "Charred_Archer",
+        "RewardGold": 0,
+        "RewardIron": 5,
+        "RewardCoins": 1500
+      },
+      {
+        "Biome": "AshLands",
+        "TargetID": "Charred_Mage",
+        "RewardGold": 5,
+        "RewardIron": 5,
+        "RewardCoins": 2000
+      },
+      {
+        "Biome": "AshLands",
+        "TargetID": "Charred_Mage",
+        "RewardGold": 0,
+        "RewardIron": 5,
+        "RewardCoins": 1500
+      },
+      {
+        "Biome": "AshLands",
+        "TargetID": "BlobLava",
+        "RewardGold": 5,
+        "RewardIron": 5,
+        "RewardCoins": 2000
+      },
+      {
+        "Biome": "AshLands",
+        "TargetID": "BlobLava",
+        "RewardGold": 0,
+        "RewardIron": 5,
+        "RewardCoins": 1500
+      },
+      {
+        "Biome": "Meadows",
+        "TargetID": "Sheep_TW",
+        "RewardGold": 0,
+        "RewardIron": 0,
+        "RewardCoins": 50
+      },
+      {
+        "Biome": "Meadows",
+        "TargetID": "Sheep_TW",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 75
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "GreydwarfMage_TW",
+        "RewardGold": 1,
+        "RewardIron": 0,
+        "RewardCoins": 300
+      },
+      {
+        "Biome": "BlackForest",
+        "TargetID": "GreydwarfMage_TW",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 250
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "SkeletonMage_TW",
+        "RewardGold": 0,
+        "RewardIron": 1,
+        "RewardCoins": 325
+      },
+      {
+        "Biome": "Swamp",
+        "TargetID": "SkeletonMage_TW",
+        "RewardGold": 1,
+        "RewardIron": 1,
+        "RewardCoins": 350
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "FenringMage_TW",
+        "RewardGold": 0,
+        "RewardIron": 2,
+        "RewardCoins": 550
+      },
+      {
+        "Biome": "Mountain",
+        "TargetID": "FenringMage_TW",
+        "RewardGold": 1,
+        "RewardIron": 2,
+        "RewardCoins": 600
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "GoblinMage_TW",
+        "RewardGold": 0,
+        "RewardIron": 10,
+        "RewardCoins": 600
+      },
+      {
+        "Biome": "Plains",
+        "TargetID": "GoblinMage_TW",
+        "RewardGold": 5,
+        "RewardIron": 8,
+        "RewardCoins": 800
+      },
+      {
+        "Biome": "Mistlands",
+        "TargetID": "CorruptedDvergerMage_TW",
+        "RewardGold": 0,
+        "RewardIron": 5,
+        "RewardCoins": 1000
+      },
+      {
+        "Biome": "Mistlands",
+        "TargetID": "CorruptedDvergerMage_TW",
+        "RewardGold": 4,
+        "RewardIron": 2,
+        "RewardCoins": 1400
+      }
+    ],
+    "Bosses": [
+      {
+        "Biome": "Meadows",
+        "BossPrefab": "Eikthyr",
+        "BossDefeatedKey": "defeated_eikthyr"
+      },
+      {
+        "Biome": "BlackForest",
+        "BossPrefab": "gd_king",
+        "BossDefeatedKey": "defeated_gdking"
+      },
+      {
+        "Biome": "Ocean",
+        "BossPrefab": "Bonemass",
+        "BossDefeatedKey": "defeated_bonemass"
+      },
+      {
+        "Biome": "Swamp",
+        "BossPrefab": "Bonemass",
+        "BossDefeatedKey": "defeated_bonemass"
+      },
+      {
+        "Biome": "Mountain",
+        "BossPrefab": "Dragon",
+        "BossDefeatedKey": "defeated_dragon"
+      },
+      {
+        "Biome": "Plains",
+        "BossPrefab": "GoblinKing",
+        "BossDefeatedKey": "defeated_goblinking"
+      },
+      {
+        "Biome": "Mistlands",
+        "BossPrefab": "SeekerQueen",
+        "BossDefeatedKey": "defeated_queen"
+      },
+      {
+        "Biome": "AshLands",
+        "BossPrefab": "Fader",
+        "BossDefeatedKey": "defeated_fader"
+      },
+      {
+        "Biome": "Meadows",
+        "BossPrefab": "BossAsmodeus_TW",
+        "BossDefeatedKey": "defeated_eikthyr"
+      },
+      {
+        "Biome": "BlackForest",
+        "BossPrefab": "BossSvalt_TW",
+        "BossDefeatedKey": "defeated_gdking"
+      },
+      {
+        "Biome": "Swamp",
+        "BossPrefab": "BossVrykolathas_TW",
+        "BossDefeatedKey": "defeated_bonemass"
+      },
+      {
+        "Biome": "DeepNorth",
+        "BossPrefab": "Fader",
+        "BossDefeatedKey": "defeated_fader"
+      }
+    ],
+    "Names": {
+      "ChanceForSpecialName": 0.1,
+      "SpecialNames": [
+        "Алехандро Эль Бастардо, Отщепеленец",
+        "Сержио Хардкорэ, Мучитель",
+        "Сатори Дэ Фортуно, Золотые купола",
+        "Юджино Аль Прораб, Покоритель равнин",
+        "Ярио Мон Обрез, Длинная Нога",
+        "Керил Дэ Спиздунг, Коммунист",
+        "Слыщаще-Видящий, Геодезист",
+        "Алебастр Цэ Хiрурх, Нейромант"
+      ],
+      "Prefixes": [
+        "$mod_epicloot_bounties_prefix_acid",
+        "$mod_epicloot_bounties_prefix_aeztr",
+        "$mod_epicloot_bounties_prefix_agukir",
+        "$mod_epicloot_bounties_prefix_ajath",
+        "$mod_epicloot_bounties_prefix_akanoth",
+        "$mod_epicloot_bounties_prefix_almollak",
+        "$mod_epicloot_bounties_prefix_anarchis",
+        "$mod_epicloot_bounties_prefix_anger",
+        "$mod_epicloot_bounties_prefix_anguish",
+        "$mod_epicloot_bounties_prefix_asja",
+        "$mod_epicloot_bounties_prefix_aunuksih",
+        "$mod_epicloot_bounties_prefix_awnd",
+        "$mod_epicloot_bounties_prefix_azath",
+        "$mod_epicloot_bounties_prefix_azzamod",
+        "$mod_epicloot_bounties_prefix_bagthamuun",
+        "$mod_epicloot_bounties_prefix_barb",
+        "$mod_epicloot_bounties_prefix_bathtador",
+        "$mod_epicloot_bounties_prefix_bein",
+        "$mod_epicloot_bounties_prefix_bepshish",
+        "$mod_epicloot_bounties_prefix_blemish",
+        "$mod_epicloot_bounties_prefix_blent",
+        "$mod_epicloot_bounties_prefix_bone",
+        "$mod_epicloot_bounties_prefix_boninned",
+        "$mod_epicloot_bounties_prefix_borth",
+        "$mod_epicloot_bounties_prefix_bracknik",
+        "$mod_epicloot_bounties_prefix_brazrannug",
+        "$mod_epicloot_bounties_prefix_caella",
+        "$mod_epicloot_bounties_prefix_danger",
+        "$mod_epicloot_bounties_prefix_deakgu",
+        "$mod_epicloot_bounties_prefix_deceit",
+        "$mod_epicloot_bounties_prefix_deraria",
+        "$mod_epicloot_bounties_prefix_desonia",
+        "$mod_epicloot_bounties_prefix_dogmozun",
+        "$mod_epicloot_bounties_prefix_domr",
+        "$mod_epicloot_bounties_prefix_dread",
+        "$mod_epicloot_bounties_prefix_drogtherun",
+        "$mod_epicloot_bounties_prefix_drorothiuk",
+        "$mod_epicloot_bounties_prefix_dugi",
+        "$mod_epicloot_bounties_prefix_dulphumph",
+        "$mod_epicloot_bounties_prefix_dwent",
+        "$mod_epicloot_bounties_prefix_envy",
+        "$mod_epicloot_bounties_prefix_etherezi",
+        "$mod_epicloot_bounties_prefix_ezeret",
+        "$mod_epicloot_bounties_prefix_fafseal",
+        "$mod_epicloot_bounties_prefix_fame",
+        "$mod_epicloot_bounties_prefix_fate",
+        "$mod_epicloot_bounties_prefix_feairi",
+        "$mod_epicloot_bounties_prefix_fear",
+        "$mod_epicloot_bounties_prefix_felagi",
+        "$mod_epicloot_bounties_prefix_feldgulg",
+        "$mod_epicloot_bounties_prefix_feral",
+        "$mod_epicloot_bounties_prefix_floerd",
+        "$mod_epicloot_bounties_prefix_florialle",
+        "$mod_epicloot_bounties_prefix_florola",
+        "$mod_epicloot_bounties_prefix_frodi",
+        "$mod_epicloot_bounties_prefix_frosti",
+        "$mod_epicloot_bounties_prefix_funa",
+        "$mod_epicloot_bounties_prefix_fwent",
+        "$mod_epicloot_bounties_prefix_gagrellan",
+        "$mod_epicloot_bounties_prefix_gallhag",
+        "$mod_epicloot_bounties_prefix_garunoth",
+        "$mod_epicloot_bounties_prefix_griever",
+        "$mod_epicloot_bounties_prefix_grima",
+        "$mod_epicloot_bounties_prefix_hagr",
+        "$mod_epicloot_bounties_prefix_hath",
+        "$mod_epicloot_bounties_prefix_hatred",
+        "$mod_epicloot_bounties_prefix_helleanor",
+        "$mod_epicloot_bounties_prefix_hephinore",
+        "$mod_epicloot_bounties_prefix_hermadi",
+        "$mod_epicloot_bounties_prefix_hildr",
+        "$mod_epicloot_bounties_prefix_hjala",
+        "$mod_epicloot_bounties_prefix_hluti",
+        "$mod_epicloot_bounties_prefix_horron",
+        "$mod_epicloot_bounties_prefix_horror",
+        "$mod_epicloot_bounties_prefix_igurg",
+        "$mod_epicloot_bounties_prefix_irrad",
+        "$mod_epicloot_bounties_prefix_ithturus",
+        "$mod_epicloot_bounties_prefix_jaugruje",
+        "$mod_epicloot_bounties_prefix_jecsuqut",
+        "$mod_epicloot_bounties_prefix_jekegshout",
+        "$mod_epicloot_bounties_prefix_jougyeq",
+        "$mod_epicloot_bounties_prefix_kolruzok",
+        "$mod_epicloot_bounties_prefix_kula",
+        "$mod_epicloot_bounties_prefix_litlaus",
+        "$mod_epicloot_bounties_prefix_lorethe",
+        "$mod_epicloot_bounties_prefix_lugdum",
+        "$mod_epicloot_bounties_prefix_lyvise",
+        "$mod_epicloot_bounties_prefix_malice",
+        "$mod_epicloot_bounties_prefix_malmr",
+        "$mod_epicloot_bounties_prefix_margath",
+        "$mod_epicloot_bounties_prefix_mask",
+        "$mod_epicloot_bounties_prefix_mattr",
+        "$mod_epicloot_bounties_prefix_mighty",
+        "$mod_epicloot_bounties_prefix_mimir",
+        "$mod_epicloot_bounties_prefix_mol",
+        "$mod_epicloot_bounties_prefix_moleck",
+        "$mod_epicloot_bounties_prefix_moloth",
+        "$mod_epicloot_bounties_prefix_morbius",
+        "$mod_epicloot_bounties_prefix_mordvig",
+        "$mod_epicloot_bounties_prefix_natt",
+        "$mod_epicloot_bounties_prefix_nehgac",
+        "$mod_epicloot_bounties_prefix_nelleanor",
+        "$mod_epicloot_bounties_prefix_nephyana",
+        "$mod_epicloot_bounties_prefix_night",
+        "$mod_epicloot_bounties_prefix_noxuc",
+        "$mod_epicloot_bounties_prefix_nucsus",
+        "$mod_epicloot_bounties_prefix_nysalin",
+        "$mod_epicloot_bounties_prefix_olganeth",
+        "$mod_epicloot_bounties_prefix_opathu",
+        "$mod_epicloot_bounties_prefix_orinys",
+        "$mod_epicloot_bounties_prefix_orrakith",
+        "$mod_epicloot_bounties_prefix_ostronag",
+        "$mod_epicloot_bounties_prefix_osuxah",
+        "$mod_epicloot_bounties_prefix_ovaettr",
+        "$mod_epicloot_bounties_prefix_pnaby",
+        "$mod_epicloot_bounties_prefix_pra",
+        "$mod_epicloot_bounties_prefix_qflugi",
+        "$mod_epicloot_bounties_prefix_rage",
+        "$mod_epicloot_bounties_prefix_recseh",
+        "$mod_epicloot_bounties_prefix_rezuaq",
+        "$mod_epicloot_bounties_prefix_rok",
+        "$mod_epicloot_bounties_prefix_rot",
+        "$mod_epicloot_bounties_prefix_ruqujua",
+        "$mod_epicloot_bounties_prefix_sal",
+        "$mod_epicloot_bounties_prefix_scabthatch",
+        "$mod_epicloot_bounties_prefix_scare",
+        "$mod_epicloot_bounties_prefix_scaron",
+        "$mod_epicloot_bounties_prefix_sezzonas",
+        "$mod_epicloot_bounties_prefix_shadeling",
+        "$mod_epicloot_bounties_prefix_shahxuja",
+        "$mod_epicloot_bounties_prefix_skeltal",
+        "$mod_epicloot_bounties_prefix_skjar",
+        "$mod_epicloot_bounties_prefix_skod",
+        "$mod_epicloot_bounties_prefix_skoth",
+        "$mod_epicloot_bounties_prefix_sloth",
+        "$mod_epicloot_bounties_prefix_smog",
+        "$mod_epicloot_bounties_prefix_sorguleth",
+        "$mod_epicloot_bounties_prefix_sorrow",
+        "$mod_epicloot_bounties_prefix_soul",
+        "$mod_epicloot_bounties_prefix_spirit",
+        "$mod_epicloot_bounties_prefix_spite",
+        "$mod_epicloot_bounties_prefix_stormerki",
+        "$mod_epicloot_bounties_prefix_taustpion",
+        "$mod_epicloot_bounties_prefix_terron",
+        "$mod_epicloot_bounties_prefix_terror",
+        "$mod_epicloot_bounties_prefix_theloya",
+        "$mod_epicloot_bounties_prefix_tiglemun",
+        "$mod_epicloot_bounties_prefix_torment",
+        "$mod_epicloot_bounties_prefix_trostraus",
+        "$mod_epicloot_bounties_prefix_twilight",
+        "$mod_epicloot_bounties_prefix_tyrant",
+        "$mod_epicloot_bounties_prefix_tyvase",
+        "$mod_epicloot_bounties_prefix_uemiara",
+        "$mod_epicloot_bounties_prefix_ugaq",
+        "$mod_epicloot_bounties_prefix_und",
+        "$mod_epicloot_bounties_prefix_uquxa",
+        "$mod_epicloot_bounties_prefix_urnollaar",
+        "$mod_epicloot_bounties_prefix_ushuq",
+        "$mod_epicloot_bounties_prefix_vaett",
+        "$mod_epicloot_bounties_prefix_vam",
+        "$mod_epicloot_bounties_prefix_vind",
+        "$mod_epicloot_bounties_prefix_vit",
+        "$mod_epicloot_bounties_prefix_vozgonoth",
+        "$mod_epicloot_bounties_prefix_vyneano",
+        "$mod_epicloot_bounties_prefix_vynynore",
+        "$mod_epicloot_bounties_prefix_waringo",
+        "$mod_epicloot_bounties_prefix_warrior",
+        "$mod_epicloot_bounties_prefix_wind",
+        "$mod_epicloot_bounties_prefix_witseab",
+        "$mod_epicloot_bounties_prefix_wrath",
+        "$mod_epicloot_bounties_prefix_wurtguth",
+        "$mod_epicloot_bounties_prefix_xaanuzhe",
+        "$mod_epicloot_bounties_prefix_xagdrik",
+        "$mod_epicloot_bounties_prefix_xarpug",
+        "$mod_epicloot_bounties_prefix_xogdrath",
+        "$mod_epicloot_bounties_prefix_xolgog",
+        "$mod_epicloot_bounties_prefix_yegoth",
+        "$mod_epicloot_bounties_prefix_yerghug",
+        "$mod_epicloot_bounties_prefix_yoryne",
+        "$mod_epicloot_bounties_prefix_zephinore",
+        "$mod_epicloot_bounties_prefix_zetheret",
+        "$mod_epicloot_bounties_prefix_zmak",
+        "$mod_epicloot_bounties_prefix_zollmallan",
+        "$mod_epicloot_bounties_prefix_zorinak"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_bounties_suffix_dirt_eater",
+        "$mod_epicloot_bounties_suffix_frenzied_raider",
+        "$mod_epicloot_bounties_suffix_hero_slayer",
+        "$mod_epicloot_bounties_suffix_keeper_of_nightmares",
+        "$mod_epicloot_bounties_suffix_king_of_the_wicked",
+        "$mod_epicloot_bounties_suffix_lord_of_helheim",
+        "$mod_epicloot_bounties_suffix_marrow_eater",
+        "$mod_epicloot_bounties_suffix_mysterious_one",
+        "$mod_epicloot_bounties_suffix_nomad_of_the_wastelands",
+        "$mod_epicloot_bounties_suffix_patron_of_the_mad",
+        "$mod_epicloot_bounties_suffix_spoiled_one",
+        "$mod_epicloot_bounties_suffix_steward_of_the_eclipse",
+        "$mod_epicloot_bounties_suffix_thief_of_ignorance",
+        "$mod_epicloot_bounties_suffix_thunderous_one",
+        "$mod_epicloot_bounties_suffix_tortured_soul",
+        "$mod_epicloot_bounties_suffix_treasure_hunter",
+        "$mod_epicloot_bounties_suffix_umbral_stalker",
+        "$mod_epicloot_bounties_suffix_unspeakable_horror",
+        "$mod_epicloot_bounties_suffix_bannerlord",
+        "$mod_epicloot_bounties_suffix_battleborn",
+        "$mod_epicloot_bounties_suffix_battlefury",
+        "$mod_epicloot_bounties_suffix_bloodspilt",
+        "$mod_epicloot_bounties_suffix_carrionfeast",
+        "$mod_epicloot_bounties_suffix_clevermind",
+        "$mod_epicloot_bounties_suffix_cursebreaker",
+        "$mod_epicloot_bounties_suffix_darkcloak",
+        "$mod_epicloot_bounties_suffix_darkshade",
+        "$mod_epicloot_bounties_suffix_darkstone",
+        "$mod_epicloot_bounties_suffix_dawnbreaker",
+        "$mod_epicloot_bounties_suffix_dawnfire",
+        "$mod_epicloot_bounties_suffix_deathgreeting",
+        "$mod_epicloot_bounties_suffix_deathgrin",
+        "$mod_epicloot_bounties_suffix_doomsphere",
+        "$mod_epicloot_bounties_suffix_dreadfang",
+        "$mod_epicloot_bounties_suffix_glittermist",
+        "$mod_epicloot_bounties_suffix_gloryseeker",
+        "$mod_epicloot_bounties_suffix_greedgallow",
+        "$mod_epicloot_bounties_suffix_griefstrike",
+        "$mod_epicloot_bounties_suffix_hailfall",
+        "$mod_epicloot_bounties_suffix_jotunkin",
+        "$mod_epicloot_bounties_suffix_lamplight",
+        "$mod_epicloot_bounties_suffix_nightfall",
+        "$mod_epicloot_bounties_suffix_oathbreaker",
+        "$mod_epicloot_bounties_suffix_omenbleed",
+        "$mod_epicloot_bounties_suffix_pestilence",
+        "$mod_epicloot_bounties_suffix_pridefall",
+        "$mod_epicloot_bounties_suffix_quake",
+        "$mod_epicloot_bounties_suffix_runekennen",
+        "$mod_epicloot_bounties_suffix_scythe",
+        "$mod_epicloot_bounties_suffix_siezefrenzy",
+        "$mod_epicloot_bounties_suffix_skullcrusher",
+        "$mod_epicloot_bounties_suffix_spearpoint",
+        "$mod_epicloot_bounties_suffix_spitemonger",
+        "$mod_epicloot_bounties_suffix_starfall",
+        "$mod_epicloot_bounties_suffix_starlight",
+        "$mod_epicloot_bounties_suffix_svalroot",
+        "$mod_epicloot_bounties_suffix_swiftspite",
+        "$mod_epicloot_bounties_suffix_thrall",
+        "$mod_epicloot_bounties_suffix_toothgrind",
+        "$mod_epicloot_bounties_prefix_torment",
+        "$mod_epicloot_bounties_suffix_twigsnapper",
+        "$mod_epicloot_bounties_suffix_viletongue",
+        "$mod_epicloot_bounties_suffix_warbane",
+        "$mod_epicloot_bounties_suffix_warfall",
+        "$mod_epicloot_bounties_suffix_warfighter",
+        "$mod_epicloot_bounties_suffix_whispersmith",
+        "$mod_epicloot_bounties_suffix_of_courage",
+        "$mod_epicloot_bounties_suffix_of_hostility",
+        "$mod_epicloot_bounties_suffix_of_might",
+        "$mod_epicloot_bounties_suffix_of_radiance",
+        "$mod_epicloot_bounties_suffix_of_silence",
+        "$mod_epicloot_bounties_suffix_of_spite",
+        "$mod_epicloot_bounties_suffix_of_the_banner",
+        "$mod_epicloot_bounties_suffix_of_the_darkness",
+        "$mod_epicloot_bounties_suffix_of_tolling_bells",
+        "$mod_epicloot_bounties_suffix_of_vengeance",
+        "$mod_epicloot_bounties_suffix_the_abandoned",
+        "$mod_epicloot_bounties_suffix_the_ancient",
+        "$mod_epicloot_bounties_suffix_the_betrayer",
+        "$mod_epicloot_bounties_suffix_the_brutal",
+        "$mod_epicloot_bounties_suffix_the_brute",
+        "$mod_epicloot_bounties_suffix_the_butcher",
+        "$mod_epicloot_bounties_suffix_the_chatterer",
+        "$mod_epicloot_bounties_suffix_the_cleaver",
+        "$mod_epicloot_bounties_suffix_the_contemptible",
+        "$mod_epicloot_bounties_suffix_the_corpse",
+        "$mod_epicloot_bounties_suffix_the_cursed",
+        "$mod_epicloot_bounties_suffix_the_damned",
+        "$mod_epicloot_bounties_suffix_the_depraved",
+        "$mod_epicloot_bounties_suffix_the_destroyer",
+        "$mod_epicloot_bounties_suffix_the_doomed",
+        "$mod_epicloot_bounties_suffix_the_empty",
+        "$mod_epicloot_bounties_suffix_the_evil",
+        "$mod_epicloot_bounties_suffix_the_executioner",
+        "$mod_epicloot_bounties_suffix_the_fiend",
+        "$mod_epicloot_bounties_suffix_the_fierce",
+        "$mod_epicloot_bounties_suffix_the_foul",
+        "$mod_epicloot_bounties_suffix_the_ghastly",
+        "$mod_epicloot_bounties_suffix_the_gilt",
+        "$mod_epicloot_bounties_suffix_the_greedy",
+        "$mod_epicloot_bounties_suffix_the_guilty",
+        "$mod_epicloot_bounties_suffix_the_handsome",
+        "$mod_epicloot_bounties_suffix_the_hellion",
+        "$mod_epicloot_bounties_suffix_the_horror",
+        "$mod_epicloot_bounties_suffix_the_humiliated",
+        "$mod_epicloot_bounties_suffix_the_immortal",
+        "$mod_epicloot_bounties_suffix_the_insulted",
+        "$mod_epicloot_bounties_suffix_the_knife",
+        "$mod_epicloot_bounties_suffix_the_maligned",
+        "$mod_epicloot_bounties_suffix_the_mangler",
+        "$mod_epicloot_bounties_suffix_the_miser",
+        "$mod_epicloot_bounties_suffix_the_monster",
+        "$mod_epicloot_bounties_suffix_the_murderer",
+        "$mod_epicloot_bounties_suffix_the_needle",
+        "$mod_epicloot_bounties_suffix_the_noxious",
+        "$mod_epicloot_bounties_suffix_the_omen",
+        "$mod_epicloot_bounties_suffix_the_pierced",
+        "$mod_epicloot_bounties_suffix_the_prickly",
+        "$mod_epicloot_bounties_suffix_the_quickened",
+        "$mod_epicloot_bounties_suffix_the_raider",
+        "$mod_epicloot_bounties_suffix_the_reckoner",
+        "$mod_epicloot_bounties_suffix_the_revenant",
+        "$mod_epicloot_bounties_suffix_the_rude",
+        "$mod_epicloot_bounties_suffix_the_savage",
+        "$mod_epicloot_bounties_suffix_the_seer",
+        "$mod_epicloot_bounties_suffix_the_shield",
+        "$mod_epicloot_bounties_suffix_the_slaughtered",
+        "$mod_epicloot_bounties_suffix_the_slayer",
+        "$mod_epicloot_bounties_suffix_the_sleeper",
+        "$mod_epicloot_bounties_suffix_the_soldier",
+        "$mod_epicloot_bounties_suffix_the_spiteful",
+        "$mod_epicloot_bounties_suffix_the_talisman",
+        "$mod_epicloot_bounties_suffix_the_terrible",
+        "$mod_epicloot_bounties_suffix_the_vicious",
+        "$mod_epicloot_bounties_suffix_the_vile",
+        "$mod_epicloot_bounties_suffix_the_weapon",
+        "$mod_epicloot_bounties_suffix_the_wicked"
+      ]
+    }
+  }
+}

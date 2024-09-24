@@ -1,0 +1,16 @@
+name: StaffBurst_JH
+clonePrefabName: StaffBurst_JH
+craftingStation: $piece_workbench
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: $piece_workbench
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- Wood:10:5:True
+- Flint:4:2:True
+- DeerHide:4:2:True
+- BoneFragments:0:5:True

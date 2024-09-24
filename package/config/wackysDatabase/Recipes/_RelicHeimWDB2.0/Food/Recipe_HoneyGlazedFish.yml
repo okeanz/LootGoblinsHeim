@@ -1,0 +1,12 @@
+name: HoneyGlazedFish
+clonePrefabName: HoneyGlazedFish
+craftingStation: $piece_cauldron
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- FishCooked:1:1:True
+- Honey:2:1:True

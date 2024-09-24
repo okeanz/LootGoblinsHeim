@@ -1,0 +1,105 @@
+# ML Armor
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_S
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_S
+    amount: 1
+  Items:
+  - HelmetSpellslinger_Mistlands_TW
+  - ArmorSpellSlingerChest_Mistlands_TW
+  - ArmorSpellslingerLegs_Mistlands_TW
+  - CapeSpellslinger_Mistlands_TW
+# ML Weapons
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_S
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_S
+    amount: 1
+  Items:
+  - StaffMistlands_TW
+# Plains Armor
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_A
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_A
+    amount: 1
+  Items:
+  - HelmetSpellslinger_Plains_TW
+  - ArmorSpellSlingerChest_Plains_TW
+  - ArmorSpellslingerLegs_Plains_TW
+  - CapeSpellslinger_Plains_TW
+# Plains Weapons
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_A
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_A
+    amount: 1
+  Items:
+  - StaffPlains_TW
+# Mountain Armor
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_B
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_B
+    amount: 1
+  Items:
+  - HelmetSpellslinger_Mountain_TW
+  - ArmorSpellSlingerChest_Mountain_TW
+  - ArmorSpellslingerLegs_Mountain_TW
+  - CapeSpellslinger_Mountain_TW
+# Mountain Weapons
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_B
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_B
+    amount: 1
+  Items:
+  - StaffMountain_TW
+# Swamp Armor
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_C
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_C
+    amount: 1
+  Items:
+  - HelmetSpellslinger_Swamp_TW
+  - ArmorSpellSlingerChest_Swamp_TW
+  - ArmorSpellslingerLegs_Swamp_TW
+  - CapeSpellslinger_Swamp_TW
+# Swamp Weapons
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_C
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_C
+    amount: 1
+  Items:
+  - StaffSwamp_TW
+# BF Armor
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_D
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_D
+    amount: 1
+  Items:
+  - HelmetSpellslinger_BlackForest_TW
+  - ArmorSpellSlingerChest_BlackForest_TW
+  - ArmorSpellslingerLegs_BlackForest_TW
+  - CapeSpellslinger_Blackforest_TW
+# BF Weapons
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_D
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_D
+    amount: 1
+  Items:
+  - StaffBlackforest_TW

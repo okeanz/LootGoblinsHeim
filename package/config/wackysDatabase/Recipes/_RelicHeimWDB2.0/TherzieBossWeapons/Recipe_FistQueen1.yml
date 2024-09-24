@@ -1,0 +1,16 @@
+name: FistQueen1
+clonePrefabName: FistQueen_TW
+craftingStation: $piece_blackforge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_blackforge
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Softtissue:0:30:True
+- DarkCrystal_TW:0:8:True
+- VenomousFang_TW:15:8:True
+- BlackCore:10:0:True
+- TrophySeekerQueen:1:1:True
+- InfusedCrystal_JH:20:0:True

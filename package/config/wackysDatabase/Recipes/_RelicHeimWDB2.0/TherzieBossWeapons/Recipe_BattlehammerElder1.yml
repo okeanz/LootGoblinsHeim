@@ -1,0 +1,16 @@
+name: BattlehammerElder1
+clonePrefabName: BattlehammerElder_TW
+craftingStation: $piece_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_forge
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- ElderBark:0:16:True
+- Bronze:20:0:True
+- Stone:0:25:True
+- GreydwarfEye:20:10:True
+- TrophyTheElder:1:1:True
+- InfusedCrystal_JH:20:0:True

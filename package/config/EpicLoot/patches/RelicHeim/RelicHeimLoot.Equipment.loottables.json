@@ -1,0 +1,1079 @@
+{
+  "TargetFile": "loottables.json",
+  "Author": "Majestic",
+  "Priority": 900,
+  "RequireAll": true,
+  "Patches": [
+	{
+	  "Path": "$.MagicEffectsCount",
+      "Action": "Overwrite",
+      "Value": {
+        "Magic":     [ [2, 80], [3, 15], [4, 5] ],
+		"Rare":      [ [3, 80], [4, 16], [5, 4] ],
+		"Epic":      [ [4, 80], [5, 17], [6, 3] ],
+		"Legendary": [ [5, 80], [6, 18], [7, 2] ],
+		"Mythic":	 [ [6, 80], [7, 19], [8, 1] ]
+      }
+    },
+	{
+      "Path": "$.RestrictedItems",
+      "Action": "AppendAll",
+      "Value": ["Wishbone", "HelmetDverger", "BeltStrength"]
+	},
+	
+	{
+	  "Path": "$.ItemSets[?(@.Name == 'Tier0Weapons')].Loot",
+	  "Action": "Overwrite",
+      "Value": []
+    },
+	{
+	  "Path": "$.ItemSets[?(@.Name == 'Tier0Tools')].Loot",
+	  "Action": "Overwrite",
+      "Value": []
+    },
+	{
+	  "Path": "$.ItemSets[?(@.Name == 'Tier0Armor')].Loot",
+	  "Action": "Overwrite",
+      "Value": []
+    },
+	{
+	  "Path": "$.ItemSets[?(@.Name == 'Tier0Shields')].Loot",
+	  "Action": "Overwrite",
+      "Value": []
+    },
+	{
+	  "Path": "$.ItemSets[?(@.Name == 'Tier0Everything')].Loot",
+	  "Action": "Overwrite",
+      "Value": []
+    },
+	{
+	  "Path": "$.ItemSets[?(@.Name == 'Tier1Tools')].Loot",
+	  "Action": "Overwrite",
+      "Value": []
+    },
+	{
+	  "Path": "$.ItemSets[?(@.Name == 'Tier2Tools')].Loot",
+	  "Action": "Overwrite",
+      "Value": []
+    },
+	{
+	  "Path": "$.ItemSets[?(@.Name == 'Tier3Tools')].Loot",
+	  "Action": "Overwrite",
+      "Value": []
+    },
+	{
+	  "Path": "$.ItemSets[?(@.Name == 'Tier6Tools')].Loot",
+	  "Action": "Overwrite",
+      "Value": []
+    },
+	
+	{
+      "Path": "$.ItemSets",
+      "Action": "AppendAll",
+      "Value": [	
+	{
+      "Name": "MaterialsA",
+      "Loot": [
+        { "Item": "DustMagic", 					"Weight": 1},
+		{ "Item": "DustRare", 					"Weight": 0.7},
+        { "Item": "RunestoneMagic", 			"Weight": 1},
+        { "Item": "RunestoneRare", 				"Weight": 0.7},
+        { "Item": "ShardMagic", 				"Weight": 1},
+        { "Item": "ShardRare", 					"Weight": 0.7},
+        { "Item": "EssenceRare", 				"Weight": 0.7}
+       ]
+	  }
+	 ]
+	},
+	{
+      "Path": "$.ItemSets",
+      "Action": "AppendAll",
+      "Value": [	
+	{
+      "Name": "MaterialsB",
+      "Loot": [
+        { "Item": "DustEpic", 					"Weight": 0.5},
+        { "Item": "DustLegendary", 				"Weight": 0.3},
+        { "Item": "DustMythic", 				"Weight": 0.1},
+		{ "Item": "RunestoneEpic", 				"Weight": 0.5},
+        { "Item": "RunestoneLegendary", 		"Weight": 0.3},
+        { "Item": "RunestoneMythic",			"Weight": 0.1},
+        { "Item": "ShardEpic", 					"Weight": 0.5},
+        { "Item": "ShardLegendary", 			"Weight": 0.3},
+        { "Item": "ShardMythic",				"Weight": 0.1},
+        { "Item": "EssenceEpic", 				"Weight": 0.5},
+        { "Item": "EssenceLegendary", 			"Weight": 0.3},
+        { "Item": "EssenceMythic",				"Weight": 0.1}
+       ]
+	  }
+	 ]
+	},
+	
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier1Weapons')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "SpearFlint", 				"Weight": 1},
+		{ "Item": "AxeFlint", 					"Weight": 1},
+		{ "Item": "KnifeFlint", 				"Weight": 1},
+		{ "Item": "Bow", 						"Weight": 1},
+		{ "Item": "MaceFlint_TW", 				"Weight": 1},
+		{ "Item": "GreatClub_TW", 				"Weight": 1},
+		{ "Item": "SwordFlint_TW", 				"Weight": 1},
+		{ "Item": "AtgeirFlint_TW", 			"Weight": 1},
+		{ "Item": "BattleaxeFlint_TW", 			"Weight": 1}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier1Armor')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+        { "Item": "LeatherBelt",  				"Weight": 1},
+		{ "Item": "ArmorRagsChest", 			"Weight": 1},
+		{ "Item": "ArmorRagsLegs", 				"Weight": 1},
+		{ "Item": "HelmetLeather", 				"Weight": 1},
+		{ "Item": "ArmorLeatherChest", 			"Weight": 1},
+		{ "Item": "ArmorLeatherLegs", 			"Weight": 1},
+        { "Item": "CapeDeerHide",  				"Weight": 1},
+		{ "Item": "ArmorLeatherChest_TW", 		"Weight": 1},
+		{ "Item": "ArmorLeatherLegs_TW", 		"Weight": 1},
+		{ "Item": "HelmetLeather_TW", 			"Weight": 1}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier1Shields')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "ShieldWood", 				"Weight": 1},
+		{ "Item": "ShieldWoodTower", 			"Weight": 1}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier1Everything')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "Tier1Weapons", 				"Weight": 1},
+		{ "Item": "Tier1Armor", 				"Weight": 1},
+		{ "Item": "Tier1Shields", 				"Weight": 1}
+      ]
+    },
+	
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier2Weapons')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+        { "Item": "SwordBronze", 				"Weight": 1},
+		{ "Item": "KnifeCopper", 				"Weight": 1},
+        { "Item": "MaceBronze",    				"Weight": 1},
+		{ "Item": "SpearBronze", 				"Weight": 1},
+		{ "Item": "BowFineWood", 				"Weight": 1},
+		{ "Item": "BattleaxeBronze_TW",    		"Weight": 1},
+		{ "Item": "ClaymoreBronze_TW",    		"Weight": 1},
+		{ "Item": "CrossbowBronze_TW",    		"Weight": 1},
+		{ "Item": "KnifeBronze_TW",    			"Weight": 1},
+		{ "Item": "BattlehammerTrollbone_TW",   "Weight": 1},
+		{ "Item": "BowTrollBone_TW",   			"Weight": 1},
+		{ "Item": "SwordBone_TW", 				"Weight": 1},
+		{ "Item": "ClaymoreBone_TW",   			"Weight": 1},
+		{ "Item": "WarpikeBone_TW",   			"Weight": 1},
+		{ "Item": "FistBronze_TW",   			"Weight": 1},
+		{ "Item": "BastardBone_TW", 			"Weight": 1},
+		{ "Item": "SledgeBronze_TW",   			"Weight": 1},
+		{ "Item": "DualKnifeBone_TW",			"Weight": 1},
+		{ "Item": "CudgelBronze_TW",   			"Weight": 1}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier2Armor')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+        { "Item": "ArmorBronzeChest", 			"Weight": 1},
+        { "Item": "ArmorBronzeLegs",    		"Weight": 1},
+        { "Item": "HelmetBronze",  				"Weight": 1},
+        { "Item": "CapeTrollHide",  			"Weight": 1},
+        { "Item": "LeatherBelt",  				"Weight": 1},
+		{ "Item": "GoldRubyRing",  				"Weight": 1},
+        { "Item": "ArmorTrollLeatherChest", 	"Weight": 1},
+        { "Item": "ArmorTrollLeatherLegs",    	"Weight": 1},
+        { "Item": "HelmetTrollLeather",  		"Weight": 1},
+        { "Item": "HelmetRogue_TW", 			"Weight": 0.5},
+        { "Item": "ArmorRogueChest_TW", 		"Weight": 0.5},
+        { "Item": "ArmorRogueLegs_TW", 			"Weight": 0.5},
+        { "Item": "HelmetVigorous_TW", 			"Weight": 0.5},
+        { "Item": "ArmorVigorousChest_TW", 		"Weight": 0.5},
+        { "Item": "ArmorVigorousLegs_TW", 		"Weight": 0.5},
+        { "Item": "HelmetRazorback_TW", 		"Weight": 0.5},
+        { "Item": "ArmorRazorbackChest_TW", 	"Weight": 0.5},
+        { "Item": "ArmorRazorbackLegs_TW", 		"Weight": 0.5},
+        { "Item": "HelmetHunter_TW", 		"Weight": 0.5},
+        { "Item": "ArmorHunterChest_TW", 		"Weight": 0.5},
+        { "Item": "ArmorHunterLegs_TW", 		"Weight": 0.5}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier2Shields')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "ShieldBronzeBuckler", 		"Weight": 1},
+		{ "Item": "ShieldBoneTower", 			"Weight": 1},
+        { "Item": "ShieldBronzeBanded_TW",    	"Weight": 1},
+        { "Item": "ShieldBronzeTower_TW",    	"Weight": 1}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier2Everything')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "Tier2Weapons", 				"Weight": 1},
+		{ "Item": "Tier2Armor", 				"Weight": 1},
+		{ "Item": "Tier2Shields", 				"Weight": 1}
+      ]
+    },
+	
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier3Weapons')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+        { "Item": "SwordIron", 					"Weight": 1},
+        { "Item": "MaceIron",    				"Weight": 1},
+        { "Item": "SpearElderbark", 	 		"Weight": 1},
+        { "Item": "SledgeIron_TW",  			"Weight": 1},
+		{ "Item": "BowHuntsman",  				"Weight": 1},
+		{ "Item": "AtgeirIron",  				"Weight": 1},
+		{ "Item": "BattleaxeIron_TW",  			"Weight": 1},
+		{ "Item": "BattlehammerIron_TW",  		"Weight": 1},
+		{ "Item": "ClaymoreIron_TW",  			"Weight": 1},
+		{ "Item": "SwordChitin_TW",  			"Weight": 1},
+		{ "Item": "CrossbowIron_TW",  			"Weight": 1},
+		{ "Item": "KnifeIron_TW",  				"Weight": 1},
+		{ "Item": "BastardChitin_TW",  			"Weight": 1},
+		{ "Item": "MaceChitin_TW",  			"Weight": 1},
+		{ "Item": "WarpikeChitin_TW",  			"Weight": 1},
+		{ "Item": "FistChitin_TW",  			"Weight": 1},
+		{ "Item": "FistIron_TW",  				"Weight": 1},
+		{ "Item": "ClaymoreChitin_TW",  		"Weight": 1},
+		{ "Item": "CrossbowChitin_TW",  		"Weight": 1},
+		{ "Item": "DualKnifeChitin_TW",  		"Weight": 1},
+		{ "Item": "DualKnifeIron_TW",			"Weight": 1},
+		{ "Item": "CudgelIron_TW",  			"Weight": 1}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier3Armor')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+        { "Item": "HelmetIron",    				"Weight": 1},
+        { "Item": "ArmorIronLegs",  			"Weight": 1},
+        { "Item": "ArmorIronChest",  			"Weight": 1},
+		{ "Item": "LeatherBelt",  				"Weight": 1},
+		{ "Item": "GoldRubyRing",  				"Weight": 1},
+		{ "Item": "ArmorRootLegs", 				"Weight": 1},
+		{ "Item": "HelmetRoot", 				"Weight": 1},
+		{ "Item": "ArmorRootChest", 			"Weight": 1},
+		{ "Item": "CapeRotten_TW", 				"Weight": 1},
+        { "Item": "HelmetRogueIron_TW", 		"Weight": 0.5},
+        { "Item": "ArmorRogueIronChest_TW", 	"Weight": 0.5},
+        { "Item": "ArmorRogueIronLegs_TW", 		"Weight": 0.5},
+        { "Item": "HelmetVigorousIron_TW", 		"Weight": 0.5},
+        { "Item": "ArmorVigorousIronChest_TW", 	"Weight": 0.5},
+        { "Item": "ArmorVigorousIronLegs_TW", 	"Weight": 0.5},
+        { "Item": "HelmetWarrior_TW", 			"Weight": 0.5},
+        { "Item": "ArmorWarriorChest_TW", 		"Weight": 0.5},
+        { "Item": "ArmorWarriorLegs_TW", 		"Weight": 0.5},
+        { "Item": "HelmetHunterIron_TW", 		"Weight": 0.5},
+        { "Item": "ArmorHunterChestIron_TW",	"Weight": 0.5},
+        { "Item": "ArmorHunterLegsIron_TW",		"Weight": 0.5}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier3Shields')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "ShieldIronBuckler", 			"Weight": 1},
+		{ "Item": "ShieldIronTower", 			"Weight": 1},
+		{ "Item": "ShieldChitinTower_TW", 		"Weight": 1},
+		{ "Item": "ShieldChitin_TW", 			"Weight": 1},
+		{ "Item": "ShieldChitinBuckler_TW", 	"Weight": 1}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier3Everything')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "Tier3Weapons", 				"Weight": 1},
+		{ "Item": "Tier3Armor", 				"Weight": 1},
+		{ "Item": "Tier3Shields", 				"Weight": 1}
+      ]
+    },
+	
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier4Weapons')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+        { "Item": "SwordSilver", 				"Weight": 1},
+		{ "Item": "BowDraugrFang", 				"Weight": 1},
+        { "Item": "MaceSilver",    				"Weight": 1},
+		{ "Item": "KnifeSilver",  				"Weight": 1},
+        { "Item": "BattleaxeCrystal",  			"Weight": 1},
+        { "Item": "SpearWolfFang",  			"Weight": 1},
+        { "Item": "AtgeirSilver_TW",  			"Weight": 1},
+        { "Item": "BattleaxeSilver_TW",  		"Weight": 1},
+        { "Item": "AxeSilver_TW",  				"Weight": 1},
+        { "Item": "BattlehammerSilver_TW",  	"Weight": 1},
+        { "Item": "ClaymoreSilver_TW",  		"Weight": 1},
+        { "Item": "FistSilver_TW",  			"Weight": 1},
+        { "Item": "CrossbowSilver_TW",  	    "Weight": 1},
+        { "Item": "BastardSilver_TW",  	    	"Weight": 1},
+        { "Item": "WarpikeObsidian_TW",  	    "Weight": 1},
+        { "Item": "DualKnifeSilver_TW",  	    "Weight": 1},
+        { "Item": "SledgeSilver_TW",  			"Weight": 1}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier4Armor')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+        { "Item": "ArmorWolfChest", 			"Weight": 1},
+        { "Item": "ArmorWolfLegs",    			"Weight": 1},
+        { "Item": "HelmetDrake",  				"Weight": 1},
+        { "Item": "CapeWolf",  					"Weight": 1},
+        { "Item": "LeatherBelt",  				"Weight": 1},
+		{ "Item": "SilverRing",  				"Weight": 1},
+		{ "Item": "GoldRubyRing",  				"Weight": 1},
+		{ "Item": "ArmorFenringLegs",  			"Weight": 1},
+		{ "Item": "ArmorFenringChest",  		"Weight": 1},
+		{ "Item": "HelmetFenring",  			"Weight": 1},
+        { "Item": "HelmetRogueSilver_TW", 		"Weight": 0.5},
+        { "Item": "ArmorRogueSilverChest_TW", 	"Weight": 0.5},
+        { "Item": "ArmorRogueSilverLegs_TW", 	"Weight": 0.5},
+        { "Item": "HelmetVigorousSilver_TW", 	"Weight": 0.5},
+        { "Item": "ArmorVigorousSilverChest_TW", "Weight": 0.5},
+        { "Item": "ArmorVigorousSilverLegs_TW", "Weight": 0.5},
+        { "Item": "HelmetWarriorSilver_TW", 	"Weight": 0.5},
+        { "Item": "ArmorWarriorSilverChest_TW", "Weight": 0.5},
+        { "Item": "ArmorWarriorSilverLegs_TW", 	"Weight": 0.5},
+        { "Item": "HelmetFenrir_TW", 			"Weight": 0.5},
+        { "Item": "ArmorFenrirChest_TW", 		"Weight": 0.5},
+        { "Item": "ArmorFenrirLegs_TW", 		"Weight": 0.5},
+        { "Item": "HelmetVidar_TW", 			"Weight": 0.5},
+        { "Item": "ArmorVidarChest_TW", 		"Weight": 0.5},
+        { "Item": "ArmorVidarLegs_TW", 			"Weight": 0.5},
+        { "Item": "HelmetHunterSilver_TW", 		"Weight": 0.5},
+        { "Item": "ArmorHunterChestSilver_TW",	"Weight": 0.5},
+        { "Item": "ArmorHunterLegsSilver_TW",	"Weight": 0.5},
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier4Shields')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "ShieldSilver", 				"Weight": 1},
+		{ "Item": "ShieldSerpentscale", 		"Weight": 1},
+		{ "Item": "ShieldSilverBuckler_TW",  	"Weight": 1}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier4Everything')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "Tier4Weapons", 				"Weight": 1},
+		{ "Item": "Tier4Armor", 				"Weight": 1},
+		{ "Item": "Tier4Shields", 				"Weight": 1}
+      ]
+    },
+	
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier5Weapons')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+        { "Item": "SwordBlackmetal", 			"Weight": 1},
+        { "Item": "MaceNeedle",  				"Weight": 1},
+		{ "Item": "AtgeirBlackmetal",  			"Weight": 1},
+		{ "Item": "KnifeBlackMetal",  			"Weight": 1},
+		{ "Item": "AtgeirBlackmetal",  			"Weight": 1},
+		{ "Item": "KnifeSkollAndHati",  		"Weight": 1},
+		{ "Item": "TridentBlackmetal_TW",  		"Weight": 1},
+		{ "Item": "BattleaxeBlackmetal_TW",  	"Weight": 1},
+		{ "Item": "BattlehammerBlackmetal_TW",  "Weight": 1},
+		{ "Item": "ClaymoreBlackmetal_TW",  	"Weight": 1},
+		{ "Item": "SledgeBlackmetal_TW",  		"Weight": 1},
+		{ "Item": "FistBlackmetal_TW",  		"Weight": 1},
+		{ "Item": "LanceBlackmetal_TW",  		"Weight": 1},
+		{ "Item": "WarpikeBlackmetal_TW",  		"Weight": 1},
+		{ "Item": "BattleaxeCrystalEmerald_TW", "Weight": 1},
+		{ "Item": "BowBlackmetal_TW",  			"Weight": 1},
+		{ "Item": "GreatbowBlackmetal_TW",  	"Weight": 1},
+		{ "Item": "CrossbowBlackmetal_TW",  	"Weight": 1},
+		{ "Item": "BastardBlackmetal_TW",  		"Weight": 1},
+		{ "Item": "FistBlackmetal_TW",  		"Weight": 1},
+		{ "Item": "DualSwordScimitar_TW",  		"Weight": 1},
+		{ "Item": "SwordScimitar_TW",  			"Weight": 1},
+		{ "Item": "DualKnifeBM_TW",  			"Weight": 1},
+		{ "Item": "SpearBlackmetal_TW",  		"Weight": 1}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier5Armor')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+        { "Item": "ArmorPaddedCuirass", 		"Weight": 1},
+        { "Item": "ArmorPaddedGreaves",    		"Weight": 1},
+        { "Item": "HelmetPadded",  				"Weight": 1},
+        { "Item": "CapeLox",  					"Weight": 1},
+		{ "Item": "GoldRubyRing",  				"Weight": 1},
+        { "Item": "LeatherBelt",  				"Weight": 1},
+		{ "Item": "SilverRing",  				"Weight": 1},
+        { "Item": "HelmetRogueBM_TW", 			"Weight": 0.5},
+        { "Item": "ArmorRogueBMChest_TW", 		"Weight": 0.5},
+        { "Item": "ArmorRogueBMLegs_TW", 		"Weight": 0.5},
+        { "Item": "HelmetVigorousBM_TW", 		"Weight": 0.5},
+        { "Item": "ArmorVigorousBMChest_TW", 	"Weight": 0.5},
+        { "Item": "ArmorVigorousBMLegs_TW", 	"Weight": 0.5},
+        { "Item": "HelmetWarriorBM_TW", 		"Weight": 0.5},
+        { "Item": "ArmorWarriorBMChest_TW", 	"Weight": 0.5},
+        { "Item": "ArmorWarriorBMLegs_TW", 		"Weight": 0.5},
+        { "Item": "HelmetFenrirBM_TW", 			"Weight": 0.5},
+        { "Item": "ArmorFenrirBMChest_TW", 		"Weight": 0.5},
+        { "Item": "ArmorFenrirBMLegs_TW", 		"Weight": 0.5},
+        { "Item": "HelmetVidarBM_TW", 			"Weight": 0.5},
+        { "Item": "ArmorVidarBMChest_TW", 		"Weight": 0.5},
+        { "Item": "ArmorVidarBMLegs_TW", 		"Weight": 0.5},
+        { "Item": "HelmetBold_TW", 				"Weight": 0.5},
+        { "Item": "ArmorBoldChest_TW", 			"Weight": 0.5},
+        { "Item": "ArmorBoldLegs_TW", 			"Weight": 0.5},
+        { "Item": "HelmetHunterBM_TW", 			"Weight": 0.5},
+        { "Item": "ArmorHunterChestBM_TW",		"Weight": 0.5},
+        { "Item": "ArmorHunterLegsBM_TW",		"Weight": 0.5}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier5Shields')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "ShieldBlackmetal", 			"Weight": 1},
+		{ "Item": "ShieldBlackmetalTower", 		"Weight": 1},
+        { "Item": "ShieldBlackmetalBuckler_TW", "Weight": 1}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier5Everything')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "Tier5Weapons", 				"Weight": 1},
+		{ "Item": "Tier5Armor", 				"Weight": 1},
+		{ "Item": "Tier5Shields", 				"Weight": 1}
+      ]
+    },
+	
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier6Weapons')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+        { "Item": "SwordMistwalker",    		"Weight": 1},
+        { "Item": "THSwordKrom",  				"Weight": 1},
+		{ "Item": "StaffFireball",  			"Weight": 1},
+		{ "Item": "StaffIceShards",  			"Weight": 1},
+		{ "Item": "StaffShield",  				"Weight": 1},
+		{ "Item": "StaffSkeleton",    			"Weight": 1},
+        { "Item": "AtgeirHimminAfl",  			"Weight": 1},
+		{ "Item": "KnifeSkollAndHati",  		"Weight": 1},
+		{ "Item": "AxeJotunBane",  				"Weight": 1},
+		{ "Item": "SpearCarapace",  			"Weight": 1},
+		{ "Item": "SledgeDemolisher",  			"Weight": 1},
+		{ "Item": "BowSpineSnap",  				"Weight": 1},
+		{ "Item": "CrossbowArbalest",  		    "Weight": 1},
+		{ "Item": "SledgeDemolisher_TW",  		"Weight": 1},
+		{ "Item": "AxeDvergr_TW",  				"Weight": 1},
+		{ "Item": "MaceDvergr_TW",  			"Weight": 1},
+		{ "Item": "LanceDvergr_TW",  			"Weight": 1},
+		{ "Item": "WarpikeDvergr_TW",  			"Weight": 1},
+		{ "Item": "BattleaxeDvergr_TW",  		"Weight": 1},
+		{ "Item": "BattlehammerDvergr_TW",  	"Weight": 1},
+		{ "Item": "FistDvergr_TW",  			"Weight": 1},
+		{ "Item": "GreatbowDvergr_TW",  		"Weight": 1},
+		{ "Item": "ClaymoreDvergr_TW",  		"Weight": 1},
+		{ "Item": "FistDvergr_TW",  			"Weight": 1},
+		{ "Item": "BattleaxeCrystalAmethyst_TW", "Weight": 1},
+		{ "Item": "BastardDvergr_TW",  			"Weight": 1}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier6Armor')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+        { "Item": "LeatherBelt",  				"Weight": 1},
+		{ "Item": "SilverRing",  				"Weight": 1},
+		{ "Item": "GoldRubyRing",  				"Weight": 1},
+		{ "Item": "ArmorCarapaceChest",  		"Weight": 1},
+		{ "Item": "ArmorCarapaceLegs",  		"Weight": 1},
+		{ "Item": "HelmetCarapace",  			"Weight": 1},
+		{ "Item": "ArmorMageChest",  			"Weight": 1},
+		{ "Item": "ArmorMageLegs",  			"Weight": 1},
+		{ "Item": "HelmetMage",  				"Weight": 1},
+		{ "Item": "CapeFeather",  				"Weight": 1},
+        { "Item": "HelmetRogueCarapace_TW", 	"Weight": 0.5},
+        { "Item": "ArmorRogueCarapaceChest_TW", "Weight": 0.5},
+        { "Item": "ArmorRogueCarapaceLegs_TW", 	"Weight": 0.5},
+        { "Item": "HelmetVigorousCarapace_TW", 	"Weight": 0.5},
+        { "Item": "ArmorVigorousCarapaceChest_TW", "Weight": 0.5},
+        { "Item": "ArmorVigorousCarapaceLegs_TW", "Weight": 0.5},
+        { "Item": "HelmetWarriorCarapace_TW", 	"Weight": 0.5},
+        { "Item": "ArmorWarriorCarapaceChest_TW", "Weight": 0.5},
+        { "Item": "ArmorWarriorCarapaceLegs_TW", "Weight": 0.5},
+        { "Item": "HelmetFenrirCarapace_TW", 	"Weight": 0.5},
+        { "Item": "ArmorFenrirCarapaceChest_TW", "Weight": 0.5},
+        { "Item": "ArmorFenrirCarapaceLegs_TW", "Weight": 0.5},
+        { "Item": "HelmetVidarCarapace_TW", 	"Weight": 0.5},
+        { "Item": "ArmorVidarCarapaceChest_TW", "Weight": 0.5},
+        { "Item": "ArmorVidarCarapaceLegs_TW", "Weight": 0.5},
+        { "Item": "HelmetBoldCarapace_TW", 		"Weight": 0.5},
+        { "Item": "ArmorBoldCarapaceChest_TW", 	"Weight": 0.5},
+        { "Item": "ArmorBoldCarapaceLegs_TW", 	"Weight": 0.5},
+        { "Item": "HelmetLegion_TW", 			"Weight": 0.5},
+        { "Item": "ArmorLegionChest_TW", 		"Weight": 0.5},
+        { "Item": "ArmorLegionLegs_TW", 		"Weight": 0.5},
+        { "Item": "HelmetHunterCarapace_TW",	"Weight": 0.5},
+        { "Item": "ArmorHunterChestCarapace_TW",	"Weight": 0.5},
+        { "Item": "ArmorHunterLegsCarapace_TW",	"Weight": 0.5}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier6Shields')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "ShieldCarapace",  			"Weight": 1},
+		{ "Item": "ShieldCarapaceBuckler",  	"Weight": 1},
+		{ "Item": "ShieldCarapaceTower_TW",  	"Weight": 1}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier6Everything')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "Tier6Weapons", 				"Weight": 1},
+		{ "Item": "Tier6Armor", 				"Weight": 1},
+		{ "Item": "Tier6Shields", 				"Weight": 1}
+      ]
+    },
+	
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier7Weapons')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "SwordNiedhogg",  			"Weight": 1},
+		{ "Item": "THSwordSlayer",  			"Weight": 1},
+		{ "Item": "SwordDyrnwyn",  				"Weight": 1},
+		{ "Item": "AxeBerzerkr",  				"Weight": 1},
+		{ "Item": "StaffClusterbomb",  			"Weight": 1},
+		{ "Item": "StaffLightning",  			"Weight": 1},
+		{ "Item": "StaffRedTroll",  			"Weight": 1},
+		{ "Item": "StaffGreenRoots",  			"Weight": 1},
+		{ "Item": "MaceEldner",  				"Weight": 1},
+		{ "Item": "SpearSplitner",  			"Weight": 1},
+		{ "Item": "BowAshlands",  				"Weight": 1}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier7Armor')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+        { "Item": "LeatherBelt",  				"Weight": 1},
+		{ "Item": "SilverRing",  				"Weight": 1},
+		{ "Item": "GoldRubyRing",  				"Weight": 1},
+        { "Item": "ArmorFlametalChest",			"Weight": 1 },
+        { "Item": "ArmorFlametalLegs",			"Weight": 1 },
+        { "Item": "HelmetFlametal",				"Weight": 1 },
+        { "Item": "ArmorAshlandsMediumChest", 	"Weight": 1 },
+        { "Item": "ArmorAshlandsMediumlegs",  	"Weight": 1 },
+        { "Item": "HelmetAshlandsMediumHood", 	"Weight": 1 },
+        { "Item": "ArmorMageChest_Ashlands",  	"Weight": 1 },
+        { "Item": "ArmorMageLegs_Ashlands",   	"Weight": 1 },
+        { "Item": "HelmetMage_Ashlands",      	"Weight": 1 },
+        { "Item": "CapeAsh",                  	"Weight": 1 },
+        { "Item": "CapeAsksvin",              	"Weight": 1 },
+        { "Item": "HelmetWarriorFlametal_TW", 	"Weight": 0.5},
+        { "Item": "ArmorWarriorFlametalChest_TW", "Weight": 0.5},
+        { "Item": "ArmorWarriorFlametalLegs_TW", "Weight": 0.5},
+        { "Item": "HelmetVidarFlametal_TW", 	"Weight": 0.5},
+        { "Item": "ArmorVidarFlametalChest_TW", "Weight": 0.5},
+        { "Item": "ArmorVidarFlametalLegs_TW", 	"Weight": 0.5},
+        { "Item": "HelmetBoldFlametal_TW", 		"Weight": 0.5},
+        { "Item": "ArmorBoldFlametalChest_TW", 	"Weight": 0.5},
+        { "Item": "ArmorBoldFlametalLegs_TW", 	"Weight": 0.5},
+        { "Item": "HelmetLegionFlametal_TW", 	"Weight": 0.5},
+        { "Item": "ArmorLegionFlametalChest_TW", "Weight": 0.5},
+        { "Item": "ArmorLegionFlametalLegs_TW", "Weight": 0.5}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier7Shields')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "ShieldFlametal",  			"Weight": 1},
+		{ "Item": "ShieldFlametalTower",  		"Weight": 1}
+      ]
+    },
+	{
+      "Path": "$.ItemSets[?(@.Name == 'Tier7Everything')].Loot",
+      "Action": "Overwrite",
+      "Value": [
+		{ "Item": "Tier7Weapons", 				"Weight": 1},
+		{ "Item": "Tier7Armor", 				"Weight": 1},
+		{ "Item": "Tier7Shields", 				"Weight": 1}
+      ]
+    },
+	
+	{
+      "Path": "$.ItemSets",
+      "Action": "AppendAll",
+      "Value": [	
+	{
+	  "Name": "Tier8Weapons",
+	  "Loot": [
+		{ "Item": "AxeNjord_TW", 				"Weight": 1},
+		{ "Item": "AtgeirNjord_TW", 			"Weight": 1},
+		{ "Item": "BastardNjord_TW", 			"Weight": 1},
+		{ "Item": "BattleaxeNjord_TW", 			"Weight": 1},
+		{ "Item": "BattlehammerNjord_TW",		"Weight": 1},
+		{ "Item": "BowNjord_TW", 				"Weight": 1},
+		{ "Item": "CrossbowNjord_TW", 			"Weight": 1},
+		{ "Item": "GreatbowNjord_TW", 			"Weight": 1},
+		{ "Item": "ClaymoreNjord_TW", 			"Weight": 1},
+		{ "Item": "FistNjord_TW", 				"Weight": 1},
+		{ "Item": "KnifeNjord_TW", 				"Weight": 1},
+		{ "Item": "LanceNjord_TW", 				"Weight": 1},
+		{ "Item": "MaceNjord_TW", 				"Weight": 1},
+		{ "Item": "SpearNjord_TW", 				"Weight": 1},
+		{ "Item": "SledgeNjord_TW", 			"Weight": 1},
+		{ "Item": "SwordNjord_TW", 				"Weight": 1},
+		{ "Item": "WarpikeNjord_TW", 			"Weight": 1},
+		{ "Item": "StaffSkrymir_TW", 			"Weight": 1},
+		{ "Item": "BattleaxeCrystalSapphire_TW", "Weight": 1}
+	  ]
+	},
+	{
+	  "Name": "Tier8Armor",
+	  "Loot": [
+		{ "Item": "CapeArcticWolf_TW", 				"Weight": 1},
+		{ "Item": "CapeMammoth_TW", 				"Weight": 1},
+		{ "Item": "HelmetRogueTyranium_TW", 		"Weight": 1},
+		{ "Item": "ArmorRogueTyraniumChest_TW", 	"Weight": 1},
+		{ "Item": "ArmorRogueTyraniumLegs_TW", 		"Weight": 1},
+		{ "Item": "HelmetVigorousTyranium_TW", 		"Weight": 1},
+		{ "Item": "ArmorVigorousTyraniumChest_TW", 	"Weight": 1},
+		{ "Item": "ArmorVigorousTyraniumLegs_TW", 	"Weight": 1},
+		{ "Item": "HelmetFenrirTyranium_TW", 		"Weight": 1},
+		{ "Item": "ArmorFenrirTyraniumChest_TW",	"Weight": 1},
+		{ "Item": "ArmorFenrirTyraniumLegs_TW",		"Weight": 1},
+		{ "Item": "HelmetDestructionTyranium_TW",	"Weight": 1},
+		{ "Item": "ArmorDestructionTyraniumChest_TW", "Weight": 1},
+		{ "Item": "ArmorDestructionTyraniumLegs_TW", "Weight": 1},
+		{ "Item": "HelmetUllr_TW", 					"Weight": 1},
+		{ "Item": "ArmorUllrChest_TW", 				"Weight": 1},
+		{ "Item": "ArmorUllrLegs_TW", 				"Weight": 1}
+	  ]
+	},
+	{
+	  "Name": "Tier8Shields",
+	  "Loot": [
+		{ "Item": "ShieldTyraniumBuckler_TW", 		"Weight": 1},
+		{ "Item": "ShieldArcticSerpentscale_TW", 	"Weight": 1},
+		{ "Item": "ShieldNjord_TW", 				"Weight": 1},
+		{ "Item": "ShieldNjordTower_TW", 			"Weight": 1}
+	  ]
+	},
+	{
+	  "Name": "Tier8Everything",
+	  "Loot": [
+		{ "Item": "Tier8Weapons" },
+		{ "Item": "Tier8Armor" },
+		{ "Item": "Tier8Shields" }
+	   ]
+	  }
+	 ]
+	},
+	
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_meadows')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [0, 50], [1, 45], [2, 5], [3, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_meadows')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5},
+        { "Item": "mmo_orb1", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_blackforest')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [0, 40], [1, 50], [2, 5], [3, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_blackforest')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5},
+        { "Item": "mmo_orb2", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_forestcrypt')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [0, 30], [1, 60], [2, 10], [3, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_forestcrypt')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_fCrypt')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [0, 30], [1, 60], [2, 10], [3, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_fCrypt')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_trollcave')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 60], [2, 30], [3, 10], [4, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_trollcave')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'shipwreck_karve_chest')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 50], [2, 50], [3, 0], [4, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'shipwreck_karve_chest')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5},
+        { "Item": "mmo_orb2", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_meadows_buried')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 50], [2, 40], [3, 10], [4, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_meadows_buried')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5},
+        { "Item": "mmo_orb2", "Weight": 0.8}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_sunkencrypt')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [0, 20], [1, 60], [2, 10], [3, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_sunkencrypt')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_swamp')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [0, 30], [1, 50], [2, 20], [3, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_swamp')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5},
+        { "Item": "mmo_orb3", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_mountains')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [0, 30], [1, 60], [2, 10], [3, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_mountains')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5},
+        { "Item": "mmo_orb4", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_mountaincave')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [0, 30], [1, 60], [2, 10], [3, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_mountaincave')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_plains_stone')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 80], [2, 15], [3, 5], [4, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_plains_stone')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_heath')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 80], [2, 15], [3, 5], [4, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_heath')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5},
+        { "Item": "mmo_orb5", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_dvergrtown')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 70], [2, 20], [3, 10], [4, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_dvergrtown')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_dvergrtower')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 70], [2, 20], [3, 10], [4, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_dvergrtower')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5},
+        { "Item": "mmo_orb6", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_dvergr_loose_stone')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 70], [2, 20], [3, 10], [4, 0] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_dvergr_loose_stone')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_charredfortress')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 50], [2, 40], [3, 5], [4, 5] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_charredfortress')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5},
+        { "Item": "mmo_orb6", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureChest_ashland_stone')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 50], [2, 40], [3, 5], [4, 5] ]
+    },
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_ashland_stone')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.5}
+	  ]
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Meadows')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.2},
+        { "Item": "mmo_orb1", "Weight": 0.5}
+	  ]
+	},
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Meadows')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 75], [2, 24], [3, 1], [4, 0] ]
+    },
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_BlackForest')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.2},
+        { "Item": "mmo_orb2", "Weight": 0.5}
+	  ]
+	},
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_BlackForest')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 75], [2, 22], [3, 3], [4, 0] ]
+    },
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Swamp')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.2},
+        { "Item": "mmo_orb3", "Weight": 0.5}
+	  ]
+	},
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Swamp')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 75], [2, 20], [3, 5], [4, 0] ]
+    },
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Mountain')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.2},
+        { "Item": "mmo_orb4", "Weight": 0.5}
+	  ]
+	},
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Mountain')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 70], [2, 30], [3, 9], [4, 1] ]
+    },
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Plains')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.2},
+        { "Item": "mmo_orb5", "Weight": 0.5}
+	  ]
+	},
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Plains')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 25], [2, 25], [3, 25], [4, 25] ]
+    },
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Mistlands')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.2},
+        { "Item": "mmo_orb6", "Weight": 0.5}
+	  ]
+	},
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Mistlands')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 0], [2, 65], [3, 30], [4, 5] ]
+    },
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_AshLands')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.2},
+        { "Item": "mmo_orb6", "Weight": 0.5}
+	  ]
+	},
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_AshLands')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 0], [2, 65], [3, 30], [4, 5] ]
+    },
+	
+	{
+	  "Path": "$.LootTables",
+	  "Action": "AppendAll",
+	  "Value": [
+	{
+	  "Object": "TreasureMapChest_DeepNorth",
+	  "Drops": [ [1, 0], [2, 65], [3, 30], [4, 5] ],
+	  "Loot": [
+		{ "Item": "MaterialsA", "Weight": 1},
+		{ "Item": "MaterialsB", "Weight": 0.2},
+        { "Item": "mmo_orb6", "Weight": 0.5}
+	  ]
+	}
+   ]
+  }
+ ]
+}

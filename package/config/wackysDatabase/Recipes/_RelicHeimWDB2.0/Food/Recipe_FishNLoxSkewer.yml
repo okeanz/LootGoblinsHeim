@@ -1,0 +1,13 @@
+name: FishNLoxSkewer
+clonePrefabName: FishNLoxSkewer
+craftingStation: $piece_cauldron
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- FishRaw:1:1:True
+- LoxMeat:1:1:True
+- Cloudberry:2:1:True

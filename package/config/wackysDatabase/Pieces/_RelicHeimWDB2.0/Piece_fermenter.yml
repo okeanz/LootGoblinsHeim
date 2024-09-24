@@ -1,0 +1,147 @@
+name: fermenter
+piecehammer: Hammer
+m_name: $piece_fermenter
+sizeMultiplier: 1
+m_description: ''
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_forge
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 1000
+  damageModifiers:
+    m_blunt: Resistant
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Resistant
+    m_pickaxe: Normal
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData:
+  fermDuration: 1800
+  fermConversion:
+  - FromName: MeadBaseHealthMinor
+    ToName: MeadHealthMinor
+    Amount: 6
+    Remove: false
+  - FromName: MeadBaseHealthMedium
+    ToName: MeadHealthMedium
+    Amount: 6
+    Remove: false
+  - FromName: MeadBaseStaminaMinor
+    ToName: MeadStaminaMinor
+    Amount: 6
+    Remove: false
+  - FromName: MeadBaseStaminaMedium
+    ToName: MeadStaminaMedium
+    Amount: 6
+    Remove: false
+  - FromName: MeadBasePoisonResist
+    ToName: MeadPoisonResist
+    Amount: 6
+    Remove: false
+  - FromName: MeadBaseFrostResist
+    ToName: MeadFrostResist
+    Amount: 6
+    Remove: false
+  - FromName: BarleyWineBase
+    ToName: BarleyWine
+    Amount: 6
+    Remove: false
+  - FromName: MeadBaseTasty
+    ToName: MeadTasty
+    Amount: 6
+    Remove: false
+  - FromName: MeadBaseHealthMajor
+    ToName: MeadHealthMajor
+    Amount: 6
+    Remove: false
+  - FromName: MeadBaseStaminaLingering
+    ToName: MeadStaminaLingering
+    Amount: 6
+    Remove: false
+  - FromName: MeadBaseEitrMinor
+    ToName: MeadEitrMinor
+    Amount: 6
+    Remove: false
+  - FromName: MeadBaseLightningResist_TW
+    ToName: MeadLightningResist_TW
+    Amount: 6
+    Remove: false
+  - FromName: MeadBaseLingeringStaminaMinor_TW
+    ToName: MeadStaminaLingeringMinor_TW
+    Amount: 3
+    Remove: false
+  - FromName: MeadBaseLingeringStaminaMedium_TW
+    ToName: MeadStaminaLingeringMedium_TW
+    Amount: 3
+    Remove: false
+  - FromName: mmo_mead_minor
+    ToName: mmo_xp_drink1
+    Amount: 3
+    Remove: false
+  - FromName: mmo_mead_med
+    ToName: mmo_xp_drink2
+    Amount: 3
+    Remove: false
+  - FromName: mmo_mead_greater
+    ToName: mmo_xp_drink3
+    Amount: 3
+    Remove: false
+  - FromName: mmo_mead_orb1
+    ToName: mmo_orb1
+    Amount: 2
+    Remove: false
+  - FromName: mmo_mead_orb2
+    ToName: mmo_orb2
+    Amount: 2
+    Remove: false
+  - FromName: mmo_mead_orb3
+    ToName: mmo_orb3
+    Amount: 2
+    Remove: false
+  - FromName: mmo_mead_orb4
+    ToName: mmo_orb4
+    Amount: 2
+    Remove: false
+  - FromName: mmo_mead_orb5
+    ToName: mmo_orb5
+    Amount: 2
+    Remove: false
+  - FromName: mmo_mead_orb6
+    ToName: mmo_orb6
+    Amount: 2
+    Remove: false
+sapData: 
+build:
+- FineWood:30:1:True
+- Bronze:5:1:True
+- Resin:10:1:True

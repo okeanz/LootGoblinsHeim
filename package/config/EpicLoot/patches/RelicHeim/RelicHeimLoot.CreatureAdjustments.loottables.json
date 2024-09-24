@@ -1,0 +1,219 @@
+{
+  "TargetFile": "loottables.json",
+  "Author": "Majestic",
+  "RequireAll": true,
+  "Patches": [
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Greyling')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Deer')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Boar')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Neck')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Greydwarf')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Greydwarf_Shaman')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Skeleton_Poison')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Skeleton')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Blob')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'BlobElite')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Draugr')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Draugr_Ranged')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Ulv')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Leech')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Surtling')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Wolf')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Hatchling')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Deathsquito')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Goblin')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'GoblinArcher')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'GoblinShaman')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Seeker')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Dverger')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'DvergerMage')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'DvergerMageFire')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'DvergerMageIce')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'DvergerMageSupport')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Tick')]",
+	  "Action": "Remove"
+	},
+		
+        
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Volture')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Asksvin')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Charred_Twitcher')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Charred_Archer')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Charred_Mage')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Charred_Melee')]",
+	  "Action": "Remove"
+	},
+	
+	{
+      "Path": "$.LootTables",
+      "Action": "AppendAll",
+      "Value": [
+	{
+      "Object": "Boar",
+      "RefObject": "MeadowsRunestone"
+    },
+	{
+      "Object": "Neck",
+      "RefObject": "MeadowsRunestone"
+    },
+	{
+      "Object": "Deer",
+      "RefObject": "MeadowsRunestone"
+    },
+	{
+      "Object": "Greyling",
+      "RefObject": "MeadowsRunestone"
+    },
+	{
+      "Object": "Fox_TW",
+      "RefObject": "MeadowsRunestone"
+    },
+	
+	{
+      "Object": "MolluscanLand",
+      "RefObject": "BlackForestElite"
+    },
+	{
+      "Object": "DeepSea_Serpent",
+      "RefObject": "OceanElite"
+    },
+	{
+      "Object": "Shark_TW",
+      "RefObject": "OceanElite"
+    },
+	{
+      "Object": "WraithWarrior",
+      "RefObject": "SwampElite"
+    },
+	{
+      "Object": "HelWraith_TW",
+      "RefObject": "SwampElite"
+    },
+	{
+      "Object": "Prowler_TW",
+      "RefObject": "PlainsElite"
+	},
+	{
+      "Object": "Molluscan",
+      "RefObject": "MistlandsElite"
+    },
+	
+	{
+      "Object": "SurtrLegionnaire_TW",
+      "RefObject": "DeepNorthElite"
+	},
+	
+	{
+      "Object": "JotunnBrute_TW",
+      "RefObject": "DeepNorthElite"
+	},
+	{
+      "Object": "JotunnCrusher_TW",
+      "RefObject": "DeepNorthElite"
+	},
+	{
+      "Object": "ArcticMammoth_TW",
+      "RefObject": "DeepNorthElite"
+	}
+   ]
+  }
+ ]
+}

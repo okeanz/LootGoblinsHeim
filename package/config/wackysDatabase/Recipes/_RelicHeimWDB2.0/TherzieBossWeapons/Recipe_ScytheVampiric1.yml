@@ -1,0 +1,16 @@
+name: ScytheVampiric1
+clonePrefabName: ScytheVampiric_TW
+craftingStation: $piece_forge
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: $piece_forge
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Iron:40:30:True
+- Obsidian:0:20:True
+- Bloodbag:0:8:True
+- WitheredBone:20:0:True
+- TrophyVrykolathas_TW:1:1:True
+- InfusedCrystal_JH:20:0:True

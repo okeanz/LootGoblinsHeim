@@ -1,0 +1,14 @@
+name: mmo_mead_orb4
+clonePrefabName: mmo_mead_orb4
+craftingStation: $piece_cauldron
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- DustMagic:5:0:True
+- InfusedCrystal_JH:10:0:True
+- MeadTasty:2:0:True
+- TrophyGrizzlyBear_TW:1:0:True

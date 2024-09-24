@@ -1,0 +1,13 @@
+name: ShardQueen_Upgrade
+clonePrefabName: ShardQueen_TW
+craftingStation: $piece_arcaneanvil_TW
+minStationLevel: 6
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- ShardYagluth_TW:3:0:True
+- Eitr:1:0:True

@@ -1,0 +1,1375 @@
+{
+  "TargetFile": "legendaries.json",
+  "Author": "Majestic",
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.LegendaryItems",
+      "Action": "AppendAll",
+      "Value": [
+    {
+      "ID": "Halone",
+      "Name": "<color=#ff0000>Halone</color>",
+      "Description": "Halone, the Fury",
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Swords" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyDamage" }
+      ]
+    },
+    {
+      "ID": "Menphina",
+      "Name": "<color=#ff0000>Menphina</color>",
+      "Description": "Menphina, the Lover",
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Clubs" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyMovementSpeed" }
+      ]
+    },
+    {
+      "ID": "Thaliak",
+      "Name": "<color=#ff0000>Thaliak</color>",
+      "Description": "Thaliak, the Scholar",
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Spears", "Knives" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyAttackSpeed" }
+      ]
+    },
+    {
+      "ID": "Nymeia",
+      "Name": "<color=#ff0000>Nymeia</color>",
+      "Description": "Nymeia, the Spinner",
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Axes" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "Throwable" },
+        { "Type": "RecallWeapon" },
+        { "Type": "Opportunist" },
+        { "Type": "ModifyBackstab" }
+      ]
+    },
+    {
+      "ID": "Llymlaen",
+      "Name": "<color=#ff0000>Llymlaen</color>",
+      "Description": "Llymlaen, the Navigator",
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Swords", "Knives" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyDamage" },
+		{ "Type": "Executioner" }
+      ]
+    },
+    {
+      "ID": "Oschon",
+      "Name": "<color=#ff0000>Oschon</color>",
+      "Description": "Oschon, the Wanderer",
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Swords" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "RemoveSpeedPenalty" },
+        { "Type": "Opportunist" },
+        { "Type": "ModifyBackstab" }
+      ]
+    },
+    {
+      "ID": "Byregot",
+      "Name": "<color=#ff0000>Byregot</color>",
+      "Description": "Byregot, the Builder",
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Knives" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyMovementSpeed" },
+        { "Type": "ModifyAttackSpeed" }
+      ]
+    },
+    {
+      "ID": "Rhalgr",
+      "Name": "<color=#ff0000>Rhalgr</color>",
+      "Description": "Rhalgr, the Destroyer",
+      "Requirements" : {
+        "AllowedItemTypes": [ "TwoHandedWeapon" ],
+        "AllowedSkillTypes": [ "Axes" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyMovementSpeedLowHealth" },
+        { "Type": "ModifyStaminaRegenLowHealth" },
+        { "Type": "ModifyDamageLowHealth" },
+        { "Type": "ModifyAttackSpeedLowHealth" },
+        { "Type": "AvoidDamageTakenLowHealth" }
+      ]
+    },
+    {
+      "ID": "Azeyma",
+      "Name": "<color=#ff0000>Azeyma</color>",
+      "Description": "Azeyma, the Warden",
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Swords" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyAttackStaminaUse" },
+        { "Type": "ModifyAttackSpeed" },
+        { "Type": "Indestructible" }
+      ]
+    },
+    {
+      "ID": "Nald'thal",
+      "Name": "<color=#ff0000>Nald'thal</color>",
+      "Description": "Nald'thal, the Traders",
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Spears" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyAttackStaminaUse" },
+        { "Type": "LifeSteal" },
+        { "Type": "Indestructible" }
+      ]
+    },
+    {
+      "ID": "Nophica",
+      "Name": "<color=#ff0000>Nophica</color>",
+      "Description": "Nophica, the Matron",
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Clubs" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyDamage" },
+        { "Type": "ModifyAttackSpeed" }
+      ]
+    },
+    {
+      "ID": "Althyk",
+      "Name": "<color=#ff0000>Althyk</color>",
+	  "Description": "Althyk the Keeper",
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Clubs" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyDamage" },
+        { "Type": "Lifesteal" },
+		{ "Type": "ModifyStaminaRegenLowHealthLowHealth" }
+      ]
+    },
+    {
+      "ID": "Hydaelyn",
+      "Name": "<color=#ff0000>Hydaelyn</color>",
+      "Requirements" : {
+        "AllowedItemTypes": [ "TwoHandedWeapon" ],
+        "AllowedSkillTypes": [ "Polearms", "Axes" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyDamage" },
+        { "Type": "ModifyAttackSpeed" },
+        { "Type": "ModifyAttackStaminaUse" }
+      ]
+    },
+    {
+      "ID": "Zodiark",
+      "Name": "<color=#ff0000>Zodiark</color>",
+      "Requirements" : {
+        "AllowedItemTypes": [ "Bow" ],
+        "AllowedSkillTypes": [ "Bows" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyMovementSpeed" },
+        { "Type": "RemoveSpeedPenalty" }
+      ]
+    },
+    {
+      "ID": "Terpsichore",
+      "Name": "<color=#ff0000>Terpsichore</color>",
+      "Description": "A set of claws named after an ancient goddess of dance",
+      "Requirements" : {
+        "AllowedItemTypes": [ "TwoHandedWeapon" ],
+        "AllowedSkillTypes": [ "Unarmed" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyAttackSpeed" },
+        { "Type": "Duelist" }
+      ]
+    },
+    {
+      "ID": "Baghnakhs",
+      "Name": "<color=#ff0000>Baghnakhs</color>",
+      "Description": "Anything that touches these claws are stopped in its place.",
+      "Requirements" : {
+        "AllowedItemTypes": [ "TwoHandedWeapon" ],
+        "AllowedSkillTypes": [ "Unarmed" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "Slow" },
+        { "Type": "Executioner" }
+      ]
+    },
+    {
+      "ID": "StardustRod",
+      "Name": "<color=#ff0000>Stardust Rod</color>",
+      "Description": "Power comes within",
+      "Requirements" : {
+        "AllowedItemTypes": [ "Staff" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "IncreaseEitr" },
+        { "Type": "ModifyEitrRegen" }
+      ]
+    },
+    {
+      "ID": "Paradox",
+      "Name": "<color=#ff0000>Paradox Rod</color>",
+      "Description": "Power of Fire and Ice",
+      "Requirements" : {
+        "AllowedItemTypes": [ "Staff" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "AddFireDamage" },
+        { "Type": "AddFrostDamage" }
+      ]
+    },
+    {
+      "ID": "Crossbow",
+      "Name": "Harbingers Crossbow",
+      "Description": "",
+      "Requirements": {
+        "AllowedSkillTypes": [ "Crossbows" ]
+      },
+      "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyBackstab" },
+		{ "Type": "ModifyMovementSpeed" }
+      ]
+    },
+    {
+      "ID": "UllrBow",
+      "Name": "<color=#ff0000>$mod_epicloot_l_ullr</color>",
+      "Description": "$mod_epicloot_l_ullr_desc",
+      "Requirements" : {
+        "AllowedItemTypes": [ "Bow" ],
+        "AllowedSkillTypes": [ "Bows" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ExplosiveArrows" },
+        { "Type": "Indestructible" }
+      ]
+    },
+    {
+      "ID": "EndlessBow",
+      "Name": "<color=#ff0000>$mod_epicloot_l_endbow</color>",
+      "Description": "$mod_epicloot_l_endbow_desc",
+      "Requirements" : {
+        "AllowedItemTypes": [ "Bow" ],
+        "AllowedSkillTypes": [ "Bows" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "QuickDraw" },
+        { "Type": "ModifyAttackStaminaUse" },
+        { "Type": "Indestructible" }
+      ]
+    },
+    {
+      "ID": "DevastatingBow",
+      "Name": "<color=#ff0000>Devastating Bow</color>",
+      "Description": "",
+      "Requirements" : {
+        "AllowedItemTypes": [ "Bow" ],
+        "AllowedSkillTypes": [ "Bows" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "Slow" },
+        { "Type": "ExplosiveArrows" }
+      ]
+    },
+    {
+      "ID": "FishingMaster",
+      "Name": "<color=#ffff00>Master Fisher</color>",
+      "Description": "Master of fishing, increasing your skill level",
+      "Requirements": {
+        "AllowedItemTypes": [ "TwoHandedWeapon"],
+        "AllowedItemNames": [ "FishingRod" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddFishingSkill" }
+      ]
+    },
+    {
+      "ID": "CrossbowMaster",
+      "Name": "<color=#ffff00>Crossbow Master</color>",
+      "Description": "Master of the crossbow, increasing your skill level",
+      "Requirements": {
+        "AllowedSkillTypes": [ "Crossbows" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddCrossbowSkill" }
+      ]
+    },
+    {
+      "ID": "AxeMaster",
+      "Name": "<color=#ffff00>Axe Master</color>",
+      "Description": "Master of the Axes, increasing your skill level",
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon", "TwoHandedWeaponLeft" ],
+        "AllowedSkillTypes": [ "Axes" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddAxesSkill" }
+      ]
+    },
+    {
+      "ID": "AxeMaster",
+      "Name": "<color=#ffff00>Axe Master</color>",
+      "Description": "Master of the Axes, increasing your skill level",
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon", "TwoHandedWeaponLeft" ],
+        "AllowedSkillTypes": [ "Axes" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddAxesSkill" }
+      ]
+	},
+	{
+      "ID": "KnifeMaster",
+      "Name": "<color=#ffff00>Knife Master</color>",
+      "Description": "Master of the Knifes, increasing your skill level",
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon", "TwoHandedWeapon" ],
+        "AllowedSkillTypes": [ "Knives" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddKnivesSkill" }
+      ]
+	},
+	{
+      "ID": "MaceMaster",
+      "Name": "<color=#ffff00>Mace Master</color>",
+      "Description": "Master of the Maces, increasing your skill level",
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon", "TwoHandedWeapon" ],
+        "AllowedSkillTypes": [ "Clubs" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddClubsSkill" }
+      ]
+    },
+	{
+      "ID": "PolearmMaster",
+      "Name": "<color=#ffff00>Polearm Master</color>",
+      "Description": "Master of the Polearms, increasing your skill level",
+      "Requirements": {
+        "AllowedItemTypes": [ "TwoHandedWeapon" ],
+        "AllowedSkillTypes": [ "Polearms" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddPolearmsSkill" }
+      ]
+    },
+	{
+      "ID": "SpearMaster",
+      "Name": "<color=#ffff00>Spear Master</color>",
+      "Description": "Master of the Spears, increasing your skill level",
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Spears" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddSpearsSkill" }
+      ]
+    },
+	{
+      "ID": "BlockMaster",
+      "Name": "<color=#ffff00>Block Master</color>",
+      "Description": "Master of Blocking, increasing your skill level",
+      "Requirements": {
+        "AllowedItemTypes": [ "Shield" ],
+        "AllowedSkillTypes": [ "Blocking" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddBlockingSkill" }
+      ]
+    },
+	{
+      "ID": "BloodMagicMaster",
+      "Name": "<color=#ffff00>BloodMagic Master</color>",
+      "Description": "Master of Blood Magic, increasing your skill level",
+      "Requirements": {
+        "AllowedItemTypes": [ "Staffs" ],
+        "AllowedSkillTypes": [ "BloodMagic" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddBloodMagicSkill" }
+      ]
+    },
+	{
+      "ID": "ElementalMagicMaster",
+      "Name": "<color=#ffff00>ElementalMagic Master</color>",
+      "Description": "Master of Elemental Magic, increasing your skill level",
+      "Requirements": {
+        "AllowedItemTypes": [ "Staffs" ],
+        "AllowedSkillTypes": [ "ElementalMagic" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddElementalMagicSkill" }
+      ]
+    },
+	{
+      "ID": "ElementalCape",
+      "Name": "<color=#ffff00>Cape of Resist</color>",
+      "Description": "This enhanced cape will help you resist the elements",
+      "Requirements": {
+        "AllowedItemTypes": [ "Shoulder" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddElementalResistancePercentage" }
+      ]
+    },
+	{
+      "ID": "PoisonCape",
+      "Name": "<color=#008000>Poison Cape</color>",
+      "Description": "This cape will help you resist poison",
+      "Requirements": {
+        "AllowedItemTypes": [ "Shoulder" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddPoisonResistancePercentage" }
+      ]
+    },
+	{
+      "ID": "LightningCape",
+      "Name": "<color=#0000ff>Lightning Cape</color>",
+      "Description": "This cape will help you resist Lightning",
+      "Requirements": {
+        "AllowedItemTypes": [ "Shoulder" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddLightningResistancePercentage" }
+      ]
+    },
+	{
+      "ID": "FireCape",
+      "Name": "<color=#ffa500>Fire Cape</color>",
+      "Description": "This cape will help you resist Fire",
+      "Requirements": {
+        "AllowedItemTypes": [ "Shoulder" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddFireResistancePercentage" }
+      ]
+    },
+	{
+      "ID": "FrostCape",
+      "Name": "<color=#00ffff>Frost Cape</color>",
+      "Description": "This cape will help you resist Frost",
+      "Requirements": {
+        "AllowedItemTypes": [ "Shoulder" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddFrostResistancePercentage" }
+      ]
+    },
+	{
+      "ID": "WhiteMageCape",
+      "Name": "<color=#ffffff>Cape of the White Mage</color>",
+      "Description": "This cape worn from a White Mage gives you healing powers",
+      "Requirements": {
+        "AllowedItemTypes": [ "Shoulder" ]
+      }, 
+	  "GuaranteedEffectCount": 3,
+      "GuaranteedMagicEffects": [
+        { "Type": "IncreaseHealth" },
+        { "Type": "ModifyHealthRegen" },
+        { "Type": "AddHealthRegen" }
+      ]
+    },
+	{
+      "ID": "BlackMageCape",
+      "Name": "<color=#ffffff>Cape of the Black Mage</color>",
+      "Description": "This cape worn from a Black Mage gives you magic powers",
+      "Requirements": {
+        "AllowedItemTypes": [ "Shoulder" ]
+      }, 
+	  "GuaranteedEffectCount": 3,
+      "GuaranteedMagicEffects": [
+        { "Type": "IncreaseEitr" },
+        { "Type": "ModifyEitrRegen" },
+        { "Type": "AddElementalResistancePercentage" }
+      ]
+    },
+	{
+      "ID": "BlackMageStaff",
+      "Name": "<color=#ffffff>Staff of the Black Mage</color>",
+      "Description": "This staff that was onced used by a Black Mage holds magical powers",
+      "Requirements": {
+        "AllowedItemTypes": [ "Staff" ]
+      }, 
+	  "GuaranteedEffectCount": 3,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddFireDamage" },
+        { "Type": "AddFrostDamage" },
+        { "Type": "AddLightningDamage" }
+      ]
+    },
+	{
+      "ID": "OdinsBlessing",
+      "Name": "<color=#ffffff>Odins Blessing</color>",
+      "Description": "Once worn by the fallen Odin, now blesses it's owner",
+      "Requirements": {
+        "AllowedItemTypes": [ "Utility" ]
+      }, 
+	  "GuaranteedEffectCount": 3,
+      "GuaranteedMagicEffects": [
+        { "Type": "Luck" },
+        { "Type": "Riches" },
+        { "Type": "DoubleJump" }
+      ]
+    },
+	{
+      "ID": "ChestofProtection",
+      "Name": "<color=#ffffff>Chest of Protection</color>",
+      "Description": "Wearing this will protect you from harm",
+      "Requirements": {
+        "AllowedItemTypes": [ "Chest" ]
+      }, 
+	  "GuaranteedEffectCount": 3,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddSlashingResistancePercentage" },
+        { "Type": "AddPiercingResistancePercentage" },
+        { "Type": "AddBluntResistancePercentage" }
+      ]
+    },
+	{
+      "ID": "SimplePickaxe",
+      "Name": "<color=#ff0000>Simple Pickaxe</color>",
+      "Description": "Simple pickaxe but could be better",
+      "Requirements": {
+        "AllowedSkillTypes": [ "Pickaxes" ]
+      }, 
+	  "GuaranteedEffectCount": 4,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddPickaxesSkill" },
+        { "Type": "ModifyAttackStaminaUse" }
+      ]
+    },
+	{
+      "ID": "StandardPickaxe",
+      "Name": "<color=#ff0000>Standard Pickaxe</color>",
+      "Description": "Standard pickaxe that was almost complete",
+      "Requirements": {
+        "AllowedSkillTypes": [ "Pickaxes" ]
+      }, 
+	  "GuaranteedEffectCount": 4,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddPickaxesSkill" },
+        { "Type": "ModifyAttackStaminaUse" },
+        { "Type": "ModifyStaminaRegen" }
+      ]
+    },
+	{
+      "ID": "PerfectPickaxe",
+      "Name": "<color=#ff0000>Perfect Pickaxe</color>",
+      "Description": "The perfect pickaxe",
+      "Requirements": {
+        "AllowedSkillTypes": [ "Pickaxes" ]
+      }, 
+	  "GuaranteedEffectCount": 4,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddPickaxesSkill" },
+        { "Type": "ModifyAttackStaminaUse" },
+        { "Type": "ModifyAttackSpeed" },
+        { "Type": "ModifyStaminaRegen" }
+      ]
+    },
+	{
+      "ID": "Warpikes",
+      "Name": "<color=#ff0000>Mighty Warpike</color>",
+      "Description": "This warpike should be much easier to handle",
+      "Requirements": {
+        "AllowedItemNames": [ "WarpikeBone_TW", "WarpikeElder_TW", "WarpikeChitin_TW", "WarpikeObsidian_TW", "WarpikeBlackmetal_TW", "WarpikeDvergr_TW" ]
+      }, 
+	  "GuaranteedEffectCount": 4,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddSpearsSkill" },
+        { "Type": "ModifyAttackStaminaUse" },
+        { "Type": "ModifyAttackSpeed" },
+        { "Type": "Duelist" }
+      ]
+    },
+	{
+      "ID": "Vampirism",
+      "Name": "<color=#ff0000>Bloody Scythe</color>",
+      "Description": "So much blood......",
+      "Requirements": {
+        "AllowedItemNames": [ "ScytheVampiric_TW" ]
+      }, 
+	  "GuaranteedEffectCount": 4,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddPolearmsSkill" },
+        { "Type": "ModifyAttackStaminaUse" },
+        { "Type": "ModifyAttackSpeed" },
+        { "Type": "LifeSteal" }
+      ]
+    },
+	{
+      "ID": "Hellblade",
+      "Name": "<color=#ff0000>Ifrits Flames</color>",
+      "Description": "Ifrits mighty flames infused in these axes",
+      "Requirements": {
+        "AllowedItemNames": [ "DualAxeDemonic_TW" ]
+      }, 
+	  "GuaranteedEffectCount": 4,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddAxesSkill" },
+        { "Type": "ModifyAttackStaminaUse" },
+        { "Type": "ModifyAttackSpeed" },
+        { "Type": "AddFireDamage" }
+      ]
+    },
+	{
+      "ID": "Skullcrusher",
+      "Name": "<color=#ff0000>Dripping Poison</color>",
+      "Description": "Foul smell...",
+      "Requirements": {
+        "AllowedItemNames": [ "SledgeBonemass_TW" ]
+      }, 
+	  "GuaranteedEffectCount": 4,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddClubsSkill" },
+        { "Type": "ModifyAttackStaminaUse" },
+        { "Type": "ModifyAttackSpeed" },
+        { "Type": "AddPoisonDamage" }
+      ]
+    }
+	]
+	},
+	
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+    {
+      "ID": "OdinsShield",
+      "Name": "Odins Sturdy Shield",
+      "Description": "Odins Shield",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Shield"
+        ],
+        "ItemHasParryPower": true
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "OdinsWeapon",
+      "Name": "Odins Durable Weapon",
+      "Description": "Odins Sword",
+      "IsSetItem": true,
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Swords", "Spears" ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "OdinsLegs",
+      "Name": "Odins Dense Legs",
+      "Description": "Odins Legs",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Legs"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+    {
+      "ID": "PheonixFeathers",
+      "Name": "Pheonix Feathers",
+      "Description": "",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemNames": [
+          "$item_cape_feather"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 3
+    }
+	},
+	
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+    {
+      "ID": "SephirothsCape",
+      "Name": "Sephiroths Cloak",
+      "Description": "",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Shoulder"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "SephirothsWeapon",
+      "Name": "Sephiroths Deadly Weapon",
+      "Description": "",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon", "Bow", "TwoHandedWeapon" ], 
+        "AllowedSkillTypes": [ "Knives", "Bows", "Unarmed" ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "SephirothsRing",
+      "Name": "Sephiroths Ultima Ring",
+      "Description": "",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemNames": [
+          "SilverRing",
+		  "GoldRubyRing"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+    {
+      "ID": "TitansFists",
+      "Name": "Titans Fists",
+      "Description": "",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [ "TwoHandedWeapon" ],
+        "AllowedSkillTypes": [ "Unarmed" ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "TitansBelt",
+      "Name": "Titans Mighty Belt",
+      "Description": "",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemNames" : [
+          "LeatherBelt",
+          "BeltYmir_TW",
+          "BlackMetalBelt_JH",
+          "DvergrBelt_JH",
+		  "SilverBelt_JH"
+        ]
+	  },  
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "TitansLeggings",
+      "Name": "Titans Sturdy Leggings",
+      "Description": "",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Legs"
+        ]
+      },  
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+    {
+      "ID": "ExDeathHelm",
+      "Name": "ExDeaths Helmet",
+      "Description": "",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Helmet"
+        ]
+      },  
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "ExDeathStaff",
+      "Name": "ExDeaths Powerful Staff",
+      "Description": "",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Staff"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "ExDeathCape",
+      "Name": "ExDeaths Magical Cape",
+      "Description": "",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Shoulder"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+    {
+      "ID": "AnimasBelt",
+      "Name": "Animas Belt",
+      "Description": "As simple as can be.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemNames" : [
+          "LeatherBelt",
+          "BeltYmir_TW",
+          "BlackMetalBelt_JH",
+          "DvergrBelt_JH",
+		  "SilverBelt_JH"
+        ]
+	  },  
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "AnimasChest",
+      "Name": "Animas Chest",
+      "Description": "Wearing this piece will fill you of rage",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Chest"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "AnimasLegs",
+      "Name": "Animas Legs",
+      "Description": "Blood filled boots",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Legs"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+    {
+      "ID": "ShivasBoots",
+      "Name": "Shivas Precious Boots",
+      "Description": "At night it glimmers.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Legs"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "ShivasCrown",
+      "Name": "Shivas Tundra Crown",
+      "Description": "Crown made of frost",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Helmet"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "ShivasDress",
+      "Name": "Shivas Glistening Dress",
+      "Description": "Even mightiest warrior will look good in it",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Chest"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "ShivasWeapon",
+      "Name": "Shivas Frosty Weapon",
+      "Description": "Shiva has imbued this weapon with the power of Frost",
+	  "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon", "TwoHandedWeapon" ],
+        "ExcludedItemTypes": [ "Staff" ],
+	    "ExcludedSkillTypes": [ "Bows", "Crossbows", "Pickaxes", "Knives" ],
+	    "ExcludedItemNames": [ "FishingRod" ],
+		}, 
+	  "GuaranteedEffectCount": 6,
+      "GuaranteedMagicEffects": [
+        { "Type": "AddFrostDamage", "Values": { "MinValue": 5, "MaxValue": 10, "Increment": 1 } }
+	  ]
+    }
+	},
+	
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+    {
+      "ID": "SusanosCape",
+      "Name": "Susano Mighty Cape",
+      "Description": "Faint sparks can be seen at night.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Shoulder"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "SusanosHelm",
+      "Name": "Susano Mighty Helm",
+      "Description": "Shiniest Helmet",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Helmet"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "SusanosWeapon",
+      "Name": "Susano Mighty Weapon",
+      "Description": "Not for mere mortals.",
+	  "IsSetItem": true, 
+      "EquipFx": "LightningAuraSledge",
+      "EquipFxMode": "EquipRoot", 
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon", "TwoHandedWeapon" ],
+	    "AllowedSkillTypes": [ "Clubs", "Axes", "Polearms" ],
+		"ExcludedItemNames": [ "$item_axe_stone", "$item_axe_flint", "$item_axe_bronze", "$item_axe_iron" ]
+		}, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+    {
+      "ID": "TsukuyomisWeapon",
+      "Name": "Tsukuyomis Trusty Weapon",
+      "Description": "Thin, almost invisible.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Knives", "Swords" ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+      "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "TsukuyomisHelmet",
+      "Name": "Tsukuyomis Devious Helmet",
+      "Description": "Two sharp horns stick out.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Helmet"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendaryItems",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "TsukuyomisRing",
+      "Name": "Tsukuyomis Lucky Ring",
+      "Description": "Luck out of this world.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemNames" : [
+          "SilverRing",
+		  "GoldRubyRing"
+        ]
+	  }, 
+	  "GuaranteedEffectCount": 6
+    }
+	},
+	
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendarySets",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "Pheonix",
+      "Name": "<color=#ffff00>Pheonixs Blessing</color>",
+      "LegendaryIDs": [
+        "PheonixFeathers"
+      ],
+      "SetBonuses": [
+		{ "Count": 1, "Effect": { "Type": "Undying" } }
+      ]
+    }
+	},
+	
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendarySets",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "Odin",
+      "Name": "<color=#ffff00>Odins Tanky Wares</color>",
+      "LegendaryIDs": [
+        "OdinsShield",
+        "OdinsWeapon",
+        "OdinsLegs"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "ModifyParry", "Values": { "MinValue" : 10, "MaxValue" : 10, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "Slow", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } },
+		{ "Count": 3, "Effect": { "Type": "Undying" } }
+      ]
+    }
+	},
+	
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendarySets",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "Titan",
+      "Name": "<color=#ffff00>Titans Mighty Strength</color>",
+      "LegendaryIDs": [
+        "TitansFists",
+        "TitansBelt",
+        "TitansLeggings"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "ModifyStaggerDuration", "Values": { "MinValue" : 10, "MaxValue" : 10, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "ModifyBlockPower", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } },
+		{ "Count": 3, "Effect": { "Type": "Bulwark" } }
+      ]
+    }
+	},
+	
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendarySets",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "Sephiroth",
+      "Name": "<color=#ffff00>Sephiroths Battlegear</color>",
+      "LegendaryIDs": [
+        "SephirothsCape",
+        "SephirothsRing",
+		"SephirothsWeapon"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "LifeSteal", "Values": { "MinValue" : 5, "MaxValue" : 5, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "ReflectDamage", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } },
+		{ "Count": 3, "Effect": { "Type": "Berserker" } }
+      ]
+    }
+	},
+	
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendarySets",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "ExDeath",
+      "Name": "<color=#ffff00>ExDeath's Magical Wears</color>",
+      "LegendaryIDs": [
+        "ExDeathHelm",
+        "ExDeathStaff",
+        "ExDeathCape"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "AddFrostDamage", "Values": { "MinValue" : 10, "MaxValue" : 10, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "AddFireDamage", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } },
+        { "Count": 3, "Effect": { "Type": "ModifyEitrRegen", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } }
+      ]
+    }
+	},
+	
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendarySets",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "Anima",
+      "Name": "<color=#ffff00>Animas Raging Armor</color>",
+      "LegendaryIDs": [
+        "AnimasBelt",
+        "AnimasChest",
+        "AnimasLegs"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "ModifyDamage", "Values": { "MinValue" : 10, "MaxValue" : 10, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "ModifyDamageLowHealth", "Values": { "MinValue": 25, "MaxValue": 75, "Increment": 1 } } },
+		{ "Count": 3, "Effect": { "Type": "Berserker" } }
+      ]
+    }
+	},
+	
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendarySets",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "Shiva",
+      "Name": "<color=#ffff00>Diamond Dust</color>",
+      "LegendaryIDs": [
+        "ShivasWeapon",
+        "ShivasCrown",
+        "ShivasDress",
+        "ShivasBoots"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "ModifyAttackStaminaUse", "Values": { "MinValue" : 5, "MaxValue" : 5, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "AvoidDamageTaken", "Values": { "MinValue": 5, "MaxValue": 5, "Increment": 1 } } },
+        { "Count": 3, "Effect": { "Type": "ModifyElementalDamage", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } },
+        { "Count": 4, "Effect": { "Type": "FrostDamageAOE", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } }
+      ]
+    }
+	},
+	
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendarySets",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "Susano",
+      "Name": "<color=#ffff00>Susanos Mighty Battlegear</color>",
+      "LegendaryIDs": [
+        "SusanosWeapon",
+        "SusanosHelm",
+        "SusanosCape"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "ModifyAttackSpeed", "Values": { "MinValue" : 10, "MaxValue" : 10, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "IncreaseStamina", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } },
+        { "Count": 3, "Effect": { "Type": "Luck", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } }
+      ]
+    }
+	},
+	
+	{
+	  "TargetFile": "legendaries.json",
+      "Path": "$.LegendarySets",
+      "Action": "Append",
+      "Value":
+	{
+      "ID": "Tsukuyomi",
+      "Name": "<color=#ffff00>Tsukuyomi's Devious Garbs</color>",
+      "LegendaryIDs": [
+        "TsukuyomisWeapon",
+        "TsukuyomisHelmet",
+        "TsukuyomisRing"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "ModifyBackstab", "Values": { "MinValue" : 10, "MaxValue" : 10, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "Opportunist", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } },
+        { "Count": 3, "Effect": { "Type": "Luck", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } }
+      ]
+    }
+   }
+  ]
+}

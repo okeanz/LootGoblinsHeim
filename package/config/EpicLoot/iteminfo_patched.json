@@ -1,0 +1,1904 @@
+{
+  "ItemInfo": [
+    {
+      "Type": "Swords",
+      "Fallback": "AxeFlint",
+      "Items": [
+        "SwordBronze",
+        "SwordIron",
+        "SwordSilver",
+        "SwordBlackmetal",
+        "SwordMistwalker",
+        "THSwordKrom",
+        "SwordNiedhogg",
+        "THSwordSlayer",
+        "SwordDyrnwyn",
+        "BastardFlint_TW",
+        "ClaymoreBone_TW",
+        "ClaymoreBronze_TW",
+        "ClaymoreChitin_TW",
+        "ClaymoreIron_TW",
+        "ClaymoreSilver_TW",
+        "ClaymoreBlackmetal_TW",
+        "ClaymoreDvergr_TW",
+        "SwordChitin_TW",
+        "SwordFlint_TW",
+        "ClaymoreNjord_TW",
+        "ClaymoreSurtr_TW",
+        "SwordNjord_TW",
+        "SwordSurtr_TW",
+        "VolcanicBlade_TW",
+        "SwordBone_TW",
+        "GlacierBlade_TW",
+        "ClaymoreJotunn_TW",
+        "BastardBone_TW",
+        "BastardChitin_TW",
+        "BastardSilver_TW",
+        "BastardBlackmetal_TW",
+        "BastardDvergr_TW",
+        "BastardNjord_TW",
+        "BastardSurtr_TW",
+        "DualSwordScimitar_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "BastardFlint_TW",
+          "SwordFlint_TW"
+        ],
+        "defeated_gdking": [
+          "SwordBronze",
+          "ClaymoreBronze_TW",
+          "SwordBone_TW",
+          "BastardBone_TW",
+          "ClaymoreBone_TW"
+        ],
+        "defeated_bonemass": [
+          "SwordIron",
+          "ClaymoreIron_TW",
+          "ClaymoreChitin_TW",
+          "SwordChitin_TW",
+          "BastardChitin_TW"
+        ],
+        "defeated_dragon": [
+          "SwordSilver",
+          "ClaymoreSilver_TW",
+          "BastardSilver_TW"
+        ],
+        "defeated_goblinking": [
+          "SwordBlackmetal",
+          "ClaymoreBlackmetal_TW",
+          "BastardBlackmetal_TW",
+          "DualSwordScimitar_TW"
+        ],
+        "defeated_queen": [
+          "SwordMistwalker",
+          "THSwordKrom",
+          "ClaymoreDvergr_TW",
+          "BastardDvergr_TW"
+        ],
+        "defeated_fader": [
+          "SwordNiedhogg",
+          "THSwordSlayer",
+          "SwordDyrnwyn",
+          "ClaymoreNjord_TW",
+          "ClaymoreSurtr_TW",
+          "SwordNjord_TW",
+          "SwordSurtr_TW",
+          "BastardNjord_TW",
+          "BastardSurtr_TW",
+          "ClaymoreJotunn_TW",
+          "GlacierBlade_TW",
+          "VolcanicBlade_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "ModifyPhysicalDamage"
+        ],
+        [
+          "ModifyAttackStaminaUse"
+        ],
+        [
+          "ModifyAttackSpeed"
+        ],
+        [
+          "AddSwordsSkill"
+        ]
+      ]
+    },
+    {
+      "Type": "Axes",
+      "Fallback": "Club",
+      "Items": [
+        "AxeStone",
+        "AxeFlint",
+        "AxeBronze",
+        "AxeIron",
+        "AxeBlackMetal",
+        "AxeJotunBane",
+        "AxeBerzerkr",
+        "AxeSilver_TW",
+        "AxeDvergr_TW",
+        "AxeNjord_TW",
+        "AxeSurtr_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "AxeStone",
+          "AxeFlint"
+        ],
+        "defeated_gdking": [
+          "AxeBronze"
+        ],
+        "defeated_bonemass": [
+          "AxeIron"
+        ],
+        "defeated_dragon": [
+          "AxeSilver_TW"
+        ],
+        "defeated_goblinking": [
+          "AxeBlackMetal"
+        ],
+        "defeated_queen": [
+          "AxeJotunBane",
+          "AxeDvergr_TW"
+        ],
+        "defeated_fader": [
+          "AxeBerzerkr",
+          "AxeNjord_TW",
+          "AxeSurtr_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "ModifyPhysicalDamage"
+        ],
+        [
+          "ModifyAttackStaminaUse"
+        ],
+        [
+          "ModifyAttackSpeed"
+        ],
+        [
+          "AddAxesSkill"
+        ]
+      ]
+    },
+    {
+      "Type": "TwoHandAxes",
+      "Fallback": "Axes",
+      "Items": [
+        "Battleaxe",
+        "BattleaxeCrystal",
+        "BattleaxeFlint_TW",
+        "BattleaxeBronze_TW",
+        "BattleaxeIron_TW",
+        "BattleaxeSilver_TW",
+        "BattleaxeBlackmetal_TW",
+        "BattleaxeDvergr_TW",
+        "BattleaxeNjord_TW",
+        "BattleaxeSurtr_TW",
+        "BattleaxeCrystal_TW",
+        "BattleaxeCrystalEmerald_TW",
+        "BattleaxeCrystalAmethyst_TW",
+        "BattleaxeCrystalSapphire_TW",
+        "BattleaxeCrystalTopaz_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "BattleaxeFlint_TW"
+        ],
+        "defeated_gdking": [
+          "BattleaxeBronze_TW"
+        ],
+        "defeated_bonemass": [
+          "Battleaxe",
+          "BattleaxeIron_TW"
+        ],
+        "defeated_dragon": [
+          "BattleaxeCrystal",
+          "BattleaxeSilver_TW",
+          "BattleaxeCrystal_TW"
+        ],
+        "defeated_goblinking": [
+          "BattleaxeBlackmetal_TW",
+          "BattleaxeCrystalEmerald_TW"
+        ],
+        "defeated_queen": [
+          "BattleaxeDvergr_TW",
+          "BattleaxeCrystalAmethyst_TW"
+        ],
+        "defeated_fader": [
+          "BattleaxeNjord_TW",
+          "BattleaxeSurtr_TW",
+          "BattleaxeCrystalSapphire_TW",
+          "BattleaxeCrystalTopaz_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "ModifyPhysicalDamage"
+        ],
+        [
+          "ModifyAttackStaminaUse"
+        ],
+        [
+          "ModifyAttackSpeed"
+        ],
+        [
+          "AddAxesSkill"
+        ]
+      ]
+    },
+    {
+      "Type": "Knives",
+      "Fallback": "Clubs",
+      "Items": [
+        "KnifeFlint",
+        "KnifeCopper",
+        "KnifeChitin",
+        "KnifeSilver",
+        "KnifeBlackMetal",
+        "KnifeSkollAndHati",
+        "KnifeBronze_TW",
+        "KnifeIron_TW",
+        "KnifeWrench_TW",
+        "KnifeNjord_TW",
+        "KnifeSurtr_TW",
+        "DualKnifeBone_TW",
+        "DualKnifeChitin_TW",
+        "DualKnifeIron_TW",
+        "DualKnifeSilver_TW",
+        "DualKnifeBM_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "KnifeFlint"
+        ],
+        "defeated_gdking": [
+          "KnifeCopper",
+          "DualKnifeBone_TW",
+          "KnifeBronze_TW"
+        ],
+        "defeated_bonemass": [
+          "KnifeChitin",
+          "KnifeIron_TW",
+          "DualKnifeIron_TW",
+          "KnifeWrench_TW",
+          "DualKnifeChitin_TW"
+        ],
+        "defeated_dragon": [
+          "KnifeSilver",
+          "DualKnifeSilver_TW"
+        ],
+        "defeated_goblinking": [
+          "KnifeBlackMetal",
+          "DualKnifeBM_TW"
+        ],
+        "defeated_queen": [
+          "KnifeSkollAndHati"
+        ],
+        "defeated_fader": [
+          "KnifeNjord_TW",
+          "KnifeSurtr_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "ModifyBackstab"
+        ],
+        [
+          "ModifyStaggerDamage"
+        ],
+        [
+          "ModifyAttackSpeed"
+        ],
+        [
+          "AddKnivesSkill"
+        ]
+      ]
+    },
+    {
+      "Type": "Fists",
+      "Fallback": "Knives",
+      "Items": [
+        "FistFenrirClaw",
+        "FistFlint_TW",
+        "FistBronze_TW",
+        "FistChitin_TW",
+        "FistIron_TW",
+        "FistSilver_TW",
+        "FistBlackmetal_TW",
+        "FistDvergr_TW",
+        "FistNjord_TW",
+        "FistSurtr_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "FistFlint_TW"
+        ],
+        "defeated_gdking": [
+          "FistBronze_TW"
+        ],
+        "defeated_bonemass": [
+          "FistIron_TW",
+          "FistChitin_TW"
+        ],
+        "defeated_dragon": [
+          "FistFenrirClaw",
+          "FistSilver_TW"
+        ],
+        "defeated_goblinking": [
+          "FistBlackmetal_TW"
+        ],
+        "defeated_queen": [
+          "FistDvergr_TW"
+        ],
+        "defeated_fader": [
+          "FistNjord_TW",
+          "FistSurtr_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "ModifyBackstab"
+        ],
+        [
+          "ModifyStaggerDamage"
+        ],
+        [
+          "ModifyAttackSpeed"
+        ],
+        [
+          "AddUnarmedSkill"
+        ]
+      ]
+    },
+    {
+      "Type": "Staffs",
+      "Fallback": "Spears",
+      "Items": [
+        "StaffFireball",
+        "StaffIceShards",
+        "StaffShield",
+        "StaffSkeleton",
+        "StaffClusterbomb",
+        "StaffLightning",
+        "StaffRedTroll",
+        "StaffGreenRoots",
+        "StaffSkrymir_TW",
+        "StaffImpDemon_TW",
+        "StaffBlackforest_TW",
+        "StaffSwamp_TW",
+        "StaffMountain_TW",
+        "StaffPlains_TW",
+        "StaffSurtling_TW",
+        "StaffGolem_TW",
+        "StaffMistlands_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [],
+        "defeated_gdking": [
+          "StaffBlackforest_TW"
+        ],
+        "defeated_bonemass": [
+          "StaffSwamp_TW",
+          "StaffSurtling_TW"
+        ],
+        "defeated_dragon": [
+          "StaffMountain_TW"
+        ],
+        "defeated_goblinking": [
+          "StaffPlains_TW",
+          "StaffGolem_TW"
+        ],
+        "defeated_queen": [
+          "StaffFireball",
+          "StaffIceShards",
+          "StaffShield",
+          "StaffSkeleton",
+          "StaffMistlands_TW"
+        ],
+        "defeated_fader": [
+          "StaffClusterbomb",
+          "StaffLightning",
+          "StaffRedTroll",
+          "StaffGreenRoots",
+          "StaffSkrymir_TW",
+          "StaffImpDemon_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "ModifyElementalDamage"
+        ],
+        [
+          "IncreaseEitr"
+        ],
+        [
+          "ModifyEitrRegen"
+        ],
+        [
+          "AddElementalMagicSkill",
+          "AddBloodMagicSkill"
+        ]
+      ]
+    },
+    {
+      "Type": "Clubs",
+      "Fallback": "",
+      "Items": [
+        "Club",
+        "MaceBronze",
+        "MaceIron",
+        "MaceSilver",
+        "MaceNeedle",
+        "MaceEldner",
+        "GreatClub_TW",
+        "MaceFlint_TW",
+        "MaceDvergr_TW",
+        "MaceNjord_TW",
+        "MaceSurtr_TW",
+        "MaceChitin_TW",
+        "CudgelIron_TW",
+        "CudgelBronze_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "Club",
+          "GreatClub_TW",
+          "MaceFlint_TW"
+        ],
+        "defeated_gdking": [
+          "MaceBronze",
+          "CudgelBronze_TW"
+        ],
+        "defeated_bonemass": [
+          "MaceIron",
+          "MaceChitin_TW",
+          "CudgelIron_TW"
+        ],
+        "defeated_dragon": [
+          "MaceSilver"
+        ],
+        "defeated_goblinking": [
+          "MaceNeedle"
+        ],
+        "defeated_queen": [
+          "MaceDvergr_TW"
+        ],
+        "defeated_fader": [
+          "MaceEldner",
+          "MaceNjord_TW",
+          "MaceSurtr_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "ModifyStaggerDuration"
+        ],
+        [
+          "ModifyPhysicalDamage"
+        ],
+        [
+          "ModifyParryWindow"
+        ],
+        [
+          "AddClubsSkill"
+        ]
+      ]
+    },
+    {
+      "Type": "Sledges",
+      "Fallback": "Clubs",
+      "Items": [
+        "SledgeStagbreaker",
+        "SledgeIron",
+        "SledgeDemolisher",
+        "BattlehammerTrollbone_TW",
+        "BattlehammerIron_TW",
+        "BattlehammerSilver_TW",
+        "BattlehammerBlackmetal_TW",
+        "BattlehammerDvergr_TW",
+        "SledgeBronze_TW",
+        "SledgeIron_TW",
+        "SledgeSilver_TW",
+        "SledgeBlackmetal_TW",
+        "SledgeDemolisher_TW",
+        "BattlehammerNjord_TW",
+        "BattlehammerSurtr_TW",
+        "SledgeNjord_TW",
+        "SledgeSurtr_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "SledgeStagbreaker"
+        ],
+        "defeated_gdking": [
+          "BattlehammerTrollbone_TW",
+          "SledgeBronze_TW"
+        ],
+        "defeated_bonemass": [
+          "SledgeIron",
+          "BattlehammerIron_TW",
+          "SledgeIron_TW"
+        ],
+        "defeated_dragon": [
+          "BattlehammerSilver_TW",
+          "SledgeSilver_TW"
+        ],
+        "defeated_goblinking": [
+          "BattlehammerBlackmetal_TW",
+          "SledgeBlackmetal_TW"
+        ],
+        "defeated_queen": [
+          "SledgeDemolisher",
+          "BattlehammerDvergr_TW",
+          "SledgeDemolisher_TW"
+        ],
+        "defeated_fader": [
+          "BattlehammerNjord_TW",
+          "BattlehammerSurtr_TW",
+          "SledgeNjord_TW",
+          "SledgeSurtr_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "ModifyStaggerDuration"
+        ],
+        [
+          "ModifyPhysicalDamage"
+        ],
+        [
+          "ModifyParryWindow"
+        ],
+        [
+          "AddClubsSkill"
+        ]
+      ]
+    },
+    {
+      "Type": "Polearms",
+      "Fallback": "Spears",
+      "Items": [
+        "AtgeirBronze",
+        "AtgeirIron",
+        "AtgeirBlackmetal",
+        "AtgeirHimminAfl",
+        "AtgeirFlint_TW",
+        "AtgeirSilver_TW",
+        "TridentBlackmetal_TW",
+        "AtgeirNjord_TW",
+        "AtgeirSurtr_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "AtgeirFlint_TW"
+        ],
+        "defeated_gdking": [
+          "AtgeirBronze"
+        ],
+        "defeated_bonemass": [
+          "AtgeirIron"
+        ],
+        "defeated_dragon": [
+          "AtgeirSilver_TW"
+        ],
+        "defeated_goblinking": [
+          "AtgeirBlackmetal",
+          "TridentBlackmetal_TW"
+        ],
+        "defeated_queen": [
+          "AtgeirHimminAfl"
+        ],
+        "defeated_fader": [
+          "AtgeirNjord_TW",
+          "AtgeirSurtr_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "ModifyPhysicalDamage"
+        ],
+        [
+          "ModifyAttackStaminaUse"
+        ],
+        [
+          "ModifyAttackSpeed"
+        ],
+        [
+          "AddPolearmsSkill"
+        ]
+      ]
+    },
+    {
+      "Type": "Spears",
+      "Fallback": "Axes",
+      "Items": [
+        "SpearFlint",
+        "SpearBronze",
+        "SpearElderbark",
+        "SpearChitin",
+        "SpearWolfFang",
+        "SpearCarapace",
+        "SpearSplitner",
+        "LanceDvergr_TW",
+        "SpearBlackmetal_TW",
+        "SpearNjord_TW",
+        "SpearSurtr_TW",
+        "LanceBlackmetal_TW",
+        "LanceNjord_TW",
+        "LanceSurtr_TW",
+        "WarpikeObsidian_TW",
+        "WarpikeDvergr_TW",
+        "WarpikeNjord_TW",
+        "WarpikeSurtr_TW",
+        "WarpikeBlackmetal_TW",
+        "WarpikeBone_TW",
+        "WarpikeChitin_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "SpearFlint"
+        ],
+        "defeated_gdking": [
+          "SpearBronze",
+          "WarpikeBone_TW"
+        ],
+        "defeated_bonemass": [
+          "SpearElderbark",
+          "SpearChitin",
+          "WarpikeChitin_TW"
+        ],
+        "defeated_dragon": [
+          "SpearWolfFang",
+          "WarpikeObsidian_TW"
+        ],
+        "defeated_goblinking": [
+          "SpearBlackmetal_TW",
+          "LanceBlackmetal_TW",
+          "WarpikeBlackmetal_TW"
+        ],
+        "defeated_queen": [
+          "SpearCarapace",
+          "LanceDvergr_TW",
+          "WarpikeDvergr_TW"
+        ],
+        "defeated_fader": [
+          "SpearSplitner",
+          "SpearNjord_TW",
+          "SpearSurtr_TW",
+          "LanceNjord_TW",
+          "LanceSurtr_TW",
+          "WarpikeNjord_TW",
+          "WarpikeSurtr_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "ModifyPhysicalDamage"
+        ],
+        [
+          "ModifyAttackStaminaUse"
+        ],
+        [
+          "ModifyAttackSpeed"
+        ],
+        [
+          "AddSpearsSkill"
+        ]
+      ]
+    },
+    {
+      "Type": "Pickaxes",
+      "Fallback": "Axes",
+      "Items": [
+        "PickaxeAntler",
+        "PickaxeBronze",
+        "PickaxeIron",
+        "PickaxeBlackMetal"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "PickaxeAntler"
+        ],
+        "defeated_gdking": [
+          "PickaxeBronze"
+        ],
+        "defeated_bonemass": [
+          "PickaxeIron"
+        ],
+        "defeated_dragon": [],
+        "defeated_goblinking": [
+          "PickaxeBlackMetal"
+        ],
+        "defeated_queen": [],
+        "defeated_fader": []
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "ModifyPhysicalDamage"
+        ],
+        [
+          "ModifyAttackStaminaUse"
+        ],
+        [
+          "ModifyAttackSpeed"
+        ],
+        [
+          "Indestructible"
+        ]
+      ]
+    },
+    {
+      "Type": "Bows",
+      "Fallback": "Clubs",
+      "Items": [
+        "Bow",
+        "BowFineWood",
+        "BowHuntsman",
+        "BowDraugrFang",
+        "CrossbowArbalest",
+        "BowSpineSnap",
+        "BowAshlands",
+        "BowBlackmetal_TW",
+        "BowTrollBone_TW",
+        "GreatbowBlackmetal_TW",
+        "GreatbowDvergr_TW",
+        "CrossbowBronze_TW",
+        "CrossbowChitin_TW",
+        "CrossbowIron_TW",
+        "CrossbowSilver_TW",
+        "CrossbowBlackmetal_TW",
+        "BowNjord_TW",
+        "BowSurtr_TW",
+        "BowUllr_TW",
+        "CrossbowNjord_TW",
+        "CrossbowSurtr_TW",
+        "GreatbowNjord_TW",
+        "GreatbowSurtr_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "Bow"
+        ],
+        "defeated_gdking": [
+          "BowFineWood",
+          "CrossbowBronze_TW",
+          "BowTrollBone_TW"
+        ],
+        "defeated_bonemass": [
+          "BowHuntsman",
+          "CrossbowIron_TW",
+          "CrossbowChitin_TW"
+        ],
+        "defeated_dragon": [
+          "BowDraugrFang",
+          "CrossbowSilver_TW"
+        ],
+        "defeated_goblinking": [
+          "BowBlackmetal_TW",
+          "GreatbowBlackmetal_TW",
+          "CrossbowBlackmetal_TW"
+        ],
+        "defeated_queen": [
+          "CrossbowArbalest",
+          "BowSpineSnap",
+          "GreatbowDvergr_TW"
+        ],
+        "defeated_fader": [
+          "BowAshlands",
+          "BowNjord_TW",
+          "BowSurtr_TW",
+          "BowUllr_TW",
+          "CrossbowNjord_TW",
+          "CrossbowSurtr_TW",
+          "GreatbowNjord_TW",
+          "GreatbowSurtr_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "ModifyPhysicalDamage"
+        ],
+        [
+          "ModifyBackstab"
+        ],
+        [
+          "ModifyStaggerDamage"
+        ],
+        [
+          "AddBowsSkill",
+          "AddCrossbowsSkill"
+        ]
+      ]
+    },
+    {
+      "Type": "Bucklers",
+      "Fallback": "RoundShields",
+      "Items": [
+        "ShieldBronzeBuckler",
+        "ShieldIronBuckler",
+        "ShieldCarapaceBuckler",
+        "ShieldSilverBuckler_TW",
+        "ShieldTyraniumBuckler_TW",
+        "ShieldFlametalBuckler_TW",
+        "ShieldBlackmetalBuckler_TW",
+        "ShieldChitinBuckler_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [],
+        "defeated_gdking": [
+          "ShieldBronzeBuckler"
+        ],
+        "defeated_bonemass": [
+          "ShieldIronBuckler",
+          "ShieldChitinBuckler_TW"
+        ],
+        "defeated_dragon": [
+          "ShieldSilverBuckler_TW"
+        ],
+        "defeated_goblinking": [
+          "ShieldBlackmetalBuckler_TW"
+        ],
+        "defeated_queen": [
+          "ShieldCarapaceBuckler"
+        ],
+        "defeated_fader": [
+          "ShieldTyraniumBuckler_TW",
+          "ShieldFlametalBuckler_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "ModifyParry"
+        ],
+        [
+          "ModifyParryWindow"
+        ],
+        [
+          "ModifyBlockStaminaUse"
+        ],
+        [
+          "AddBlockingSkill"
+        ]
+      ]
+    },
+    {
+      "Type": "RoundShields",
+      "Fallback": "ShieldWood",
+      "Items": [
+        "ShieldWood",
+        "ShieldBanded",
+        "ShieldSilver",
+        "ShieldBlackmetal",
+        "ShieldCarapace",
+        "ShieldFlametal",
+        "ShieldBronzeBanded_TW",
+        "ShieldNjord_TW",
+        "ShieldSurtr_TW",
+        "ShieldChitin_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "ShieldWood"
+        ],
+        "defeated_gdking": [
+          "ShieldBronzeBanded_TW"
+        ],
+        "defeated_bonemass": [
+          "ShieldBanded",
+          "ShieldChitin_TW"
+        ],
+        "defeated_dragon": [
+          "ShieldSilver"
+        ],
+        "defeated_goblinking": [
+          "ShieldBlackmetal"
+        ],
+        "defeated_queen": [
+          "ShieldCarapace"
+        ],
+        "defeated_fader": [
+          "ShieldFlametal",
+          "ShieldNjord_TW",
+          "ShieldSurtr_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "ModifyBlockPower"
+        ],
+        [
+          "ModifyParryWindow"
+        ],
+        [
+          "ModifyBlockStaminaUse"
+        ],
+        [
+          "AddBlockingSkill"
+        ]
+      ]
+    },
+    {
+      "Type": "TowerShields",
+      "Fallback": "ShieldWoodTower",
+      "Items": [
+        "ShieldWoodTower",
+        "ShieldBoneTower",
+        "ShieldIronTower",
+        "ShieldSerpentscale",
+        "ShieldBlackmetalTower",
+        "ShieldFlametalTower",
+        "ShieldBronzeTower_TW",
+        "ShieldArcticSerpentscale_TW",
+        "ShieldNjordTower_TW",
+        "ShieldSurtrTower_TW",
+        "ShieldChitinTower_TW",
+        "ShieldCarapaceTower_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "ShieldWoodTower"
+        ],
+        "defeated_gdking": [
+          "ShieldBoneTower",
+          "ShieldBronzeTower_TW"
+        ],
+        "defeated_bonemass": [
+          "ShieldIronTower",
+          "ShieldSerpentscale",
+          "ShieldChitinTower_TW"
+        ],
+        "defeated_dragon": [],
+        "defeated_goblinking": [
+          "ShieldBlackmetalTower"
+        ],
+        "defeated_queen": [
+          "ShieldCarapaceTower_TW"
+        ],
+        "defeated_fader": [
+          "ShieldFlametalTower",
+          "ShieldArcticSerpentscale_TW",
+          "ShieldNjordTower_TW",
+          "ShieldSurtrTower_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "ModifyBlockPower"
+        ],
+        [
+          "ModifyBlockStaminaUse"
+        ],
+        [
+          "Immovable"
+        ],
+        [
+          "AddBlockingSkill"
+        ]
+      ]
+    },
+    {
+      "Type": "ChestArmor",
+      "Fallback": "",
+      "Items": [
+        "ArmorRagsChest",
+        "ArmorLeatherChest",
+        "ArmorBronzeChest",
+        "ArmorTrollLeatherChest",
+        "ArmorIronChest",
+        "ArmorRootChest",
+        "ArmorWolfChest",
+        "ArmorFenringChest",
+        "ArmorPaddedCuirass",
+        "ArmorCarapaceChest",
+        "ArmorMageChest",
+        "ArmorFlametalChest",
+        "ArmorAshlandsMediumChest",
+        "ArmorMageChest_Ashlands",
+        "neckchest",
+        "chiefchest",
+        "trollchest",
+        "heavybronzechest",
+        "ancientchest",
+        "knightchest",
+        "skogchest",
+        "svenchest",
+        "swampchest",
+        "ancientironchest",
+        "heavywolfchest",
+        "norahchest",
+        "bpchest",
+        "valkchest",
+        "bearchest",
+        "loxhuntchest",
+        "heavycarchest",
+        "frostmagechest",
+        "druidchest",
+        "bearchest2",
+        "samuraichest",
+        "lagichest",
+        "ss_korokchest",
+        "runeknightchest",
+        "warlordchest",
+        "ss_wraithchest",
+        "stjudechest",
+        "heavybearchest",
+        "trueskogchest",
+        "sven2chest",
+        "wschest",
+        "obswolfchest",
+        "ArmorLeatherChest_TW",
+        "ArmorRazorbackChest_TW",
+        "ArmorRogueChest_TW",
+        "ArmorRogueIronChest_TW",
+        "ArmorRogueSilverChest_TW",
+        "ArmorRogueBMChest_TW",
+        "ArmorRogueCarapaceChest_TW",
+        "ArmorRogueTyraniumChest_TW",
+        "ArmorVigorousChest_TW",
+        "ArmorVigorousIronChest_TW",
+        "ArmorVigorousSilverChest_TW",
+        "ArmorVigorousBMChest_TW",
+        "ArmorVigorousCarapaceChest_TW",
+        "ArmorVigorousTyraniumChest_TW",
+        "ArmorWarriorChest_TW",
+        "ArmorWarriorSilverChest_TW",
+        "ArmorWarriorBMChest_TW",
+        "ArmorWarriorCarapaceChest_TW",
+        "ArmorWarriorFlametalChest_TW",
+        "ArmorFenrirChest_TW",
+        "ArmorFenrirBMChest_TW",
+        "ArmorFenrirCarapaceChest_TW",
+        "ArmorFenrirTyraniumChest_TW",
+        "ArmorVidarChest_TW",
+        "ArmorVidarBMChest_TW",
+        "ArmorVidarCarapaceChest_TW",
+        "ArmorVidarFlametalChest_TW",
+        "ArmorBoldChest_TW",
+        "ArmorBoldCarapaceChest_TW",
+        "ArmorBoldFlametalChest_TW",
+        "ArmorLegionChest_TW",
+        "ArmorLegionFlametalChest_TW",
+        "ArmorDestructionChest_TW",
+        "ArmorDestructionTyraniumChest_TW",
+        "ArmorSacrificeChest_TW",
+        "ArmorSacrificeFlametalChest_TW",
+        "ArmorUllrChest_TW",
+        "ArmorHunterChest_TW",
+        "ArmorHunterChestIron_TW",
+        "ArmorHunterChestSilver_TW",
+        "ArmorHunterChestBM_TW",
+        "ArmorHunterChestCarapace_TW",
+        "ArmorSpellSlingerChest_BlackForest_TW",
+        "ArmorSpellSlingerChest_Mountain_TW",
+        "ArmorSpellSlingerChest_Plains_TW",
+        "ArmorSpellSlingerChest_Swamp_TW",
+        "ArmorSpellSlingerChest_Mistlands_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "neckchest",
+          "chiefchest",
+          "ArmorLeatherChest_TW"
+        ],
+        "defeated_gdking": [
+          "trollchest",
+          "ArmorRogueChest_TW",
+          "ArmorVigorousChest_TW",
+          "ArmorRazorbackChest_TW",
+          "ArmorHunterChest_TW",
+          "ArmorSpellSlingerChest_BlackForest_TW"
+        ],
+        "defeated_bonemass": [
+          "heavybronzechest",
+          "ancientchest",
+          "swampchest",
+          "ArmorRogueIronChest_TW",
+          "ArmorVigorousIronChest_TW",
+          "ArmorWarriorChest_TW",
+          "ArmorHunterChestIron_TW",
+          "ArmorSpellSlingerChest_Swamp_TW"
+        ],
+        "defeated_dragon": [
+          "heavywolfchest",
+          "obswolfchest",
+          "ArmorRogueSilverChest_TW",
+          "ArmorVigorousSilverChest_TW",
+          "ArmorWarriorSilverChest_TW",
+          "ArmorFenrirChest_TW",
+          "ArmorVidarChest_TW",
+          "ArmorHunterChestSilver_TW",
+          "ArmorSpellSlingerChest_Mountain_TW"
+        ],
+        "defeated_goblinking": [
+          "knightchest",
+          "skogchest",
+          "svenchest",
+          "ancientironchest",
+          "norahchest",
+          "bpchest",
+          "ArmorRogueBMChest_TW",
+          "ArmorVigorousBMChest_TW",
+          "ArmorWarriorBMChest_TW",
+          "ArmorFenrirBMChest_TW",
+          "ArmorVidarBMChest_TW",
+          "ArmorBoldChest_TW",
+          "ArmorHunterChestBM_TW",
+          "ArmorSpellSlingerChest_Plains_TW"
+        ],
+        "defeated_queen": [
+          "valkchest",
+          "bearchest",
+          "loxhuntchest",
+          "heavycarchest",
+          "frostmagechest",
+          "druidchest",
+          "bearchest2",
+          "samuraichest",
+          "lagichest",
+          "ss_korokchest",
+          "runeknightchest",
+          "ArmorRogueCarapaceChest_TW",
+          "ArmorVigorousCarapaceChest_TW",
+          "ArmorWarriorCarapaceChest_TW",
+          "ArmorFenrirCarapaceChest_TW",
+          "ArmorVidarCarapaceChest_TW",
+          "ArmorBoldCarapaceChest_TW",
+          "ArmorLegionChest_TW",
+          "ArmorDestructionChest_TW",
+          "ArmorSacrificeChest_TW",
+          "ArmorHunterChestCarapace_TW",
+          "ArmorSpellSlingerChest_Mistlands_TW"
+        ],
+        "defeated_fader": [
+          "warlordchest",
+          "ss_wraithchest",
+          "stjudechest",
+          "heavybearchest",
+          "trueskogchest",
+          "sven2chest",
+          "wschest",
+          "ArmorRogueTyraniumChest_TW",
+          "ArmorVigorousTyraniumChest_TW",
+          "ArmorWarriorFlametalChest_TW",
+          "ArmorFenrirTyraniumChest_TW",
+          "ArmorVidarFlametalChest_TW",
+          "ArmorBoldFlametalChest_TW",
+          "ArmorLegionFlametalChest_TW",
+          "ArmorDestructionTyraniumChest_TW",
+          "ArmorSacrificeFlametalChest_TW",
+          "ArmorUllrChest_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "IncreaseHealth"
+        ],
+        [
+          "ModifyArmor"
+        ],
+        [
+          "RemoveSpeedPenalty"
+        ],
+        [
+          "AvoidDamageTaken"
+        ]
+      ]
+    },
+    {
+      "Type": "LegsArmor",
+      "Fallback": "",
+      "Items": [
+        "ArmorRagsLegs",
+        "ArmorLeatherLegs",
+        "ArmorTrollLeatherLegs",
+        "ArmorBronzeLegs",
+        "ArmorIronLegs",
+        "ArmorRootLegs",
+        "ArmorWolfLegs",
+        "ArmorFenringLegs",
+        "ArmorPaddedGreaves",
+        "ArmorCarapaceLegs",
+        "ArmorMageLegs",
+        "ArmorFlametalLegs",
+        "ArmorAshlandsMediumlegs",
+        "ArmorMageLegs_Ashlands",
+        "necklegs",
+        "chieflegs",
+        "trolllegs",
+        "heavybronzelegs",
+        "ancientlegs",
+        "knightlegs",
+        "skoglegs",
+        "svenlegs",
+        "swamplegs",
+        "ancientironlegs",
+        "heavywolflegs",
+        "norahlegs",
+        "bplegs",
+        "valklegs",
+        "bearlegs",
+        "loxhuntlegs",
+        "heavycarlegs",
+        "frostmagelegs",
+        "druidlegs",
+        "bearlegs2",
+        "samurailegs",
+        "lagipants",
+        "ss_koroklegs",
+        "runeknightlegs",
+        "warlordlegs",
+        "ss_wraithlegs",
+        "stjudelegs",
+        "heavybearlegs",
+        "trueskoglegs",
+        "sven2legs",
+        "wslegs",
+        "obswolflegs",
+        "ArmorLeatherLegs_TW",
+        "ArmorRazorbackLegs_TW",
+        "ArmorRogueLegs_TW",
+        "ArmorRogueIronLegs_TW",
+        "ArmorRogueSilverLegs_TW",
+        "ArmorRogueBMLegs_TW",
+        "ArmorRogueCarapaceLegs_TW",
+        "ArmorRogueTyraniumLegs_TW",
+        "ArmorVigorousLegs_TW",
+        "ArmorVigorousIronLegs_TW",
+        "ArmorVigorousSilverLegs_TW",
+        "ArmorVigorousBMLegs_TW",
+        "ArmorVigorousCarapaceLegs_TW",
+        "ArmorVigorousTyraniumLegs_TW",
+        "ArmorWarriorLegs_TW",
+        "ArmorWarriorSilverLegs_TW",
+        "ArmorWarriorBMLegs_TW",
+        "ArmorWarriorCarapaceLegs_TW",
+        "ArmorWarriorFlametalLegs_TW",
+        "ArmorFenrirLegs_TW",
+        "ArmorFenrirBMLegs_TW",
+        "ArmorFenrirCarapaceLegs_TW",
+        "ArmorFenrirTyraniumLegs_TW",
+        "ArmorVidarLegs_TW",
+        "ArmorVidarBMLegs_TW",
+        "ArmorVidarCarapaceLegs_TW",
+        "ArmorVidarFlametalLegs_TW",
+        "ArmorBoldLegs_TW",
+        "ArmorBoldCarapaceLegs_TW",
+        "ArmorBoldFlametalLegs_TW",
+        "ArmorLegionLegs_TW",
+        "ArmorLegionFlametalLegs_TW",
+        "ArmorDestructionLegs_TW",
+        "ArmorDestructionTyraniumLegs_TW",
+        "ArmorSacrificeLegs_TW",
+        "ArmorSacrificeFlametalLegs_TW",
+        "ArmorUllrLegs_TW",
+        "ArmorHunterLegs_TW",
+        "ArmorHunterLegsIron_TW",
+        "ArmorHunterLegsSilver_TW",
+        "ArmorHunterLegsBM_TW",
+        "ArmorHunterLegsCarapace_TW",
+        "ArmorSpellslingerLegs_BlackForest_TW",
+        "ArmorSpellslingerLegs_Mountain_TW",
+        "ArmorSpellslingerLegs_Plains_TW",
+        "ArmorSpellslingerLegs_Swamp_TW",
+        "ArmorSpellslingerLegs_Mistlands_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "necklegs",
+          "chieflegs",
+          "ArmorLeatherLegs_TW"
+        ],
+        "defeated_gdking": [
+          "trolllegs",
+          "ArmorRogueLegs_TW",
+          "ArmorVigorousLegs_TW",
+          "ArmorRazorbackLegs_TW",
+          "ArmorHunterLegs_TW",
+          "ArmorSpellslingerLegs_BlackForest_TW"
+        ],
+        "defeated_bonemass": [
+          "heavybronzelegs",
+          "ancientlegs",
+          "knightlegs",
+          "skoglegs",
+          "svenlegs",
+          "swamplegs",
+          "ArmorRogueIronLegs_TW",
+          "ArmorVigorousIronLegs_TW",
+          "ArmorWarriorLegs_TW",
+          "ArmorHunterLegsIron_TW",
+          "ArmorSpellslingerLegs_Swamp_TW"
+        ],
+        "defeated_dragon": [
+          "ancientironlegs",
+          "heavywolflegs",
+          "norahlegs",
+          "obswolflegs",
+          "ArmorRogueSilverLegs_TW",
+          "ArmorVigorousSilverLegs_TW",
+          "ArmorWarriorSilverLegs_TW",
+          "ArmorFenrirLegs_TW",
+          "ArmorVidarLegs_TW",
+          "ArmorHunterLegsSilver_TW",
+          "ArmorSpellslingerLegs_Mountain_TW"
+        ],
+        "defeated_goblinking": [
+          "bplegs",
+          "valklegs",
+          "bearlegs",
+          "loxhuntlegs",
+          "heavycarlegs",
+          "frostmagelegs",
+          "ArmorRogueBMLegs_TW",
+          "ArmorVigorousBMLegs_TW",
+          "ArmorWarriorBMLegs_TW",
+          "ArmorFenrirBMLegs_TW",
+          "ArmorVidarBMLegs_TW",
+          "ArmorBoldLegs_TW",
+          "ArmorHunterLegsBM_TW",
+          "ArmorSpellslingerLegs_Plains_TW"
+        ],
+        "defeated_queen": [
+          "druidlegs",
+          "bearlegs2",
+          "samurailegs",
+          "lagipants",
+          "ss_koroklegs",
+          "runeknightlegs",
+          "ArmorRogueCarapaceLegs_TW",
+          "ArmorVigorousCarapaceLegs_TW",
+          "ArmorWarriorCarapaceLegs_TW",
+          "ArmorFenrirCarapaceLegs_TW",
+          "ArmorVidarCarapaceLegs_TW",
+          "ArmorBoldCarapaceLegs_TW",
+          "ArmorLegionLegs_TW",
+          "ArmorDestructionLegs_TW",
+          "ArmorSacrificeLegs_TW",
+          "ArmorHunterLegsCarapace_TW",
+          "ArmorSpellslingerLegs_Mistlands_TW"
+        ],
+        "defeated_fader": [
+          "warlordlegs",
+          "ss_wraithlegs",
+          "stjudelegs",
+          "heavybearlegs",
+          "trueskoglegs",
+          "sven2legs",
+          "wslegs",
+          "ArmorRogueTyraniumLegs_TW",
+          "ArmorVigorousTyraniumLegs_TW",
+          "ArmorWarriorFlametalLegs_TW",
+          "ArmorFenrirTyraniumLegs_TW",
+          "ArmorVidarFlametalLegs_TW",
+          "ArmorBoldFlametalLegs_TW",
+          "ArmorLegionFlametalLegs_TW",
+          "ArmorDestructionTyraniumLegs_TW",
+          "ArmorSacrificeFlametalLegs_TW",
+          "ArmorUllrLegs_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "IncreaseHealth"
+        ],
+        [
+          "ModifyArmor"
+        ],
+        [
+          "ModifyMovementSpeed"
+        ],
+        [
+          "AvoidDamageTaken"
+        ]
+      ]
+    },
+    {
+      "Type": "HeadArmor",
+      "Fallback": "ArmorRagsChest",
+      "Items": [
+        "HelmetLeather",
+        "HelmetTrollLeather",
+        "HelmetBronze",
+        "HelmetIron",
+        "HelmetRoot",
+        "HelmetDrake",
+        "HelmetFenring",
+        "HelmetPadded",
+        "HelmetCarapace",
+        "HelmetMage",
+        "HelmetFlametal",
+        "HelmetAshlandsMediumHood",
+        "HelmetMage_Ashlands",
+        "neckhelm",
+        "chiefhelmboar",
+        "chiefhelmdeer",
+        "bronzetrollhelm",
+        "trollhelm",
+        "heavybronzehelm",
+        "ancienthelm",
+        "knighthelm",
+        "swamphelm",
+        "norahhelmalt",
+        "norahhelm",
+        "bearhelm",
+        "loxhunthelm",
+        "obswolfhelm",
+        "druidhelm",
+        "bearhelm2",
+        "samuraihelm",
+        "heavybearhelm",
+        "bphelm",
+        "heavycarhelm",
+        "runeknighthelm",
+        "valkhelm",
+        "stjudehelm",
+        "ss_korokhelm",
+        "warlordhelm",
+        "ss_wraithhelm",
+        "lagihelmalt",
+        "sven2",
+        "sven3",
+        "skoghelm",
+        "frostmagehelm",
+        "trueskoghelm",
+        "wshelm",
+        "ancientironhelm",
+        "heavywolfhelm",
+        "sven",
+        "HelmetLeather_TW",
+        "HelmetRogue_TW",
+        "HelmetRogueIron_TW",
+        "HelmetRogueSilver_TW",
+        "HelmetRogueBM_TW",
+        "HelmetRogueCarapace_TW",
+        "HelmetRogueTyranium_TW",
+        "HelmetVigorous_TW",
+        "HelmetVigorousIron_TW",
+        "HelmetVigorousSilver_TW",
+        "HelmetVigorousBM_TW",
+        "HelmetVigorousCarapace_TW",
+        "HelmetVigorousTyranium_TW",
+        "HelmetBlackBear_TW",
+        "HelmetWarrior_TW",
+        "HelmetWarriorSilver_TW",
+        "HelmetWarriorBM_TW",
+        "HelmetWarriorCarapace_TW",
+        "HelmetWarriorFlametal_TW",
+        "HelmetRazorback_TW",
+        "HelmetFenrir_TW",
+        "HelmetFenrirBM_TW",
+        "HelmetFenrirCarapace_TW",
+        "HelmetFenrirTyranium_TW",
+        "HelmetVidar_TW",
+        "HelmetVidarBM_TW",
+        "HelmetVidarCarapace_TW",
+        "HelmetVidarFlametal_TW",
+        "HelmetGrizzlyBear_TW",
+        "HelmetBold_TW",
+        "HelmetBoldCarapace_TW",
+        "HelmetBoldFlametal_TW",
+        "HelmetLegion_TW",
+        "HelmetLegionFlametal_TW",
+        "HelmetDestruction_TW",
+        "HelmetDestructionTyranium_TW",
+        "HelmetSacrifice_TW",
+        "HelmetSacrificeFlametal_TW",
+        "HelmetUllr_TW",
+        "HelmetHunter_TW",
+        "HelmetHunterIron_TW",
+        "HelmetHunterSilver_TW",
+        "HelmetHunterBM_TW",
+        "HelmetHunterCarapace_TW",
+        "HelmetCircletBronze_TW",
+        "HelmetCircletBronze_Stamina_TW",
+        "HelmetCircletBronze_Elemental_TW",
+        "HelmetCircletBronze_Hunter_TW",
+        "HelmetCircletBronze_Sneak_TW",
+        "HelmetCircletIron_TW",
+        "HelmetCircletIron_Stamina_TW",
+        "HelmetCircletIron_Elemental_TW",
+        "HelmetCircletIron_Hunter_TW",
+        "HelmetCircletIron_Sneak_TW",
+        "HelmetCircletSilver_TW",
+        "HelmetCircletSilver_Stamina_TW",
+        "HelmetCircletSilver_Elemental_TW",
+        "HelmetCircletSilver_Hunter_TW",
+        "HelmetCircletSilver_Sneak_TW",
+        "HelmetCircletBM_TW",
+        "HelmetCircletBM_Stamina_TW",
+        "HelmetCircletBM_Elemental_TW",
+        "HelmetCircletBM_Hunter_TW",
+        "HelmetCircletBM_Sneak_TW",
+        "HelmetSpellslinger_BlackForest_TW",
+        "HelmetSpellslinger_Mountain_TW",
+        "HelmetSpellslinger_Plains_TW",
+        "HelmetSpellslinger_Swamp_TW",
+        "HelmetSpellslinger_Mistlands_TW",
+        "HelmetCircletCarapace_TW",
+        "HelmetCircletCarapace_Stamina_TW",
+        "HelmetCircletCarapace_Elemental_TW",
+        "HelmetCircletCarapace_Hunter_TW",
+        "HelmetCircletCarapace_Sneak_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "neckhelm",
+          "chiefhelmboar",
+          "chiefhelmdeer",
+          "HelmetLeather_TW"
+        ],
+        "defeated_gdking": [
+          "bronzetrollhelm",
+          "trollhelm",
+          "HelmetRogue_TW",
+          "HelmetVigorous_TW",
+          "HelmetBlackBear_TW",
+          "HelmetRazorback_TW",
+          "HelmetHunter_TW",
+          "HelmetCircletBronze_TW",
+          "HelmetCircletBronze_Stamina_TW",
+          "HelmetCircletBronze_Elemental_TW",
+          "HelmetCircletBronze_Hunter_TW",
+          "HelmetCircletBronze_Sneak_TW",
+          "HelmetSpellslinger_BlackForest_TW"
+        ],
+        "defeated_bonemass": [
+          "heavybronzehelm",
+          "ancienthelm",
+          "knighthelm",
+          "swamphelm",
+          "norahhelmalt",
+          "HelmetRogueIron_TW",
+          "HelmetVigorousIron_TW",
+          "HelmetWarrior_TW",
+          "HelmetHunterIron_TW",
+          "HelmetCircletIron_TW",
+          "HelmetCircletIron_Stamina_TW",
+          "HelmetCircletIron_Elemental_TW",
+          "HelmetCircletIron_Hunter_TW",
+          "HelmetCircletIron_Sneak_TW",
+          "HelmetSpellslinger_Swamp_TW"
+        ],
+        "defeated_dragon": [
+          "ancientironhelm",
+          "heavywolfhelm",
+          "sven",
+          "HelmetRogueSilver_TW",
+          "HelmetVigorousSilver_TW",
+          "HelmetWarriorSilver_TW",
+          "HelmetFenrir_TW",
+          "HelmetVidar_TW",
+          "HelmetGrizzlyBear_TW",
+          "HelmetHunterSilver_TW",
+          "HelmetCircletSilver_TW",
+          "HelmetCircletSilver_Stamina_TW",
+          "HelmetCircletSilver_Elemental_TW",
+          "HelmetCircletSilver_Hunter_TW",
+          "HelmetCircletSilver_Sneak_TW",
+          "HelmetSpellslinger_Mountain_TW"
+        ],
+        "defeated_goblinking": [
+          "bearhelm",
+          "loxhunthelm",
+          "obswolfhelm",
+          "druidhelm",
+          "bearhelm2",
+          "samuraihelm",
+          "heavybearhelm",
+          "HelmetRogueBM_TW",
+          "HelmetVigorousBM_TW",
+          "HelmetWarriorBM_TW",
+          "HelmetFenrirBM_TW",
+          "HelmetVidarBM_TW",
+          "HelmetBold_TW",
+          "HelmetHunterBM_TW",
+          "HelmetCircletBM_TW",
+          "HelmetCircletBM_Stamina_TW",
+          "HelmetCircletBM_Elemental_TW",
+          "HelmetCircletBM_Hunter_TW",
+          "HelmetCircletBM_Sneak_TW",
+          "HelmetSpellslinger_Plains_TW"
+        ],
+        "defeated_queen": [
+          "bphelm",
+          "heavycarhelm",
+          "runeknighthelm",
+          "valkhelm",
+          "stjudehelm",
+          "ss_korokhelm",
+          "HelmetRogueCarapace_TW",
+          "HelmetVigorousCarapace_TW",
+          "HelmetWarriorCarapace_TW",
+          "HelmetFenrirCarapace_TW",
+          "HelmetVidarCarapace_TW",
+          "HelmetBoldCarapace_TW",
+          "HelmetLegion_TW",
+          "HelmetDestruction_TW",
+          "HelmetSacrifice_TW",
+          "HelmetHunterCarapace_TW",
+          "HelmetSpellslinger_Mistlands_TW",
+          "HelmetCircletCarapace_TW",
+          "HelmetCircletCarapace_Stamina_TW",
+          "HelmetCircletCarapace_Elemental_TW",
+          "HelmetCircletCarapace_Hunter_TW",
+          "HelmetCircletCarapace_Sneak_TW"
+        ],
+        "defeated_fader": [
+          "warlordhelm",
+          "ss_wraithhelm",
+          "lagihelmalt",
+          "sven2",
+          "sven3",
+          "skoghelm",
+          "frostmagehelm",
+          "trueskoghelm",
+          "wshelm",
+          "HelmetRogueTyranium_TW",
+          "HelmetVigorousTyranium_TW",
+          "HelmetWarriorFlametal_TW",
+          "HelmetFenrirTyranium_TW",
+          "HelmetVidarFlametal_TW",
+          "HelmetBoldFlametal_TW",
+          "HelmetLegionFlametal_TW",
+          "HelmetDestructionTyranium_TW",
+          "HelmetSacrificeFlametal_TW",
+          "HelmetUllr_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "IncreaseHealth"
+        ],
+        [
+          "ModifyArmor"
+        ],
+        [
+          "ModifyHealthRegen"
+        ],
+        [
+          "AvoidDamageTaken"
+        ]
+      ]
+    },
+    {
+      "Type": "ShouldersArmor",
+      "Fallback": "ArmorRagsLegs",
+      "Items": [
+        "CapeDeerHide",
+        "CapeTrollHide",
+        "CapeWolf",
+        "CapeLinen",
+        "CapeLox",
+        "CapeFeather",
+        "CapeAsh",
+        "CapeAsksvin",
+        "CapeTrollBlack_TW",
+        "CapeArcticWolf_TW",
+        "CapeMammoth_TW",
+        "CapeRotten_TW",
+        "CapeSpellslinger_Blackforest_TW",
+        "CapeSpellslinger_Mountain_TW",
+        "CapeSpellslinger_Plains_TW",
+        "CapeSpellslinger_Swamp_TW",
+        "CapeSpellslinger_Mistlands_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "CapeDeerHide"
+        ],
+        "defeated_gdking": [
+          "CapeTrollHide",
+          "CapeTrollBlack_TW",
+          "CapeSpellslinger_Blackforest_TW"
+        ],
+        "defeated_bonemass": [
+          "CapeRotten_TW",
+          "CapeSpellslinger_Swamp_TW"
+        ],
+        "defeated_dragon": [
+          "CapeWolf",
+          "CapeSpellslinger_Mountain_TW"
+        ],
+        "defeated_goblinking": [
+          "CapeLinen",
+          "CapeLox",
+          "CapeSpellslinger_Plains_TW"
+        ],
+        "defeated_queen": [
+          "CapeFeather",
+          "CapeSpellslinger_Mistlands_TW"
+        ],
+        "defeated_fader": [
+          "CapeAsh",
+          "CapeAsksvin",
+          "CapeArcticWolf_TW",
+          "CapeMammoth_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyDurability"
+        ],
+        [
+          "IncreaseHealth"
+        ],
+        [
+          "AddCarryWeight"
+        ],
+        [
+          "ModifyStaminaRegen"
+        ],
+        [
+          "ModifyHealthRegen"
+        ]
+      ]
+    },
+    {
+      "Type": "Torches",
+      "Fallback": "Club",
+      "Items": [
+        "Torch"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "Torch"
+        ],
+        "defeated_gdking": [],
+        "defeated_bonemass": [],
+        "defeated_dragon": [],
+        "defeated_goblinking": [],
+        "defeated_queen": [],
+        "defeated_fader": []
+      }
+    },
+    {
+      "Type": "Tools",
+      "Fallback": "Clubs",
+      "Items": [
+        "Hammer",
+        "Hoe",
+        "Cultivator",
+        "FishingRod"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [
+          "Hammer",
+          "Hoe"
+        ],
+        "defeated_gdking": [
+          "Cultivator",
+          "FishingRod"
+        ],
+        "defeated_bonemass": [],
+        "defeated_dragon": [],
+        "defeated_goblinking": [],
+        "defeated_queen": [],
+        "defeated_fader": []
+      }
+    },
+    {
+      "Type": "Utility",
+      "Fallback": "Clubs",
+      "Items": [
+        "LeatherBelt",
+        "GoldRubyRing",
+        "SilverRing",
+        "BeltYmir_TW",
+        "RingLoki_TW",
+        "NecklaceTyr_TW",
+        "BeltYmir_TW",
+        "RingLoki_TW",
+        "NecklaceTyr_TW",
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW"
+      ],
+      "ItemsByBoss": {
+        "defeated_eikthyr": [],
+        "defeated_gdking": [
+          "LeatherBelt",
+          "GoldRubyRing",
+          "RingBlackForest_TW"
+        ],
+        "defeated_bonemass": [
+          "RingSwamp_TW"
+        ],
+        "defeated_dragon": [
+          "SilverRing",
+          "RingMountain_TW"
+        ],
+        "defeated_goblinking": [
+          "RingPlains_TW"
+        ],
+        "defeated_queen": [
+          "BeltYmir_TW",
+          "BeltYmir_TW",
+          "RingMistlands_TW"
+        ],
+        "defeated_fader": [
+          "RingLoki_TW",
+          "NecklaceTyr_TW",
+          "RingLoki_TW",
+          "NecklaceTyr_TW"
+        ]
+      },
+      "Guaranteed": [
+        [
+          "ModifyStaminaRegen"
+        ],
+        [
+          "ModifyHealthRegen"
+        ],
+        [
+          "Luck"
+        ],
+        [
+          "Riches"
+        ],
+        [
+          "Comfortable"
+        ]
+      ]
+    }
+  ]
+}

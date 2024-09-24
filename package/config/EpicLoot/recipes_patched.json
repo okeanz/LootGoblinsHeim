@@ -1,0 +1,65 @@
+{
+  "recipes": [
+    {
+      "name": "Recipe_LeatherBelt",
+      "item": "LeatherBelt",
+      "craftingStation": "forge",
+      "resources": [
+        {
+          "item": "LeatherScraps",
+          "amount": 10
+        },
+        {
+          "item": "DeerHide",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Recipe_SilverRing",
+      "item": "SilverRing",
+      "craftingStation": "forge",
+      "resources": [
+        {
+          "item": "Silver",
+          "amount": 4
+        },
+        {
+          "item": "Tin",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "Recipe_GoldRubyRing",
+      "item": "GoldRubyRing",
+      "craftingStation": "forge",
+      "resources": [
+        {
+          "item": "Bronze",
+          "amount": 10
+        },
+        {
+          "item": "Ruby",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "Recipe_ReagentEpicUpgrade",
+      "item": "ReagentEpic",
+      "amount": 1,
+      "craftingStation": "",
+      "resources": [
+        {
+          "item": "ReagentRare",
+          "amount": 5
+        },
+        {
+          "item": "Coins",
+          "amount": 5
+        }
+      ]
+    }
+  ]
+}

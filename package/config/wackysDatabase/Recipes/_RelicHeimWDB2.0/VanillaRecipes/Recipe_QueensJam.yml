@@ -1,0 +1,12 @@
+name: QueensJam
+clonePrefabName: 
+craftingStation: $piece_cauldron
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 4
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Raspberry:6:1:True
+- Blueberries:6:1:True

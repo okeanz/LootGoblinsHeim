@@ -1,0 +1,17 @@
+name: StaffFireBurst_JH
+clonePrefabName: StaffFireBurst_JH
+craftingStation: $piece_wizardtable_TW
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_wizardtable_TW
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- EnchantedWoodBlackForest_TW:10:0:True
+- SurtlingCore:4:0:True
+- ShardElder_TW:3:0:True
+- Bronze:5:0:True
+- ArcaneScroll_BlackForest_TW:0:2:True

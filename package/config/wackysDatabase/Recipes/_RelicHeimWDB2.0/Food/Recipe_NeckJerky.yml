@@ -1,0 +1,12 @@
+name: NeckJerky_JH
+clonePrefabName: NeckJerky_JH
+craftingStation: $piece_cauldron
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 2
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- NeckTail:1:1:True
+- Honey:1:1:True

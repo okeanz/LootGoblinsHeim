@@ -1,0 +1,464 @@
+{	
+	"TargetFile": "loottables.json",
+	"Author": "AllTheHeims",
+	"RequireAll": true, 
+	"Priority": 950,
+	"Patches": 
+		[
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier0Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+				[
+					{ "Item": "neckhelm",     			"Weight": 1, "Rarity": [95, 3, 2, 0, 0] },
+					{ "Item": "chiefhelmboar",     		"Weight": 1, "Rarity": [95, 3, 2, 0, 0] }
+				]
+			},
+
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier1Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+				[
+					{ "Item": "neckchest",     			"Weight": 1, "Rarity": [92, 5, 3, 0, 0] },
+					{ "Item": "chiefchest",     		"Weight": 1, "Rarity": [92, 5, 3, 0, 0] },
+					{ "Item": "chiefhelmdeer",     		"Weight": 1, "Rarity": [92, 5, 3, 0, 0] },
+					{ "Item": "necklegs",     			"Weight": 1, "Rarity": [92, 5, 3, 0, 0] },
+					{ "Item": "chieflegs",     			"Weight": 1, "Rarity": [92, 5, 3, 0, 0] }
+				]
+			},
+
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier3Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+				[
+					{ "Item": "trollchest",     		"Weight": 1, "Rarity": [60, 25, 10, 5, 0] },
+					{ "Item": "bronzetrollhelm",     	"Weight": 1, "Rarity": [60, 25, 10, 5, 0] },
+					{ "Item": "trollhelm",     			"Weight": 1, "Rarity": [60, 25, 10, 5, 0] },
+					{ "Item": "trolllegs",     			"Weight": 1, "Rarity": [60, 25, 10, 5, 0] }
+				]
+			},
+			
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier4Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+				[
+					{ "Item": "heavybronzechest",     	"Weight": 1, "Rarity": [45, 30, 15, 8, 2] },
+					{ "Item": "ancientchest",     		"Weight": 1, "Rarity": [45, 30, 15, 8, 2] },
+					{ "Item": "heavybronzehelm",     	"Weight": 1, "Rarity": [45, 30, 15, 8, 2] },
+					{ "Item": "ancienthelm",     		"Weight": 1, "Rarity": [45, 30, 15, 8, 2] },
+					{ "Item": "knighthelm",    			"Weight": 1, "Rarity": [45, 30, 15, 8, 2] },
+					{ "Item": "heavybronzelegs",     	"Weight": 1, "Rarity": [45, 30, 15, 8, 2] },
+					{ "Item": "ancientlegs",     		"Weight": 1, "Rarity": [45, 30, 15, 8, 2] }
+				]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier5Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+				[
+					{ "Item": "knightchest",    	 	"Weight": 1, "Rarity": [35, 35, 20, 8, 2] },
+					{ "Item": "skogchest",     			"Weight": 1, "Rarity": [35, 35, 20, 8, 2] },
+					{ "Item": "svenchest",     			"Weight": 1, "Rarity": [35, 35, 20, 8, 2] },
+					{ "Item": "swamphelm",     			"Weight": 1, "Rarity": [35, 35, 20, 8, 2] },
+					{ "Item": "norahhelmalt",     		"Weight": 1, "Rarity": [35, 35, 20, 8, 2] },
+					{ "Item": "knightlegs",     		"Weight": 1, "Rarity": [35, 35, 20, 8, 2] },
+					{ "Item": "skoglegs",     			"Weight": 1, "Rarity": [35, 35, 20, 8, 2] },
+					{ "Item": "svenlegs",    			"Weight": 1, "Rarity": [35, 35, 20, 8, 2] }
+				]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier6Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+				[
+					{ "Item": "swampchest",    			"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "norahchest",     		"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "bpchest",     			"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "valkchest",     			"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "norahhelm",     			"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "bearhelm",     			"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "loxhunthelm",     		"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "obswolfhelm",    		"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "druidhelm",    			"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "bearhelm2",    			"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "samuraihelm",    		"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "heavybearhelm",    		"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "swamplegs",    			"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "ancientironlegs",     	"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "norahlegs",     			"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "bplegs",     			"Weight": 1, "Rarity": [15, 40, 30, 10, 5] },
+					{ "Item": "valklegs",     			"Weight": 1, "Rarity": [15, 40, 30, 10, 5] }
+				]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier7Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+				[
+					{ "Item": "bearchest",     		"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "loxhuntchest",     	"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "heavycarchest",     	"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "frostmagechest",     "Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "druidchest",    		"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "bearchest2",     	"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "samuraichest",     	"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "lagichest",     		"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "ss_korokchest",     	"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "bphelm",     		"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "heavycarhelm",     	"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "valkhelm",     		"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "stjudehelm",     	"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "ss_korokhelm",     	"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "bearlegs",     		"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "loxhuntlegs",     	"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "heavycarlegs",     	"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "frostmagelegs",     	"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "druidlegs",     		"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "bearlegs2",     		"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "samurailegs",     	"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "lagipants",     		"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "ss_koroklegs",     	"Weight": 1, "Rarity": [5, 30, 40, 20, 10] },
+					{ "Item": "runeknighthelm",     "Weight": 1, "Rarity": [5, 30, 40, 20, 10] }
+				]
+			},
+			{
+				"Path": "$.ItemSets",
+				"Action": "AppendAll",
+				"Value": [	
+				  {
+					"Name": "Tier8Armor",
+					"Loot": 
+					[
+						{ "Item": "runeknightchest",    "Weight": 1, "Rarity": [2, 20, 45, 25, 11] },
+						{ "Item": "warlordchest",     	"Weight": 1, "Rarity": [2, 20, 45, 25, 11] },
+						{ "Item": "ss_wraithchest",     "Weight": 1, "Rarity": [2, 20, 45, 25, 11] },
+						{ "Item": "stjudechest",     	"Weight": 1, "Rarity": [2, 20, 45, 25, 11] },
+						{ "Item": "heavybearchest",     "Weight": 1, "Rarity": [2, 20, 45, 25, 11] },
+						{ "Item": "warlordhelm",     	"Weight": 1, "Rarity": [2, 20, 45, 25, 11] },
+						{ "Item": "ss_wraithhelm",     	"Weight": 1, "Rarity": [2, 20, 45, 25, 11] },
+						{ "Item": "lagihelmalt",    	"Weight": 1, "Rarity": [2, 20, 45, 25, 11] },
+						{ "Item": "sven2",    			"Weight": 1, "Rarity": [2, 20, 45, 25, 11] },
+						{ "Item": "sven3",    			"Weight": 1, "Rarity": [2, 20, 45, 25, 11] },
+						{ "Item": "runeknightlegs",    	"Weight": 1, "Rarity": [2, 20, 45, 25, 11] },
+						{ "Item": "warlordlegs",    	"Weight": 1, "Rarity": [2, 20, 45, 25, 11] },
+						{ "Item": "ss_wraithlegs",    	"Weight": 1, "Rarity": [2, 20, 45, 25, 11] },
+						{ "Item": "stjudelegs",    		"Weight": 1, "Rarity": [2, 20, 45, 25, 11] },
+						{ "Item": "heavybearlegs",    	"Weight": 1, "Rarity": [2, 20, 45, 25, 11] }
+					]
+				  },
+				  {
+					"Name": "Tier8Everything",
+					"Loot": 
+					[
+					  { "Item": "Tier8Weapons" },
+					  { "Item": "Tier8Armor" },
+					  { "Item": "Tier8Shields" }
+					]
+				  }
+				]
+			},
+			{
+				"Path": "$.ItemSets",
+				"Action": "AppendAll",
+				"Value": [	
+				  {
+					"Name": "Tier9Armor",
+					"Loot": 
+					[
+						{ "Item": "trueskogchest",    		"Weight": 1, "Rarity": [1, 15, 40, 35, 13] },
+						{ "Item": "sven2chest",     		"Weight": 1, "Rarity": [1, 15, 40, 35, 13] },
+						{ "Item": "wschest",     			"Weight": 1, "Rarity": [1, 15, 40, 35, 13] },
+						{ "Item": "skoghelm",     			"Weight": 1, "Rarity": [1, 15, 40, 35, 13] },
+						{ "Item": "frostmagehelm",     		"Weight": 1, "Rarity": [1, 15, 40, 35, 13] },
+						{ "Item": "trueskoghelm",     		"Weight": 1, "Rarity": [1, 15, 40, 35, 13] },
+						{ "Item": "wshelm",     			"Weight": 1, "Rarity": [1, 15, 40, 35, 13] },
+						{ "Item": "sven2legs",     			"Weight": 1, "Rarity": [1, 15, 40, 35, 13] },
+						{ "Item": "wslegs",     			"Weight": 1, "Rarity": [1, 15, 40, 35, 13] },
+						{ "Item": "trueskoglegs",    		"Weight": 1, "Rarity": [1, 15, 40, 35, 13] }
+					]
+				  },
+				  {
+					"Name": "Tier9Everything",
+					"Loot": 
+					[
+					  { "Item": "Tier9Weapons" },
+					  { "Item": "Tier9Armor" },
+					  { "Item": "Tier9Shields" }
+					]
+				  }
+				]
+			},
+			{
+				"Path": "$.ItemSets",
+				"Action": "AppendAll",
+				"Value": [	
+				  {
+					"Name": "Tier12Armor",
+					"Loot": 
+					[
+						{ "Item": "ancientironchest",    	"Weight": 1, "Rarity": [25, 35, 25, 10, 5] },
+						{ "Item": "heavywolfchest",     	"Weight": 1, "Rarity": [25, 35, 25, 10, 5] },
+						{ "Item": "obswolfchest",     		"Weight": 1, "Rarity": [25, 35, 25, 10, 5] },
+						{ "Item": "ancientironhelm",     	"Weight": 1, "Rarity": [25, 35, 25, 10, 5] },
+						{ "Item": "heavywolfhelm",     		"Weight": 1, "Rarity": [25, 35, 25, 10, 5] },
+						{ "Item": "sven",     				"Weight": 1, "Rarity": [25, 35, 25, 10, 5] },
+						{ "Item": "heavywolflegs",     		"Weight": 1, "Rarity": [25, 35, 25, 10, 5] },
+						{ "Item": "obswolflegs",     		"Weight": 1, "Rarity": [25, 35, 25, 10, 5] }
+					]
+				  },
+				  {
+					"Name": "Tier12Everything",
+					"Loot": 
+					[
+					  { "Item": "Tier12Weapons" },
+					  { "Item": "Tier12Armor" },
+					  { "Item": "Tier12Shields" }
+					]
+				  }
+				]
+			},
+			{
+				"Path": "$.LootTables",
+				"Action": "AppendAll",
+				"Value": [
+			  {
+				  "Object": "Tier9Mob",
+				  "LeveledLoot": [
+					{
+					  "Level": 1,
+					  "Drops": [ [0, 70], [1, 28], [2, 2]],
+					  "Loot": [
+						{ "Item": "Tier9Everything", "Weight": 1, "Rarity": [0, 15, 70, 15]}
+					  ]
+					},
+					{
+					  "Level": 2,
+					  "Drops": [ [0, 50], [1, 46], [2, 3],[3, 1]],
+					  "Loot": [
+						{ "Item": "Tier9Everything", "Weight": 1, "Rarity": [0, 0, 80, 20]}
+					  ]
+					},
+					{
+					  "Level": 3,
+					  "Drops": [ [0, 30], [1, 64], [2, 4],[3, 2]],
+					  "Loot": [
+						{ "Item": "Tier9Everything", "Weight": 1, "Rarity": [0, 0, 75, 25]}
+					  ]
+					},
+					{
+					  "Level": 4,
+					  "Drops": [ [0, 5], [1, 87], [2, 5],[3, 3]],
+					  "Loot": [
+						{ "Item": "Tier9Everything", "Weight": 1, "Rarity": [0, 0, 70, 30]}
+					  ]
+					},
+					{
+					  "Level": 4,
+					  "Drops": [ [0, 5], [1, 87], [2, 5],[3, 3]],
+					  "Loot": [
+						{ "Item": "Tier9Everything", "Weight": 1, "Rarity": [0, 0, 70, 30]}
+					  ]
+					},
+					{
+					  "Level": 5,
+					  "Drops": [ [0, 5], [1, 87], [2, 5],[3, 3]],
+					  "Loot": [
+						{ "Item": "Tier9Everything", "Weight": 1, "Rarity": [0, 0, 70, 30]}
+					  ]
+					},
+					{
+					  "Level": 6,
+					  "Drops": [ [0, 0], [1, 86], [2, 10],[3, 4]],
+					  "Loot": [
+						{ "Item": "Tier9Everything", "Weight": 1, "Rarity": [0, 0, 65, 35]}
+					  ]
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+				"Path": "$.LootTables",
+				"Action": "AppendAll",
+				"Value": [
+			  {
+				  "Object": "Tier10Mob",
+				  "LeveledLoot": [
+					{
+					  "Level": 1,
+					  "Drops": [ [0, 70], [1, 28], [2, 2]],
+					  "Loot": [
+						{ "Item": "Tier10Everything", "Weight": 1, "Rarity": [0, 15, 70, 15]}
+					  ]
+					},
+					{
+					  "Level": 2,
+					  "Drops": [ [0, 50], [1, 46], [2, 3],[3, 1]],
+					  "Loot": [
+						{ "Item": "Tier10Everything", "Weight": 1, "Rarity": [0, 0, 80, 20]}
+					  ]
+					},
+					{
+					  "Level": 3,
+					  "Drops": [ [0, 30], [1, 64], [2, 4],[3, 2]],
+					  "Loot": [
+						{ "Item": "Tier10Everything", "Weight": 1, "Rarity": [0, 0, 75, 25]}
+					  ]
+					},
+					{
+					  "Level": 4,
+					  "Drops": [ [0, 5], [1, 87], [2, 5],[3, 3]],
+					  "Loot": [
+						{ "Item": "Tier10Everything", "Weight": 1, "Rarity": [0, 0, 70, 30]}
+					  ]
+					},
+					{
+					  "Level": 4,
+					  "Drops": [ [0, 5], [1, 87], [2, 5],[3, 3]],
+					  "Loot": [
+						{ "Item": "Tier10Everything", "Weight": 1, "Rarity": [0, 0, 70, 30]}
+					  ]
+					},
+					{
+					  "Level": 5,
+					  "Drops": [ [0, 5], [1, 87], [2, 5],[3, 3]],
+					  "Loot": [
+						{ "Item": "Tier10Everything", "Weight": 1, "Rarity": [0, 0, 70, 30]}
+					  ]
+					},
+					{
+					  "Level": 6,
+					  "Drops": [ [0, 0], [1, 86], [2, 10],[3, 4]],
+					  "Loot": [
+						{ "Item": "Tier10Everything", "Weight": 1, "Rarity": [0, 0, 65, 35]}
+					  ]
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+				"Path": "$.LootTables",
+				"Action": "AppendAll",
+				"Value": [
+			  {
+				  "Object": "Tier11Mob",
+				  "LeveledLoot": [
+					{
+					  "Level": 1,
+					  "Drops": [ [0, 70], [1, 28], [2, 2]],
+					  "Loot": [
+						{ "Item": "Tier11Everything", "Weight": 1, "Rarity": [0, 15, 70, 15]}
+					  ]
+					},
+					{
+					  "Level": 2,
+					  "Drops": [ [0, 50], [1, 46], [2, 3],[3, 1]],
+					  "Loot": [
+						{ "Item": "Tier11Everything", "Weight": 1, "Rarity": [0, 0, 80, 20]}
+					  ]
+					},
+					{
+					  "Level": 3,
+					  "Drops": [ [0, 30], [1, 64], [2, 4],[3, 2]],
+					  "Loot": [
+						{ "Item": "Tier11Everything", "Weight": 1, "Rarity": [0, 0, 75, 25]}
+					  ]
+					},
+					{
+					  "Level": 4,
+					  "Drops": [ [0, 5], [1, 87], [2, 5],[3, 3]],
+					  "Loot": [
+						{ "Item": "Tier11Everything", "Weight": 1, "Rarity": [0, 0, 70, 30]}
+					  ]
+					},
+					{
+					  "Level": 4,
+					  "Drops": [ [0, 5], [1, 87], [2, 5],[3, 3]],
+					  "Loot": [
+						{ "Item": "Tier11Everything", "Weight": 1, "Rarity": [0, 0, 70, 30]}
+					  ]
+					},
+					{
+					  "Level": 5,
+					  "Drops": [ [0, 5], [1, 87], [2, 5],[3, 3]],
+					  "Loot": [
+						{ "Item": "Tier11Everything", "Weight": 1, "Rarity": [0, 0, 70, 30]}
+					  ]
+					},
+					{
+					  "Level": 6,
+					  "Drops": [ [0, 0], [1, 86], [2, 10],[3, 4]],
+					  "Loot": [
+						{ "Item": "Tier11Everything", "Weight": 1, "Rarity": [0, 0, 65, 35]}
+					  ]
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+				"Path": "$.LootTables",
+				"Action": "AppendAll",
+				"Value": [
+			  {
+				  "Object": "Tier12Mob",
+				  "LeveledLoot": [
+					{
+					  "Level": 1,
+					  "Drops": [ [0, 70], [1, 28], [2, 2]],
+					  "Loot": [
+						{ "Item": "Tier12Everything", "Weight": 1, "Rarity": [0, 15, 70, 15]}
+					  ]
+					},
+					{
+					  "Level": 2,
+					  "Drops": [ [0, 50], [1, 46], [2, 3],[3, 1]],
+					  "Loot": [
+						{ "Item": "Tier12Everything", "Weight": 1, "Rarity": [0, 0, 80, 20]}
+					  ]
+					},
+					{
+					  "Level": 3,
+					  "Drops": [ [0, 30], [1, 64], [2, 4],[3, 2]],
+					  "Loot": [
+						{ "Item": "Tier12Everything", "Weight": 1, "Rarity": [0, 0, 75, 25]}
+					  ]
+					},
+					{
+					  "Level": 4,
+					  "Drops": [ [0, 5], [1, 87], [2, 5],[3, 3]],
+					  "Loot": [
+						{ "Item": "Tier12Everything", "Weight": 1, "Rarity": [0, 0, 70, 30]}
+					  ]
+					},
+					{
+					  "Level": 4,
+					  "Drops": [ [0, 5], [1, 87], [2, 5],[3, 3]],
+					  "Loot": [
+						{ "Item": "Tier12Everything", "Weight": 1, "Rarity": [0, 0, 70, 30]}
+					  ]
+					},
+					{
+					  "Level": 5,
+					  "Drops": [ [0, 5], [1, 87], [2, 5],[3, 3]],
+					  "Loot": [
+						{ "Item": "Tier12Everything", "Weight": 1, "Rarity": [0, 0, 70, 30]}
+					  ]
+					},
+					{
+					  "Level": 6,
+					  "Drops": [ [0, 0], [1, 86], [2, 10],[3, 4]],
+					  "Loot": [
+						{ "Item": "Tier12Everything", "Weight": 1, "Rarity": [0, 0, 65, 35]}
+					  ]
+					}
+				  ]
+				}
+			  ]
+			}
+		]
+}

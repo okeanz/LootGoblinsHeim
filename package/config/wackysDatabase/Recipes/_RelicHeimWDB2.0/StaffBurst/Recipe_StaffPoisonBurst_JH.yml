@@ -1,0 +1,17 @@
+name: StaffPoisonBurst_JH
+clonePrefabName: StaffPoisonBurst_JH
+craftingStation: $piece_wizardtable_TW
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_wizardtable_TW
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- EnchantedWoodSwamp_TW:14:0:True
+- Guck:8:0:True
+- ShardBonemass_TW:3:0:True
+- Iron:5:0:True
+- ArcaneScroll_Swamp_TW:0:2:True

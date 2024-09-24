@@ -1,0 +1,14 @@
+name: ShardYagluth_TW
+clonePrefabName: ShardYagluth_TW
+craftingStation: $piece_arcaneanvil_TW
+minStationLevel: 6
+maxStationLevelCap: 
+repairStation: 
+amount: 2
+disabled: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- BlackMetal:5:0:True
+- GoblinScraps_TW:2:0:True
+- TrophyGoblinShaman:1:0:True

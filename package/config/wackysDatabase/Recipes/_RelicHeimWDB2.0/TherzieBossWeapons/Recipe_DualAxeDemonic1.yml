@@ -1,0 +1,16 @@
+name: DualAxeDemonic1
+clonePrefabName: DualAxeDemonic_TW
+craftingStation: $piece_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_forge
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Iron:0:15:True
+- SurtlingCore:10:6:True
+- Bloodbag:0:5:True
+- Bronze:20:0:True
+- TrophySvalt_TW:1:1:True
+- InfusedCrystal_JH:20:0:True

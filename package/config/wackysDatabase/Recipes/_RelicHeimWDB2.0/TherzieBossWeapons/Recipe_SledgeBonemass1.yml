@@ -1,0 +1,16 @@
+name: SledgeBonemass1
+clonePrefabName: SledgeBonemass_TW
+craftingStation: $piece_forge
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: $piece_forge
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Iron:30:20:True
+- Guck:0:15:True
+- Ooze:0:10:True
+- WitheredBone:20:0:True
+- TrophyBonemass:1:1:True
+- InfusedCrystal_JH:20:0:True

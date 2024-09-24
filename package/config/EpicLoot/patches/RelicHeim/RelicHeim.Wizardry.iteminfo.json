@@ -1,0 +1,252 @@
+{
+  "TargetFile": "iteminfo.json",
+  "Author": "Majestic",
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].Items",
+      "Action": "AppendAll",
+      "Value": ["StaffBlackforest_TW","StaffSwamp_TW","StaffMountain_TW","StaffPlains_TW","StaffSurtling_TW","StaffGolem_TW","StaffMistlands_TW" ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": ["StaffBlackforest_TW" ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": [ "StaffSwamp_TW","StaffSurtling_TW" ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": [ "StaffMountain_TW" ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": [ "StaffPlains_TW","StaffGolem_TW" ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["StaffMistlands_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": []
+    },
+
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["HelmetCircletBronze_TW","HelmetCircletBronze_Stamina_TW","HelmetCircletBronze_Elemental_TW","HelmetCircletBronze_Hunter_TW","HelmetCircletBronze_Sneak_TW","HelmetCircletIron_TW","HelmetCircletIron_Stamina_TW","HelmetCircletIron_Elemental_TW","HelmetCircletIron_Hunter_TW","HelmetCircletIron_Sneak_TW","HelmetCircletSilver_TW","HelmetCircletSilver_Stamina_TW","HelmetCircletSilver_Elemental_TW","HelmetCircletSilver_Hunter_TW","HelmetCircletSilver_Sneak_TW","HelmetCircletBM_TW","HelmetCircletBM_Stamina_TW","HelmetCircletBM_Elemental_TW","HelmetCircletBM_Hunter_TW","HelmetCircletBM_Sneak_TW","HelmetSpellslinger_BlackForest_TW",	"HelmetSpellslinger_Mountain_TW","HelmetSpellslinger_Plains_TW","HelmetSpellslinger_Swamp_TW","HelmetSpellslinger_Mistlands_TW","HelmetCircletCarapace_TW","HelmetCircletCarapace_Stamina_TW","HelmetCircletCarapace_Elemental_TW","HelmetCircletCarapace_Hunter_TW","HelmetCircletCarapace_Sneak_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": ["HelmetCircletBronze_TW","HelmetCircletBronze_Stamina_TW","HelmetCircletBronze_Elemental_TW","HelmetCircletBronze_Hunter_TW","HelmetCircletBronze_Sneak_TW","HelmetSpellslinger_BlackForest_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": ["HelmetCircletIron_TW","HelmetCircletIron_Stamina_TW","HelmetCircletIron_Elemental_TW","HelmetCircletIron_Hunter_TW","HelmetCircletIron_Sneak_TW","HelmetSpellslinger_Swamp_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": ["HelmetCircletSilver_TW","HelmetCircletSilver_Stamina_TW","HelmetCircletSilver_Elemental_TW","HelmetCircletSilver_Hunter_TW","HelmetCircletSilver_Sneak_TW","HelmetSpellslinger_Mountain_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["HelmetCircletBM_TW","HelmetCircletBM_Stamina_TW","HelmetCircletBM_Elemental_TW","HelmetCircletBM_Hunter_TW","HelmetCircletBM_Sneak_TW","HelmetSpellslinger_Plains_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": [ "HelmetSpellslinger_Mistlands_TW","HelmetCircletCarapace_TW","HelmetCircletCarapace_Stamina_TW","HelmetCircletCarapace_Elemental_TW","HelmetCircletCarapace_Hunter_TW","HelmetCircletCarapace_Sneak_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": []
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].Items",
+      "Action": "AppendAll",
+      "Value": ["RingBlackForest_TW","RingSwamp_TW","RingMountain_TW","RingPlains_TW","RingMistlands_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": ["RingBlackForest_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": ["RingSwamp_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": ["RingMountain_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["RingPlains_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["RingMistlands_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": []
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["ArmorSpellSlingerChest_BlackForest_TW","ArmorSpellSlingerChest_Mountain_TW","ArmorSpellSlingerChest_Plains_TW","ArmorSpellSlingerChest_Swamp_TW","ArmorSpellSlingerChest_Mistlands_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": ["ArmorSpellSlingerChest_BlackForest_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": ["ArmorSpellSlingerChest_Swamp_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": ["ArmorSpellSlingerChest_Mountain_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["ArmorSpellSlingerChest_Plains_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": [ "ArmorSpellSlingerChest_Mistlands_TW" ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": []
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["ArmorSpellslingerLegs_BlackForest_TW","ArmorSpellslingerLegs_Mountain_TW","ArmorSpellslingerLegs_Plains_TW","ArmorSpellslingerLegs_Swamp_TW","ArmorSpellslingerLegs_Mistlands_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": ["ArmorSpellslingerLegs_BlackForest_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": ["ArmorSpellslingerLegs_Swamp_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": ["ArmorSpellslingerLegs_Mountain_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["ArmorSpellslingerLegs_Plains_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": [ "ArmorSpellslingerLegs_Mistlands_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": []
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["CapeSpellslinger_Blackforest_TW","CapeSpellslinger_Mountain_TW","CapeSpellslinger_Plains_TW","CapeSpellslinger_Swamp_TW","CapeSpellslinger_Mistlands_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": ["CapeSpellslinger_Blackforest_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": ["CapeSpellslinger_Swamp_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": ["CapeSpellslinger_Mountain_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["CapeSpellslinger_Plains_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["CapeSpellslinger_Mistlands_TW" ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": []
+    }
+  ]
+}

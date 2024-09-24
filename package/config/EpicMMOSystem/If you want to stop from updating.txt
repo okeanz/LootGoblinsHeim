@@ -1,0 +1,1 @@
+Erase numbers in Version.txt and write NO or stop in file. This should stop DB json files from updating on an update. If you make your own custom json file, then that one should never be updated.

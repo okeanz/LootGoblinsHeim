@@ -1,0 +1,13 @@
+name: FishMeatSkewer
+clonePrefabName: FishMeatSkewer
+craftingStation: $piece_cauldron
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- FishRaw:1:1:True
+- Mushroom:2:1:True
+- Turnip:1:1:True

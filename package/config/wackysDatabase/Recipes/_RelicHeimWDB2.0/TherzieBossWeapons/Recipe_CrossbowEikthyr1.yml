@@ -1,0 +1,15 @@
+name: CrossbowEikthyr1
+clonePrefabName: CrossbowEikthyr_TW
+craftingStation: $piece_workbench
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: $piece_workbench
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- RoundLog:0:14:True
+- HardAntler:6:6:True
+- DeerHide:15:8:True
+- TrophyEikthyr:1:1:True
+- InfusedCrystal_JH:20:0:True

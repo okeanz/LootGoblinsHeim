@@ -1,0 +1,12 @@
+name: SerpentJerky_JH
+clonePrefabName: SerpentJerky_JH
+craftingStation: $piece_cauldron
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 2
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- SerpentMeat:2:1:True
+- Honey:2:1:True

@@ -1,0 +1,13 @@
+name: FishStew_JH
+clonePrefabName: FishStew_JH
+craftingStation: $piece_cauldron
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- FishCooked:1:1:True
+- Onion:2:1:True
+- Honey:5:1:True

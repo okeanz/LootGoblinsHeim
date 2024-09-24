@@ -1,0 +1,12 @@
+name: PickaxeStone_JH
+clonePrefabName: PickaxeStone_JH
+craftingStation: 
+minStationLevel: 
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Stone:5:0:True
+- Wood:10:0:True

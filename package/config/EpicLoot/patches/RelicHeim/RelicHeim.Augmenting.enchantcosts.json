@@ -1,0 +1,19 @@
+{
+  "TargetFile": "enchantcosts.json",
+  "Author": "Majestic",
+  "RequireAll": true,
+  "Patches": [
+	{
+	"Path": "$.ReAugmentCosts",
+	"Action": "Overwrite",
+	"Value": [
+	{ "Item": "ForestToken", "Amount": 1 },
+	{ "Item": "ForestToken", "Amount": 3 },
+	{ "Item": "IronBountyToken", "Amount": 1 },
+	{ "Item": "IronBountyToken", "Amount": 3 },
+	{ "Item": "GoldBountyToken", "Amount": 1 },
+	{ "Item": "GoldBountyToken", "Amount": 3 }
+   ]
+  }
+ ]
+}

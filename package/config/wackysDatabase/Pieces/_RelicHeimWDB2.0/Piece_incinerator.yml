@@ -1,0 +1,452 @@
+name: incinerator
+piecehammer: Hammer
+m_name: $piece_incinerator
+sizeMultiplier: 1
+m_description: ''
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_forge
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 1000
+  damageModifiers:
+    m_blunt: Resistant
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Resistant
+    m_pickaxe: Resistant
+    m_fire: Resistant
+    m_frost: Resistant
+    m_lightning: Immune
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: true
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData:
+  defaultDrop: Coal
+  defaultCostPerDrop: 10
+  incineratorConversion:
+  - Result: Coal
+    ResultAmount: 1
+    Priority: 1
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyBlob
+      Amount: 1
+    - Name: TrophyBoar
+      Amount: 1
+    - Name: TrophyDeathsquito
+      Amount: 1
+    - Name: TrophyDeer
+      Amount: 1
+    - Name: TrophyDraugr
+      Amount: 1
+    - Name: TrophyDraugrElite
+      Amount: 1
+    - Name: TrophyDraugrFem
+      Amount: 1
+    - Name: TrophyFenring
+      Amount: 1
+    - Name: TrophyForestTroll
+      Amount: 1
+    - Name: TrophyFrostTroll
+      Amount: 1
+    - Name: TrophyGoblin
+      Amount: 1
+    - Name: TrophyGoblinBrute
+      Amount: 1
+    - Name: TrophyGoblinShaman
+      Amount: 1
+    - Name: TrophyHatchling
+      Amount: 1
+    - Name: TrophyLeech
+      Amount: 1
+    - Name: TrophyLox
+      Amount: 1
+    - Name: TrophyNeck
+      Amount: 1
+    - Name: TrophySerpent
+      Amount: 1
+    - Name: TrophySGolem
+      Amount: 1
+    - Name: TrophySkeleton
+      Amount: 1
+    - Name: TrophySkeletonPoison
+      Amount: 1
+    - Name: TrophySurtling
+      Amount: 1
+    - Name: TrophyWolf
+      Amount: 1
+    - Name: TrophyWraith
+      Amount: 1
+    - Name: TrophyGreydwarf
+      Amount: 1
+    - Name: TrophyGreydwarfBrute
+      Amount: 1
+    - Name: TrophyGreydwarfShaman
+      Amount: 1
+    - Name: TrophyGrowth
+      Amount: 1
+    - Name: TrophyUlv
+      Amount: 1
+    - Name: TrophyCultist
+      Amount: 1
+    - Name: TrophyAbomination
+      Amount: 1
+    - Name: TrophyTick
+      Amount: 1
+    - Name: TrophySeeker
+      Amount: 1
+    - Name: TrophySeekerBrute
+      Amount: 1
+    - Name: TrophyGjall
+      Amount: 1
+    - Name: TrophyDvergr
+      Amount: 1
+    - Name: TrophyHare
+      Amount: 1
+  - Result: Coal
+    ResultAmount: 10
+    Priority: 1
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophySeekerQueen
+      Amount: 10
+    - Name: TrophyTheElder
+      Amount: 10
+    - Name: TrophyBonemass
+      Amount: 10
+    - Name: TrophyDragonQueen
+      Amount: 10
+    - Name: TrophyEikthyr
+      Amount: 10
+    - Name: TrophyGoblinKing
+      Amount: 10
+    - Name: TrophyFader
+      Amount: 10
+  - Result: Coal
+    ResultAmount: 1
+    Priority: 0
+    RequireOnlyOne: true
+    Requirements:
+    - Name: Wood
+      Amount: 3
+    - Name: ElderBark
+      Amount: 3
+    - Name: FineWood
+      Amount: 3
+    - Name: RoundLog
+      Amount: 3
+    - Name: YggdrasilWood
+      Amount: 3
+  - Result: AncientSeed
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyGreydwarfBrute
+      Amount: 1
+  - Result: Bloodbag
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyLeech
+      Amount: 1
+  - Result: BoneFragments
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophySkeleton
+      Amount: 1
+    - Name: TrophySkeletonPoison
+      Amount: 1
+  - Result: Carapace
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophySeeker
+      Amount: 1
+  - Result: Chain
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyWraith
+      Amount: 1
+  - Result: Chitin
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyMolluscan
+      Amount: 1
+    - Name: TrophyDeepSeaMolluscan
+      Amount: 1
+  - Result: DarkCrystal_TW
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyGjall
+      Amount: 1
+  - Result: DeerHide
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyDeer
+      Amount: 1
+  - Result: RottenPelt_TW
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyDraugr
+      Amount: 1
+    - Name: TrophyDraugrElite
+      Amount: 1
+  - Result: FoxPelt_TW
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyFox_TW
+      Amount: 1
+  - Result: FreezeGland
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyHatchling
+      Amount: 1
+  - Result: GoblinScraps_TW
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyGoblin
+      Amount: 1
+  - Result: GreydwarfEye
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyGreydwarf
+      Amount: 1
+    - Name: TrophyGreydwarfShaman
+      Amount: 1
+  - Result: GrizzlyBearPelt_TW
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyGrizzlyBear_TW
+      Amount: 1
+  - Result: Guck
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyBlob
+      Amount: 1
+    - Name: TrophyRottingElk_TW
+      Amount: 1
+    - Name: TrophyCrawler_TW
+      Amount: 1
+  - Result: LeatherScraps
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyBoar
+      Amount: 1
+  - Result: LoxBone_TW
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyLox
+      Amount: 1
+  - Result: Mandible
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophySeekerBrute
+      Amount: 1
+  - Result: Needle
+    ResultAmount: 4
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyDeathsquito
+      Amount: 1
+  - Result: ProwlerFang_TW
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyProwler_TW
+      Amount: 1
+  - Result: RazorbackLeather_TW
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyRazorback_TW
+      Amount: 1
+  - Result: ScaleHide
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyHare
+      Amount: 1
+  - Result: Softtissue
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyDvergr
+      Amount: 1
+  - Result: SurtlingCore
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophySurtling
+      Amount: 1
+  - Result: TrollBone_TW
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyFrostTroll
+      Amount: 1
+  - Result: VenomousFang_TW
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyTick
+      Amount: 1
+  - Result: JuteRed
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyCultist
+      Amount: 1
+  - Result: WolfHairBundle
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyFenring
+      Amount: 1
+  - Result: WolfFang
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyUlv
+      Amount: 1
+  - Result: WolfPelt
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyWolf
+      Amount: 1
+  - Result: BlackBearPelt_TW
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyBlackBear_TW
+      Amount: 1
+  - Result: WoolScraps_TW
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophySheep_TW
+      Amount: 1
+  - Result: SharkFin_TW
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyShark_TW
+      Amount: 1
+  - Result: MorgenHeart
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyMorgen
+      Amount: 1
+  - Result: BonemawSerpentTooth
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyBonemawSerpent
+      Amount: 1
+  - Result: AskHide
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyAsksvin
+      Amount: 1
+  - Result: CelestialFeather
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyFallenValkyrie
+      Amount: 1
+  - Result: CharredBone
+    ResultAmount: 2
+    Priority: 2
+    RequireOnlyOne: true
+    Requirements:
+    - Name: TrophyCharredArcher
+      Amount: 1
+    - Name: TrophyCharredMage
+      Amount: 1
+    - Name: TrophyCharredMelee
+      Amount: 1
+build:
+- Stone:20:1:True
+- Copper:5:1:True
+- Thunderstone:1:1:True

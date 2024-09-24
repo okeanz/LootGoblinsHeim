@@ -1,0 +1,17 @@
+name: StaffLightningBurst_JH
+clonePrefabName: StaffLightningBurst_JH
+craftingStation: $piece_wizardtable_TW
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_wizardtable_TW
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- EnchantedWoodPlains_TW:22:0:True
+- Thunderstone:4:0:True
+- ShardYagluth_TW:3:0:True
+- BlackMetal:5:0:True
+- ArcaneScroll_Plains_TW:0:2:True

@@ -1,0 +1,131 @@
+{
+  "TargetFile": "loottables.json",
+  "Author": "Majestic",
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.ItemSets[?(@.Name == 'Tier2Weapons')].Loot",
+      "Action": "AppendAll",
+      "Value": [
+        { "Item": "StaffBlackforest_TW", "Weight": 1}
+      ]
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name == 'Tier3Weapons')].Loot",
+      "Action": "AppendAll",
+      "Value": [
+        { "Item": "StaffSwamp_TW", "Weight": 1},
+        { "Item": "StaffSurtling_TW", "Weight": 1}
+      ]
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name == 'Tier4Weapons')].Loot",
+      "Action": "AppendAll",
+      "Value": [
+        { "Item": "StaffMountain_TW", "Weight": 1}
+      ]
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name == 'Tier5Weapons')].Loot",
+      "Action": "AppendAll",
+      "Value": [
+        { "Item": "StaffPlains_TW", "Weight": 1},
+        { "Item": "StaffGolem_TW", "Weight": 1}
+      ]
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name == 'Tier6Weapons')].Loot",
+      "Action": "AppendAll",
+      "Value": [
+        { "Item": "StaffMistlands_TW", "Weight": 1}
+      ]
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name == 'Tier2Armor')].Loot",
+      "Action": "AppendAll",
+      "Value": [
+        { "Item": "HelmetSpellslinger_BlackForest_TW", "Weight": 1},
+        { "Item": "ArmorSpellSlingerChest_BlackForest_TW", "Weight": 1},
+        { "Item": "ArmorSpellslingerLegs_BlackForest_TW", "Weight": 1},
+        { "Item": "CapeSpellslinger_Blackforest_TW", "Weight": 1}
+      ]
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name == 'Tier3Armor')].Loot",
+      "Action": "AppendAll",
+      "Value": [
+        { "Item": "HelmetSpellslinger_Swamp_TW", "Weight": 1},
+        { "Item": "ArmorSpellSlingerChest_Swamp_TW", "Weight": 1},
+        { "Item": "ArmorSpellslingerLegs_Swamp_TW", "Weight": 1},
+        { "Item": "CapeSpellslinger_Swamp_TW", "Weight": 1}
+      ]
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name == 'Tier4Armor')].Loot",
+      "Action": "AppendAll",
+      "Value": [
+        { "Item": "HelmetSpellslinger_Mountain_TW", "Weight": 1},
+        { "Item": "ArmorSpellSlingerChest_Mountain_TW", "Weight": 1},
+        { "Item": "ArmorSpellslingerLegs_Mountain_TW", "Weight": 1},
+        { "Item": "CapeSpellslinger_Mountain_TW", "Weight": 1}
+      ]
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name == 'Tier5Armor')].Loot",
+      "Action": "AppendAll",
+      "Value": [
+        { "Item": "HelmetSpellslinger_Plains_TW", "Weight": 1},
+        { "Item": "ArmorSpellSlingerChest_Plains_TW", "Weight": 1},
+        { "Item": "ArmorSpellslingerLegs_Plains_TW", "Weight": 1},
+        { "Item": "CapeSpellslinger_Plains_TW", "Weight": 1}
+      ]
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name == 'Tier6Armor')].Loot",
+      "Action": "AppendAll",
+      "Value": [
+        { "Item": "HelmetSpellslinger_Mistlands_TW", "Weight": 1},
+        { "Item": "ArmorSpellSlingerChest_Mistlands_TW", "Weight": 1},
+        { "Item": "ArmorSpellslingerLegs_Mistlands_TW", "Weight": 1},
+        { "Item": "CapeSpellslinger_Mistlands_TW", "Weight": 1}
+      ]
+    },
+	
+	
+    {
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_BlackForest')].Loot",
+      "Action": "AppendAll",
+      "Value": [
+        { "Item": "ShardElder_TW", "Weight": 0.5}
+      ]
+    },
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Swamp')].Loot",
+      "Action": "AppendAll",
+      "Value": [
+        { "Item": "ShardBonemass_TW", "Weight": 0.5}
+      ]
+    },
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Mountain')].Loot",
+      "Action": "AppendAll",
+      "Value": [
+        { "Item": "ShardModer_TW", "Weight": 0.5}
+      ]
+    },
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Plains')].Loot",
+      "Action": "AppendAll",
+      "Value": [
+        { "Item": "ShardYagluth_TW", "Weight": 0.5}
+      ]
+    },
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Mistlands')].Loot",
+      "Action": "AppendAll",
+      "Value": [
+        { "Item": "ShardQueen_TW", "Weight": 0.5}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+- Items:
+  - AxeFlint
+  - AxeBronze
+  - AxeIron
+  - AxeSilver_TW
+  - AxeBlackMetal
+  - AxeDvergr_TW
+  Stats:
+    1:
+      damage_percentage: 2
+      damage_chop: 2
+    2:
+      damage_percentage: 4
+      damage_chop: 3
+    3:
+      damage_percentage: 6
+      damage_chop: 4
+    4:
+      damage_percentage: 8
+      damage_chop: 5
+    5:
+      damage_percentage: 10
+      damage_chop: 10
+    6:
+      damage_percentage: 12
+      damage_chop: 11
+    7:
+      damage_percentage: 16
+      damage_chop: 12
+    8:
+      damage_percentage: 20
+      damage_chop: 13
+    9:
+      damage_percentage: 24
+      damage_chop: 14
+    10:
+      damage_percentage: 28
+      damage_chop: 15
+    11:
+      damage_percentage: 32
+      damage_chop: 16
+    12:
+      damage_percentage: 36
+      damage_chop: 17
+    13:
+      damage_percentage: 40
+      damage_chop: 18
+    14:
+      damage_percentage: 45
+      damage_chop: 19
+    15:
+      damage_percentage: 50
+      damage_chop: 20
+    16:
+      damage_percentage: 55
+      damage_chop: 25
+    17:
+      damage_percentage: 60
+      damage_chop: 30
+    18:
+      damage_percentage: 70
+      damage_chop: 35
+    19:
+      damage_percentage: 85
+      damage_chop: 40
+    20:
+      damage_percentage: 100
+      damage_chop: 50

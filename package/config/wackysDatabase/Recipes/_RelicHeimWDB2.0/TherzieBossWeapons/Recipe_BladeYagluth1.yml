@@ -1,0 +1,15 @@
+name: BladeYagluth1
+clonePrefabName: BladeYagluth_TW
+craftingStation: $piece_forge
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: $piece_forge
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- BlackMetal:40:30:True
+- GoblinTotem:10:6:True
+- YagluthDrop:0:3:True
+- TrophyGoblinKing:1:1:True
+- InfusedCrystal_JH:20:0:True

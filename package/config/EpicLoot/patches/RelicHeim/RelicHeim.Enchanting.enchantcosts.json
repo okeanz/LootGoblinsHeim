@@ -1,0 +1,116 @@
+{
+  "TargetFile": "enchantcosts.json",
+  "Author": "Majestic",
+  "RequireAll": true,
+  "Patches": [
+	{
+      "Path": "$.DisenchantCosts",
+      "Action": "Overwrite",
+      "Value": {
+          "Magic": 		[{ "Item": "ForestToken", "Amount": 4 }],
+          "Rare": 		[{ "Item": "IronBountyToken", "Amount": 5 }],
+          "Epic":		[{ "Item": "IronBountyToken", "Amount": 6 }],
+          "Legendary":	[{ "Item": "GoldBountyToken", "Amount": 6 }],
+          "Mythic":		[{ "Item": "GoldBountyToken", "Amount": 7 }]
+        }
+    },
+	
+	{
+	"Path": "$.EnchantCosts",
+	"Action": "Overwrite",
+	"Value": [
+    {
+      "ItemTypes" : [ "OneHandedWeapon", "Torch", "Tool", "Bow", "TwoHandedWeapon", "TwoHandedWeaponLeft", "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility"   ],
+      "Rarity": "Magic",
+      "Cost": [
+        { "Item": "DustMagic",      	"Amount": 1 },
+		{ "Item": "RunestoneMagic",		"Amount": 1 }
+      ]
+    },
+	{
+      "ItemTypes" : [ "OneHandedWeapon", "Torch", "Tool", "Bow", "TwoHandedWeapon", "TwoHandedWeaponLeft", "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility"   ],
+      "Rarity": "Rare",
+      "Cost": [
+        { "Item": "DustRare",			"Amount": 1 },
+		{ "Item": "RunestoneRare",      "Amount": 1 },
+		{ "Item": "ShardRare",			"Amount": 1 }
+      ]
+    },
+	{
+      "ItemTypes" : [ "OneHandedWeapon", "Torch", "Tool", "Bow", "TwoHandedWeapon", "TwoHandedWeaponLeft", "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility"   ],
+      "Rarity": "Epic",
+      "Cost": [
+        { "Item": "DustEpic",			"Amount": 2 },
+		{ "Item": "RunestoneEpic",      "Amount": 2 },
+		{ "Item": "ShardEpic",			"Amount": 2 }
+      ]
+    },
+	{
+      "ItemTypes" : [ "OneHandedWeapon", "Torch", "Tool", "Bow", "TwoHandedWeapon", "TwoHandedWeaponLeft", "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility"   ],
+      "Rarity": "Legendary",
+      "Cost": [
+        { "Item": "DustLegendary",      "Amount": 3 },
+		{ "Item": "RunestoneLegendary",	"Amount": 3 },
+		{ "Item": "ShardLegendary",		"Amount": 3 }
+      ]
+    },
+	{
+      "ItemTypes" : [ "OneHandedWeapon", "Torch", "Tool", "Bow", "TwoHandedWeapon", "TwoHandedWeaponLeft", "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility"   ],
+      "Rarity": "Mythic",
+      "Cost": [
+        { "Item": "DustMythic",			"Amount": 4 },
+		{ "Item": "RunestoneMythic",	"Amount": 4 },
+		{ "Item": "ShardMythic",		"Amount": 4 }
+      ]
+    }
+  ]
+},
+	
+	{
+	"Path": "$.AugmentCosts",
+	"Action": "Overwrite",
+	"Value": [
+    {
+      "ItemTypes" : [ "OneHandedWeapon", "Torch", "Tool", "Bow", "TwoHandedWeapon", "TwoHandedWeaponLeft", "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility"   ],
+      "Rarity": "Magic",
+      "Cost": [
+        { "Item": "ReagentMagic",		"Amount": 1 },
+		{ "Item": "DustMagic",			"Amount": 1 }
+      ]
+    },
+	{
+      "ItemTypes" : [ "OneHandedWeapon", "Torch", "Tool", "Bow", "TwoHandedWeapon", "TwoHandedWeaponLeft", "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility"   ],
+      "Rarity": "Rare",
+      "Cost": [
+        { "Item": "ReagentRare",		"Amount": 1 },
+		{ "Item": "DustMagic",			"Amount": 2 }
+      ]
+    },
+	{
+      "ItemTypes" : [ "OneHandedWeapon", "Torch", "Tool", "Bow", "TwoHandedWeapon", "TwoHandedWeaponLeft", "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility"   ],
+      "Rarity": "Epic",
+      "Cost": [
+        { "Item": "ReagentEpic",		"Amount": 1 },
+		{ "Item": "DustMagic",			"Amount": 3 }
+      ]
+    },
+	{
+      "ItemTypes" : [ "OneHandedWeapon", "Torch", "Tool", "Bow", "TwoHandedWeapon", "TwoHandedWeaponLeft", "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility"   ],
+      "Rarity": "Legendary",
+      "Cost": [
+        { "Item": "ReagentLegendary",	"Amount": 1 },
+		{ "Item": "DustMagic",			"Amount": 4 }
+      ]
+    },
+	{
+      "ItemTypes" : [ "OneHandedWeapon", "Torch", "Tool", "Bow", "TwoHandedWeapon", "TwoHandedWeaponLeft", "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility"   ],
+      "Rarity": "Mythic",
+      "Cost": [
+        { "Item": "ReagentMythic",		"Amount": 1 },
+		{ "Item": "DustMagic",			"Amount": 5 }
+      ]
+    }
+   ]
+  }
+ ]
+}

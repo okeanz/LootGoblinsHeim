@@ -1,0 +1,146 @@
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_S
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_S
+    amount: 1
+  Items:
+  - bphelm 
+  - heavycarhelm 
+  - runeknighthelm 
+  - valkhelm 
+  - stjudehelm 
+  - ss_korokhelm 
+  - valkchest 
+  - bearchest 
+  - loxhuntchest 
+  - heavycarchest 
+  - frostmagechest 
+  - druidchest 
+  - bearchest2 
+  - samuraichest 
+  - lagichest 
+  - ss_korokchest 
+  - runeknightchest 
+  - druidlegs 
+  - bearlegs2 
+  - samurailegs 
+  - lagipants 
+  - ss_koroklegs 
+  - runeknightlegs
+  - warlordhelm 
+  - ss_wraithhelm 
+  - lagihelmalt 
+  - sven2 
+  - sven3 
+  - skoghelm 
+  - frostmagehelm 
+  - trueskoghelm 
+  - wshelm 
+  - warlordchest 
+  - ss_wraithchest 
+  - stjudechest 
+  - heavybearchest 
+  - trueskogchest 
+  - sven2chest 
+  - wschest 
+  - warlordlegs 
+  - ss_wraithlegs 
+  - stjudelegs 
+  - heavybearlegs 
+  - trueskoglegs 
+  - sven2legs 
+  - wslegs
+# Plains
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_A
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_A
+    amount: 1
+  Items:
+  - bearhelm 
+  - loxhunthelm 
+  - obswolfhelm 
+  - druidhelm 
+  - bearhelm2 
+  - samuraihelm 
+  - heavybearhelm 
+  - skogchest 
+  - svenchest 
+  - ancientironchest 
+  - norahchest 
+  - bpchest 
+  - bplegs 
+  - valklegs 
+  - bearlegs 
+  - loxhuntlegs 
+  - heavycarlegs 
+  - frostmagelegs
+# Mountain
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_B
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_B
+    amount: 1
+  Items:
+  - ancientironhelm 
+  - heavywolfhelm 
+  - sven 
+  - heavywolfchest 
+  - obswolfchest 
+  - ancientironlegs 
+  - heavywolflegs 
+  - norahlegs 
+  - obswolflegs
+# Swamp
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_C
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_C
+    amount: 1
+  Items:
+  - heavybronzehelm 
+  - ancienthelm 
+  - knighthelm 
+  - knightchest 
+  - swamphelm 
+  - norahhelmalt 
+  - heavybronzechest 
+  - ancientchest 
+  - swampchest 
+  - heavybronzelegs 
+  - ancientlegs 
+  - knightlegs 
+  - skoglegs 
+  - svenlegs 
+  - swamplegs
+# blackForest
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_D
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_D
+    amount: 1
+  Items:
+  - bronzetrollhelm 
+  - trollhelm 
+  - trollchest 
+  - trolllegs
+# Meadows
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_F
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_F
+    amount: 1
+  Items:
+  - neckhelm
+  - chiefhelmboar
+  - chiefhelmdeer
+  - neckchest
+  - chiefchest
+  - necklegs
+  - chieflegs

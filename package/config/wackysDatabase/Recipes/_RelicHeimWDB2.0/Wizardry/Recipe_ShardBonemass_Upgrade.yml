@@ -1,0 +1,13 @@
+name: ShardBonemass_Upgrade
+clonePrefabName: ShardBonemass_TW
+craftingStation: $piece_arcaneanvil_TW
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- ShardElder_TW:3:0:True
+- Iron:1:0:True

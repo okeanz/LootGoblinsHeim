@@ -1,0 +1,14 @@
+name: ShardModer_TW
+clonePrefabName: ShardModer_TW
+craftingStation: $piece_arcaneanvil_TW
+minStationLevel: 5
+maxStationLevelCap: 
+repairStation: 
+amount: 2
+disabled: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- Silver:5:0:True
+- WolfClaw:2:0:True
+- TrophyCultist:1:0:True

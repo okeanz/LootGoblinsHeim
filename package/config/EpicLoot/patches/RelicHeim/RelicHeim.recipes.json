@@ -1,0 +1,176 @@
+{
+  "TargetFile": "recipes.json", 
+  "Author": "Majestic",
+  "RequireAll": true, 
+  "Patches": [ 
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_LeatherBelt')].resources",
+	  "Action": "Overwrite",
+	  "Value": [
+        { "item": "LeatherScraps", "amount": 10 },
+        { "item": "DeerHide", "amount": 5 }
+      ]
+    },
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_SilverRing')].resources",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "item": "Silver", "amount": 4 },
+        { "item": "Tin", "amount": 6 }
+      ]
+    },
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_GoldRubyRing')].resources",
+	  "Action": "Overwrite",
+	  "Value": [
+        { "item": "Bronze", "amount": 10 },
+        { "item": "Ruby", "amount": 1 }
+      ]
+    },
+	
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_ShardRareUpgrade')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_ShardEpicUpgrade')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_ShardLegendaryUpgrade')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_DustRareUpgrade')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_DustEpicUpgrade')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_DustLegendaryUpgrade')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_ReagentRareUpgrade')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_ReagentLegendaryUpgrade')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_EssenceRareUpgrade')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_EssenceEpicUpgrade')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_EssenceLegendaryUpgrade')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_RunestoneRareUpgrade')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_RunestoneEpicUpgrade')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_RunestoneLegendaryUpgrade')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_MagicShardToDust_Conversion')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_MagicShardToEssence_Conversion')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_MagicShardToReagent_Conversion')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_RareShardToDust_Conversion')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_RareShardToEssence_Conversion')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_RareShardToReagent_Conversion')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_EpicShardToDust_Conversion')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_EpicShardToEssence_Conversion')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_EpicShardToReagent_Conversion')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_LegendaryShardToDust_Conversion')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_LegendaryShardToEssence_Conversion')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_LegendaryShardToReagent_Conversion')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_BoneSkeletonTrophy')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_EyeGreydwarfTrophy')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_AntlerDeerTrophy')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_HideTrollTrophy')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_CoreSurtlingTrophy')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_FreezeGlandDrakeTrophy')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_DragonTearRunestone')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_YagluthThingRunestone')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_SeekerQueenRunestone')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.recipes[?(@.name == 'Recipe_FaderRunestone')]",
+	  "Action": "Remove"
+	}
+  ]
+}

@@ -1,0 +1,98 @@
+{
+	"TargetFile": "adventuredata.json",
+    "Author": "Majestic",
+    "RequireAll": true,
+    "Patches": [
+	{
+	 "Path": "$.Gamble.GambleCosts", 
+	 "Action": "AppendAll",
+	 "Value": [
+		{"Item":"StaffBlackforest_TW", "CoinsCost": 600},
+		{"Item":"StaffSwamp_TW", "CoinsCost": 800},
+		{"Item":"StaffSurtling_TW", "CoinsCost": 800},
+		{"Item":"StaffMountain_TW", "CoinsCost": 1200},
+		{"Item":"StaffPlains_TW", "CoinsCost": 1600},
+		{"Item":"StaffGolem_TW", "CoinsCost": 1600},
+		{"Item":"StaffMistlands_TW", "CoinsCost": 2000},
+		
+		{"Item":"RingBlackForest_TW", "CoinsCost": 600},
+		{"Item":"HelmetCircletBronze_TW", "CoinsCost": 600},
+		{"Item":"HelmetCircletBronze_Stamina_TW", "CoinsCost": 600},
+		{"Item":"HelmetCircletBronze_Elemental_TW", "CoinsCost": 600},
+		{"Item":"HelmetCircletBronze_Hunter_TW", "CoinsCost": 600},
+		{"Item":"HelmetCircletBronze_Sneak_TW", "CoinsCost": 600},
+		{"Item":"HelmetSpellslinger_BlackForest_TW", "CoinsCost": 600},
+		{"Item":"ArmorSpellSlingerChest_BlackForest_TW", "CoinsCost": 600},
+		{"Item":"ArmorSpellslingerLegs_BlackForest_TW", "CoinsCost": 600},
+		{"Item":"CapeSpellslinger_Blackforest_TW", "CoinsCost": 600},
+				
+		{"Item":"RingSwamp_TW", "CoinsCost": 800},
+		{"Item":"HelmetCircletIron_TW", "CoinsCost": 800},
+		{"Item":"HelmetCircletIron_Stamina_TW", "CoinsCost": 800},
+		{"Item":"HelmetCircletIron_Elemental_TW", "CoinsCost": 800},
+		{"Item":"HelmetCircletIron_Hunter_TW", "CoinsCost": 800},
+		{"Item":"HelmetCircletIron_Sneak_TW", "CoinsCost": 800},
+		{"Item":"HelmetSpellslinger_Swamp_TW", "CoinsCost": 800},
+		{"Item":"ArmorSpellSlingerChest_Swamp_TW", "CoinsCost": 800},
+		{"Item":"ArmorSpellslingerLegs_Swamp_TW", "CoinsCost": 800},
+		{"Item":"CapeSpellslinger_Swamp_TW", "CoinsCost": 800},
+				
+		{"Item":"RingMountain_TW", "CoinsCost": 1200},
+		{"Item":"HelmetCircletSilver_TW", "CoinsCost": 1200},
+		{"Item":"HelmetCircletSilver_Stamina_TW", "CoinsCost": 1200},
+		{"Item":"HelmetCircletSilver_Elemental_TW", "CoinsCost": 1200},
+		{"Item":"HelmetCircletSilver_Hunter_TW", "CoinsCost": 1200},
+		{"Item":"HelmetCircletSilver_Sneak_TW", "CoinsCost": 1200},
+		{"Item":"HelmetSpellslinger_Mountain_TW", "CoinsCost": 1200},
+		{"Item":"ArmorSpellSlingerChest_Mountain_TW", "CoinsCost": 1200},
+		{"Item":"ArmorSpellslingerLegs_Mountain_TW", "CoinsCost": 1200},
+		{"Item":"CapeSpellslinger_Mountain_TW", "CoinsCost": 1200},
+				
+		{"Item":"RingPlains_TW", "CoinsCost": 1600},
+		{"Item":"HelmetCircletBM_TW", "CoinsCost": 1600},
+		{"Item":"HelmetCircletBM_Stamina_TW", "CoinsCost": 1600},
+		{"Item":"HelmetCircletBM_Elemental_TW", "CoinsCost": 1600},
+		{"Item":"HelmetCircletBM_Hunter_TW", "CoinsCost": 1600},
+		{"Item":"HelmetCircletBM_Sneak_TW", "CoinsCost": 1600},
+		{"Item":"HelmetSpellslinger_Plains_TW", "CoinsCost": 1600},
+		{"Item":"ArmorSpellSlingerChest_Plains_TW", "CoinsCost": 1600},
+		{"Item":"ArmorSpellslingerLegs_Plains_TW", "CoinsCost": 1600},
+		{"Item":"CapeSpellslinger_Plains_TW", "CoinsCost": 1600},
+				
+		{"Item":"RingMistlands_TW", "CoinsCost": 2000},
+		{"Item":"HelmetCircletCarapace_TW", "CoinsCost": 2000},
+		{"Item":"HelmetCircletCarapace_Stamina_TW", "CoinsCost": 2000},
+		{"Item":"HelmetCircletCarapace_Elemental_TW", "CoinsCost": 2000},
+		{"Item":"HelmetCircletCarapace_Hunter_TW", "CoinsCost": 2000},
+		{"Item":"HelmetCircletCarapace_Sneak_TW", "CoinsCost": 2000},
+		{"Item":"HelmetSpellslinger_Mistlands_TW", "CoinsCost": 2000},
+		{"Item":"ArmorSpellSlingerChest_Mistlands_TW", "CoinsCost": 2000},
+		{"Item":"ArmorSpellslingerLegs_Mistlands_TW", "CoinsCost": 2000},
+		{"Item":"CapeSpellslinger_Mistlands_TW", "CoinsCost": 2000}
+	  ]
+	},
+	{
+	"Path": "$.Bounties.Targets",
+	"Action": "AppendAll",
+	"Value": [
+		{ "Biome": "Meadows", 		"TargetID": "Sheep_TW",   			"RewardGold": 0, "RewardIron": 0, "RewardCoins": 50  },
+		{ "Biome": "Meadows", 		"TargetID": "Sheep_TW",    			"RewardGold": 0, "RewardIron": 1, "RewardCoins": 75  },
+				
+		{ "Biome": "BlackForest", 	"TargetID": "GreydwarfMage_TW",   	"RewardGold": 1, "RewardIron": 0, "RewardCoins": 300   },
+		{ "Biome": "BlackForest", 	"TargetID": "GreydwarfMage_TW",    	"RewardGold": 0, "RewardIron": 1, "RewardCoins": 250   },
+
+		{ "Biome": "Swamp",       	"TargetID": "SkeletonMage_TW",    	"RewardGold": 0, "RewardIron": 1, "RewardCoins": 325   },
+		{ "Biome": "Swamp",       	"TargetID": "SkeletonMage_TW",    	"RewardGold": 1, "RewardIron": 1, "RewardCoins": 350   },
+
+		{ "Biome": "Mountain", 		"TargetID": "FenringMage_TW",    	"RewardGold": 0, "RewardIron": 2, "RewardCoins": 550   },
+		{ "Biome": "Mountain", 		"TargetID": "FenringMage_TW",    	"RewardGold": 1, "RewardIron": 2, "RewardCoins": 600   },
+
+		{ "Biome": "Plains", 		"TargetID": "GoblinMage_TW",     	"RewardGold": 0, "RewardIron": 10,"RewardCoins": 600  },
+		{ "Biome": "Plains", 		"TargetID": "GoblinMage_TW", 		"RewardGold": 5, "RewardIron": 8, "RewardCoins": 800  },
+
+		{ "Biome": "Mistlands", 	"TargetID": "CorruptedDvergerMage_TW",     	"RewardGold": 0, "RewardIron": 5, "RewardCoins": 1000 },
+		{ "Biome": "Mistlands", 	"TargetID": "CorruptedDvergerMage_TW", 		"RewardGold": 4, "RewardIron": 2, "RewardCoins": 1400 }
+	  ]
+	}
+  ]
+}

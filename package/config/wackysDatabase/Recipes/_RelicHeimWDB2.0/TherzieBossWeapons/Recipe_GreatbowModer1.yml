@@ -1,0 +1,15 @@
+name: GreatbowModer1
+clonePrefabName: GreatbowModer_TW
+craftingStation: $piece_fletchertable_TW
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_fletchertable_TW
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Silver:40:20:True
+- Crystal:0:10:True
+- FreezeGland:15:5:True
+- TrophyDragonQueen:1:1:True
+- InfusedCrystal_JH:20:0:True

@@ -1,0 +1,268 @@
+name: StaffBurst_JH
+m_weight: 1.5
+m_name: Burst Shot
+m_description: Shoots 12 projectiles
+clonePrefabName: StaffLightning
+mockName: 
+customIcon: 
+material: roundlog
+materials: 
+customVisual: 
+snapshotRotation: 
+snapshotOnMaterialChange: true
+sizeMultiplier: 1
+scale_weight_by_quality: 0
+Primary_Attack:
+  AttackType: Projectile
+  Attack_Animation: staff_lightningshot
+  Attack_Random_Animation: 0
+  Chain_Attacks: 0
+  Hit_Terrain: true
+  Custom_AttackSpeed: 1
+  m_attackStamina: 0
+  m_eitrCost: 0
+  AttackHealthCost: 0
+  m_attackHealthPercentage: 0
+  SpeedFactor: 0.3
+  DmgMultiplier: 1
+  ForceMultiplier: 1
+  StaggerMultiplier: 1
+  RecoilMultiplier: 40
+  AttackRange: 1
+  AttackHeight: 1.2
+  Spawn_On_Trigger: 
+  Requires_Reload: true
+  Reload_Animation: recharge_lightningstaff
+  ReloadTime: 1.9
+  ReloadTimeMultiplier: 1
+  Reload_Stamina_Drain: 8
+  Reload_Eitr_Drain: 2
+  Bow_Draw: false
+  Bow_Duration_Min: 0
+  Bow_Stamina_Drain: 0
+  Bow_Animation_State: ''
+  Attack_Angle: 90
+  Attack_Ray_Width: 0
+  Lower_Dmg_Per_Hit: true
+  Hit_Through_Walls: false
+  Multi_Hit: true
+  Pickaxe_Special: false
+  Last_Chain_Dmg_Multiplier: 2
+  Reset_Chain_If_hit: None
+  SpawnOnHit: 
+  SpawnOnHit_Chance: 0
+  Attack_status_effect: 
+  Attack_status_effect_chance:
+  Raise_Skill_Amount: 0.1
+  Skill_Hit_Type: Character
+  Special_Hit_Skill: None
+  Special_Hit_Type: None
+  Attack_Projectile: staff_lightning_projectile
+  Projectile_Vel: 100
+  Projectile_Accuraccy: 10
+  Projectiles: 12
+  Skill_Accuracy: false
+  Launch_Angle: -1
+  Projectile_Burst: 1
+  Burst_Interval: 0
+  Destory_Previous_Projectile: false
+  PerBurst_Resourse_usage: false
+  Looping_Attack: false
+  Consume_Item: false
+  AEffects: 
+  AEffectsPLUS:
+    Hit_Effects: []
+    Hit_Terrain_Effects: []
+    Start_Effect: []
+    Trigger_Effect: []
+    Trail_Effect: []
+    Burst_Effect: []
+Secondary_Attack:
+  AttackType: Horizontal
+  Attack_Animation: ''
+  Attack_Random_Animation: 0
+  Chain_Attacks: 0
+  Hit_Terrain: true
+  Custom_AttackSpeed: 1
+  m_attackStamina: 20
+  m_eitrCost: 0
+  AttackHealthCost: 0
+  m_attackHealthPercentage: 0
+  SpeedFactor: 0.2
+  DmgMultiplier: 1
+  ForceMultiplier: 1
+  StaggerMultiplier: 1
+  RecoilMultiplier: 0
+  AttackRange: 1.5
+  AttackHeight: 0.6
+  Spawn_On_Trigger: 
+  Requires_Reload: false
+  Reload_Animation: ''
+  ReloadTime: 
+  ReloadTimeMultiplier: 1
+  Reload_Stamina_Drain: 0
+  Reload_Eitr_Drain: 
+  Bow_Draw: false
+  Bow_Duration_Min: 0
+  Bow_Stamina_Drain: 0
+  Bow_Animation_State: ''
+  Attack_Angle: 90
+  Attack_Ray_Width: 0
+  Lower_Dmg_Per_Hit: true
+  Hit_Through_Walls: false
+  Multi_Hit: true
+  Pickaxe_Special: false
+  Last_Chain_Dmg_Multiplier: 2
+  Reset_Chain_If_hit: None
+  SpawnOnHit: 
+  SpawnOnHit_Chance: 0
+  Raise_Skill_Amount: 0.1
+  Skill_Hit_Type: Character
+  Special_Hit_Skill: None
+  Special_Hit_Type: None
+  Attack_Projectile: 
+  Projectile_Vel: 10
+  Projectile_Accuraccy: 10
+  Projectiles: 1
+  Skill_Accuracy: false
+  Launch_Angle: 0
+  Projectile_Burst: 1
+  Burst_Interval: 0
+  Destory_Previous_Projectile: false
+  PerBurst_Resourse_usage: false
+  Looping_Attack: false
+  Consume_Item: false
+  AEffects: 
+  AEffectsPLUS:
+    Hit_Effects: []
+    Hit_Terrain_Effects: []
+    Start_Effect: []
+    Trigger_Effect: []
+    Trail_Effect: []
+    Burst_Effect: []
+Damage:
+  Blunt: 0
+  Chop: 0
+  Damage: 0
+  Fire: 0
+  Frost: 0
+  Lightning: 1
+  Pickaxe: 0
+  Pierce: 2
+  Poison: 0
+  Slash: 0
+  Spirit: 0
+Damage_Per_Level:
+  Blunt: 0
+  Chop: 0
+  Damage: 0
+  Fire: 0
+  Frost: 0
+  Lightning: 1
+  Pickaxe: 0
+  Pierce: 1
+  Poison: 0
+  Slash: 0
+  Spirit: 0
+Armor:
+  armor: 15
+  armorPerLevel: 1
+FoodStats: 
+Moddifiers:
+  m_movementModifier: -0.05
+  m_EitrRegen: 0
+  m_homeItemsStaminaModifier: 0
+  m_heatResistanceModifier: 0
+  m_jumpStaminaModifier: 0
+  m_attackStaminaModifier: 0
+  m_blockStaminaModifier: 0
+  m_dodgeStaminaModifier: 0
+  m_swimStaminaModifier: 0
+  m_sneakStaminaModifier: 0
+  m_runStaminaModifier: 0
+SE_Equip: 
+SE_SET_Equip: 
+ShieldStats:
+  m_blockPower: 2
+  m_blockPowerPerLevel: 0
+  m_timedBlockBonus: 2
+  m_deflectionForce: 20
+  m_deflectionForcePerLevel: 5
+m_maxStackSize: 1
+m_canBeReparied: true
+m_destroyBroken: false
+m_dodgeable: true
+Attack_status_effect: 
+spawn_on_hit: 
+spawn_on_terrain_hit: 
+m_questItem: false
+m_teleportable: true
+m_backstabbonus: 1
+m_knockback: 50
+m_useDurability: true
+m_useDurabilityDrain: 1
+m_durabilityDrain: 0
+m_maxDurability: 200
+m_durabilityPerLevel: 50
+m_equipDuration: 0.2
+Attach_Override: None
+m_skillType: ElementalMagic
+m_animationState: Crossbow
+m_itemType: TwoHandedWeapon
+m_toolTier: 1
+m_maxQuality: 4
+m_value: 0
+ConsumableStatusEffect: 
+damageModifiers: []
+GEffects: 
+GEffectsPLUS:
+  Hit_Effects: []
+  Hit_Terrain_Effects: []
+  Start_Effect: []
+  Hold_Start_Effects:
+  - name: sfx_bow_draw
+    m_enabled: true
+    m_variant: -1
+    m_attach: false
+    m_follow: false
+    m_inheritParentRotation: false
+    m_inheritParentScale: false
+    m_multiplyParentVisualScale: false
+    m_randomRotation: false
+    m_scale: false
+    m_childTransform: ''
+  Trigger_Effect:
+  - name: fx_swing_camshake
+    m_enabled: true
+    m_variant: -1
+    m_attach: false
+    m_follow: false
+    m_inheritParentRotation: false
+    m_inheritParentScale: false
+    m_multiplyParentVisualScale: false
+    m_randomRotation: false
+    m_scale: false
+    m_childTransform: ''
+  - name: vfx_lightningstaff_fire
+    m_enabled: true
+    m_variant: -1
+    m_attach: false
+    m_follow: false
+    m_inheritParentRotation: false
+    m_inheritParentScale: false
+    m_multiplyParentVisualScale: false
+    m_randomRotation: false
+    m_scale: false
+    m_childTransform: ''
+  - name: sfx_staff_lightning_fire
+    m_enabled: true
+    m_variant: -1
+    m_attach: false
+    m_follow: true
+    m_inheritParentRotation: false
+    m_inheritParentScale: false
+    m_multiplyParentVisualScale: false
+    m_randomRotation: false
+    m_scale: false
+    m_childTransform: ''
+  Trail_Effect: []
