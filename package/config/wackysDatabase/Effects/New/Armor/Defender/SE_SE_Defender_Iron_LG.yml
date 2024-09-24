@@ -2,7 +2,7 @@ Name: SE_Defender_Iron_LG
 Status_m_name: Страж
 Category: ''
 IconName: HelmetIron_TW
-CustomIcon: 
+CustomIcon: statusiconwhite.png
 FlashIcon: false
 CooldownIcon: false
 Tooltip: 
@@ -33,7 +33,7 @@ SeData:
   m_jumpStaminaUseModifier: -0.05
   m_eitrOverTime: 0
   m_eitrOverTimeDuration: 0
-  m_healthRegenMultiplier: 1.25
+  m_healthRegenMultiplier: 1.20
   m_staminaRegenMultiplier: 1.04
   m_eitrRegenMultiplier: 1
   m_raiseSkill: None

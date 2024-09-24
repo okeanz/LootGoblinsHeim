@@ -1,0 +1,15 @@
+name: Recipe_rk_smokedfish
+clonePrefabName: NO
+craftingStation: Stone Griddle
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- FishRaw:1:0:False
+- Thistle:2:0:False
+- Dandelion:2:0:False

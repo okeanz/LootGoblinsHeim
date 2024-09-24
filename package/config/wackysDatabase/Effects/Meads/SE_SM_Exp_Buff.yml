@@ -1,0 +1,90 @@
+Name: SM_Exp_Buff
+Status_m_name: $sm_exp_buff_effect
+Category: utility
+IconName: exp
+ClonedSE: 
+CustomIcon: 
+FlashIcon: false
+CooldownIcon: false
+Tooltip: $sm_exp_effect_tooltip
+Attributes: None
+StartMessageLoc: TopLeft
+StartMessage: $se_potion_start
+StopMessageLoc: TopLeft
+StopMessage: ''
+RepeatMessageLoc: TopLeft
+RepeatMessage: ''
+RepeatInterval: 0
+TimeToLive: 300
+StartEffect_: 
+StopEffect_: 
+StartEffect_PLUS:
+- name: vfx_Potion_blue
+  m_enabled: true
+  m_variant: -1
+  m_attach: true
+  m_follow: false
+  m_inheritParentRotation: false
+  m_inheritParentScale: false
+  m_multiplyParentVisualScale: false
+  m_randomRotation: false
+  m_scale: true
+  m_childTransform: ''
+- name: sfx_Potion_health_medium
+  m_enabled: true
+  m_variant: -1
+  m_attach: true
+  m_follow: false
+  m_inheritParentRotation: false
+  m_inheritParentScale: false
+  m_multiplyParentVisualScale: false
+  m_randomRotation: false
+  m_scale: false
+  m_childTransform: ''
+StopEffect_PLUS: []
+Cooldown: 0
+ActivationAnimation: gpower
+SeData:
+  m_tickInterval: 0
+  m_healthPerTickMinHealthPercentage: 0
+  m_healthPerTick: 0
+  m_healthOverTime: 0
+  m_healthOverTimeDuration: 0
+  m_healthOverTimeInterval: 0
+  m_staminaOverTime: 0
+  m_staminaOverTimeDuration: 0
+  m_staminaDrainPerSec: 0
+  m_runStaminaDrainModifier: 0
+  m_jumpStaminaUseModifier: 0
+  m_eitrOverTime: 0
+  m_eitrOverTimeDuration: 0
+  m_healthRegenMultiplier: 1
+  m_staminaRegenMultiplier: 1
+  m_eitrRegenMultiplier: 1
+  m_raiseSkill: All
+  m_raiseSkillModifier: 2
+  m_skillLevel: None
+  m_skillLevelModifier: 0
+  m_skillLevel2: None
+  m_skillLevelModifier2: 0
+  m_mods: []
+  m_modifyAttackSkill: None
+  m_damageModifier: 1
+  m_noiseModifier: 0
+  m_stealthModifier: 0
+  m_addMaxCarryWeight: 0
+  m_speedModifier: 0
+  m_jumpModifier: &o0
+    x: 0
+    y: 0
+    z: 0
+    normalized: *o0
+    magnitude: 0
+    sqrMagnitude: 0
+  m_maxMaxFallSpeed: 0
+  m_fallDamageModifier: 0
+  m_tickTimer: 0
+  m_healthOverTimeTimer: 0
+  m_healthOverTimeTicks: 0
+  m_healthOverTimeTickHP: 0
+SeShield: 

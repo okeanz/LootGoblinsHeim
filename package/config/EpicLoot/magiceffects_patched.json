@@ -1375,6 +1375,316 @@
       ]
     },
     {
+      "Type": "AddFireResistance",
+      "DisplayText": "$mod_epicloot_me_addfireresistance_display",
+      "Description": "$mod_epicloot_me_addfireresistance_desc",
+      "Requirements": {
+        "NoRoll": true,
+        "AllowedItemTypes": []
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_addfireresistance_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_addfireresistance_suffix1"
+      ]
+    },
+    {
+      "Type": "AddFrostResistance",
+      "DisplayText": "$mod_epicloot_me_addfrostresistance_display",
+      "Description": "$mod_epicloot_me_addfrostresistance_desc",
+      "Requirements": {
+        "NoRoll": true,
+        "AllowedItemTypes": [
+          "Helmet",
+          "Chest",
+          "Legs",
+          "Shoulder",
+          "Utility",
+          "Shield",
+          "Shield",
+          "Tool",
+          "Torch",
+          "TwoHandedWeaponLeft"
+        ]
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_addfrostresistance_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_addfrostresistance_suffix1"
+      ]
+    },
+    {
+      "Type": "AddLightningResistance",
+      "DisplayText": "$mod_epicloot_me_addlightningresistance_display",
+      "Description": "$mod_epicloot_me_addlightningresistance_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_addlightningresistance_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_addlightningresistance_suffix1"
+      ]
+    },
+    {
+      "Type": "AddPoisonResistance",
+      "DisplayText": "$mod_epicloot_me_addpoisonresistance_display",
+      "Description": "$mod_epicloot_me_addpoisonresistance_desc",
+      "Requirements": {
+        "NoRoll": true,
+        "AllowedItemTypes": [
+          "Helmet",
+          "Chest",
+          "Legs",
+          "Shoulder",
+          "Utility",
+          "Shield",
+          "Tool",
+          "Torch",
+          "TwoHandedWeaponLeft"
+        ]
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_addpoisonresistance_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_addpoisonresistance_suffix1"
+      ]
+    },
+    {
+      "Type": "AddSpiritResistance",
+      "DisplayText": "$mod_epicloot_me_addspiritresistance_display",
+      "Description": "$mod_epicloot_me_addspiritresistance_desc",
+      "Requirements": {
+        "NoRoll": true,
+        "AllowedItemTypes": []
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_addspiritresistance_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_addspiritresistance_suffix1"
+      ]
+    },
+    {
+      "Type": "AddFireResistancePercentage",
+      "DisplayText": "$mod_epicloot_me_addfireresistancepercentage_display",
+      "Description": "$mod_epicloot_me_addfireresistancepercentage_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 1,
+          "MaxValue": 5,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 3,
+          "MaxValue": 10,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 8,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 13,
+          "MaxValue": 20,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 18,
+          "MaxValue": 25,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_addfireresistance_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_addfireresistance_suffix1"
+      ]
+    },
+    {
+      "Type": "AddFrostResistancePercentage",
+      "DisplayText": "$mod_epicloot_me_addfrostresistancepercentage_display",
+      "Description": "$mod_epicloot_me_addfrostresistancepercentage_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 1,
+          "MaxValue": 5,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 3,
+          "MaxValue": 10,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 8,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 13,
+          "MaxValue": 20,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 18,
+          "MaxValue": 25,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_addfrostresistance_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_addfrostresistance_suffix1"
+      ]
+    },
+    {
+      "Type": "AddLightningResistancePercentage",
+      "DisplayText": "$mod_epicloot_me_addlightningresistancepercentage_display",
+      "Description": "$mod_epicloot_me_addlightningresistancepercentage_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 1,
+          "MaxValue": 5,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 3,
+          "MaxValue": 10,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 8,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 13,
+          "MaxValue": 20,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 18,
+          "MaxValue": 25,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_addlightningresistance_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_addlightningresistance_suffix1"
+      ]
+    },
+    {
+      "Type": "AddPoisonResistancePercentage",
+      "DisplayText": "$mod_epicloot_me_addpoisonresistancepercentage_display",
+      "Description": "$mod_epicloot_me_addpoisonresistancepercentage_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 1,
+          "MaxValue": 5,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 3,
+          "MaxValue": 10,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 8,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 13,
+          "MaxValue": 20,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 18,
+          "MaxValue": 25,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_addpoisonresistance_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_addpoisonresistance_suffix1"
+      ]
+    },
+    {
+      "Type": "AddSpiritResistancePercentage",
+      "DisplayText": "$mod_epicloot_me_addspiritresistancepercentage_display",
+      "Description": "$mod_epicloot_me_addspiritresistancepercentage_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 1,
+          "MaxValue": 5,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 3,
+          "MaxValue": 10,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 8,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 13,
+          "MaxValue": 20,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 18,
+          "MaxValue": 25,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_addspiritresistance_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_addspiritresistance_suffix1"
+      ]
+    },
+    {
       "Type": "AddElementalResistancePercentage",
       "DisplayText": "$mod_epicloot_me_addelementalresistancepercentage_display",
       "Description": "$mod_epicloot_me_addelementalresistancepercentage_desc",
@@ -1424,6 +1734,174 @@
       ],
       "Suffixes": [
         "$mod_epicloot_me_addelementalresistancepercentage_suffix1"
+      ]
+    },
+    {
+      "Type": "AddBluntResistancePercentage",
+      "DisplayText": "$mod_epicloot_me_addbluntresistancepercentage_display",
+      "Description": "$mod_epicloot_me_addbluntresistancepercentage_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 1,
+          "MaxValue": 5,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 3,
+          "MaxValue": 10,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 8,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 13,
+          "MaxValue": 20,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 18,
+          "MaxValue": 25,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_addbluntresistancepercentage_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_addbluntresistancepercentage_suffix1"
+      ]
+    },
+    {
+      "Type": "AddSlashingResistancePercentage",
+      "DisplayText": "$mod_epicloot_me_addslashingresistancepercentage_display",
+      "Description": "$mod_epicloot_me_addslashingresistancepercentage_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 1,
+          "MaxValue": 5,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 3,
+          "MaxValue": 10,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 8,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 13,
+          "MaxValue": 20,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 18,
+          "MaxValue": 25,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_addslashingresistancepercentage_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_addslashingresistancepercentage_suffix1"
+      ]
+    },
+    {
+      "Type": "AddPiercingResistancePercentage",
+      "DisplayText": "$mod_epicloot_me_addpiercingresistancepercentage_display",
+      "Description": "$mod_epicloot_me_addpiercingresistancepercentage_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 1,
+          "MaxValue": 5,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 3,
+          "MaxValue": 10,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 8,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 13,
+          "MaxValue": 20,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 18,
+          "MaxValue": 25,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_addpiercingresistancepercentage_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_addpiercingresistancepercentage_suffix1"
+      ]
+    },
+    {
+      "Type": "AddChoppingResistancePercentage",
+      "DisplayText": "$mod_epicloot_me_addchoppingresistancepercentage_display",
+      "Description": "$mod_epicloot_me_addchoppingresistancepercentage_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 1,
+          "MaxValue": 5,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 3,
+          "MaxValue": 10,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 8,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 13,
+          "MaxValue": 20,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 18,
+          "MaxValue": 25,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_addchoppingresistancepercentage_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_addchoppingresistancepercentage_suffix1"
       ]
     },
     {
@@ -3190,6 +3668,7 @@
       "Description": "$mod_epicloot_me_featherfall_desc",
       "Requirements": {
         "AllowedItemTypes": [
+          "Shoulder",
           "Legs"
         ]
       },
@@ -3280,6 +3759,467 @@
       ],
       "Suffixes": [
         "$mod_epicloot_me_comfortable_suffix1"
+      ]
+    },
+    {
+      "Type": "ModifyMovementSpeedLowHealth",
+      "DisplayText": "$mod_epicloot_me_modifymovementspeedlowhealth_display",
+      "Description": "$mod_epicloot_me_modifymovementspeedlowhealth_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 1,
+          "MaxValue": 6,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 4,
+          "MaxValue": 9,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 7,
+          "MaxValue": 12,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 10,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 13,
+          "MaxValue": 18,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_modifymovementspeedlowhealth_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_modifymovementspeedlowhealth_suffix1"
+      ]
+    },
+    {
+      "Type": "ModifyHealthRegenLowHealth",
+      "DisplayText": "$mod_epicloot_me_modifyhealthregenlowhealth_display",
+      "Description": "$mod_epicloot_me_modifyhealthregenlowhealth_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 4,
+          "MaxValue": 8,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 6,
+          "MaxValue": 13,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 11,
+          "MaxValue": 18,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 16,
+          "MaxValue": 23,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 21,
+          "MaxValue": 28,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_modifyhealthregenlowhealth_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_modifyhealthregenlowhealth_suffix1"
+      ]
+    },
+    {
+      "Type": "ModifyStaminaRegenLowHealth",
+      "DisplayText": "$mod_epicloot_me_modifystaminaregenlowhealth_display",
+      "Description": "$mod_epicloot_me_modifystaminaregenlowhealth_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 4,
+          "MaxValue": 8,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 6,
+          "MaxValue": 13,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 11,
+          "MaxValue": 18,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 16,
+          "MaxValue": 23,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 21,
+          "MaxValue": 28,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_modifystaminaregenlowhealth_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_modifystaminaregenlowhealth_suffix1"
+      ]
+    },
+    {
+      "Type": "ModifyEitrRegenLowHealth",
+      "DisplayText": "$mod_epicloot_me_modifyeitrregenlowhealth_display",
+      "Description": "$mod_epicloot_me_modifyeitrregenlowhealth_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 4,
+          "MaxValue": 8,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 6,
+          "MaxValue": 13,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 11,
+          "MaxValue": 18,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 16,
+          "MaxValue": 23,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 21,
+          "MaxValue": 28,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_modifyeitrregenlowhealth_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_modifyeitrregenlowhealth_suffix1"
+      ]
+    },
+    {
+      "Type": "ModifyArmorLowHealth",
+      "DisplayText": "$mod_epicloot_me_modifyarmorlowhealth_display",
+      "Description": "$mod_epicloot_me_modifyarmorlowhealth_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 4,
+          "MaxValue": 9,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 7,
+          "MaxValue": 12,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 9,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 12,
+          "MaxValue": 18,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 15,
+          "MaxValue": 21,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_modifyarmorlowhealth_prefix1",
+        "$mod_epicloot_me_modifyarmorlowhealth_prefix2"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_modifyarmorlowhealth_suffix1"
+      ]
+    },
+    {
+      "Type": "ModifyDamageLowHealth",
+      "DisplayText": "$mod_epicloot_me_modifydamagelowhealth_display",
+      "Description": "$mod_epicloot_me_modifydamagelowhealth_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 4,
+          "MaxValue": 9,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 7,
+          "MaxValue": 12,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 9,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 12,
+          "MaxValue": 18,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 15,
+          "MaxValue": 21,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_modifydamagelowhealth_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_modifydamagelowhealth_suffix1"
+      ]
+    },
+    {
+      "Type": "ModifyBlockPowerLowHealth",
+      "DisplayText": "$mod_epicloot_me_modifyblockpowerlowhealth_display",
+      "Description": "$mod_epicloot_me_modifyblockpowerlowhealth_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 4,
+          "MaxValue": 9,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 7,
+          "MaxValue": 12,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 9,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 12,
+          "MaxValue": 18,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 15,
+          "MaxValue": 21,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_modifyblockpowerlowhealth_prefix1",
+        "$mod_epicloot_me_modifyblockpowerlowhealth_prefix2"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_modifyblockpowerlowhealth_suffix1",
+        "$mod_epicloot_me_modifyblockpowerlowhealth_suffix2"
+      ]
+    },
+    {
+      "Type": "ModifyParryLowHealth",
+      "DisplayText": "$mod_epicloot_me_modifyparrylowhealth_display",
+      "Description": "$mod_epicloot_me_modifyparrylowhealth_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 4,
+          "MaxValue": 9,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 7,
+          "MaxValue": 12,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 9,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 12,
+          "MaxValue": 18,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 15,
+          "MaxValue": 21,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_modifyparrylowhealth_prefix1",
+        "$mod_epicloot_me_modifyparrylowhealth_prefix2"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_modifyparrylowhealth_suffix1"
+      ]
+    },
+    {
+      "Type": "ModifyAttackSpeedLowHealth",
+      "DisplayText": "$mod_epicloot_me_modifyattackspeedlowhealth_display",
+      "Description": "$mod_epicloot_me_modifyattackspeedlowhealth_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 4,
+          "MaxValue": 9,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 7,
+          "MaxValue": 12,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 9,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 12,
+          "MaxValue": 18,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 15,
+          "MaxValue": 21,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_modifyattackspeedlowhealth_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_modifyattackspeedlowhealth_suffix1"
+      ]
+    },
+    {
+      "Type": "AvoidDamageTakenLowHealth",
+      "DisplayText": "$mod_epicloot_me_avoiddamagetakenlowhealth_display",
+      "Description": "$mod_epicloot_me_avoiddamagetakenlowhealth_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Magic": {
+          "MinValue": 4,
+          "MaxValue": 7,
+          "Increment": 1
+        },
+        "Rare": {
+          "MinValue": 5,
+          "MaxValue": 11,
+          "Increment": 1
+        },
+        "Epic": {
+          "MinValue": 9,
+          "MaxValue": 15,
+          "Increment": 1
+        },
+        "Legendary": {
+          "MinValue": 13,
+          "MaxValue": 19,
+          "Increment": 1
+        },
+        "Mythic": {
+          "MinValue": 17,
+          "MaxValue": 23,
+          "Increment": 1
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_avoiddamagetakenlowhealth_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_avoiddamagetakenlowhealth_suffix1"
+      ]
+    },
+    {
+      "Type": "LifeStealLowHealth",
+      "DisplayText": "$mod_epicloot_me_lifesteallowhealth_display",
+      "Description": "$mod_epicloot_me_lifesteallowhealth_desc",
+      "Requirements": {
+        "NoRoll": true
+      },
+      "ValuesPerRarity": {
+        "Rare": {
+          "MinValue": 1,
+          "MaxValue": 2.5,
+          "Increment": 0.5
+        },
+        "Epic": {
+          "MinValue": 2,
+          "MaxValue": 3.5,
+          "Increment": 0.5
+        },
+        "Legendary": {
+          "MinValue": 3,
+          "MaxValue": 4.5,
+          "Increment": 0.5
+        },
+        "Mythic": {
+          "MinValue": 4,
+          "MaxValue": 5.5,
+          "Increment": 0.5
+        }
+      },
+      "SelectionWeight": 1,
+      "Prefixes": [
+        "$mod_epicloot_me_lifesteallowhealth_prefix1"
+      ],
+      "Suffixes": [
+        "$mod_epicloot_me_lifesteallowhealth_suffix1"
       ]
     },
     {

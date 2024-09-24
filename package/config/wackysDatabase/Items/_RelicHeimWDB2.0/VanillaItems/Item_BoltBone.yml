@@ -146,7 +146,7 @@ ShieldStats:
   m_timedBlockBonus: 1.5
   m_deflectionForce: 0
   m_deflectionForcePerLevel: 0
-m_maxStackSize: 200
+m_maxStackSize: 20
 m_canBeReparied: true
 m_destroyBroken: true
 m_dodgeable: true

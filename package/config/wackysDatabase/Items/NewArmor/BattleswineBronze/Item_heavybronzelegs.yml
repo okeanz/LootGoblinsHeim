@@ -1,0 +1,80 @@
+name: heavybronzelegs
+m_weight: 10
+m_name: Поножи вепря
+m_description: $item_heavybronzelegs_description
+clonePrefabName: 
+mockName: 
+customIcon: 
+material: 
+materials: 
+customVisual: 
+snapshotRotation: 
+snapshotOnMaterialChange: true
+sizeMultiplier: 1
+scale_weight_by_quality: 0
+Primary_Attack: 
+Secondary_Attack: 
+Damage: 
+Damage_Per_Level: 
+Armor:
+  armor: 12
+  armorPerLevel: 2
+FoodStats: 
+Moddifiers:
+  m_movementModifier: -0.07
+  m_EitrRegen: 0
+  m_homeItemsStaminaModifier: 0
+  m_heatResistanceModifier: 0
+  m_jumpStaminaModifier: 0
+  m_attackStaminaModifier: 0
+  m_blockStaminaModifier: 0
+  m_dodgeStaminaModifier: 0
+  m_swimStaminaModifier: 0
+  m_sneakStaminaModifier: 0
+  m_runStaminaModifier: 0
+SE_Equip:
+SE_SET_Equip:
+  SetName: Вепрь
+  Size: 3
+  EffectName: SE_BattleswineBronze_TW
+ShieldStats:
+  m_blockPower: 10
+  m_blockPowerPerLevel: 0
+  m_timedBlockBonus: 1.5
+  m_deflectionForce: 0
+  m_deflectionForcePerLevel: 0
+m_maxStackSize: 1
+m_canBeReparied: true
+m_destroyBroken: false
+m_dodgeable: false
+Attack_status_effect: 
+Attack_status_effect_chance: 1
+spawn_on_hit: 
+spawn_on_terrain_hit: 
+m_questItem: false
+m_teleportable: true
+m_backstabbonus: 4
+m_knockback: 10
+m_useDurability: true
+m_useDurabilityDrain: 1
+m_durabilityDrain: 0
+m_maxDurability: 360
+m_durabilityPerLevel: 60
+m_equipDuration: 2
+Attach_Override: None
+m_skillType: Swords
+m_animationState: OneHanded
+m_itemType: Legs
+m_toolTier: 0
+m_maxQuality: 4
+m_value: 0
+ConsumableStatusEffect: 
+damageModifiers: []
+GEffects: 
+GEffectsPLUS:
+  Hit_Effects: []
+  Hit_Terrain_Effects: []
+  Start_Effect: []
+  Hold_Start_Effects: []
+  Trigger_Effect: []
+  Trail_Effect: []

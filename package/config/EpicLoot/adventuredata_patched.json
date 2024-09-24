@@ -24,7 +24,7 @@
       {
         "Item": "RunestoneRare",
         "CoinsCost": 800,
-        "GlobalKeyRequire": "defeated_bonemass"
+        "GlobalKeyRequire": "defeated_gdking"
       },
       {
         "Item": "RunestoneEpic",
@@ -44,7 +44,7 @@
       {
         "Item": "EssenceRare",
         "CoinsCost": 1000,
-        "GlobalKeyRequire": "defeated_bonemass"
+        "GlobalKeyRequire": "defeated_gdking"
       },
       {
         "Item": "EssenceEpic",
@@ -77,7 +77,7 @@
       {
         "Item": "RunestoneRare",
         "CoinsCost": 1000,
-        "GlobalKeyRequire": "defeated_bonemass"
+        "GlobalKeyRequire": "defeated_gdking"
       },
       {
         "Item": "RunestoneEpic",
@@ -92,7 +92,7 @@
       {
         "Item": "EssenceRare",
         "CoinsCost": 1200,
-        "GlobalKeyRequire": "defeated_bonemass"
+        "GlobalKeyRequire": "defeated_gdking"
       },
       {
         "Item": "EssenceEpic",
@@ -112,7 +112,7 @@
       {
         "Item": "RunestoneRare",
         "IronBountyTokenCost": 5,
-        "GlobalKeyRequire": "defeated_bonemass"
+        "GlobalKeyRequire": "defeated_gdking"
       },
       {
         "Item": "RunestoneEpic",
@@ -127,7 +127,7 @@
       {
         "Item": "EssenceRare",
         "IronBountyTokenCost": 5,
-        "GlobalKeyRequire": "defeated_bonemass"
+        "GlobalKeyRequire": "defeated_gdking"
       },
       {
         "Item": "EssenceEpic",
@@ -185,7 +185,7 @@
     "GambleRarityGlobalKeys": [
       "",
       "defeated_eikthyr",
-      "defeated_bonemass",
+      "defeated_gdking",
       "defeated_goblinking",
       "defeated_queen"
     ],

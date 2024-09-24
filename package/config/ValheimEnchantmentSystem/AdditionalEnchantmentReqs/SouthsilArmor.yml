@@ -102,17 +102,11 @@
     prefab: kg_EnchantScroll_Armor_Blessed_C
     amount: 1
   Items:
-  - heavybronzehelm 
-  - ancienthelm 
   - knighthelm 
   - knightchest 
   - swamphelm 
   - norahhelmalt 
-  - heavybronzechest 
-  - ancientchest 
   - swampchest 
-  - heavybronzelegs 
-  - ancientlegs 
   - knightlegs 
   - skoglegs 
   - svenlegs 
@@ -126,9 +120,15 @@
     amount: 1
   Items:
   - bronzetrollhelm 
+  - heavybronzehelm
+  - ancienthelm
   - trollhelm 
   - trollchest 
   - trolllegs
+  - heavybronzechest
+  - ancientchest
+  - heavybronzelegs
+  - ancientlegs
 # Meadows
 - enchant_prefab:
     prefab: kg_EnchantScroll_Armor_F

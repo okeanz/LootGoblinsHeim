@@ -93,11 +93,19 @@ groups:
     - PickaxeBronze
     - ArmorBronzeChest
     - ArmorBronzeLeggings
+  FoodV2:
+    - HoneyGlazedDeer
+    - HoneyGlazedMeat
+    - HoneyGlazedNeck
 
 
 # Inventory section determines which items can be recycled. Remember that recycling from inventory is defaulted to only admins.
 inventory:
   exclude: # Exclude these items from being recycled
+    - Food
+    - Trophy
+    - Boss Trophy
+    - FoodV2
     - Metals # Exclude all items in the "Metals" group from being recycled in inventory
   includeOverride:
     - Metals # Override the setting above, allowing "Metals" group to be recycled in inventory
@@ -105,6 +113,10 @@ inventory:
 # Reclaiming section determines which items can be reclaimed via Containers or the Reclaim tab.
 reclaiming:
   exclude:
+    - Food
+    - Trophy
+    - Boss Trophy
+    - FoodV2
     - Metals # Exclude all items in the "Metals" group from being reclaimed
     - Armor # Exclude all items in the "Armor" group from being reclaimed
     - Helmets # Exclude all items in the "Helmets" group from being reclaimed

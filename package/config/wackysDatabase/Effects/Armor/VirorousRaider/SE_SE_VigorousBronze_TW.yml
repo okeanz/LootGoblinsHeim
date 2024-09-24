@@ -42,7 +42,8 @@ SeData:
   m_skillLevelModifier: 10
   m_skillLevel2: None
   m_skillLevelModifier2: 0
-  m_mods: []
+  m_mods: 
+    -
   m_modifyAttackSkill: Axes
   m_damageModifier: 1.05
   m_noiseModifier: 0

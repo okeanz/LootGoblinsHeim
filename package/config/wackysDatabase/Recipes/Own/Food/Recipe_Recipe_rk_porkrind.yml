@@ -1,0 +1,15 @@
+name: Recipe_rk_porkrind
+clonePrefabName: NO
+craftingStation: Stone Griddle
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- LeatherScraps:1:0:False
+- rk_pork:1:0:False
+- mc_rawegg:1:0:False

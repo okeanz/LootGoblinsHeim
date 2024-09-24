@@ -1,0 +1,57 @@
+Name: SE_BattleswineBronze_TW
+Status_m_name: Вепрь
+Category: ''
+IconName: 
+CustomIcon: statusiconwhite.png
+FlashIcon: false
+CooldownIcon: false
+Tooltip: 'Урон дубинами: <color=orange>+8%</color>'
+Attributes: None
+StartMessageLoc: TopLeft
+StartMessage: ''
+StopMessageLoc: TopLeft
+StopMessage: ''
+RepeatMessageLoc: TopLeft
+RepeatMessage: ''
+RepeatInterval: 0
+TimeToLive: 0
+StartEffect_: 
+StopEffect_: 
+Cooldown: 0
+ActivationAnimation: gpower
+SeData:
+  m_tickInterval: 0
+  m_healthPerTickMinHealthPercentage: 0
+  m_healthPerTick: 0
+  m_healthOverTime: 0
+  m_healthOverTimeDuration: 0
+  m_healthOverTimeInterval: 0
+  m_staminaOverTime: 0
+  m_staminaOverTimeDuration: 0
+  m_staminaDrainPerSec: 0
+  m_runStaminaDrainModifier: 0
+  m_jumpStaminaUseModifier: 0
+  m_eitrOverTime: 0
+  m_eitrOverTimeDuration: 0
+  m_healthRegenMultiplier: 1.12
+  m_staminaRegenMultiplier: 1.06
+  m_eitrRegenMultiplier: 1
+  m_raiseSkill: None
+  m_raiseSkillModifier: 0
+  m_skillLevel: Clubs
+  m_skillLevelModifier: 15
+  m_skillLevel2: None
+  m_skillLevelModifier2: 0
+  m_mods: []
+  m_modifyAttackSkill: Clubs
+  m_damageModifier: 1.08
+  m_noiseModifier: 0
+  m_stealthModifier: 0
+  m_addMaxCarryWeight: 25
+  m_speedModifier: 0
+  m_maxMaxFallSpeed: 0
+  m_fallDamageModifier: 0
+  m_tickTimer: 0
+  m_healthOverTimeTimer: 0
+  m_healthOverTimeTicks: 0
+  m_healthOverTimeTickHP: 0

@@ -40,27 +40,27 @@
       "ItemTypes" : [ "OneHandedWeapon", "Torch", "Tool", "Bow", "TwoHandedWeapon", "TwoHandedWeaponLeft", "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility"   ],
       "Rarity": "Epic",
       "Cost": [
-        { "Item": "DustEpic",			"Amount": 2 },
-		{ "Item": "RunestoneEpic",      "Amount": 2 },
-		{ "Item": "ShardEpic",			"Amount": 2 }
+        { "Item": "DustEpic",			"Amount": 1 },
+		{ "Item": "RunestoneEpic",      "Amount": 1 },
+		{ "Item": "ShardEpic",			"Amount": 1 }
       ]
     },
 	{
       "ItemTypes" : [ "OneHandedWeapon", "Torch", "Tool", "Bow", "TwoHandedWeapon", "TwoHandedWeaponLeft", "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility"   ],
       "Rarity": "Legendary",
       "Cost": [
-        { "Item": "DustLegendary",      "Amount": 3 },
-		{ "Item": "RunestoneLegendary",	"Amount": 3 },
-		{ "Item": "ShardLegendary",		"Amount": 3 }
+        { "Item": "DustLegendary",      "Amount": 1 },
+		{ "Item": "RunestoneLegendary",	"Amount": 1 },
+		{ "Item": "ShardLegendary",		"Amount": 1 }
       ]
     },
 	{
       "ItemTypes" : [ "OneHandedWeapon", "Torch", "Tool", "Bow", "TwoHandedWeapon", "TwoHandedWeaponLeft", "Shield", "Helmet", "Chest", "Legs", "Shoulder", "Utility"   ],
       "Rarity": "Mythic",
       "Cost": [
-        { "Item": "DustMythic",			"Amount": 4 },
-		{ "Item": "RunestoneMythic",	"Amount": 4 },
-		{ "Item": "ShardMythic",		"Amount": 4 }
+        { "Item": "DustMythic",			"Amount": 1 },
+		{ "Item": "RunestoneMythic",	"Amount": 1 },
+		{ "Item": "ShardMythic",		"Amount": 1 }
       ]
     }
   ]

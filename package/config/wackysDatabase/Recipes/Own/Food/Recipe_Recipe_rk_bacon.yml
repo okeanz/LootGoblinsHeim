@@ -1,0 +1,14 @@
+name: Recipe_rk_bacon
+clonePrefabName: NO
+craftingStation: Stone Griddle
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 2
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- rk_pork:2:0:False
+- GreydwarfEye:1:0:False

@@ -17,7 +17,7 @@ FoodStats:
   m_foodRegen: 3
   m_foodBurnTime: 1200
   m_FoodEitr: 0
-m_maxStackSize: 200
+m_maxStackSize: 20
 m_canBeReparied: true
 m_destroyBroken: true
 m_dodgeable: false

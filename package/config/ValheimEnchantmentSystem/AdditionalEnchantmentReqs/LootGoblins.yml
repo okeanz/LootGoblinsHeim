@@ -1,0 +1,19 @@
+﻿- enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_C
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Weapon_Blessed_C
+    amount: 1
+  Items:
+    - rae_Horseaker
+# Swamp
+- enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_C
+    amount: 1
+  blessed_enchant_prefab:
+    prefab: kg_EnchantScroll_Armor_Blessed_C
+    amount: 1
+  Items:
+    - Defender_Chest_Iron_LG
+    - Defender_Helmet_Iron_LG
+    - Defender_Legs_Iron_LG

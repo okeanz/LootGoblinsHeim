@@ -142,6 +142,9 @@
   - HelmetHunterIron_TW
   - ArmorHunterChestIron_TW
   - ArmorHunterLegsIron_TW
+  - ArmorHorseClothChest_T2
+  - ArmorHorseClothHelmet_T2
+  - ArmorHorseClothLegs_T2
 # blackForest
 - enchant_prefab:
     prefab: kg_EnchantScroll_Armor_D
@@ -164,6 +167,7 @@
   - HelmetHunter_TW
   - ArmorHunterChest_TW
   - ArmorHunterLegs_TW
+  - rae_CapeHorseHide
 # Meadows
 - enchant_prefab:
     prefab: kg_EnchantScroll_Armor_F
@@ -175,3 +179,6 @@
   - HelmetLeather_TW
   - ArmorLeatherChest_TW
   - ArmorLeatherLegs_TW
+  - ArmorHorseClothChest_T1
+  - ArmorHorseClothHelmet_T1
+  - ArmorHorseClothLegs_T1
